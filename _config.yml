@@ -1,0 +1,114 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE*
+- SECURITY.md
+- CNAME
+- "*.tmp"
+- Gemfile
+- Gemfile.lock
+- gcweb-jekyll.gemspec
+- .jekyll-cache
+- node_modules
+- vendor/
+
+# 2. Installed Gems
+
+# 3. Gem settings
+
+# 4. Jekyll settings
+compress_html:
+  clippings: all
+  comments:
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+quiet: false
+timezone: America/Vancouver # Timezone for blog posts and alike
+verbose: false
+
+# 5. Collections
+
+# 6. Jekyll collections settings
+
+# 7. Site settings
+analytics_adobe: ""
+assets: "https://wet-boew.github.io/themes-dist"
+baseurl: "" # the subpath of your site, e.g. /blog
+# description: >- # this means to ignore newlines until "baseurl:"
+description:
+  en: "Canadian Astronomy like mum used to make, only better." # English site description and default description
+  fr: "L'astronomie canadienne comme maman le faisait, mais en mieux." # French site description and default description
+
+warning:
+  enabled: true
+  en: "Through no fault of our own, CADC services are temporarily unavailable.  Please call John at +1-778-634-5567 or show up at his house."
+  fr: "Sans faute de notre part, les services CADC sont temporairement indisponibles.  Veuillez appeller John à +1-778-634-5567 ou visiter chez-lui."
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: cadc
+      share: true
+      sitemenu: true
+      nositesearch: true
+  -
+    scope:
+      path: "en/"
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "fr/"
+    values:
+      lang: "fr"
+
+title: "Canadian Astronomy Data Centre" # Site name or title
+email: Dustin.Jenkins@nrc-cnrc.gc.ca
+  
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+# theme: minima
+# theme: gcweb-jekyll
+theme: gcweb-jekyll
+plugins:
+  - jekyll-feed
