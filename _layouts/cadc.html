@@ -1,5 +1,9 @@
 ---
 layout: core
+
+nofooter: true
+signing: true
+nositesearch: true
 ---
 {%- include variable-core.liquid -%}
 {%- capture page-title -%}
@@ -27,7 +31,7 @@ layout: core
             <div class="col-md-9">
                 <h1 id="wb-cont" property="name">{{ page-title }}</h1>
             </div>
-            <div class="col-md-3 margin-top-small hidden-sm hidden-xs">
+            <div class="col-md-3 margin-top-medium hidden-sm hidden-xs">
                 <img class="pull-right img-responsive thumbnail" src="{{ page.headerimage }}" />
             </div>
         </div>

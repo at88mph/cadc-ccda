@@ -5,15 +5,22 @@
 layout: cadc
 title: Centre canadien de données astronomiques
 lang: fr
-altLangPage: /en
-dateModified: 2021-06-05
+permalink: /fr/
+altLangPage: /en/
+dateModified: 2021-09-28
+nofooter: layout.nofooter
+signing: layout.signing
+nositesearch: layout.nositesearch
+pageclass: ["home"]
+
 ---
-<div class="row">
+
+<div class="container">
     <section id="services" class="col-sm-4">
         <h3>Services</h3>
         <ul class="list-style-none">
-            <li><a href="/fr/recherche">Recherche avancée</a></li>
-            <li><a href="#">Rencontres</a></li>
+            <li><a href="/fr/recherche/">Recherche avancée</a></li>
+            <li><a href="/fr/rencontres/">Rencontres</a></li>
             <li><a href="#">Projets communauté</a></li>
             <li><a href="#">Recherche d'images d'objets du Système Solaire</a></li>
             <li><a href="#" rel="external">Canadian Advanced Network For Astronomical Research</a></li>
@@ -21,11 +28,10 @@ dateModified: 2021-06-05
             <li><a href="#">Help Desk</a></li>
         </ul>
     </section>
-
     <section id="telescope-data-products" class="col-sm-4">
         <h3>Données de téléscopes</h3>
         <ul class="list-style-none">
-            <li><a href="#">Gemini Observatory</a></li>
+            <li><a href="/fr/gemini/">Gemini Observatory</a></li>
             <li><a href="#">Canada France Hawai'i Telescope</a></li>
             <li><a href="#">James Clerk Maxwell Telescope</a></li>
             <li><a href="#">Hubble Space Telescope</a></li>
@@ -41,7 +47,6 @@ dateModified: 2021-06-05
             <li><a href="#">Very Large Array Sky Survey</a></li>
         </ul>
     </section>
-
     <section id="advanced-data-products" class="col-sm-4">
         <h3>Données avancées</h3>
         <ul class="list-style-none">

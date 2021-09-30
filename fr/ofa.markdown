@@ -6,16 +6,17 @@ title: l'Observatoire fédéral astrophysique
 headerimage: /static/images/dao.jpg
 altLangPage: /en/dao/
 dateModified: 2021-09-20
+nofooter: layout.nofooter
+signing: layout.signing
+nositesearch: layout.nositesearch
 
 nav:
-  - title: Les archives scientifiques et outils de l'OFA
-    links:
+  - links:
     - name: Recherche dans l'archive scientifique de l'OFA 
       url: /fr/recherche/?collection=DAO&noexec=true
     - name: Recherche dans l'archive des spectres photographiques numérisés
       url: /fr/recherche/?collection=DAOPLATES&noexec=true
-  - title: Des outils pour les observations
-    links:
+  - links:
       - name: Calculateur de la masse d'air
         url: /cadcbin/fr/ofa/airmass.pl
       - name: Calendrier astronomique
@@ -30,8 +31,7 @@ nav:
         url: /cadcbin/fr/ofa/publications.pl
       - name: Horaires des télescopes
         url: /cadcbin/fr/ofa/horaire.pl
-  - title: Crédits
-    links:
+  - links:
       - name: Crédits and remerciements
         url: /fr/ofa/credits.html
 ---

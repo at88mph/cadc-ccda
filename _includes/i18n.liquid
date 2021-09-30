@@ -1,0 +1,53 @@
+{%- comment -%}
+
+++++++++++++++++++++++++++++++++++
++ i18 Text
++
++ Global text used by the CADC web template.  Jekyll does not support partial variable replacement, 
++ so this entire file is relevant.
++ jenkinsd 2021.09.28
+++++++++++++++++++++++++++++++++++
+
+{%- endcomment -%}
+{%- assign i18nText-wmmsImg = "assets/wmms-blk.svg" -%}
+{%- if i18nText-lang == "fr" -%}
+	{%- assign i18nText-siteTitle = "Centre canadien de données astronomiques" -%}
+	{%- assign i18nText-home = "CCDA" -%}
+	{% assign i18nText-homePage = "/fr/" %}
+
+	{% assign i18nText-sigBlk = "assets/sig-blk-fr.svg" %}
+	{% assign i18nText-goc = "Centre canadien de données astronomiques" %}
+	{% assign i18nText-gocAltLang = '<span lang="en">Canadian Astronomy Data Centre</span>' %}
+
+	{% assign i18nText-searchSite = "Rechercher dans le CCDA" %}
+
+	{% assign i18nText-menuAjax = "/static/sitemenu/fr.html" %}
+
+	{% assign i18nText-feedback = "Signaler un problème sur cette page" %}
+
+	{% assign i18nText-footerAbout = "Au sujet du gouvernement" %}
+	{% assign i18nText-wmms = "Symbole du Centre canadien de données astronomiques" %}
+	{% assign i18nText-wmmsAltLang = "<span lang="en">Symbol of the Canadian Astronomy Data Centre</span>" %}
+
+{%- elsif i18nText-lang == "en" -%}
+
+	{%- assign i18nText-siteTitle = "Canadian Astronomy Data Centre" -%}
+	{%- assign i18nText-home = "CADC" -%}
+
+	{% assign i18nText-homePage = "/en/" %}
+
+	{% assign i18nText-sigBlk = "assets/sig-blk-en.svg" %}
+	{% assign i18nText-goc = "Canadian Astronomy Data Centre" %}
+	{% assign i18nText-gocAltLang = '<span lang="fr">Centre canadien de données astronomiques</span>' %}
+
+	{% assign i18nText-searchSite = "Search the CADC" %}
+
+	{% assign i18nText-menuAjax = "/static/sitemenu/en.html" %}
+
+	{% assign i18nText-feedback = "Report a problem on this page" %}
+
+	{% assign i18nText-footerAbout = "About government" %}
+	{% assign i18nText-wmms = "Symbol of the Canadian Astronomy Data Centre" %}
+	{% assign i18nText-wmmsAltLang = "<span lang="fr">Symbole du Centre canadien de données astronomiques</span>" %}
+
+{%- endif -%}

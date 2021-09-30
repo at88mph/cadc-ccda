@@ -5,17 +5,18 @@ permalink: /en/dao/
 title: Dominion Astrophysical Observatory
 altLangPage: /fr/ofa/
 headerimage: /static/images/dao.jpg
-dateModified: 2021-09-20
+dateModified: 2021-09-23
+nofooter: layout.nofooter
+signing: layout.signing
+nositesearch: layout.nositesearch
 
 nav:
-  - title: DAO Archive
-    links:
+  - links:
       - name: Search the DAO Science Archive 
         url: /en/search/?collection=DAO&noexec=true
       - name: Search the DAO Spectroscopic Plate Archive
         url: /en/search/?collection=DAOPLATES&noexec=true
-  - title: DAO Observing Tools
-    links:
+  - links:
       - name: Airmass Calculator
         url: /cadcbin/en/dao/airmass.pl
       - name: Sky Calendar
@@ -30,8 +31,7 @@ nav:
         url: /cadcbin/en/dao/publications.pl
       - name: Telescope Schedules
         url: /cadcbin/en/dao/schedule.pl
-  - title: Credits
-    links:
+  - links:
       - name: Credits and Acknowledgements
         url: /en/dao/credits.html
 ---

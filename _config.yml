@@ -74,7 +74,7 @@ description:
   fr: "L'astronomie canadienne comme maman le faisait, mais en mieux." # French site description and default description
 
 warning:
-  enabled: true
+  enabled: false
   en: "Through no fault of our own, CADC services are temporarily unavailable.  Please call John at +1-778-634-5567 or show up at his house."
   fr: "Sans faute de notre part, les services CADC sont temporairement indisponibles.  Veuillez appeller John à +1-778-634-5567 ou visiter chez-lui."
 

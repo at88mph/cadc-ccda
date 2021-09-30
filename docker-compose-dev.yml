@@ -4,7 +4,7 @@ services:
         image: traefik:v2.5
         ports:
             - 80:80
-            - 443:443
+            # - 443:443
             - 8080:8080
         command:
             - "--log.level=DEBUG"
@@ -59,6 +59,25 @@ services:
             - "jekyll"
         environment: 
             PORT: 4004
+
+    meetings:
+        image: opencadc/phoenix:slim-node-10
+        command: mix phx.server
+        working_dir: /app
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.services.meetings.loadbalancer.server.port=4300"
+            - "traefik.http.routers.meetings.rule=PathPrefix(`/meetings`)"
+            - "traefik.http.routers.meetings.entrypoints=web"
+            # - "traefik.http.routers.rally.entrypoints=websecure"
+            # - "traefik.http.routers.rally.tls.certresolver=kawfeeresolver"
+            - "traefik.http.routers.rallmeetingsy.service=meetings"
+        volumes:
+            - "/home/debian/src/moriarty:/app"
+        networks:
+            - "jekyll"
+        environment: 
+            PORT: 4300
 
 networks:
     jekyll:
