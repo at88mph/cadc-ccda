@@ -20,7 +20,7 @@ nositesearch: true
     <div class="row">
         <div class="full-width">
             <section class="alert alert-warning">
-                <p>{{ site.warning[page.lang] }}</p>
+                <p>{{ site.warning[i18nText-lang] }}</p>
             </section>
         </div>
     </div>
@@ -45,7 +45,7 @@ nositesearch: true
             {{ content }}
         </div>
         <div class="col-md-4 margin-tp-0">
-            {% for n in page.nav %}
+            {% for n in site.data[page.nav][i18nText-lang]['nav'] %}
             <section class="well well-sm">
                 {%- if n.title -%}
                 <h2 class="mrgn-tp-sm h3">{{ n.title }}</h2>

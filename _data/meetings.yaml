@@ -1,0 +1,66 @@
+en:
+  nav:
+    - links:
+      - name: Listing
+        url: "/en/meetings/"
+      - name: Submit New Meeting
+        url: "/en/meetings/submit-new/"
+  labels:
+    required: required
+    title: Title
+    location: Location
+    start: Start Date
+    end: End Date
+    date: Date
+    web: Link URL
+    contact: Name
+    email: Email
+    confirmEmail: Confirm Email
+    address: Address
+    phone: Telephone
+    keywords: Keywords
+    submit: Submit
+    reset: Clear
+    proceedings: Proceedings
+    number: Number
+    recent: Recently Added
+    this_month: This Month
+    next_month: Next Month
+    this_year: This Year
+    future_years: Future Years
+    edit: Edit
+    create_message_success: Meeting created.
+    create_message_failure: Failed to create meeting.
+fr:
+  nav:
+    - links:
+      - name: Référencement
+        url: "/fr/rencontres/"
+      - name: Inscrire une rencontre
+        url: "/fr/rencontres/soumire-nouveau/"
+  labels:
+    required: obligatoire
+    title: Titre
+    location: Lieu
+    start: Date de début
+    end: Date de fin
+    date: Date
+    web: URL du lien
+    contact: Nom
+    email: Courriel
+    confirmEmail: Confirmer l'addresse courriel
+    address: Adresse
+    phone: Téléphone
+    keywords: Mots-clés
+    submit: Soumettre
+    reset: Effacer
+    proceedings: Compte rendu
+    number: Identifiant
+    recent: Récemment ajouté
+    this_month: Ce mois-ci
+    next_month: Mois prochain
+    this_year: Cette année
+    future_years: Années futures
+    edit: Mise-à-jour
+    create_message_success: Roncontre crée.
+    create_message_failure: Erreur pendant la création.

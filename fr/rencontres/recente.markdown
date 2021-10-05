@@ -5,30 +5,14 @@
 layout: cadc
 title: Rencontres internationales en astronomie (nouvelles)
 lang: fr
-permalink: /fr/rencontres/
-altLangPage: /en/meetings/
-dateModified: 2021-09-28
+permalink: /fr/rencontres/recente/
+altLangPage: /en/meetings/recent/
+dateModified: 2021-10-01
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
 
-nav:
-  - links:
-      - name: Nouvelles rencontres
-        url: "/fr/rencontres/"
-      - name: Rencontres du mois
-        url: "/fr/rencontres/ce-mois/"
-      - name: Rencontres du mois prochain
-        url: "/fr/rencontres/mois-prochain/"
-      - name: Rencontres de 2023
-        url: "/fr/rencontres/annee-2023/"
-      - name: Rencontres de 2022
-        url: "/fr/rencontres/annee-2022/"
-      - name: Rencontres de 2021
-        url: "/fr/rencontres/annee-2021/"
-  - links:
-      - name: Inscrire une rencontre
-        url: "/fr/rencontres/soumire-nouveau-rencontre/"
+nav: meetings
 
 # Used for post label formatting (dates and links)
 script: [/static/meetings.js]
@@ -37,7 +21,7 @@ script: [/static/meetings.js]
 <ul id="meetings_list" class="list-unstyled lst-spcd-2" data-wb-json='{ "url": "/meetings/meetings?days=21", "mapping": ["/title", "/web", "/start", "/end", "/contact", "/location", "/address", "/phone", "/email", "/bibCode", "/keywords", "/meetingNumber"], "queryall": ["summary", ".web", ".start", ".end", ".contact", ".location", ".address", ".phone", ".email", ".proceedings", ".keywords", ".meeting-number"] }'>
 	<template>
         <li>
-        {%- include rencontre-fr.markdown -%}
+        {%- include meeting.markdown -%}
         </li>
 	</template>
 </ul>
