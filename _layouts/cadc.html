@@ -15,6 +15,15 @@ nositesearch: true
 		Page untitled
 	{%- endif -%}
 {%- endcapture -%}
+
+{%- capture header-html -%}
+    {%- if page.headerHTML -%}
+        {{ page.headerHTML }}
+    {%- else -%}
+        {{ "" }}
+    {%- endif -%}
+{%- endcapture -%}
+
 <main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
     {%- if site.warning.enabled -%}
     <div class="row">
@@ -29,14 +38,14 @@ nositesearch: true
         {%- if page.headerimage -%}
         <div class="row">
             <div class="col-md-9">
-                <h1 id="wb-cont" property="name">{{ page-title }}</h1>
+                <h1 id="wb-cont" property="name">{{ page-title }} {{ header-html }}</h1>
             </div>
             <div class="col-md-3 margin-top-medium hidden-sm hidden-xs">
                 <img class="pull-right img-responsive thumbnail" src="{{ page.headerimage }}" />
             </div>
         </div>
         {%- else -%}
-        <h1 id="wb-cont" property="name">{{ page-title }}</h1>
+        <h1 id="wb-cont" property="name">{{ page-title }} {{ header-html }}</h1>
         {%- endif -%}
     </div>
     <div class="row">

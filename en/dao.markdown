@@ -10,30 +10,7 @@ nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
 
-nav:
-  - links:
-      - name: Search the DAO Science Archive 
-        url: /en/search/?collection=DAO&noexec=true
-      - name: Search the DAO Spectroscopic Plate Archive
-        url: /en/search/?collection=DAOPLATES&noexec=true
-  - links:
-      - name: Airmass Calculator
-        url: /cadcbin/en/dao/airmass.pl
-      - name: Sky Calendar
-        url: /cadcbin/en/dao/skycal.pl
-      - name: Robotic Observing
-        url: /cadcbin/en/dao/robotic.pl
-      - name: Current Telescope Status
-        url: /en/dao/status.html
-      - name: Current Weather
-        url: /en/dao/weather.html
-      - name: DAO Publications
-        url: /cadcbin/en/dao/publications.pl
-      - name: Telescope Schedules
-        url: /cadcbin/en/dao/schedule.pl
-  - links:
-      - name: Credits and Acknowledgements
-        url: /en/dao/credits.html
+nav: dao
 ---
 
 <p>This page presents World-Wide-Web links to the data archives of the Dominion 

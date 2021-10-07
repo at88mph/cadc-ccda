@@ -10,15 +10,7 @@ nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
 
-nav:
-  - links:
-      - name: Search the Gemini Science Archive
-        url: /en/search/?collection=GEMINI&noexec=true
-  - links:
-      - name: GEMINI Observatory Archive
-        url: https://www.gemini.edu/sciops/data-and-results/gemini-observatory-archive
-      - name: GEMINI Observatory
-        url: https://www.gemini.edu/
+nav: gemini
 ---
 
 <p>

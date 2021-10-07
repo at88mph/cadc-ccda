@@ -29,6 +29,8 @@ en:
     this_year: This Year
     future_years: Future Years
     edit: Edit
+    edit_url: /en/meetings/update/
+    contact_label: Contact
     create_message_success: Meeting created.
     create_message_failure: Failed to create meeting.
 fr:
@@ -62,5 +64,7 @@ fr:
     this_year: Cette année
     future_years: Années futures
     edit: Mise-à-jour
+    edit_url: /fr/rencontres/mise-a-jour/
+    contact_label: Contacte
     create_message_success: Roncontre crée.
     create_message_failure: Erreur pendant la création.

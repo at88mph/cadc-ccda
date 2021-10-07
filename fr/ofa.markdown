@@ -10,30 +10,7 @@ nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
 
-nav:
-  - links:
-    - name: Recherche dans l'archive scientifique de l'OFA 
-      url: /fr/recherche/?collection=DAO&noexec=true
-    - name: Recherche dans l'archive des spectres photographiques numérisés
-      url: /fr/recherche/?collection=DAOPLATES&noexec=true
-  - links:
-      - name: Calculateur de la masse d'air
-        url: /cadcbin/fr/ofa/airmass.pl
-      - name: Calendrier astronomique
-        url: /cadcbin/fr/ofa/skycal.pl
-      - name: Observation automatisé
-        url: /cadcbin/fr/ofa/robotic.pl
-      - name: État actuel du télescope
-        url: /fr/ofa/etat.html
-      - name: Météo actuelle
-        url: /fr/ofa/meteo.html
-      - name: Publications de l'OFA
-        url: /cadcbin/fr/ofa/publications.pl
-      - name: Horaires des télescopes
-        url: /cadcbin/fr/ofa/horaire.pl
-  - links:
-      - name: Crédits and remerciements
-        url: /fr/ofa/credits.html
+nav: dao
 ---
 
 <p>Cette page vous donne accès aux archives de l'Observatoire fédéral d'astrophysique (OFA), et des outils pour les utilisateurs pour les télescopes de 1,2 et de 1,8m de l'OFA.</p>

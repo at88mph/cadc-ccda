@@ -10,15 +10,7 @@ nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
 
-nav:
-  - links:
-      - name: Recherche de données du Archives scientifiques Gemini
-        url: /fr/recherche/?collection=GEMINI&noexec=true
-  - links:
-      - name: Archives de l'Observatoire Gemini (anglais seulement)
-        url: https://www.gemini.edu/sciops/data-and-results/gemini-observatory-archive
-      - name: Observatoire Gemini (anglais seulement)
-        url: https://www.gemini.edu/
+nav: gemini
 ---
 
 <p>

@@ -5,8 +5,28 @@
 layout: layout-splashpage
 title: Canadian Astronomy Data Centre
 dateModified: 2021-09-20
+
+images:
+  - link: /static/images/orion-bg.jpg
+    description: Orion
+  - link: /static/images/solar-eclipse-bg.jpg
+    description: Solar Eclipse
+  - link: /static/images/gualco-bg.jpg
+    description: Gualco
+  - link: /static/images/ngc6559-bg.jpg
+    description: NGC-6559
 ---
 
+<div class="row">
+  <section class="col-xs-6 text-right">
+    <h2 class="wb-inv">Government of Canada</h2>
+    <h3 class="text-right">Canadian Astronomy Data Centre</h3>
+  </section>
+  <section lang="fr" class="col-xs-6">
+    <h2 class="wb-inv">{{ site.title.en }}</h2>
+    <h3 class="text-left">{{ site.title.fr }}</h3>
+  </section>
+</div>
 <div class="row">
     <section class="col-xs-6 text-right" lang="en">
       <h2 class="wb-inv">Government of Canada</h2>

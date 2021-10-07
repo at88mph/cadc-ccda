@@ -1,0 +1,184 @@
+en:
+  nav:
+    services:
+      title: Services
+      links:
+        - name: Advanced Search
+          url: /en/search/
+          short_name: Advanced Search
+        - name: Meetings
+          url: /en/meetings/
+          short_name: Meetings
+        - name: Community Pages
+          url: /en/community/
+          short_name: Community
+        - name: Solar System Object Image Search
+          url: /en/ssois/
+          short_name: SSOIS
+        - name: Canadian Advanced Network For Astronomical Research
+          url: https://www.canfar.net/
+          external: true
+          short_name: CANFAR
+        - name: Digital Sky Survey
+          url: /en/dss/
+          short_name: DSS
+    advanced_data_products:
+      title: Advanced Data Products
+      links:
+        - name: MegaPipe image stacking pipeline
+          url: /en/megapipe/
+          short_name: MegaPipe
+        - name: Hubble Legacy Archive
+          url: /en/hla/
+          short_name: HLA
+        - name: Improved Reprocessing of the IRAS Survey
+          url: /en/iris/
+          short_name: IRIS
+        - name: Canadian Galactic Plane Survey
+          url: /en/cgps/
+          short_name: CGPS
+        - name: Canada France Hawai'i Telescope Legacy Survey
+          url: /en/cfhtls/
+          short_name: CFHTLS
+        - name: WIRWolf image stacking pipeline
+          url: /en/wirwolf/
+          short_name: WIRWolf
+    telescope_data_products:
+      title: Telescope Data Products
+      links:
+        left:
+          - name: Gemini Observatory
+            url: /en/gemini/
+            short_name: Gemini
+          - name: Canada France Hawai'i Telescope
+            url: /en/cfht/
+            short_name: CFHT
+          - name: James Clerk Maxwell Telescope
+            url: /en/jcmt/
+            short_name: JCMT
+          - name: Hubble Space Telescope
+            url: /en/hst/
+            short_name: HST
+          - name: Balloon-borne Large-Aperture Submillimeter Telescope
+            url: /en/blast/
+            short_name: BLAST
+          - name: Microvariability & Oscillations of Stars Telescope
+            url: /en/most/
+            short_name: MOST
+          - name: Dominion Astrophysical Observatory Science Archive
+            url: /en/dao/
+            short_name: DAO
+        right:
+          - name: Dominion Radio Astrophysical Observatory Science Archive
+            url: /en/drao/
+            short_name: DRAO
+          - name: MAssive Compact Halo Object project
+            url: /en/macho/
+            short_name: MACHO
+          - name: Mont Mégantic Observatory
+            url: /en/omm/
+            short_name: OMM
+          - name: Far Ultraviolet Spectroscopic Explorer
+            url: /en/fuse/
+            short_name: FUSE
+          - name: United Kingdom IfraRed Telescope
+            url: /en/ukirt/
+            short_name: UKIRT
+          - name: Near-Earth Object Surveillance Satellite
+            url: /en/neossat/
+            short_name: NEOSSat
+          - name: Very Large Array Sky Survey
+            url: /en/vlass/
+            short_name: VLASS
+fr:
+  nav:
+    services:
+      title: Services
+      links:
+        - name: Recherche Avancée
+          url: /fr/recherche/
+          short_name: Recherche Avancée
+        - name: Rencontres
+          url: /fr/rencontres/
+          short_name: Rencontres
+        - name: Projets communauté
+          url: /fr/communaute/
+          short_name: Communauté
+        - name: Recherche d'images d'objets du Système Solaire
+          url: /fr/rioss/
+          short_name: RIOSS
+        - name: Canadian Advanced Network For Astronomical Research
+          url: https://www.canfar.net/
+          external: true
+          short_name: CANFAR
+        - name: Système du Digital Sky Survey
+          url: /fr/dss/
+          short_name: DSS
+    advanced_data_products:
+      title: Données avancées
+      links:
+        - name: Système de traitement d'images MegaPipe
+          url: /fr/megapipe/
+          short_name: MegaPipe
+        - name: Le Hubble Legacy Archive
+          url: /fr/hla/
+          short_name: hla
+        - name: Retraitement Amélioré de l'enquête IRAS
+          url: /fr/iris/
+          short_name: IRIS
+        - name: Relevé canadien du plan galactique
+          url: /fr/rcpg/
+          short_name: RCPG
+        - name: Archives scientifiques TCFH
+          url: /fr/cfhtls/
+          short_name: CFHTLS
+        - name: Système de traitement d'images WIRwolf
+          url: /fr/wirwolf/
+          short_name: WIRWolf
+    telescope_data_products:
+      title: Données de téléscopes
+      links:
+        left:
+          - name: Archives scientifiques Gemini
+            url: /fr/gemini/
+            short_name: Gemini
+          - name: Archives scientifiques du Téléscope Canada France Hawai'i
+            url: /fr/tcfh/
+            short_name: TCFH
+          - name: Archives scientifiques du Téléscope James Clerk Maxwell
+            url: /fr/tjcm/
+            short_name: TJCM
+          - name: Télescope spatial Hubble
+            url: /fr/hst/
+            short_name: HST
+          - name: Telescope submillimétrique à grande ouverture porté par ballon
+            url: /fr/blast/
+            short_name: BLAST
+          - name: Microvariabilité et oscillations stellaires
+            url: /fr/most/
+            short_name: MOST
+          - name: Archives scientifiques et outils de l’Observatoire fédéral d’astrophysique 
+            url: /fr/ofa/
+            short_name: OFA
+        right:
+          - name: Archives scientifiques et outils de l’Observatoire fédéral radioastrophysique
+            url: /fr/ofr/
+            short_name: OFR
+          - name: MAssive Compact Halo Object project
+            url: /fr/macho/
+            short_name: MACHO
+          - name: Observatoire du Mont Mégantic
+            url: /fr/omm/
+            short_name: OMM
+          - name: Explorateur Spectroscopique de l'Ultraviolet Lointain
+            url: /fr/fuse/
+            short_name: FUST
+          - name: Téléscope Infrarouge du Royaume Uni
+            url: /fr/ukirt/
+            short_name: UKIRT
+          - name: Near-Earth Object Surveillance Satellite
+            url: /fr/neossat/
+            short_name: NEOSSat
+          - name: Very Large Array Sky Survey
+            url: /fr/vlass/
+            short_name: VLASS

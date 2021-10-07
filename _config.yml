@@ -99,7 +99,10 @@ defaults:
     values:
       lang: "fr"
 
-title: "Canadian Astronomy Data Centre" # Site name or title
+title: 
+  en: "Canadian Astronomy Data Centre" # Site name or title
+  fr: "Centre canadien de données astronomiques"
+
 email: Dustin.Jenkins@nrc-cnrc.gc.ca
   
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

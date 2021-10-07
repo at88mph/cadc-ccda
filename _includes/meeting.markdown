@@ -3,10 +3,10 @@
 
 <details>
     <summary></summary>
-    <div class="well well-sm">
+    <div class="well well-sm meeting-well">
         <dl class="dl-horizontal brdr-0">
             <dt class="web-label"></dt>
-            <dd><a target="_blank" rel="external" class="web" href="#">#</a></dd>
+            <dd><a target="_blank" rel="external" class="web" href="#"></a></dd>
             <dt class="date-label">{{ i18n-form.date }}</dt>
             <dd><span class="start date"></span>&nbsp;-&nbsp;<span class="end date"></span></dd>
             <dt class="contact-label">{{ i18n-form.contact }}</dt>
@@ -26,6 +26,6 @@
             <dt class="meeting-number-label">{{ i18n-form.number }}</dt>
             <dd class="meeting-number"></dd>
         </dl>
-        <button class="btn btn-default">{{ i18n-form.edit }}</button>
+        <a class="btn btn-default edit" href="{{ i18n-form.edit_url }}">{{ i18n-form.edit }}</a>
     </div>
 </details>

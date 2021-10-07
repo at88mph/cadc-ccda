@@ -1,0 +1,12 @@
+.cadc-banner-container {
+    background-image: url('/static/images/web-banner-bg.gif');
+    background-size: contain;
+    background-position: center;
+}
+
+.cadc-banner-inner-bg {
+    background-image: url('/static/images/web-banner.jpg') !important;
+    background-size: cover !important;
+    background-position: bottom left !important;
+    background-repeat: no-repeat !important;
+}

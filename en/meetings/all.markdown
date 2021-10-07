@@ -14,6 +14,8 @@ nositesearch: layout.nositesearch
 
 nav: meetings
 
+headerHTML: <button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>&nbsp; RSS</button><button type="button" class="btn btn-default mrgn-lft-sm" aria-label="Left Align"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>&nbsp; iCal</button>
+
 # Used for post label formatting (dates and links)
 script: [/static/meetings.js]
 ---

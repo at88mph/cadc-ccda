@@ -2,19 +2,19 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: cadc-index
-title: Centre canadien de données astronomiques
+layout: cadc
+title: Modifiez rencontre
 lang: fr
-permalink: /fr/
-altLangPage: /en/
-dateModified: 2021-10-05
+permalink: /fr/rencontres/mise-a-jour/
+altLangPage: /en/meetings/update/
+dateModified: 2021-10-07
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
-pageclass: ["home"]
-includeBanner: true
 
-css: /static/css/cadc.css
+nav: meetings
 
-nav: index
+prescript: /static/meetings.js
 ---
+
+{%- include update-meeting-form.markdown -%}
