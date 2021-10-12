@@ -1,5 +1,6 @@
 {%- include variable-core.liquid -%}
 {%- assign i18n-form=site.data.meetings[i18nText-lang]['labels'] -%}
+    <div class="form-content">
         <div class="form-group">
             <label class="col-sm-4 control-label" for="title"><span class="field-name">{{ i18n-form.title }}</span> <strong class="required">({{ i18n-form.required }})</strong></label>
             <div class="col-md-8">
@@ -75,6 +76,5 @@
                 </div>
             </div>
         </fieldset>
-        <p class="success-message hide">{{ i18n-form.create_message_success }}</p>
-        <p class="failure-message hide">{{ i18n-form.create_message_failure }}</p>
-        <button type="submit" class="btn btn-primary">{{ i18n-form.submit }}</button>
+        <button type="submit" class="btn btn-primary" tabindex="12">{{ i18n-form.submit }}</button>
+    </div>

@@ -14,7 +14,7 @@ nositesearch: layout.nositesearch
 
 nav: meetings
 
-prescript: /static/meetings.js
+script: /static/meetings.js
 ---
 
-{%- include update-meeting-form.markdown -%}
+{%- include meetings/update-form.markdown -%}

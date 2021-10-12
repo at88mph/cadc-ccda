@@ -15,7 +15,7 @@ gem "jekyll", "~> 3.8.0"
 gem "minima", "~> 2.5"
 
 # Add the gcweb-jekyll gem
-gem "gcweb-jekyll", "~> 0.1", git: "https://github.com/wet-boew/gcweb-jekyll"
+gem "gcweb-jekyll", "~> 0.1.1", git: "https://github.com/at88mph/gcweb-jekyll", branch: "splash-images"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

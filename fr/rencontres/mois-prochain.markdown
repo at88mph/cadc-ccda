@@ -21,7 +21,7 @@ script: [/static/meetings.js]
 <ul id="meetings_list" class="list-unstyled lst-spcd-2" data-wb-json='{ "url": "/meetings/meetings?month=next", "mapping": ["/title", "/web", "/start", "/end", "/contact", "/location", "/address", "/phone", "/email", "/bibCode", "/keywords", "/meetingNumber"], "queryall": ["summary", ".web", ".start", ".end", ".contact", ".location", ".address", ".phone", ".email", ".proceedings", ".keywords", ".meeting-number"] }'>
 	<template>
         <li>
-        {%- include meeting.markdown -%}
+        {%- include meetings/listing-item.markdown -%}
         </li>
 	</template>
 </ul>

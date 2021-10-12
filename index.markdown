@@ -15,6 +15,10 @@ images:
     description: Gualco
   - link: /static/images/ngc6559-bg.jpg
     description: NGC-6559
+  - link: /static/images/doubleclustergroves-bg.jpg
+    description: Double Cluster Groves
+  - link: /static/images/fireball-alberta-bg.jpg
+    description: Alberta Fireball
 ---
 
 <div class="row">

@@ -3,7 +3,7 @@
  * general WET-4 API can't handle.
  * jenkinsd 2021.09.22
  */
- (function( $, document ) {
+ (function( $, document) {
     $(document).on( 'wb-contentupdated', function(event) {
         const $target = $(event.target)
         if ($target.is('ul.meetings')) {
@@ -13,7 +13,7 @@
                        'December'],
                 'fr': ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
                        'juillette', 'août', 'septembre', 'octobre', 'novembre', 
-                       'décembre'],
+                       'décembre']
             }
 
             const dayNames = {
@@ -49,6 +49,10 @@
                 const $thisMeetingNumber = $me.find('.meeting-number').text()
                 $editButton.prop('href', `${$editButtonLink}#${$thisMeetingNumber}`)
             })
+
+            // Initialize list filtering
+            $target.addClass('wb-filter')
+            $target.attr('data-wb-filter', JSON.stringify({ "filterType": "or" }))
         }
     })
 
@@ -68,4 +72,4 @@
             }
         }
     })
-})( jQuery, document ); 
+})(jQuery, document); 

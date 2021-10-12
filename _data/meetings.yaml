@@ -27,12 +27,14 @@ en:
     this_month: This Month
     next_month: Next Month
     this_year: This Year
-    future_years: Future Years
+    next_year: Next Year
     edit: Edit
     edit_url: /en/meetings/update/
     contact_label: Contact
     create_message_success: Meeting created.
     create_message_failure: Failed to create meeting.
+    update_message_success: Meeting updated.
+    update_message_failure: Failed to update meeting.
 fr:
   nav:
     - links:
@@ -62,9 +64,11 @@ fr:
     this_month: Ce mois-ci
     next_month: Mois prochain
     this_year: Cette année
-    future_years: Années futures
+    next_year: Année prochaine
     edit: Mise-à-jour
     edit_url: /fr/rencontres/mise-a-jour/
     contact_label: Contacte
     create_message_success: Roncontre crée.
     create_message_failure: Erreur pendant la création.
+    update_message_success: Rencontre mise-à-jour.
+    update_message_failure: Erreur pendant la mise-à-jour.
