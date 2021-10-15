@@ -1,0 +1,19 @@
+en:
+  nav:
+    - links:
+        - name: Search for data
+          url: /en/search/?collection=VLASS&noexec=true
+    - links:
+        - name: NRAO VLA Sky Survey Website
+          url: https://science.nrao.edu/science/surveys/vlass
+        - name: CIRADA Website
+          url: https://www.dunlap.utoronto.ca/instrumentation/cirada-canadian-initiative-for-radio-astronomy-data-analysis/
+  nav:
+    - links:
+        - name: Search for data
+          url: /fr/recherche/?collection=VLASS&noexec=true
+    - links:
+        - name: Site Web NRAO VLA Sky Survey - anglais seulement
+          url: https://science.nrao.edu/science/surveys/vlass
+        - name: Site du CIRADA - anglais seulement
+          url: https://www.dunlap.utoronto.ca/instrumentation/cirada-canadian-initiative-for-radio-astronomy-data-analysis/

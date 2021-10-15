@@ -1,0 +1,16 @@
+en:
+  nav:
+    - links:
+        - name: Search for data
+          url: /en/search/?collection=MOST&noexec=true
+    - links:
+        - name: MOST home page at UBC
+          url: http://most.astro.ubc.ca/
+fr:
+  nav:
+    - links:
+        - name: Recherche de données
+          url: /fr/recherche/?collection=MOST&noexec=true
+    - links:
+        - name: Page d'accueil MOST à l'UBC - anglais seulement
+          url: http://most.astro.ubc.ca/

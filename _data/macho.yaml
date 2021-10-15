@@ -1,0 +1,16 @@
+en:
+  nav:
+    - links:
+        - name: Search for data
+          url: /en/search/?collection=MACHO&noexec=true
+    - links:
+        - name: MACHO project
+          url: https://macho.nci.org.au/
+fr:
+  nav:
+    - links:
+        - name: Recherche de données
+          url: /fr/recherche/?collection=MACHO&noexec=true
+    - links:
+        - name: Le project MACHO - anglais seulement
+          url: https://macho.nci.org.au/
