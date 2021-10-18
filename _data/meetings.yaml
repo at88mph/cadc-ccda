@@ -31,7 +31,8 @@ en:
     edit: Edit
     edit_url: /en/meetings/update/
     contact_label: Contact
-    create_message_success: Meeting created.
+    create_subheader_success: Your meeting information has been submitted to the CADC
+    create_message_success: Please allow up to a few days for processing by CADC staff.
     create_message_failure: Failed to create meeting.
     update_message_success: Meeting updated.
     update_message_failure: Failed to update meeting.
@@ -68,7 +69,8 @@ fr:
     edit: Mise-à-jour
     edit_url: /fr/rencontres/mise-a-jour/
     contact_label: Contacte
-    create_message_success: Roncontre crée.
+    create_subheader_success: Votre nouvelle information de rencontre a été soumise au CCDA
+    create_message_success: Veuillez prévoir quelques jours pour le traitement de votre soumission par le personnel du CCDA.
     create_message_failure: Erreur pendant la création.
     update_message_success: Rencontre mise-à-jour.
     update_message_failure: Erreur pendant la mise-à-jour.

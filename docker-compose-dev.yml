@@ -26,20 +26,6 @@ services:
             - "jekyll"
         networks:
             - "jekyll"
-    wet:
-        image: nginx:alpine
-        labels:
-            - "traefik.enable=true"
-            - "traefik.http.services.wet.loadbalancer.server.port=80"
-            - "traefik.http.routers.wet.rule=PathPrefix(`/themes-dist`)"
-            - "traefik.http.routers.wet.entrypoints=web"
-            # - "traefik.http.routers.wet.entrypoints=websecure"
-            # - "traefik.http.routers.wet.tls.certresolver=kawfeeresolver"
-            - "traefik.http.routers.wet.service=wet"
-        volumes:
-            - "/home/debian/src/wet/themes-dist:/usr/share/nginx/html/themes-dist"
-        networks:
-            - "jekyll"
     jekyll:
         image: jekyll/jekyll:4
         command: jekyll serve 0.0.0.0
@@ -55,43 +41,60 @@ services:
             - "/home/debian/src/jekyll:/srv/jekyll"
         networks:
             - "jekyll"
-    rally:
-        image: opencadc/phoenix:slim-node-10
-        command: mix phx.server
-        working_dir: "/app"
-        labels:
-            - "traefik.enable=true"
-            - "traefik.http.services.rally.loadbalancer.server.port=4004"
-            - "traefik.http.routers.rally.rule=PathPrefix(`/rally`)"
-            - "traefik.http.routers.rally.entrypoints=web"
-            # - "traefik.http.routers.rally.entrypoints=websecure"
-            # - "traefik.http.routers.rally.tls.certresolver=kawfeeresolver"
-            - "traefik.http.routers.rally.service=rally"
-        volumes:
-            - "/home/debian/src/rally:/app"
-        networks:
-            - "jekyll"
-        environment: 
-            PORT: 4004
+    # rally:
+    #     image: opencadc/phoenix:slim-node-10
+    #     command: mix phx.server
+    #     working_dir: "/app"
+    #     labels:
+    #         - "traefik.enable=true"
+    #         - "traefik.http.services.rally.loadbalancer.server.port=4004"
+    #         - "traefik.http.routers.rally.rule=PathPrefix(`/rally`)"
+    #         - "traefik.http.routers.rally.entrypoints=web"
+    #         # - "traefik.http.routers.rally.entrypoints=websecure"
+    #         # - "traefik.http.routers.rally.tls.certresolver=kawfeeresolver"
+    #         - "traefik.http.routers.rally.service=rally"
+    #     volumes:
+    #         - "/home/debian/src/rally:/app"
+    #     networks:
+    #         - "jekyll"
+    #     environment: 
+    #         PORT: 4004
 
     meetings:
-        image: opencadc/phoenix:slim-node-10
-        command: mix phx.server
-        working_dir: /app
+        image: tomcat:9-jdk11-openjdk-slim
         labels:
             - "traefik.enable=true"
-            - "traefik.http.services.meetings.loadbalancer.server.port=4300"
+            - "traefik.http.services.meetings.loadbalancer.server.port=8080"
             - "traefik.http.routers.meetings.rule=PathPrefix(`/meetings`)"
+            - "traefik.http.routers.meetings.service=meetings"
             - "traefik.http.routers.meetings.entrypoints=web"
-            # - "traefik.http.routers.rally.entrypoints=websecure"
-            # - "traefik.http.routers.rally.tls.certresolver=kawfeeresolver"
-            - "traefik.http.routers.rallmeetingsy.service=meetings"
-        volumes:
-            - "/home/debian/src/moriarty:/app"
+            # - "traefik.http.routers.meetings.entrypoints=websecure"
+            # - "traefik.http.routers.meetings.tls=true"
+            # - "traefik.http.routers.meetings.tls.domains[0].main=cadc.dao.nrc.ca"
+            # - "traefik.http.routers.meetings.tls.domains[0].sans=*.cadc.dao.nrc.ca"
         networks:
             - "jekyll"
+        ports:
+            - 30001:5555
+        depends_on:
+            - "meetingsdb"
+        volumes:
+            - "/home/debian/src/meetings:/usr/local/tomcat/webapps"
         environment: 
-            PORT: 4300
+            CATALINA_OPTS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=0.0.0.0:5555 -Dmail.smtp.host=smtp.gmail.com -Djava.security.egd=file:/dev/./urandom -Dmeetings.username=meetingsuser -Dmeetings.password=meetingspass -Dmeetings.url=jdbc:postgresql://meetingsdb/cadcmisc -Dmeetings.maxActive=2"
+
+    meetingsdb:
+        image: postgres:13-alpine
+        networks:
+            - "jekyll"
+        volumes:
+            - meetingsdb:/var/lib/postgresql/data/cadcmisc
+            - meetingsdb_init:/docker-entrypoint-initdb.d:ro
+        environment:
+            POSTGRES_USER: meetingsuser
+            POSTGRES_PASSWORD: meetingspass
+            POSTGRES_DB: cadcmisc
+            PGDATA: /var/lib/postgresql/data/cadcmisc
 
 networks:
     jekyll:
@@ -99,4 +102,8 @@ networks:
 
 volumes:
     proxy:
+        external: true
+    meetingsdb:
+        external: true
+    meetingsdb_init:
         external: true

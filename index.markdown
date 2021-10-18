@@ -4,21 +4,17 @@
 
 layout: layout-splashpage
 title: Canadian Astronomy Data Centre
-dateModified: 2021-09-20
+dateModified: 2021-10-15
 
 images:
-  - link: /static/images/orion-bg.jpg
-    description: Orion
-  - link: /static/images/solar-eclipse-bg.jpg
-    description: Solar Eclipse
-  - link: /static/images/gualco-bg.jpg
-    description: Gualco
-  - link: /static/images/ngc6559-bg.jpg
-    description: NGC-6559
-  - link: /static/images/doubleclustergroves-bg.jpg
-    description: Double Cluster Groves
-  - link: /static/images/fireball-alberta-bg.jpg
-    description: Alberta Fireball
+  - /static/images/orion-bg.jpg
+  - /static/images/solar-eclipse-bg.jpg
+  - /static/images/gualco-bg.jpg
+  - /static/images/ngc6559-bg.jpg
+  - /static/images/doubleclustergroves-bg.jpg
+  - /static/images/fireball-alberta-bg.jpg
+  - /static/images/ngc7822-bg.jpg
+  - /static/images/ngc289selby-bg.jpg
 ---
 
 <div class="row">
