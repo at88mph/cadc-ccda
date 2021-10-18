@@ -1,0 +1,20 @@
+en:
+  nav:
+    - links:
+        - name: Search for data
+          url: /en/search/?collection=OMM&noexec=true
+    - links:
+        - name: The OMM observatory - French only
+          url: http://omm.craq-astro.ca/
+        - name: The CPAPIR infrared instrument
+          url: http://genesis.astro.umontreal.ca/index_en.html
+fr:
+  nav:
+    - links:
+        - name: Chercher dans l'archive
+          url: /fr/recherche/?collection=OMM&noexec=true
+    - links:
+        - name: Observatoire OMM
+          url: http://omm.craq-astro.ca/
+        - name: Caméra infrarouge CPAPIR
+          url: http://genesis.astro.umontreal.ca/index_en.html

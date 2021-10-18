@@ -1,0 +1,28 @@
+en:
+  nav:
+    - links:
+        - name: Search for data
+          url: /en/search/?collection=NEOSSAT&noexec=true
+    - links:
+        - name: NEOSSat FITS Image User’s Guide 
+          url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/CSA-NEOSSAT-MAN-0002_FITS_IMAGE_UGUIDE.pdf
+        - name: The NEOSSat Experience
+          url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/NEOSSat%20Experience-v1.5.pdf
+        - name: NEOSSat Science Guest Observation (GO) Program Cycle 1
+          url: http://www.asc-csa.gc.ca/eng/funding-programs/funding-opportunities/ao/2019-neossat-science-guest-observation-cycle-1.asp
+        - name: NEOSSat image processing software
+          url: https://github.com/jasonfrowe/neossat
+fr:
+  nav:
+    - links:
+        - name: Chercher des données
+          url: /fr/recherche/?collection=NEOSSAT&noexec=true
+    - links:
+        - name: Guide de l’utilisateur de NEOSSat FITS Image - anglais seulement
+          url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/CSA-NEOSSAT-MAN-0002_FITS_IMAGE_UGUIDE.pdf
+        - name: L'expérience NEOSSat - anglais seulement
+          url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/NEOSSat%20Experience-v1.5.pdf
+        - name: Programme scientifique d'observateurs invités de NEOSSat 1er cycle
+          url: http://www.asc-csa.gc.ca/fra/programmes-financement/opportunites-financement/ao/2019-neossat-cycle-1-observations-scientifiques.asp
+        - name: Logiciel de traitement d'image NEOSSat - anglais seulement
+          url: https://github.com/jasonfrowe/neossat
