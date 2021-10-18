@@ -1,0 +1,60 @@
+en:
+  nav:
+    - links:
+        - name: Complete collection
+          url: /en/search/?collection=JCMT&noexec=true
+        - name: Processed observations
+          url: /en/search/?collection=JCMT&Plane.calibrationLevel=2&noexec=true
+        - name: Raw observations
+          url: /en/search/?collection=JCMT&Plane.calibrationLevel=0&noexec=true
+    - links:
+        - name: SCUBA-2 (Raw)
+          url: /en/search/?collection=JCMT&Observation.instrument.name=SCUBA-2&Plane.calibrationLevel=2&noexec=true
+        - name: HARP-ACSIS (Raw)
+          url: /en/search/?collection=JCMT&Observation.instrument.name=HARP-ACSIS&Plane.calibrationLevel=2&noexec=true
+        - name: RxA3[M]-ACSIS (Raw)
+          url: /en/search/?collection=JCMT&Observation.instrument.name=RXA3-ACSIS&Observation.instrument.name=RXA3M-ACSIS&Plane.calibrationLevel=2&noexec=true
+    - links:
+        - name: SCUBA-2 (Processed)
+          url: /en/search/?collection=JCMT&Observation.instrument.name=SCUBA-2&Plane.calibrationLevel=0&noexec=true
+        - name: HARP-ACSIS (Processed)
+          url: /en/search/?collection=JCMT&Observation.instrument.name=HARP-ACSIS&Plane.calibrationLevel=0&noexec=true
+        - name: RxA3[M]-ACSIS (Processed)
+          url: /en/search/?collection=JCMT&Observation.instrument.name=RXA3M-ACSIS&Observation.instrument.name=RXA3-ACSIS&Plane.calibrationLevel=0&noexec=true
+    - links:
+        - name: JCMT Archive Help
+          url: https://www.eaobservatory.org/jcmt/science/archive/help/
+        - name: Acknowledgements
+          url: https://www.eaobservatory.org/jcmt/observing/acknowledgement/
+        - name: Credits
+          url: /en/jcmt/credits.html
+fr:
+  nav:
+    - links:
+      - name: Collection complète
+        url: /fr/recherche/?collection=JCMT&noexec=true
+      - name: Observations traitées
+        url: /fr/recherche/?collection=JCMT&Plane.calibrationLevel=2&noexec=true
+      - name: Observations brutes
+        url: /fr/recherche/?collection=JCMT&Plane.calibrationLevel=0&noexec=true
+    - links:
+        - name: SCUBA-2 (traité)
+          url: /fr/recherche/?collection=JCMT&Observation.instrument.name=SCUBA-2&Plane.calibrationLevel=2&noexec=true
+        - name: HARP-ACSIS (traité)
+          url: /fr/recherche/?collection=JCMT&Observation.instrument.name=HARP-ACSIS&Plane.calibrationLevel=2&noexec=true
+        - name: RxA3[M]-ACSIS (traité)
+          url: /fr/recherche/?collection=JCMT&Observation.instrument.name=RXA3-ACSIS&Observation.instrument.name=RXA3M-ACSIS&Plane.calibrationLevel=2&noexec=true
+    - links:
+        - name: SCUBA-2 (brut)
+          url: /fr/recherche/?collection=JCMT&Observation.instrument.name=SCUBA-2&Plane.calibrationLevel=0&noexec=true
+        - name: HARP-ACSIS (brut)
+          url: /fr/recherche/?collection=JCMT&Observation.instrument.name=HARP-ACSIS&Plane.calibrationLevel=0&noexec=true
+        - name: RxA3[M]-ACSIS (brut)
+          url: /fr/recherche/?collection=JCMT&Observation.instrument.name=RXA3M-ACSIS&Observation.instrument.name=RXA3-ACSIS&Plane.calibrationLevel=0&noexec=true
+    - links:
+        - name: TJCM aide spécifique
+          url: https://www.eaobservatory.org/jcmt/science/archive/help/
+        - name: Mentions
+          url: https://www.eaobservatory.org/jcmt/observing/acknowledgement/
+        - name: Crédits
+          url: /fr/tjcm/credits.html

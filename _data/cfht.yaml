@@ -1,0 +1,62 @@
+en:
+  nav:
+    - links:
+        - name: Complete collection
+          url: /en/search/?collection=CFHT&noexec=true
+        - name: ESPaDOns
+          url: /en/search/?collection=CFHT&Observation.instrument.name=ESPaDOnS&noexec=true
+        - name: MegaPrime
+          url: /en/search/?collection=CFHT&Observation.instrument.name=MegaPrime&noexec=true
+        - name: SITELLE
+          url: /en/search/?collection=CFHT&Observation.instrument.name=SITELLE&noexec=true
+        - name: SPIRou
+          url: /en/search/?collection=CFHT&Observation.instrument.name=SPIRou&noexec=true
+        - name: WIRCam
+          url: /en/search/?collection=CFHT&Observation.instrument.name=WIRCam&noexec=true
+    - links:
+        - name: CFHT Legacy Survey
+          url: /en/cfht/cfhtls.html
+        - name: WIRDS
+          url: /en/cfht/wirds.html
+        - name: MegaPipe
+          url: /en/megapipe/
+        - name: WIRwolf
+          url: /en/wirwolf/
+    - links:
+        - name: Proprietary Data Access
+          url: /en/cfht/access.html
+        - name: File Extension Definitions
+          url: /en/cfht/extensions.html
+        - name: Credits and Acknowledgements
+          url: /en/cfht/credits.html
+fr:
+  nav:
+    - links:
+      - name: Collection complète
+        url: /fr/recherche/?collection=CFHT&noexec=true
+      - name: ESPaDOns
+        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=ESPaDOnS&noexec=true
+      - name: MegaPrime
+        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=MegaPrime&noexec=true
+      - name: SITELLE
+        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=SITELLE&noexec=true
+      - name: SPIRou
+        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=SPIRou&noexec=true
+      - name: WIRCam
+        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=WIRCam&noexec=true
+    - links:
+      - name: CFHT Legacy Survey
+        url: /fr/tcfh/cfhtls.html
+      - name: WIRDS
+        url: /fr/tcfh/wirds.html
+      - name: MegaPipe
+        url: /fr/megapipe/
+      - name: WIRwolf
+        url: /fr/wirwolf/
+    - links:
+      - name: Accès et contrôle des données exclusives
+        url: /fr/tcfh/access.html
+      - name: Extensions de fichiers
+        url: /fr/tcfh/extensions.html
+      - name: Crédits et mentions
+        url: /fr/tcfh/credits.html

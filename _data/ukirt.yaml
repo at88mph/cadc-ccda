@@ -1,0 +1,16 @@
+en:
+  nav:
+    - links:
+        - name: Search for data
+          url: /en/search/?collection=UKIRT&noexec=true
+    - links:
+        - name: UKIRT page at the JAC
+          url: http://www.jach.hawaii.edu/UKIRT/
+fr:
+  nav:
+    - links:
+        - name: Chercher des données
+          url: /fr/recherche/?collection=UKIRT&noexec=true
+    - links:
+        - name: Page UKIRT au JAC - anglais seulement
+          url: http://www.jach.hawaii.edu/UKIRT/
