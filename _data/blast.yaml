@@ -3,14 +3,8 @@ en:
     - links:
         - name: Search for data
           url: /en/search/?collection=BLAST&noexec=true
-    - links:
-        - name: BLAST team page
-          url: http://blastexperiment.info/
 fr:
   nav:
     - links:
         - name: Recherche de données
           url: /fr/recherche/?collection=BLAST&noexec=true
-    - links:
-        - name: Page d'équipe BLAST - anglais seulement
-          url: http://blastexperiment.info/

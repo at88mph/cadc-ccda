@@ -4,7 +4,6 @@ lang: en
 permalink: /en/macho/
 title: MACHO
 altLangPage: /fr/macho/
-headerimage: /static/images/macho.jpg
 dateModified: 2021-10-14
 nofooter: layout.nofooter
 signing: layout.signing
