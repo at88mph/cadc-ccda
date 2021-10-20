@@ -2,7 +2,7 @@
 layout: cadc
 lang: en
 permalink: /en/cfht/
-title: Canada France Hawaii Telescope
+title: Canada France Hawai'i Telescope
 altLangPage: /fr/tcfh/
 headerimage: /static/images/cfht.jpg
 dateModified: 2021-10-14

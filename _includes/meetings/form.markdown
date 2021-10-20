@@ -26,9 +26,15 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-4 control-label" for="web">{{ i18n-form.web }}</label>
+            <label class="col-sm-4 control-label" for="web1">{{ i18n-form.web }}</label>
             <div class="col-md-8">
-                <input type="url" class="form-control full-width" placeholder="https://meeting-rencontre.example.com/" name="web" id="web" tabindex="5" data-wb-json='{"url": "#[meeting]/web", "type": "val"}' />
+                <input type="url" class="form-control full-width" placeholder="https://meeting-rencontre.example.com/" name="web1" id="web1" tabindex="5" data-wb-json='{"url": "#[meeting]/web1", "type": "val"}' />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label" for="web2">{{ i18n-form.web }}</label>
+            <div class="col-md-8">
+                <input type="url" class="form-control full-width" placeholder="https://other-autre.meeting-rencontre.example.com/" name="web2" id="web2" tabindex="5" data-wb-json='{"url": "#[meeting]/web2", "type": "val"}' />
             </div>
         </div>
         <fieldset>

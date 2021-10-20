@@ -41,8 +41,10 @@
                     }
                 })
             
-                const $link = $me.find('a.web')
-                $link.prop('href', $link.text())
+                $me.find('a.web').each(function() {
+                    const $link = $(this)
+                    $link.prop('href', $link.text())
+                })
 
                 const $editButton = $me.find('a.edit')
                 const $editButtonLink = $editButton.prop('href')

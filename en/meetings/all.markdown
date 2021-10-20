@@ -18,6 +18,8 @@ headerHTML: <a class="btn btn-primary btn-sm mrgn-lft-none mrgn-rght-lg" href="/
 script: [/static/js/meetings.js]
 
 css: /static/css/meetings.css
+
+nav: meetings
 ---
 
 {%- include meetings/listing.markdown -%}
