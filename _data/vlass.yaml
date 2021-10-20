@@ -8,6 +8,7 @@ en:
           url: https://science.nrao.edu/science/surveys/vlass
         - name: CIRADA Website
           url: https://www.dunlap.utoronto.ca/instrumentation/cirada-canadian-initiative-for-radio-astronomy-data-analysis/
+fr:
   nav:
     - links:
         - name: Search for data
