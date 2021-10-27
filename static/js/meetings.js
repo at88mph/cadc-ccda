@@ -6,6 +6,7 @@
  (function( $, document) {
     $(document).on( 'wb-contentupdated', function(event) {
         const $target = $(event.target)
+        // console.log(`Target is ${JSON.stringify($target)}`)
         if ($target.is('ul.meetings')) {
             const monthNames = {
                 'en': ['January', 'February', 'March', 'April', 'May', 'June',
@@ -26,7 +27,7 @@
             // Set to default language if current one is not supported.
             const lang = dayNames.hasOwnProperty(pageLang) ? pageLang : 'en'
 
-            $target.find('div.meeting-well').each(function() {
+            $target.find('div.meeting-panel').each(function() {
                 const $me = $(this)
                 $me.find('.date').each(function() {
                     const $dateLabel = $(this)
@@ -52,9 +53,9 @@
                 $editButton.prop('href', `${$editButtonLink}#${$thisMeetingNumber}`)
             })
 
-            // Initialize list filtering
+            // Initialize list filtering for the lists
             $target.addClass('wb-filter')
-            $target.attr('data-wb-filter', JSON.stringify({ "filterType": "or" }))
+            $target.attr('data-wb-filter', JSON.stringify({ "filterType": "or", "selector": ".meeting-panel" }))
         }
     })
 
@@ -72,6 +73,21 @@
             } else {
                 throw Error('No meeting ID supplied in request fragment.')
             }
+        }
+    })
+
+    $(document).on( "wb-updated.wb-tables", ".wb-tables", function( event, settings ) {
+        // Initialize the Archive table
+        const $target = $(event.target)
+        if ($target.is('table.archive-table')) {
+            const dataTable = $target.DataTable()
+            const editCol = dataTable.column("edit:name")
+            console.log(`Edit column is ${JSON.stringify(editCol)}`)
+            editCol.render = function ( data, type, row, meta ) {
+                return `<a href="update#${data}" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span></a>`
+            }
+
+            $target.trigger( "wb-init.wb-tables" )
         }
     })
 })(jQuery, document); 

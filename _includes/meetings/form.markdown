@@ -22,7 +22,7 @@
         <div class="form-group">
             <label class="col-sm-4 control-label" for="end"><span class="field-name">{{ i18n-form.end }}</span> <strong class="required">({{ i18n-form.required }})</strong></label>
             <div class="col-md-8">
-                <input type="date" class="form-control" name="end" id="end" required="required" tabindex="4" data-wb-json='{"url": "#[meeting]/end", "type": "val"}' />
+                <input type="date" class="form-control" name="end" id="end" required="required" tabindex="4" data-rule-after="#start" data-wb-json='{"url": "#[meeting]/end", "type": "val"}' />
             </div>
         </div>
         <div class="form-group">
@@ -82,5 +82,6 @@
                 </div>
             </div>
         </fieldset>
-        <button type="submit" class="btn btn-primary" tabindex="12">{{ i18n-form.submit }}</button>
+        <input type="submit" class="btn btn-primary" value="{{ i18n-form.submit }}" tabindex="12" />
+        {{ clear_button_html }}
     </div>

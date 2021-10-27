@@ -4,7 +4,7 @@ lang: en
 permalink: /en/macho/
 title: MACHO
 altLangPage: /fr/macho/
-dateModified: 2021-10-14
+dateModified: 2021-10-21
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
@@ -33,12 +33,12 @@ nav: macho
     </p>
     <p>
       <code>
-        https://www.cadc-cadc.hia-iha.nrc-cnrc.gc.ca/data/pub/MACHO/&lt;name&gt;.fits.fz
+        https://ws.cadc-cadc.hia-iha.nrc-cnrc.gc.ca/data/pub/MACHO/&lt;name&gt;.fits.fz
       </code>
     </p>
     <p>
       ex:
-      <a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MACHO/cal000334r.fits.fz" class="ui-link">https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MACHO/cal000334r.fits.fz</a>
+      <a href="https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MACHO/cal000334r.fits.fz" class="ui-link">https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MACHO/cal000334r.fits.fz</a>
     </p>
   </li>
 </ul>

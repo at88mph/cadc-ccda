@@ -7,17 +7,20 @@ lang: fr
 title: Rencontres internationales en astronomie
 permalink: /fr/rencontres/
 altLangPage: /en/meetings/
-dateModified: 2021-10-01
+dateModified: 2021-10-21
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
 
-headerHTML: <a class="btn btn-primary btn-sm mrgn-lft-none mrgn-rght-lg" href="/en/meetings/submit-new/" aria-label="Left Align"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Nouveau</a><a class="btn btn-default btn-sm mrgn-lft-sm" href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cadcbin/en/meetings/rss-meetings.py" aria-label="Left Align"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>&nbsp; RSS</a><a href="webcal://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/dbohlender/CADC/astroMeetings.ics" class="btn btn-default btn-sm mrgn-lft-sm" aria-label="Left Align"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>&nbsp; iCal</a>
+# headerHTML: <a class="btn btn-default btn-sm mrgn-lft-sm" href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cadcbin/en/meetings/rss-meetings.py" aria-label="Left Align"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>&nbsp; RSS</a><a href="webcal://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/dbohlender/CADC/astroMeetings.ics" class="btn btn-default btn-sm mrgn-lft-sm" aria-label="Left Align"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>&nbsp; iCal</a>
 
 # Used for post label formatting (dates and links)
 script: [/static/js/meetings.js]
 
 css: /static/css/meetings.css
+
+nav: meetings
+nav_size: 3
 ---
 
 {%- include meetings/listing.markdown -%}

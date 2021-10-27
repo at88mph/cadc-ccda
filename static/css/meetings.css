@@ -1,3 +1,11 @@
 label.input-group-addon {
     padding: 8px 14px;
 }
+
+details[open] > summary {
+    border: 0;
+}
+
+table#archive_table td.title {
+    max-width: 70px;
+}

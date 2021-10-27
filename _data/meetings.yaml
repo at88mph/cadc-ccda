@@ -5,6 +5,15 @@ en:
         url: "/en/meetings/"
       - name: Submit New Meeting
         url: "/en/meetings/submit-new/"
+      - name: Search Archived Meetings
+        url: "/en/meetings/archive/"
+      title: Related links
+    - links:
+      - name: RSS
+        url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cadcbin/en/meetings/rss-meetings.py
+      - name: iCal
+        url: webcal://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/dbohlender/CADC/astroMeetings.ics
+      title: Feeds
   labels:
     required: required
     title: Title
@@ -28,14 +37,32 @@ en:
     next_month: Next Month
     this_year: This Year
     next_year: Next Year
+    archive_year: Go to year
     edit: Edit
     edit_url: /en/meetings/update/
     contact_label: Contact
+    details: Details
+    after: After
+    before: Before
     create_subheader_success: Your meeting information has been submitted to the CADC
     create_message_success: Please allow up to a few days for processing by CADC staff.
     create_message_failure: Failed to create meeting.
     update_message_success: Meeting updated.
     update_message_failure: Failed to update meeting.
+    dates:
+      months:
+        - January
+        - February
+        - March
+        - April
+        - May
+        - June
+        - July
+        - August
+        - September
+        - October
+        - November
+        - December
 fr:
   nav:
     - links:
@@ -43,6 +70,15 @@ fr:
         url: "/fr/rencontres/"
       - name: Inscrire une rencontre
         url: "/fr/rencontres/soumire-nouveau/"
+      - name: Recherche les rencontres archivées
+        url: "/fr/rencontres/archive/"
+      title: Liens connexes
+    - links:
+      - name: RSS
+        url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cadcbin/en/meetings/rss-meetings.py
+      - name: iCal
+        url: webcal://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/dbohlender/CADC/astroMeetings.ics
+      title: Fil
   labels:
     required: obligatoire
     title: Titre
@@ -65,12 +101,30 @@ fr:
     this_month: Ce mois-ci
     next_month: Mois prochain
     this_year: Cette année
-    next_year: Année prochaine
+    next_year: L'année prochaine
+    archive_year: Visitez année
     edit: Mise-à-jour
     edit_url: /fr/rencontres/mise-a-jour/
     contact_label: Contacte
+    details: Détails
+    after: Après
+    before: Avant
     create_subheader_success: Votre nouvelle information de rencontre a été soumise au CCDA
     create_message_success: Veuillez prévoir quelques jours pour le traitement de votre soumission par le personnel du CCDA.
     create_message_failure: Erreur pendant la création.
     update_message_success: Rencontre mise-à-jour.
     update_message_failure: Erreur pendant la mise-à-jour.
+    dates:
+      months:
+        - janvier
+        - fevrier
+        - mars
+        - avril
+        - mai
+        - juin
+        - juillet
+        - août
+        - septembre
+        - octobre
+        - novembre
+        - décembre

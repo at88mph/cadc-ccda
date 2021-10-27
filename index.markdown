@@ -15,6 +15,7 @@ images:
   - /static/images/fireball-alberta-bg.jpg
   - /static/images/ngc7822-bg.jpg
   - /static/images/ngc289selby-bg.jpg
+  - /static/images/sh2-308ns-bg.jpg
 ---
 
 <div class="row">

@@ -5,6 +5,7 @@
       {%- for n in i18nText-nav.services.links -%}
         <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ n.url }}" {% if n.external %} rel="external"{% endif %}>{{ n.short_name }}</a></li>
       {%- endfor -%}
+      <li role="separator" aria-orientation="vertical"></li>
     </ul>
 </li>
 <li role="presentation"> <a role="menuitem" tabindex="-1" aria-haspopup="true" aria-controls="gc-mnu-tdp" aria-expanded="false" href="#">{{ i18nText-nav.advanced_data_products.title }}</a>
@@ -14,6 +15,7 @@
     {%- for n in i18nText-nav.advanced_data_products.links -%}
       <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ n.url }}" {% if n.external %} rel="external"{% endif %}>{{ n.short_name }}</a></li>
     {%- endfor -%}
+    <li role="separator" aria-orientation="vertical"></li>
   </ul>
 </li>
 <li role="presentation"> <a role="menuitem" tabindex="-1" aria-haspopup="true" aria-controls="gc-mnu-adp" aria-expanded="false" href="#">{{ i18nText-nav.telescope_data_products.title }}</a>
@@ -26,5 +28,6 @@
     {%- for n in i18nText-nav.telescope_data_products.links.right -%}
       <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ n.url }}" {% if n.external %} rel="external"{% endif %}>{{ n.short_name }}</a></li>
     {%- endfor -%}
+    <li role="separator" aria-orientation="vertical"></li>
   </ul>
 </li>
