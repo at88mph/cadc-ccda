@@ -1,0 +1,73 @@
+en:
+  nav:
+    - links:
+        - name: Image search
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/?collection=CFHTWIRWOLF&noexec=true
+        - name: WIRCam graphical search tool
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/access/graph.html
+    - links:
+        - name: Data description
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/docs/desc.html
+        - name: Stacking Procedure
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/docs/proc.html
+        - name: Checks on astrometry
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/docs/astro.html
+        - name: Checks on photometry
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/docs/photo.html
+        - name: Checks on depth
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/docs/depthprof.html
+        - name: WIRCam filters
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/docs/filt.html
+    - links:
+        - name: CFHT archive
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/
+        - name: MegaPipe image stacking pipeline
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/
+    - links:
+        - name: CFHT
+          url: http://www.cfht.hawaii.edu/
+        - name: WIRCam
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/
+        - name: "'I'wi pre-processing"
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/IiwiVersion1Doc.html
+        - name: SEXtractor
+          url: http://www.astromatic.net/software/sextractor
+        - name: SWarp
+          url: http://www.astromatic.net/software/swarp
+
+fr:
+  nav:
+    - links:
+        - name: Recherche d'images
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/recherche/?collection=CFHTWIRWOLF&noexec=true
+        - name: Outil de recherche graphique WIRCam
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/access/graph.html
+    - links:
+        - name: Description des données
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/docs/desc.html
+        - name: Procédure de coadditionment
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/docs/proc.html
+        - name: Vérifications de l'astrométrie
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/docs/astro.html
+        - name: Vérifications de photométrie
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/docs/photo.html
+        - name: Vérifications de profondeur
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/docs/depthprof.html
+        - name: Filtres de WIRCam
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/docs/filt.html
+    - links:
+        - name: Archive TCFH
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/cfht/
+        - name: Système de traitement d'images MegaPipe
+          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/
+    - links:
+        - name: TCFH - anglais seulement
+          url: http://www.cfht.hawaii.edu/
+        - name: WIRCam - anglais seulement
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/
+        - name: "Pré-traitement 'I'wi - anglais seulement"
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/IiwiVersion1Doc.html
+        - name: SEXtractor - anglais seulement
+          url: http://www.astromatic.net/software/sextractor
+        - name: SWarp - anglais seulement
+          url: http://www.astromatic.net/software/swarp
