@@ -76,18 +76,17 @@
         }
     })
 
-    $(document).on( "wb-updated.wb-tables", ".wb-tables", function( event, settings ) {
-        // Initialize the Archive table
-        const $target = $(event.target)
-        if ($target.is('table.archive-table')) {
-            const dataTable = $target.DataTable()
-            const editCol = dataTable.column("edit:name")
-            console.log(`Edit column is ${JSON.stringify(editCol)}`)
-            editCol.render = function ( data, type, row, meta ) {
-                return `<a href="update#${data}" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span></a>`
-            }
+    // Initialize the Archive table links
+    $(document).on( "xhr.dt", ".wb-tables", function( event, settings, json, xhr ) {
+        const data = json.data
 
-            $target.trigger( "wb-init.wb-tables" )
+        // update body
+        const l = data.length
+        for (index = 0; index < l; index++) {
+            const meeting = data[index]
+            meeting.meetingNumber = `<a href="update#${meeting.meetingNumber}" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Edit</a>`
         }
+
+        json.data = data
     })
 })(jQuery, document); 
