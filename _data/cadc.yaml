@@ -1,0 +1,30 @@
+en:
+  signin:
+    url: /en/login
+  register:
+    url: /en/register
+  labels:
+    username: Username
+    password: Password
+    first_name: First Name(s)
+    last_name: Last Name
+    email: Email
+    institute: Institute
+    signin_submit: Sign In
+    register_submit: Send request
+    reset: Clear
+fr:
+  signin:
+    url: /fr/connexion
+  register:
+    url: /fr/inscrire
+  labels:
+    username: Nom d'utilisateur
+    password: Mot de passe
+    first_name: Prénom(s)
+    last_name: Nom de famille
+    email: Courriel
+    institute: Institut
+    signin_submit: Connexion
+    register_submit: Soumettre la demande
+    reset: Effacer

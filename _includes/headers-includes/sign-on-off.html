@@ -1,0 +1,17 @@
+<section id="wb-so">
+	<h2 class="wb-inv">{{ i18nText-signOnOff }}</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+	{% unless page.signed %}
+				<a href="{{ i18nText-registerPage }}" class="btn btn-default">{{ i18nText-signOnRegister }}</a>
+				<a href="{{ i18nText-signinPage }}" class="btn btn-primary">{{ i18nText-signIn }}</a>
+	{% else %}
+				<p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span>John Doe</span></span></p>
+				<button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
+				<button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button>
+	{% endunless %}
+			</div>
+		</div>
+	</div>
+</section>
