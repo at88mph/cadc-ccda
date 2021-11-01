@@ -38,7 +38,7 @@ fr:
         - name: Observation automatisé
           url: /fr/ofa/robotic
         - name: État actuel du télescope
-          url: /fr/ofa/status.html
+          url: /fr/ofa/etat.html
         - name: Météo actuelle
           url: /fr/ofa/meteo.html
         - name: Publications de l'OFA

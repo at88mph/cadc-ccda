@@ -13,8 +13,8 @@ nositesearch: layout.nositesearch
 nav: megapipe
 
 breadcrumbs:
-    - link: /fr/cfht/
-      title: CFHT
+    - link: /fr/tcfh/
+      title: TCFH
 ---
 <p>
 Cette page présente des images et des catalogues de MegaCam empilées

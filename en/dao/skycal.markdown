@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /en/dao/
+      title: DAO
 ---
 
 <div class="span-6">
@@ -21,7 +25,7 @@ nav: dao
 <center>
 <form method="query" action="http://www.briancasey.org/artifacts/astro/skycalendar.cgi" enctype="application/x-www-form-urlencoded" target="skycalendar">
 <input type="hidden" name="observatory" value="d" data-role="none"><input type="hidden" name="command" value="display" data-role="none">
-<p><table>
+<p><table class="table">
 <tbody><tr>
 <th align="right">Date:</th>
 <td> Year: <select name="year" data-role="none">

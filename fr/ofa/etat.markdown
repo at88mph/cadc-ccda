@@ -1,7 +1,7 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/ofa/status
+permalink: /fr/ofa/etat
 title: Archives scientifiques et outils de l’OFA
 altLangPage: /en/dao/status
 headerimage: /static/images/dao.jpg
@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /fr/ofa/
+      title: OFA
 ---
 
 <div class="span-6">
@@ -23,20 +27,20 @@ nav: dao
 </p><center>
 	<table>
 
-<tbody><tr>
+<tbody class="table"><tr>
 <td rowspan="3">
-<object height="780" width="350" data="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/status_tables.html"></object>
+<object height="780" width="350" data="/files/vault/DAO/Monitoring/status_tables.html"></object>
 </td>
 
 <td>
 	Caméra du dome du télescope de 1,2m<br>
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/domecam_48.jpg" class="ui-link">
-<img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/domecam_48.jpg"></a>
+<a href="/files/vault/DAO/Monitoring/domecam_48.jpg" class="ui-link">
+<img src="/files/vault/DAO/Monitoring/domecam_48.jpg"></a>
 </td>
 <td>
 	Caméra du dome du télescope de 1,8m<br>
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/domecam_72.jpg" class="ui-link">
-<img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/domecam_72.jpg"></a>
+<a href="/files/vault/DAO/Monitoring/domecam_72.jpg" class="ui-link">
+<img src="/files/vault/DAO/Monitoring/domecam_72.jpg"></a>
 </td>
 </tr>
 
@@ -48,20 +52,20 @@ nav: dao
 
 <td>
 Caméra de guidage pour le télescope de 1,2m<br>
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/guider_12.jpg" class="ui-link">
-<img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/guider_12.jpg"></a>
+<a href="/files/vault/DAO/Monitoring/guider_12.jpg" class="ui-link">
+<img src="/files/vault/DAO/Monitoring/guider_12.jpg"></a>
 </td>
 
 <td>
 Caméra de guidage pour le télescope de 1,8m<br>
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/guider_18.jpg" class="ui-link">
-<img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/guider_18.jpg"></a>
+<a href="/files/vault/DAO/Monitoring/guider_18.jpg" class="ui-link">
+<img src="/files/vault/DAO/Monitoring/guider_18.jpg"></a>
 </td>
 
 <td>
 Caméra pour la fente du télescope de 1,8m<br>
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/slit_18.jpg" class="ui-link">
-<img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/slit_18.jpg"></a>
+<a href="/files/vault/DAO/Monitoring/slit_18.jpg" class="ui-link">
+<img src="/files/vault/DAO/Monitoring/slit_18.jpg"></a>
 </td>
 
 </tr>
@@ -72,8 +76,8 @@ Caméra pour la fente du télescope de 1,8m<br>
 
 <tr>
 <td align="center" colspan="2">
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/ccdTemps.png" class="ui-link">
-<img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/ccdTemps.png"></a>
+<a href="/files/vault/DAO/Monitoring/ccdTemps.png" class="ui-link">
+<img src="/files/vault/DAO/Monitoring/ccdTemps.png"></a>
 </td>
 </tr>
 </tbody></table>

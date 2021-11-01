@@ -2,7 +2,7 @@
 layout: cadc
 lang: fr
 permalink: /fr/hst/fichiers
-title: Hubble Space Telescope
+title: Télescope Spatial Hubble
 altLangPage: /en/hst/filenames
 headerimage: /static/images/hst.jpg
 dateModified: 2021-10-25
@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: hst
+
+breadcrumbs:
+    - link: /fr/HST/
+      title: HST
 ---
 
 <p>
@@ -21,7 +25,7 @@ des fichiers présents dans l'archive pour chaque instrument.
 La méthode d'accès générique pour accéder aux fichiers:<br>
 https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/HST/product/"fichiers"
 </p>
-<table class="table-medium">
+<table class="table-medium other-classes table" class="table-medium">
              <tbody><tr>
              <th id="a">Instrument</th>
 	     <th id="b">Fichiers</th>

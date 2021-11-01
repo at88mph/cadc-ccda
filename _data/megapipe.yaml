@@ -2,56 +2,56 @@ en:
   nav:
     - links:
         - name: Search for MegaPipe data
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/?collection=CFHTMEGAPIPE&noexec=true
+          url: /en/search/?collection=CFHTMEGAPIPE&noexec=true
         - name: Image cutout service
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/access/cut.html
+          url: /en/megapipe/access/cut.html
         - name: MegaCam graphical search tool
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/access/graph.html
+          url: /en/megapipe/access/graph.html
     - links:
         - name: Introductory documentation
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/docs/intro.html
+          url: /en/megapipe/docs/intro.html
         - name: Data description tool
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/docs/desc.html
+          url: /en/megapipe/docs/desc.html
         - name: Stacking Procedure
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/docs/proc.html
+          url: /en/megapipe/docs/proc.html
         - name: Checks on astrometry
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/docs/astro.html
+          url: /en/megapipe/docs/astro.html
         - name: Checks on photometry
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/docs/photo.html
+          url: /en/megapipe/docs/photo.html
         - name: Caveats
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/docs/caveats.html
+          url: /en/megapipe/docs/caveats.html
         - name: The MegaCam ugriz filter set
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/docs/filt.html
+          url: /en/megapipe/docs/filt.html
     - links:
         - name: CFHTLS-MegaPipe Introduction
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/index.html
+          url: /en/megapipe/cfhtls/index.html
         - name: CFHTLS D1
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/scrollD1.html
+          url: /en/megapipe/cfhtls/scrollD1.html
         - name: CFHTLS D2
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/scrollD2.html
+          url: /en/megapipe/cfhtls/scrollD2.html
         - name: CFHTLS D3
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/scrollD3.html
+          url: /en/megapipe/cfhtls/scrollD3.html
         - name: CFHTLS D4
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/scrollD4.html
+          url: /en/megapipe/cfhtls/scrollD4.html
         - name: Unified catalogues
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/uc.html
+          url: /en/megapipe/cfhtls/uc.html
         - name: Catalogue queries
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/cq.html
+          url: /en/megapipe/cfhtls/cq.html
         - name: Queue run images and catalogues
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/queue.html
+          url: /en/megapipe/cfhtls/queue.html
         - name: Deep Field stellar photometric timeseries
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/dfspt.html
+          url: /en/megapipe/cfhtls/dfspt.html
         - name: Point Spread Functions
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/psf.html
+          url: /en/megapipe/cfhtls/psf.html
         - name: Input images and limiting magnitudes
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/input.html
+          url: /en/megapipe/cfhtls/input.html
         - name: Data at other wavelenghts
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/cfhtls/cov.html
+          url: /en/megapipe/cfhtls/cov.html
     - links:
         - name: CFHT archive
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/
+          url: /en/cfht/
         - name: WIRwolf image stacking pipeline
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/
+          url: /en/wirwolf/
     - links:
         - name: MegaPipe Paper
           url: http://adsabs.harvard.edu/abs/2008PASP..120..212G
@@ -68,56 +68,56 @@ fr:
   nav:
     - links:
         - name: Recherche de données MegaPipe
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/recherche/?collection=CFHTMEGAPIPE&noexec=true
+          url: /fr/recherche/?collection=CFHTMEGAPIPE&noexec=true
         - name: Service de découpment d'images
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/access/cut.html
+          url: /fr/megapipe/access/cut.html
         - name: Outil de recherche graphique MegaCam
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/access/graph.html
+          url: /fr/megapipe/access/graph.html
     - links:
         - name: Documentation d'introduction
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/docs/intro.html
+          url: /fr/megapipe/docs/intro.html
         - name: Description des données
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/docs/desc.html
+          url: /fr/megapipe/docs/desc.html
         - name: Procédure de coadditionment
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/docs/proc.html
+          url: /fr/megapipe/docs/proc.html
         - name: Vérifications de l'astrométrie
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/docs/astro.html
+          url: /fr/megapipe/docs/astro.html
         - name: Vérifications de la photométrie
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/docs/photo.html
+          url: /fr/megapipe/docs/photo.html
         - name: Mises en garde
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/docs/caveats.html
+          url: /fr/megapipe/docs/caveats.html
         - name: Les filtres ugriz de MegaCam
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/docs/filt.html
+          url: /fr/megapipe/docs/filt.html
     - links:
         - name: Introduction au CFHTLS-MegaPipe
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/index.html
+          url: /fr/megapipe/cfhtls/index.html
         - name: CFHTLS D1
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/scrollD1.html
+          url: /fr/megapipe/cfhtls/scrollD1.html
         - name: CFHTLS D2
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/scrollD2.html
+          url: /fr/megapipe/cfhtls/scrollD2.html
         - name: CFHTLS D3
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/scrollD3.html
+          url: /fr/megapipe/cfhtls/scrollD3.html
         - name: CFHTLS D4
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/scrollD4.html
+          url: /fr/megapipe/cfhtls/scrollD4.html
         - name: Catalogues Unifiés
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/uc.html
+          url: /fr/megapipe/cfhtls/uc.html
         - name: Recheche des catalogues
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/cq.html
+          url: /fr/megapipe/cfhtls/cq.html
         - name: Images et catalogues par séquence
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/queue.html
+          url: /fr/megapipe/cfhtls/queue.html
         - name: Séries chronologiques stellaires des Champs Profonds
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/dfspt.html
+          url: /fr/megapipe/cfhtls/dfspt.html
         - name: Fonctions d'étalement du point
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/psf.html
+          url: /fr/megapipe/cfhtls/psf.html
         - name: Images d'entrée et magnitudes limites
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/input.html
+          url: /fr/megapipe/cfhtls/input.html
         - name: Données à d'autres longueurs d'onde
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/megapipe/cfhtls/cov.html
+          url: /fr/megapipe/cfhtls/cov.html
     - links:
         - name: Archive TCFH
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/tcfh/
+          url: /fr/tcfh/
         - name: Système de traitement d'images WIRwolf
-          url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/wirwolf/
+          url: /fr/wirwolf/
     - links:
         - name: Article MegaPipe - anglais seulement
           url: http://adsabs.harvard.edu/abs/2008PASP..120..212G

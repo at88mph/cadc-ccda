@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /en/dao/
+      title: DAO
 ---
     
 <h1 id="wb-cont" class="wb-invisible">DAO Science Archive and Tools Airmass Calculator</h1>
@@ -22,7 +26,7 @@ To use this page enter a target name and adjust the date as required.
 <form method="post" action="/cadcbin/en/dao/airmass.pl" enctype="application/x-www-form-urlencoded">
 <div class="form-inline">
 
-<p><table border="0" cellpadding="5">
+<p><table class="table" border="0" cellpadding="5">
 <tbody><tr>
 <th align="right">Date:</th>
 <td> Year: <select name="year" data-role="none">

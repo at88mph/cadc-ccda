@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /fr/ofa/
+      title: OFA
 ---
 
 <div class="span-6">
@@ -25,7 +29,7 @@ Pour utiliser cette page, entrez une cible astronomique et la date
 <form method="post" action="/cadcbin/fr/ofa/airmass.pl" enctype="application/x-www-form-urlencoded">
 <div class="form-inline">
 
-<p><table border="0" cellpadding="5">
+<p><table class="table" border="0" cellpadding="5">
 <tbody><tr>
 <th align="right">Date:</th>
 <td> Année: <select name="year" data-role="none">

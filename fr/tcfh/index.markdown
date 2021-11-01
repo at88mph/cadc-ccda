@@ -5,7 +5,7 @@ permalink: /fr/tcfh/
 title:  Télescope Canada France Hawaï
 headerimage: /static/images/cfht.jpg
 altLangPage: /en/cfht/
-dateModified: 2021-10-14
+dateModified: 2021-10-25
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch

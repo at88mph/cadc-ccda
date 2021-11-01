@@ -12,8 +12,8 @@ nositesearch: layout.nositesearch
 nav: cfht
 
 breadcrumbs:
-    - link: /en/cfht/
-      title: CFHT
+    - link: /fr/tcfh/
+      title: TCFH
 ---
 
 <h3 class="align-center">

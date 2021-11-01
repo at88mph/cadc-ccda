@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /en/dao/
+      title: DAO
 ---
 <div class="span-6">
  <h1 id="wb-cont" class="wb-invisible">DAO Science Archive and Tools DAO Publications</h1>
@@ -96,7 +100,7 @@ Select year: <select name="pubyear" data-role="none">
 </select>
 <input type="submit" name="search" value="Search for papers by last name and year..." data-role="none">
 </p></form><p>or
-</p><h4><a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Statistics/Publications/daoTheses.html" class="ui-link">
+</p><h4><a href="/files/vault/DAO/Statistics/Publications/daoTheses.html" class="ui-link">
     View DAO-based Theses</a></h4>
 
 </center></div>

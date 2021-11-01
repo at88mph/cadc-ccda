@@ -13,8 +13,8 @@ nositesearch: layout.nositesearch
 nav: wirwolf
 
 breadcrumbs:
-    - link: /en/cfht/
-      title: CFHT
+    - link: /fr/tcfh/
+      title: TCFH
 ---
 
 <p>

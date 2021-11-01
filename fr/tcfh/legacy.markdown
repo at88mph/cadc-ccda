@@ -12,8 +12,8 @@ nositesearch: layout.nositesearch
 nav: cfht
 
 breadcrumbs:
-    - link: /en/cfht/
-      title: CFHT
+    - link: /fr/tcfh/
+      title: TCFH
 ---
 
 <h3><a href="/fr/recherche/?collection=CFHTTERAPIX&amp;Observation.instrument.name=MegaPrime" class="ui-link">Cliquez ici pour les données</a></h3>

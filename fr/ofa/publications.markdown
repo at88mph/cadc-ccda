@@ -11,6 +11,9 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+breadcrumbs:
+    - link: /fr/ofa/
+      title: OFA
 ---
 
 <div class="span-6">
@@ -101,7 +104,7 @@ Sélectionnez l’année: <select name="pubyear" data-role="none">
 </select>
 <input type="submit" name="search" value="Recherchez des publications avec le nom de famille et l’année..." data-role="none">
 </p></form><p>ou
-</p><h4><a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Statistics/Publications/daoTheses.html" class="ui-link">
+</p><h4><a href="/files/vault/DAO/Statistics/Publications/daoTheses.html" class="ui-link">
     Liste des thèses basées sur des ovations de l’OFA</a></h4>
 
 </center></div>

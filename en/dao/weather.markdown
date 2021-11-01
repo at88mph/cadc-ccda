@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /en/dao/
+      title: DAO
 ---
 
 <div class="span-6">
@@ -22,7 +26,7 @@ nav: dao
 <center>
 <table bgcolor="#FFFFFF" border="1" cellspacing="0" cellpadding="4" data-darkreader-inline-bgcolor="" style="">
 
-<tbody><tr>
+<tbody class="table"><tr>
 <td align="center">
 <br>
 <a href="http://weather.gc.ca/city/pages/bc-85_metric_e.html" class="ui-link">Environment Canada forecast for Victoria</a><br><br>
@@ -38,7 +42,7 @@ DAO Clear Sky Clock<br>
 <tr>
 <td>
 DAO Sky Camera<br>
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/skycamera.jpg" class="ui-link"><img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/skycamera.jpg"></a>
+<a href="/files/vault/DAO/Monitoring/skycamera.jpg" class="ui-link"><img src="/files/vault/DAO/Monitoring/skycamera.jpg"></a>
 </td>
 
 <td>
@@ -51,9 +55,9 @@ IR Satellite Image<br>
 <tr>
 <td align="center" colspan="2">
 <!--
-<a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/weatherStrip.png"></a>
+<a href="/files/vault/DAO/Monitoring/weatherStrip.png"></a>
 -->
-<img src="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/files/vault/DAO/Monitoring/weatherStrip.png">
+<img src="/files/vault/DAO/Monitoring/weatherStrip.png">
 </td>
 </tr>
 

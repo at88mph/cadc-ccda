@@ -11,6 +11,9 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+breadcrumbs:
+    - link: /fr/ofa/
+      title: OFA
 ---
 
 <div class="span-6">
@@ -21,7 +24,7 @@ nav: dao
 <p>
          Utilisez ce formulaire pour préparer le programme d’observation pour le télescope de 1,2m de l’OFA en mode automatique et ce pour une seule nuit. Pour débuter, il suffit simplement de créer un fichier contenant la liste des objets astronomiques à observer en suivant l’ordre d’observation. Dans ce fichiers, les lignes qui débutent par un ‘#’ sont considérées comme un commentaire. Vous avez également d’inclure le temps d’exposition (en secondes) et le nombre d’observation pour chaque objet sur chacune de ces lignes (il faut séparer chaque valeurs ; nom d’objet, temps d’exposition et nombre d’observations, par un <tab>). Télécharger ce fichier en utilisant le bouton à cette fin et compléter les informations sur cette page.</tab></p><form method="post" action="/cadcbin/fr/ofa/robotic.pl" enctype="multipart/form-data">
 <p>
-<table class="wb-tables table">
+<table class="table-medium other-classes table" class="wb-tables table">
 <tbody><tr>
 <th align="right">Courriel:</th>
 <td colspan="3"><input type="text" name="email" size="40" maxlength="80" data-role="none" data-nlok-ref-guid="aa092b43-8565-4af7-e55b-b8b80aacb668"><div id="norton-idsafe-field-styling-divId" style="height:21.23636419122869px;max-width:21.23636419122869px;vertical-align:top; position:absolute; top:227.81931218233976px;left:656.2797800998184px;cursor:pointer;resize: both;z-index:2147483646;"><img id="norton-idsafe-field-logo-imgId" src="chrome-extension://admmjipmmciaobhojoghlmleefbicajg/content/images/ic-field-logo.svg" style="height:21.23636419122869px; max-width:21.23636419122869px;"></div></td></tr>

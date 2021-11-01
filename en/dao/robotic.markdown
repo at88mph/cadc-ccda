@@ -11,6 +11,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /en/dao/
+      title: DAO
 ---
 
 <div class="span-6">
@@ -29,7 +33,7 @@ Use this form to prepare an observing program for a single
     and number of exposures).  Upload 
     this file and enter other required information.</p><form method="post" action="/cadcbin/en/dao/robotic.pl" enctype="multipart/form-data">
 <p>
-<table class="wb-tables table">
+<table class="table-medium other-classes table" class="wb-tables table">
 <tbody><tr>
 <th align="right">E-mail:</th>
 <td colspan="3"><input type="text" name="email" size="40" maxlength="80" data-role="none" data-nlok-ref-guid="50b5b11e-6506-4dc3-bff0-422e43000326"><div id="norton-idsafe-field-styling-divId" style="height:21.23636419122869px;max-width:21.23636419122869px;vertical-align:top; position:absolute; top:208.61931523409757px;left:652.0547434787246px;cursor:pointer;resize: both;z-index:2147483646;"><img id="norton-idsafe-field-logo-imgId" src="chrome-extension://admmjipmmciaobhojoghlmleefbicajg/content/images/ic-field-logo.svg" style="height:21.23636419122869px; max-width:21.23636419122869px;"></div></td></tr>

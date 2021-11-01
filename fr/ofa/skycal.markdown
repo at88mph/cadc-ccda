@@ -11,6 +11,9 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+breadcrumbs:
+    - link: /fr/ofa/
+      title: OFA
 ---
 <div class="span-6">
               
@@ -21,7 +24,7 @@ nav: dao
 <form method="query" action="http://www.briancasey.org/artifacts/astro/skycalendar.cgi" enctype="application/x-www-form-urlencoded" target="skycalendar">
 <input type="hidden" name="observatory" value="d" data-role="none"><input type="hidden" name="command" value="display" data-role="none">
 <p><table>
-<tbody><tr>
+<tbody class="table"><tr>
 <th align="right">Date:</th>
 <td> Année: <select name="year" data-role="none">
 <option value="2019">2019</option>
