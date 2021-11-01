@@ -77,16 +77,117 @@
     })
 
     // Initialize the Archive table links
-    $(document).on( "xhr.dt", ".wb-tables", function( event, settings, json, xhr ) {
+    $(document).on( "xhr.dt", ".entire-table", function( event, settings, json, xhr ) {
+        const monthNames = {
+            'en': ['January', 'February', 'March', 'April', 'May', 'June',
+                   'July', 'August', 'September', 'October', 'November', 
+                   'December'],
+            'fr': ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
+                   'juillette', 'août', 'septembre', 'octobre', 'novembre', 
+                   'décembre']
+        }
+
+        const dayNames = {
+            'en': ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+            'fr': ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi']
+        }
+
+        const pageLang = $('html').attr('lang')
+
+        // Set to default language if current one is not supported.
+        const lang = dayNames.hasOwnProperty(pageLang) ? pageLang : 'en'
+
         const data = json.data
 
         // update body
         const l = data.length
         for (index = 0; index < l; index++) {
             const meeting = data[index]
-            meeting.meetingNumber = `<a href="update#${meeting.meetingNumber}" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Edit</a>`
+            meeting.edit = `<a href="update#${meeting.meetingNumber}" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Edit</a>`
+
+            meeting.details = `<span class="row-details glyphicon glyphicon-chevron-right mrgn-tp-md text-info" data-row-id="${meeting.meetingNumber}"></span>`
+
+            const startDateStr = meeting.start
+            const endDateStr = meeting.end
+
+            if (startDateStr && endDateStr) {
+                const startDate = new Date(startDateStr)
+                const endDate = new Date(endDateStr)
+            
+                // e.g. Friday, 25 November 1977
+                const startParts = [dayNames[lang][startDate.getUTCDay()] + ',', startDate.getUTCDate(), monthNames[lang][startDate.getUTCMonth()], startDate.getUTCFullYear()]
+                const endParts = [dayNames[lang][endDate.getUTCDay()] + ',', endDate.getUTCDate(), monthNames[lang][endDate.getUTCMonth()], endDate.getUTCFullYear()]
+                
+                meeting.dateRange = startParts.join(' ') + ' - ' + endParts.join(' ')
+            }
         }
 
         json.data = data
+    })
+
+    $(document).on("wb-ready.wb-tables", ".wb-tables", function(event) {
+        const formatExtraData = function(meeting) {
+            let formattedData = '<div class="well">'
+        
+            if (meeting.web1 || meeting.web2) {
+                if (meeting.web1) {
+                    formattedData += `<a target="_blank" rel="external" class="web web1" href="${meeting.web1}">${meeting.web1}</a>`
+                }
+
+                if (meeting.web2) {
+                    formattedData += `<a target="_blank" rel="external" class="web web2" href="${meeting.web2}">${meeting.web2}</a>`
+                }
+            }
+
+            formattedData += '<dl class="mrgn-tp-lg">'
+                             + '  <dt class="contact-label hide"></dt>'
+                             + `  <dd class="contact"><span class="glyphicon glyphicon-user"></span>&nbsp;<span class="h4">${meeting.contact}</span>&nbsp;(<a href="mailto:${meeting.email}"><span class="glyphicon glyphicon-envelope"></span>&nbsp;${meeting.email}</a>)`
+
+            if (meeting.phone && meeting.phone.trim() !== '') {
+                formattedData += `&nbsp;<a href="tel:${meeting.phone}"><span class="glyphicon glyphicon-earphone"></span>&nbsp;${meeting.phone}</a>`
+            }
+
+            formattedData += '</dd>'
+
+            let locationString = `<span class="text-info">${meeting.location}</span>`
+            if (meeting.address && meeting.address.trim() !== '') {
+                locationString += ' - ' + meeting.address
+            }
+
+            formattedData += '  <dt class="address-label hide"></dt>'
+                             + `  <dd class="address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;${locationString}</dd>`
+                             + '  <dt class="proceedings-label hide"></dt>'
+                             + `  <dd class="proceedings">${meeting.bibCode}</dd>`
+
+            if (meeting.keywords && meeting.keywords.trim() !== '') {
+                formattedData += '  <dt class="keywords-label hide"></dt>'
+                                 + `  <dd class="keywords"><pre><code>${meeting.keywords}</code></pre></dd>`
+            }
+            
+            + '</dl>'
+            + '</div>'
+
+            return formattedData
+        }       
+
+        const table = $(this).DataTable()
+        
+        $('table.entire-table tbody').on('click', 'td.details-control', function () {
+            const $td = $(this)
+            const tr = $td.closest('tr');
+            const row = table.row(tr);
+    
+            if (row.child.isShown()) {
+                // This row is already open - close it
+                row.child.hide();
+                tr.removeClass('shown');
+                $td.find('span.glyphicon').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-right')
+            } else {
+                // Open this row
+                row.child(formatExtraData(row.data())).show();
+                tr.addClass('shown');
+                $td.find('span.glyphicon').removeClass('glyphicon-chevron-right').addClass('glyphicon-chevron-down')
+            }
+        })
     })
 })(jQuery, document); 

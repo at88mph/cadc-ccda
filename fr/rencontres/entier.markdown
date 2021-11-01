@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: cadc
-lang: en
-title: International Astronomy Meetings
-permalink: /en/meetings/
-altLangPage: /fr/rencontres/
+lang: fr
+title: Rencontres internationales en astronomie
+permalink: /fr/rencontres/entier/
+altLangPage: /en/meetings/entire/
 dateModified: 2021-10-28
 nofooter: layout.nofooter
 signing: layout.signing
@@ -17,8 +17,9 @@ script: [/static/js/meetings.js]
 
 css: /static/css/meetings.css
 
-nav: meetings
-nav_size: 3
+breadcrumbs:
+    - link: /fr/rencontres/
+      title: Rencontres
 ---
 
-{%- include meetings/listing.markdown -%}
+{%- include meetings/entire.markdown -%}

@@ -6,6 +6,14 @@ details[open] > summary {
     border: 0;
 }
 
+table#entire_table td.title {
+    max-width: 400px;
+}
+
 table#archive_table td.title {
-    max-width: 70px;
+    max-width: 400px;
+}
+
+td.details-control {
+    cursor: pointer
 }

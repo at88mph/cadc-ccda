@@ -5,8 +5,8 @@
 layout: cadc
 lang: en
 title: International Astronomy Meetings
-permalink: /en/meetings/
-altLangPage: /fr/rencontres/
+permalink: /en/meetings/entire/
+altLangPage: /fr/rencontres/entier/
 dateModified: 2021-10-28
 nofooter: layout.nofooter
 signing: layout.signing
@@ -17,8 +17,9 @@ script: [/static/js/meetings.js]
 
 css: /static/css/meetings.css
 
-nav: meetings
-nav_size: 3
+breadcrumbs:
+    - link: /en/meetings/
+      title: Meetings
 ---
 
-{%- include meetings/listing.markdown -%}
+{%- include meetings/entire.markdown -%}

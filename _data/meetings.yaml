@@ -38,6 +38,7 @@ en:
     this_year: This Year
     next_year: Next Year
     archive_year: Go to year
+    new: New
     edit: Edit
     edit_url: /en/meetings/update/
     contact_label: Contact
@@ -103,6 +104,7 @@ fr:
     this_year: Cette année
     next_year: L'année prochaine
     archive_year: Visitez année
+    new: Nouveau
     edit: Mise-à-jour
     edit_url: /fr/rencontres/mise-a-jour/
     contact_label: Contacte

@@ -4,7 +4,7 @@
 
 layout: layout-splashpage
 title: Canadian Astronomy Data Centre
-dateModified: 2021-10-15
+dateModified: 2021-10-28
 
 images:
   - /static/images/orion-bg.jpg
@@ -16,6 +16,7 @@ images:
   - /static/images/ngc7822-bg.jpg
   - /static/images/ngc289selby-bg.jpg
   - /static/images/sh2-308ns-bg.jpg
+  - /static/images/ngc404-bg.jpg
 ---
 
 <div class="row">
