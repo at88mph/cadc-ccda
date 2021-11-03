@@ -5,7 +5,7 @@
     <div class="panel-body small">
         <h3 class="title mrgn-tp-sm"></h3>
         <div>
-            <span class="start date"></span>&nbsp;-&nbsp;<span class="end date"></span>
+            <time class="start date" datetime=""></time>&nbsp;-&nbsp;<span class="end date"></span>
         </div>
         <details class="col-sm-9 col-md-9">
             <summary>{{ i18n-labels.details }}</summary>

@@ -33,6 +33,10 @@
                     const $dateLabel = $(this)
                     const dateText = $dateLabel.text()
                     
+                    if ($dateLabel.is('time')) {
+                        $dateLabel.attr('datetime', dateText)
+                    }
+                    
                     if (dateText) {
                         const d = new Date(dateText)
             
@@ -118,7 +122,7 @@
                 const startParts = [dayNames[lang][startDate.getUTCDay()] + ',', startDate.getUTCDate(), monthNames[lang][startDate.getUTCMonth()], startDate.getUTCFullYear()]
                 const endParts = [dayNames[lang][endDate.getUTCDay()] + ',', endDate.getUTCDate(), monthNames[lang][endDate.getUTCMonth()], endDate.getUTCFullYear()]
                 
-                meeting.dateRange = startParts.join(' ') + ' - ' + endParts.join(' ')
+                meeting.dateRange = `<time datetime="${startDateStr}">${startParts.join(' ')}</time> - ${endParts.join(' ')}`
             }
         }
 

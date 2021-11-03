@@ -17,6 +17,7 @@ images:
   - /static/images/ngc289selby-bg.jpg
   - /static/images/sh2-308ns-bg.jpg
   - /static/images/ngc404-bg.jpg
+  - /static/images/horse-head-flame-bg.jpg
 ---
 
 <div class="row">
