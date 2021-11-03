@@ -3,7 +3,7 @@
 
 {%- assign dynamic_data_host = "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca" -%}
 
-<div class="col-md-12">
+<div class="full-width">
 	<div id="dao_stats" class="col-sm-12 panel panel-default"></div>
 	<div class="col-sm-12 panel panel-default">
 		<div class="col-sm-6 panel-body brdr-rght">

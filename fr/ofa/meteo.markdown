@@ -1,9 +1,9 @@
 ---
 layout: cadc
-lang: en
-permalink: /en/dao/weather
-title: DAO Current Weather
-altLangPage: /fr/ofa/meteo
+lang: fr
+permalink: /fr/ofa/meteo
+title: Météo actuelle
+altLangPage: /en/dao/weather
 headerimage: /static/images/dao.jpg
 dateModified: 2021-11-03
 nofooter: layout.nofooter
@@ -13,8 +13,8 @@ nositesearch: layout.nositesearch
 nav: dao
 
 breadcrumbs:
-    - link: /en/dao/
-      title: DAO
+    - link: /fr/ofa/
+      title: OFA
 ---
 
 {%- include dao/weather.markdown -%}
