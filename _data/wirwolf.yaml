@@ -1,0 +1,73 @@
+en:
+  nav:
+    - links:
+        - name: Image search
+          url: /en/search/?collection=CFHTWIRWOLF&noexec=true
+        - name: WIRCam graphical search tool
+          url: /en/wirwolf/access/graph.html
+    - links:
+        - name: Data description
+          url: /en/wirwolf/docs/desc.html
+        - name: Stacking Procedure
+          url: /en/wirwolf/docs/proc.html
+        - name: Checks on astrometry
+          url: /en/wirwolf/docs/astro.html
+        - name: Checks on photometry
+          url: /en/wirwolf/docs/photo.html
+        - name: Checks on depth
+          url: /en/wirwolf/docs/depthprof.html
+        - name: WIRCam filters
+          url: /en/wirwolf/docs/filt.html
+    - links:
+        - name: CFHT archive
+          url: /en/cfht/
+        - name: MegaPipe image stacking pipeline
+          url: /en/megapipe/
+    - links:
+        - name: CFHT
+          url: http://www.cfht.hawaii.edu/
+        - name: WIRCam
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/
+        - name: "'I'wi pre-processing"
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/IiwiVersion1Doc.html
+        - name: SEXtractor
+          url: http://www.astromatic.net/software/sextractor
+        - name: SWarp
+          url: http://www.astromatic.net/software/swarp
+
+fr:
+  nav:
+    - links:
+        - name: Recherche d'images
+          url: /fr/recherche/?collection=CFHTWIRWOLF&noexec=true
+        - name: Outil de recherche graphique WIRCam
+          url: /fr/wirwolf/access/graph.html
+    - links:
+        - name: Description des données
+          url: /fr/wirwolf/docs/desc.html
+        - name: Procédure de coadditionment
+          url: /fr/wirwolf/docs/proc.html
+        - name: Vérifications de l'astrométrie
+          url: /fr/wirwolf/docs/astro.html
+        - name: Vérifications de photométrie
+          url: /fr/wirwolf/docs/photo.html
+        - name: Vérifications de profondeur
+          url: /fr/wirwolf/docs/depthprof.html
+        - name: Filtres de WIRCam
+          url: /fr/wirwolf/docs/filt.html
+    - links:
+        - name: Archive TCFH
+          url: /fr/cfht/
+        - name: Système de traitement d'images MegaPipe
+          url: /fr/megapipe/
+    - links:
+        - name: TCFH - anglais seulement
+          url: http://www.cfht.hawaii.edu/
+        - name: WIRCam - anglais seulement
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/
+        - name: "Pré-traitement 'I'wi - anglais seulement"
+          url: http://www.cfht.hawaii.edu/Instruments/Imaging/WIRCam/IiwiVersion1Doc.html
+        - name: SEXtractor - anglais seulement
+          url: http://www.astromatic.net/software/sextractor
+        - name: SWarp - anglais seulement
+          url: http://www.astromatic.net/software/swarp

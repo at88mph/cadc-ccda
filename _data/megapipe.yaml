@@ -1,0 +1,131 @@
+en:
+  nav:
+    - links:
+        - name: Search for MegaPipe data
+          url: /en/search/?collection=CFHTMEGAPIPE&noexec=true
+        - name: Image cutout service
+          url: /en/megapipe/access/cut.html
+        - name: MegaCam graphical search tool
+          url: /en/megapipe/access/graph.html
+    - links:
+        - name: Introductory documentation
+          url: /en/megapipe/docs/intro.html
+        - name: Data description tool
+          url: /en/megapipe/docs/desc.html
+        - name: Stacking Procedure
+          url: /en/megapipe/docs/proc.html
+        - name: Checks on astrometry
+          url: /en/megapipe/docs/astro.html
+        - name: Checks on photometry
+          url: /en/megapipe/docs/photo.html
+        - name: Caveats
+          url: /en/megapipe/docs/caveats.html
+        - name: The MegaCam ugriz filter set
+          url: /en/megapipe/docs/filt.html
+    - links:
+        - name: CFHTLS-MegaPipe Introduction
+          url: /en/megapipe/cfhtls/index.html
+        - name: CFHTLS D1
+          url: /en/megapipe/cfhtls/scrollD1.html
+        - name: CFHTLS D2
+          url: /en/megapipe/cfhtls/scrollD2.html
+        - name: CFHTLS D3
+          url: /en/megapipe/cfhtls/scrollD3.html
+        - name: CFHTLS D4
+          url: /en/megapipe/cfhtls/scrollD4.html
+        - name: Unified catalogues
+          url: /en/megapipe/cfhtls/uc.html
+        - name: Catalogue queries
+          url: /en/megapipe/cfhtls/cq.html
+        - name: Queue run images and catalogues
+          url: /en/megapipe/cfhtls/queue.html
+        - name: Deep Field stellar photometric timeseries
+          url: /en/megapipe/cfhtls/dfspt.html
+        - name: Point Spread Functions
+          url: /en/megapipe/cfhtls/psf.html
+        - name: Input images and limiting magnitudes
+          url: /en/megapipe/cfhtls/input.html
+        - name: Data at other wavelenghts
+          url: /en/megapipe/cfhtls/cov.html
+    - links:
+        - name: CFHT archive
+          url: /en/cfht/
+        - name: WIRwolf image stacking pipeline
+          url: /en/wirwolf/
+    - links:
+        - name: MegaPipe Paper
+          url: http://adsabs.harvard.edu/abs/2008PASP..120..212G
+        - name: CFHT
+          url: https://www.cfht.hawaii.edu/
+        - name: Elixir pre-processing
+          url: https://www.cfht.hawaii.edu/Instruments/Elixir/
+        - name: SExtractor
+          url: https://www.astromatic.net/software/sextractor
+        - name: SWarp
+          url: https://www.astromatic.net/software/swarp
+
+fr:
+  nav:
+    - links:
+        - name: Recherche de données MegaPipe
+          url: /fr/recherche/?collection=CFHTMEGAPIPE&noexec=true
+        - name: Service de découpment d'images
+          url: /fr/megapipe/access/cut.html
+        - name: Outil de recherche graphique MegaCam
+          url: /fr/megapipe/access/graph.html
+    - links:
+        - name: Documentation d'introduction
+          url: /fr/megapipe/docs/intro.html
+        - name: Description des données
+          url: /fr/megapipe/docs/desc.html
+        - name: Procédure de coadditionment
+          url: /fr/megapipe/docs/proc.html
+        - name: Vérifications de l'astrométrie
+          url: /fr/megapipe/docs/astro.html
+        - name: Vérifications de la photométrie
+          url: /fr/megapipe/docs/photo.html
+        - name: Mises en garde
+          url: /fr/megapipe/docs/caveats.html
+        - name: Les filtres ugriz de MegaCam
+          url: /fr/megapipe/docs/filt.html
+    - links:
+        - name: Introduction au CFHTLS-MegaPipe
+          url: /fr/megapipe/cfhtls/index.html
+        - name: CFHTLS D1
+          url: /fr/megapipe/cfhtls/scrollD1.html
+        - name: CFHTLS D2
+          url: /fr/megapipe/cfhtls/scrollD2.html
+        - name: CFHTLS D3
+          url: /fr/megapipe/cfhtls/scrollD3.html
+        - name: CFHTLS D4
+          url: /fr/megapipe/cfhtls/scrollD4.html
+        - name: Catalogues Unifiés
+          url: /fr/megapipe/cfhtls/uc.html
+        - name: Recheche des catalogues
+          url: /fr/megapipe/cfhtls/cq.html
+        - name: Images et catalogues par séquence
+          url: /fr/megapipe/cfhtls/queue.html
+        - name: Séries chronologiques stellaires des Champs Profonds
+          url: /fr/megapipe/cfhtls/dfspt.html
+        - name: Fonctions d'étalement du point
+          url: /fr/megapipe/cfhtls/psf.html
+        - name: Images d'entrée et magnitudes limites
+          url: /fr/megapipe/cfhtls/input.html
+        - name: Données à d'autres longueurs d'onde
+          url: /fr/megapipe/cfhtls/cov.html
+    - links:
+        - name: Archive TCFH
+          url: /fr/tcfh/
+        - name: Système de traitement d'images WIRwolf
+          url: /fr/wirwolf/
+    - links:
+        - name: Article MegaPipe - anglais seulement
+          url: http://adsabs.harvard.edu/abs/2008PASP..120..212G
+        - name: TCFH - anglais seulement
+          url: https://www.cfht.hawaii.edu/
+        - name: Pré-traitement Elixir - anglais seulement
+          url: https://www.cfht.hawaii.edu/Instruments/Elixir/
+        - name: SExtractor - anglais seulement
+          url: https://www.astromatic.net/software/sextractor
+        - name: SWarp - anglais seulement
+          url: https://www.astromatic.net/software/swarp
