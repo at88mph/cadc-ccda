@@ -7,19 +7,19 @@ en:
           url: /en/search/?collection=DAOPLATES&noexec=true
     - links:
         - name: Airmass Calculator
-          url: /cadcbin/en/dao/airmass.pl
+          url: /en/dao/airmass
         - name: Sky Calendar
-          url: /cadcbin/en/dao/skycal.pl
+          url: /en/dao/skycal
         - name: Robotic Observing
-          url: /cadcbin/en/dao/robotic.pl
+          url: /en/dao/robotic
         - name: Current Telescope Status
           url: /en/dao/status.html
         - name: Current Weather
           url: /en/dao/weather.html
         - name: DAO Publications
-          url: /cadcbin/en/dao/publications.pl
+          url: /en/dao/publications
         - name: Telescope Schedules
-          url: /cadcbin/en/dao/schedule.pl
+          url: /en/dao/schedule
     - links:
         - name: Credits and Acknowledgements
           url: /en/dao/credits.html
@@ -32,19 +32,19 @@ fr:
         url: /fr/recherche/?collection=DAOPLATES&noexec=true
     - links:
         - name: Calculateur de la masse d'air
-          url: /cadcbin/fr/ofa/airmass.pl
+          url: /fr/ofa/airmass
         - name: Calendrier astronomique
-          url: /cadcbin/fr/ofa/skycal.pl
+          url: /fr/ofa/skycal
         - name: Observation automatisé
-          url: /cadcbin/fr/ofa/robotic.pl
+          url: /fr/ofa/robotic
         - name: État actuel du télescope
           url: /fr/ofa/etat.html
         - name: Météo actuelle
           url: /fr/ofa/meteo.html
         - name: Publications de l'OFA
-          url: /cadcbin/fr/ofa/publications.pl
+          url: /fr/ofa/publications
         - name: Horaires des télescopes
-          url: /cadcbin/fr/ofa/horaire.pl
+          url: /fr/ofa/horaire
     - links:
         - name: Crédits and remerciements
           url: /fr/ofa/credits.html

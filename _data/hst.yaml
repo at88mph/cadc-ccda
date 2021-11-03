@@ -7,7 +7,7 @@ en:
         - name: HST Instrument Handbook and Filenames
           url: /en/hst/filenames.html
         - name: Some HST filters information
-          url: https://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
+          url: http://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
     - links:
         - name: HST Archive at STScI (USA)
           url: https://archive.stsci.edu/
@@ -22,7 +22,7 @@ fr:
         - name: Manuels et nom de fichiers des instruments
           url: /fr/hst/fichiers.html
         - name: Information sur quelques filtres - anglais seulement
-          url: https://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
+          url: http://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
     - links:
         - name: Archive HST au STScI (USA) - anglais seulement
           url: https://archive.stsci.edu/

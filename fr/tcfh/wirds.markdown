@@ -39,6 +39,7 @@ fichier qui contient des informations sur les images et les catalogues disponibl
 <p>
 Le document d&eacute;crivant l'ensemble de donn&eacute;es et leur traitement a &eacute;t&eacute; 
 soumis &agrave; une revue et est disponible &agrave; 
+
 <a rel="external" href="http://arxiv.org/abs/1111.6997" class="ui-link"> 
 Bielby et al. 2012</a>
 </p>
