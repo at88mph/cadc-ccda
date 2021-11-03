@@ -3,18 +3,20 @@
  * general WET-4 API can't handle.
  * jenkinsd 2021.09.22
  */
- (function( $, document) {
-    $(document).on( 'wb-contentupdated', function(event) {
+(function($, document) {
+    $(document).on('wb-contentupdated', function(event) {
         const $target = $(event.target)
-        // console.log(`Target is ${JSON.stringify($target)}`)
+            // console.log(`Target is ${JSON.stringify($target)}`)
         if ($target.is('ul.meetings')) {
             const monthNames = {
                 'en': ['January', 'February', 'March', 'April', 'May', 'June',
-                       'July', 'August', 'September', 'October', 'November', 
-                       'December'],
+                    'July', 'August', 'September', 'October', 'November',
+                    'December'
+                ],
                 'fr': ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
-                       'juillette', 'août', 'septembre', 'octobre', 'novembre', 
-                       'décembre']
+                    'juillette', 'août', 'septembre', 'octobre', 'novembre',
+                    'décembre'
+                ]
             }
 
             const dayNames = {
@@ -32,20 +34,20 @@
                 $me.find('.date').each(function() {
                     const $dateLabel = $(this)
                     const dateText = $dateLabel.text()
-                    
+
                     if ($dateLabel.is('time')) {
                         $dateLabel.attr('datetime', dateText)
                     }
-                    
+
                     if (dateText) {
                         const d = new Date(dateText)
-            
+
                         // e.g. Friday, 25 November 1977
                         const parts = [dayNames[lang][d.getUTCDay()] + ',', d.getUTCDate(), monthNames[lang][d.getUTCMonth()], d.getUTCFullYear()]
                         $dateLabel.text(parts.join(' '))
                     }
                 })
-            
+
                 $me.find('a.web').each(function() {
                     const $link = $(this)
                     $link.prop('href', $link.text())
@@ -68,7 +70,7 @@
         if ($editForm && $editForm.length > 0) {
             if (window.location.hash) {
                 const meetingID = window.location.hash.substring(1)
-                const managed_json = {"url": `/meetings/meetings/${meetingID}`, "name": "meeting"}
+                const managed_json = { "url": `/meetings/meetings/${meetingID}`, "name": "meeting" }
                 $editForm.attr('data-wb-jsonmanager', JSON.stringify(managed_json))
                 const $header = $('h1#wb-cont')
                 $header.text(`${$header.text()} (${meetingID})`)
@@ -81,14 +83,16 @@
     })
 
     // Initialize the Archive table links
-    $(document).on( "xhr.dt", ".entire-table", function( event, settings, json, xhr ) {
+    $(document).on("xhr.dt", ".entire-table", function(event, settings, json, xhr) {
         const monthNames = {
             'en': ['January', 'February', 'March', 'April', 'May', 'June',
-                   'July', 'August', 'September', 'October', 'November', 
-                   'December'],
+                'July', 'August', 'September', 'October', 'November',
+                'December'
+            ],
             'fr': ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
-                   'juillette', 'août', 'septembre', 'octobre', 'novembre', 
-                   'décembre']
+                'juillette', 'août', 'septembre', 'octobre', 'novembre',
+                'décembre'
+            ]
         }
 
         const dayNames = {
@@ -117,11 +121,11 @@
             if (startDateStr && endDateStr) {
                 const startDate = new Date(startDateStr)
                 const endDate = new Date(endDateStr)
-            
+
                 // e.g. Friday, 25 November 1977
                 const startParts = [dayNames[lang][startDate.getUTCDay()] + ',', startDate.getUTCDate(), monthNames[lang][startDate.getUTCMonth()], startDate.getUTCFullYear()]
                 const endParts = [dayNames[lang][endDate.getUTCDay()] + ',', endDate.getUTCDate(), monthNames[lang][endDate.getUTCMonth()], endDate.getUTCFullYear()]
-                
+
                 meeting.dateRange = `<time datetime="${startDateStr}">${startParts.join(' ')}</time> - ${endParts.join(' ')}`
             }
         }
@@ -132,7 +136,7 @@
     $(document).on("wb-ready.wb-tables", ".wb-tables", function(event) {
         const formatExtraData = function(meeting) {
             let formattedData = '<div class="well">'
-        
+
             if (meeting.web1 || meeting.web2) {
                 if (meeting.web1) {
                     formattedData += `<a target="_blank" rel="external" class="web web1" href="${meeting.web1}">${meeting.web1}</a>`
@@ -143,9 +147,9 @@
                 }
             }
 
-            formattedData += '<dl class="mrgn-tp-lg">'
-                             + '  <dt class="contact-label hide"></dt>'
-                             + `  <dd class="contact"><span class="glyphicon glyphicon-user"></span>&nbsp;<span class="h4">${meeting.contact}</span>&nbsp;(<a href="mailto:${meeting.email}"><span class="glyphicon glyphicon-envelope"></span>&nbsp;${meeting.email}</a>)`
+            formattedData += '<dl class="mrgn-tp-lg">' +
+                '  <dt class="contact-label hide"></dt>' +
+                `  <dd class="contact"><span class="glyphicon glyphicon-user"></span>&nbsp;<span class="h4">${meeting.contact}</span>&nbsp;(<a href="mailto:${meeting.email}"><span class="glyphicon glyphicon-envelope"></span>&nbsp;${meeting.email}</a>)`
 
             if (meeting.phone && meeting.phone.trim() !== '') {
                 formattedData += `&nbsp;<a href="tel:${meeting.phone}"><span class="glyphicon glyphicon-earphone"></span>&nbsp;${meeting.phone}</a>`
@@ -158,29 +162,30 @@
                 locationString += ' - ' + meeting.address
             }
 
-            formattedData += '  <dt class="address-label hide"></dt>'
-                             + `  <dd class="address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;${locationString}</dd>`
-                             + '  <dt class="proceedings-label hide"></dt>'
-                             + `  <dd class="proceedings">${meeting.bibCode}</dd>`
+            formattedData += '  <dt class="address-label hide"></dt>' +
+                `  <dd class="address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;${locationString}</dd>` +
+                '  <dt class="proceedings-label hide"></dt>' +
+                `  <dd class="proceedings">${meeting.bibCode}</dd>`
 
             if (meeting.keywords && meeting.keywords.trim() !== '') {
-                formattedData += '  <dt class="keywords-label hide"></dt>'
-                                 + `  <dd class="keywords"><pre><code>${meeting.keywords}</code></pre></dd>`
+                formattedData += '  <dt class="keywords-label hide"></dt>' +
+                    `  <dd class="keywords"><pre><code>${meeting.keywords}</code></pre></dd>`
             }
-            
-            + '</dl>'
-            + '</div>'
+
+            +
+            '</dl>' +
+            '</div>'
 
             return formattedData
-        }       
+        }
 
         const table = $(this).DataTable()
-        
-        $('table.entire-table tbody').on('click', 'td.details-control', function () {
+
+        $('table.entire-table tbody').on('click', 'td.details-control', function() {
             const $td = $(this)
             const tr = $td.closest('tr');
             const row = table.row(tr);
-    
+
             if (row.child.isShown()) {
                 // This row is already open - close it
                 row.child.hide();
@@ -194,4 +199,4 @@
             }
         })
     })
-})(jQuery, document); 
+})(jQuery, document)
