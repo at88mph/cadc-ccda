@@ -3,9 +3,9 @@ layout: cadc
 lang: en
 permalink: /en/dao/schedule
 title: DAO Telescope Schedules
-altLangPage: /fr/ofa/schedule
+altLangPage: /fr/ofa/horaire
 headerimage: /static/images/dao.jpg
-dateModified: 2021-11-03
+dateModified: 2021-11-04
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch

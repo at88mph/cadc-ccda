@@ -13,6 +13,20 @@ en:
     signin_submit: Sign In
     register_submit: Send request
     reset: Clear
+    dates:
+      months:
+        - January
+        - February
+        - March
+        - April
+        - May
+        - June
+        - July
+        - August
+        - September
+        - October
+        - November
+        - December
 fr:
   signin:
     url: /fr/connexion
@@ -28,3 +42,17 @@ fr:
     signin_submit: Connexion
     register_submit: Soumettre la demande
     reset: Effacer
+    dates:
+      months:
+        - janvier
+        - fevrier
+        - mars
+        - avril
+        - mai
+        - juin
+        - juillet
+        - août
+        - septembre
+        - octobre
+        - novembre
+        - décembre

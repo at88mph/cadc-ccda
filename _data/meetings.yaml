@@ -50,20 +50,6 @@ en:
     create_message_failure: Failed to create meeting.
     update_message_success: Meeting updated.
     update_message_failure: Failed to update meeting.
-    dates:
-      months:
-        - January
-        - February
-        - March
-        - April
-        - May
-        - June
-        - July
-        - August
-        - September
-        - October
-        - November
-        - December
 fr:
   nav:
     - links:
@@ -116,17 +102,3 @@ fr:
     create_message_failure: Erreur pendant la création.
     update_message_success: Rencontre mise-à-jour.
     update_message_failure: Erreur pendant la mise-à-jour.
-    dates:
-      months:
-        - janvier
-        - fevrier
-        - mars
-        - avril
-        - mai
-        - juin
-        - juillet
-        - août
-        - septembre
-        - octobre
-        - novembre
-        - décembre

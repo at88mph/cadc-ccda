@@ -1,10 +1,11 @@
 {%- include variable-core.liquid -%}
 {%- assign i18n-labels=site.data.meetings[i18nText-lang]['labels'] -%}
+{%- assign i18n-labels-cadc=site.data.cadc[i18nText-lang]['labels'] -%}
 {%- assign current_year='now' | date: "%Y" | to_integer -%}
 {%- assign current_month_index='now' | date: "%-m" | minus: 1 -%}
 {%- assign next_month_index=current_month_index | plus: 1 -%}
-{%- assign current_month_name=i18n-labels.dates.months[current_month_index] -%}
-{%- assign next_month_name=i18n-labels.dates.months[next_month_index] -%}
+{%- assign current_month_name=i18n-labels-cadc.dates.months[current_month_index] -%}
+{%- assign next_month_name=i18n-labels-cadc.dates.months[next_month_index] -%}
 
 <div class="wb-tabs">
         <div class="tabpanels">

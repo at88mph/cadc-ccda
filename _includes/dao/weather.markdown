@@ -6,7 +6,7 @@
 <div class="full-width">
 	<div class="col-sm-12 panel panel-default">
 		<div class="col-sm-6 panel-body brdr-rght">
-            <a href="http://weather.gc.ca/city/pages/bc-85_metric_e.html">Environment Canada forecast for Victoria</a><br><br>
+            <a href="http://weather.gc.ca/city/pages/bc-85_metric_e.html">{{ i18n-labels.env_can_weather }}</a><br><br>
 		</div>
 		<div class="col-sm-6 panel-body brdr-lft">
 			<p class="h3">{{ i18n-labels.sky_clock }}</p>

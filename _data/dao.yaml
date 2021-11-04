@@ -24,6 +24,14 @@ en:
         - name: Credits and Acknowledgements
           url: /en/dao/credits.html
   labels:
+    search_publications: Search Publications
+    by_year: By Year
+    by_last_name_year: By Last Name & Year
+    last_name: Last Name
+    by_theses: View Theses
+    theses_link: View DAO-based Theses
+    select_year: Year
+    env_can_weather: Environment Canada forecast for Victoria
     sky_clock: DAO Clear Sky Clock
     sky_camera: DAO Sky Camera
     ir_sat_image: IR Satellite Image
@@ -58,6 +66,14 @@ fr:
         - name: Crédits and remerciements
           url: /fr/ofa/credits.html
   labels:
+    search_publications: Rechercher les publications
+    by_year: Par année
+    by_last_name_year: Par surnom et année
+    last_name: Surnom
+    by_theses: Voir les thèses
+    theses_link: Liste des thèses basées sur des ovations de l’OFA
+    select_year: Année
+    env_can_weather: Prévision météorologique d’environnement Canada pour Victoria
     sky_clock: Carte du ciel clair
     sky_camera: Caméra pour le ciel du site de l'OFA
     ir_sat_image: Image satellite infrarouge

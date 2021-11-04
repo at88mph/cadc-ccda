@@ -1,11 +1,11 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/ofa/schedule
+permalink: /fr/ofa/horaire
 title: Archives scientifiques et outils de l’OFA
 altLangPage: /en/dao/weather
 headerimage: /static/images/dao.jpg
-dateModified: 2021-10-26
+dateModified: 2021-11-04
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
