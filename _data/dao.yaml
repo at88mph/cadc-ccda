@@ -26,6 +26,9 @@ en:
   labels:
     search_publications: Search Publications
     airmass_submit_button: Get Coordinates
+    robotic_target_list: File Containing Target List
+    robotic_obs_run_date: Observing Run Date (PST)
+    continue: Continue
     by_year: By Year
     year: Year
     start_month: Start Month
@@ -79,6 +82,9 @@ fr:
   labels:
     search_publications: Rechercher les publications
     airmass_submit_button: Obtenir coordonnées
+    robotic_target_list: Fichier contenant la liste cible
+    robotic_obs_run_date: Date et heure des observations (HSP)
+    continue: Continuer
     by_year: Par année
     year: Année
     start_month: Mois de début
