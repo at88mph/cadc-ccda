@@ -12,7 +12,7 @@ nositesearch: layout.nositesearch
 
 nav: dao
 
-script: [/static/js/dao.js]
+script: [/static/js/dao/status.js]
 
 breadcrumbs:
     - link: /en/dao/

@@ -35,6 +35,11 @@ en:
     sky_clock: DAO Clear Sky Clock
     sky_camera: DAO Sky Camera
     ir_sat_image: IR Satellite Image
+    schedule_pi_name: PI
+    schedule_pi_name_observer: Observer
+    schedule_program: Program
+    schedule_detector: Detector
+    this_week: This Week
     1_2_dome: 1.2-m Telescope Dome Camera
     1_8_dome: 1.8-m Telescope Dome Camera
     1_2_guide: 1.2-m Guide Camera
@@ -77,6 +82,11 @@ fr:
     sky_clock: Carte du ciel clair
     sky_camera: Caméra pour le ciel du site de l'OFA
     ir_sat_image: Image satellite infrarouge
+    schedule_pi_name: Chercheur
+    schedule_pi_name_observer: Observateur
+    schedule_program: Prog.
+    schedule_detector: Dét.
+    this_week: Cette semaine
     1_2_dome: Caméra du dome du télescope de 1,2m
     1_8_dome: Caméra du dome du télescope de 1,8m
     1_2_guide: Caméra de guidage pour le télescope de 1,2m

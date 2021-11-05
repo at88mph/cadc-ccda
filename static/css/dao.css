@@ -1,0 +1,8 @@
+.wb-calevt ol {
+    overflow-y: scroll;
+    max-height: 19em;
+}
+
+.wb-calevt-cal {
+    width: auto;
+}
