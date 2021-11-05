@@ -25,7 +25,13 @@ en:
           url: /en/dao/credits.html
   labels:
     search_publications: Search Publications
+    airmass_submit_button: Get Coordinates
     by_year: By Year
+    year: Year
+    start_month: Start Month
+    end_month: End Month
+    month: Month
+    day: Day
     by_last_name_year: By Last Name & Year
     last_name: Last Name
     by_theses: View Theses
@@ -72,7 +78,13 @@ fr:
           url: /fr/ofa/credits.html
   labels:
     search_publications: Rechercher les publications
+    airmass_submit_button: Obtenir coordonnées
     by_year: Par année
+    year: Année
+    start_month: Mois de début
+    end_month: Mois de fin
+    month: Mois
+    day: Jour
     by_last_name_year: Par surnom et année
     last_name: Surnom
     by_theses: Voir les thèses
