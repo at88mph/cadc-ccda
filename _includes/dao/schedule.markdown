@@ -18,6 +18,7 @@
             <th>Instr.<br />{{ i18n-labels.schedule_detector }}</th>
         </tr>
     </thead>
+    <tbody></tbody>
 </table>
 
 {%- comment -%}

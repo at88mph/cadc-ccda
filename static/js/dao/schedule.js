@@ -122,25 +122,24 @@
             return arr
         }
 
-        const populateRowPortion = function($row, piArray, rowData) {
-            const $piCell = $('<td></td>')
-            $piCell.html(matchLastNames(piArray, rowData.pi).join(' / ') + ((rowData.pi !== rowData.observer) ? `<br />(${rowData.observer})` : ''))
-            $row.append($piCell)
+        const rowPortion = function(rowRef, piArray, rowData) {
+            const piCellTextAddendum = ((rowData.pi !== rowData.observer) ? `<br />(${rowData.observer})` : '')
+            const piCell = rowRef.insertCell()
+            piCell.innerHTML = matchLastNames(piArray, rowData.pi).join(' / ') + piCellTextAddendum
 
-            const $programCell = $('<td></td>')
-            $programCell.text(rowData.program)
-            $row.append($programCell)
+            const programCell = rowRef.insertCell()
+            const programCellText = document.createTextNode(rowData.program)
+            programCell.appendChild(programCellText)
 
-            const $instrumentDetectorCell = $('<td></td>')
-            $instrumentDetectorCell.html(`${rowData.instrument}<br />${rowData.detector}`)
-            $row.append($instrumentDetectorCell)
+            const instrumentDetectorCell = rowRef.insertCell()
+            instrumentDetectorCell.innerHTML = `${rowData.instrument}<br />${rowData.detector}`
         }
 
         const populateTable = function(piArray) {
             // Space delimited schedule entries.
             const url_1_2 = '/files/vault/DAO/Schedules/48_schedule.dat'
             const url_1_8 = '/files/vault/DAO/Schedules/72_schedule.dat'
-            const $table = $('table#schedule_table')
+            const tbodyRef = document.getElementById('schedule_table').getElementsByTagName('tbody')[0]
 
             $.ajax(url_1_2).done(function(data1_2) {
                 const arr1_2 = reduceToThisWeeksData(data1_2)
@@ -151,20 +150,16 @@
                     for (let i = 0; i < len; i++) {
                         const rowData1_2 = arr1_2[i]
                         const rowData1_8 = arr1_8[i]
-                        const $row = $('<tr></tr>')
+                        const row = tbodyRef.insertRow()
 
                         if (isToday(rowData1_2.date)) {
-                            $row.addClass('info')
+                            row.classList.add('info')
                         }
 
-                        const $dateCell = $('<td></td>')
-                        $dateCell.append(`<time datetime="${rowData1_2.dateString}">${formatDate(rowData1_2.date)}</time>`)
-                        $row.append($dateCell)
-
-                        populateRowPortion($row, piArray, rowData1_2)
-                        populateRowPortion($row, piArray, rowData1_8)
-
-                        $table.append($row)
+                        const dateCell = row.insertCell()
+                        dateCell.innerHTML = `<time datetime="${rowData1_2.dateString}">${formatDate(rowData1_2.date)}</time>`
+                        rowPortion(row, piArray, rowData1_2)
+                        rowPortion(row, piArray, rowData1_8)
                     }
                 })
             })
@@ -192,42 +187,51 @@
 
         // HTML Table
         const url_complete = `/files/vault/DAO/Schedules/schedules_${pageLang}.html`
-        console.log(`GETting ${url_complete}`)
         $.ajax(url_complete).done(function(htmlTableData) {
-            const $htmlData = $(htmlTableData)
-            const $targetTable = $('table#complete_schedule_table')
+            const htmlDataContainer = document.createElement('div')
+            htmlDataContainer.innerHTML = htmlTableData
+
+            const htmlData = htmlDataContainer.getElementsByTagName('table')[0]
+            const targetTableRef = document.getElementById('complete_schedule_table')
 
             // This is a little fickle as it could change, but finding an h4 tag was
             // not possible.
-            const caption = $htmlData.first()
-            $targetTable.append(`<caption>${caption.html()}</caption>`)
+            const caption = htmlDataContainer.getElementsByTagName('h4')[0]
+            const targetCaption = targetTableRef.createCaption()
+            targetCaption.innerHTML = caption.innerHTML
 
             // The table element is the top element, so find the 'tbody'
-            const $completeTableData = $htmlData.find('tbody')
+            const completeTableData = htmlData.getElementsByTagName('tbody')[0]
+            const targetTableTBodyRef = targetTableRef.createTBody()
 
-            const $headerRow = $completeTableData.find('tr:first-child')
-            const $thead = $('<thead></thead>')
+            const headerRowRef = completeTableData.firstChild
+            const thead = targetTableRef.createTHead()
+            const theadRow = thead.insertRow()
+            const headerRowHeaderRefs = headerRowRef.getElementsByTagName('th')
+            const headerRowHeaderRefLength = headerRowHeaderRefs.length
 
-            $headerRow.find('th').each(function() {
-                $thead.append(`<th>${$(this).html()}</th>`)
-            })
-
-            $targetTable.append($thead)
+            for (let i = 0; i < headerRowHeaderRefLength; i++) {
+                const thRef = document.createElement('th')
+                thRef.innerHTML = headerRowHeaderRefs[i].innerHTML
+                theadRow.appendChild(thRef)
+            }
 
             // Skip over the header row
-            $completeTableData.children('tr').slice(1).each(function() {
-                const $nextRow = $(this)
-                const $newRow = $('<tr></tr>')
+            const completeTableDataRows = Array.prototype.slice.call(completeTableData.getElementsByTagName('tr'), 1)
+            const completeTableDataRowsLength = completeTableDataRows.length
+            for (let i = 0; i < completeTableDataRowsLength; i++) {
+                const nextRow = completeTableDataRows[i]
+                const newRow = targetTableTBodyRef.insertRow()
+                const nextRowCells = nextRow.getElementsByTagName('td')
+                const nextRowCellsLength = nextRowCells.length
 
-                $nextRow.children('td').each(function() {
-                    const $currCell = $(this)
-                    const $newCell = $(`<td>${$currCell.html()}</td>`)
-                    $newCell.attr('rowspan', $currCell.attr('rowspan'))
-                    $newRow.append($newCell)
-                })
-
-                $targetTable.append($newRow)
-            })
+                for (let c = 0; c < nextRowCellsLength; c++) {
+                    const currCell = nextRowCells[c]
+                    const newCell = newRow.insertCell()
+                    newCell.innerHTML = currCell.innerHTML
+                    newCell.rowSpan = currCell.rowSpan
+                }
+            }
         })
     })
 })(jQuery, document)
