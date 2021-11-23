@@ -1,9 +1,9 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/dao/airmass
+permalink: /en/dao/airmass.html
 title: DAO Airmass Calculator
-altLangPage: /fr/ofa/masse-air
+altLangPage: /fr/ofa/masse-air.html
 headerimage: /static/images/dao.jpg
 dateModified: 2021-11-05
 nofooter: layout.nofooter

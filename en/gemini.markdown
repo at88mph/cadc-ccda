@@ -5,7 +5,7 @@ permalink: /en/gemini/
 title: Gemini Science Archive
 altLangPage: /fr/gemini/
 headerimage: /static/images/gemini.jpg
-dateModified: 2021-09-24
+dateModified: 2021-11-22
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch

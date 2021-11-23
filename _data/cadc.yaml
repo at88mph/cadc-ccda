@@ -13,6 +13,7 @@ en:
     signin_submit: Sign In
     register_submit: Send request
     reset: Clear
+    report_problem_link_text: Report a problem on this page
     dates:
       months:
         - January
@@ -42,6 +43,7 @@ fr:
     signin_submit: Connexion
     register_submit: Soumettre la demande
     reset: Effacer
+    report_problem_link_text: Signaler un problème sur cette page
     dates:
       months:
         - janvier

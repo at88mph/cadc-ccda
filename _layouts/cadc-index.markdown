@@ -8,26 +8,6 @@ nositesearch: true
 {%- include variable-core.liquid -%}
 {%- assign i18nText-nav = site.data[page.nav][i18nText-lang]['nav'] -%}
 
-<div class="highlighted mrgn-tp-md">
-    <div class="region region-highlighted">
-        <section id="block-homepagebannerenglish" data-block-plugin-id="block_content:7ee5051c-11db-4619-b6e8-9979c981acea" class="block block-block-content block-block-content7ee5051c-11db-4619-b6e8-9979c981acea clearfix">
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
-                <!-- IMG INTRO -->
-                <div class="row cadc-banner-container row-no-gutters">
-                    <div class="col-md-12">
-                        <div class="container cadc-banner-inner-bg">
-                            <p class="text-white mrgn-bttm-md mrgn-rght-md mrgn-lft-md h1 opct-90">{{ site.title[i18nText-lang] }}</p>
-                            <div class="mrgn-lft-xl mrgn-bttm-md">
-                                <p class="text-white small mrgn-tp-sm mrgn-lft-lg">{{ site.description[i18nText-lang] }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-<!-- END | FIN --> 
-</div>
 <main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
     {%- if site.warning.enabled -%}
     <div class="row">

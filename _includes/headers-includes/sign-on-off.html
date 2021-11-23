@@ -1,17 +1,45 @@
-<section id="wb-so">
-	<h2 class="wb-inv">{{ i18nText-signOnOff }}</h2>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-	{% unless page.signed %}
-				<a href="{{ i18nText-registerPage }}" class="btn btn-default">{{ i18nText-signOnRegister }}</a>
-				<a href="{{ i18nText-signinPage }}" class="btn btn-primary">{{ i18nText-signIn }}</a>
-	{% else %}
-				<p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span>John Doe</span></span></p>
-				<button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
-				<button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button>
-	{% endunless %}
-			</div>
-		</div>
-	</div>
+<style type="text/css">
+    .cadc-banner-container {
+        background-image: url('/static/images/web-banner-bg.gif');
+        background-size: contain;
+        background-position: center;
+        padding: 0 !important;
+    }
+    
+    .cadc-banner-inner-bg {
+        background-image: url('/static/images/web-banner.jpg') !important;
+        background-size: cover !important;
+        background-position: bottom left !important;
+        background-repeat: no-repeat !important;
+    }
+</style>
+
+<section>
+    <h2 class="wb-inv">{{ i18nText-signOnOff }}</h2>
+    <div class="highlighted mrgn-tp-md">
+        <div class="region region-highlighted">
+            <section id="block-homepagebannerenglish" data-block-plugin-id="block_content:7ee5051c-11db-4619-b6e8-9979c981acea" class="block block-block-content block-block-content7ee5051c-11db-4619-b6e8-9979c981acea clearfix">
+                <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
+                    <!-- IMG INTRO -->
+                    <div class="row cadc-banner-container row-no-gutters">
+                        <div class="cadc-banner-inner-bg">
+                            <div class="text-right container" style="padding-top: 10px">
+                                <p class="text-white h3 col-md-4 opct-90">{{ site.title[i18nText-lang] }}</p>
+                                <div class="text-right">
+                                    {% unless page.signed %}
+                                    <button class="btn btn-default" type="button">{{ i18nText-signOnRegister }}</button>
+                                    <button class="btn btn-primary" type="button">{{ i18nText-signIn }}</button> {% else %}
+                                    <p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span>John Doe</span></span>
+                                    </p>
+                                    <button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
+                                    <button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button> {% endunless %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- END | FIN -->
+    </div>
 </section>
