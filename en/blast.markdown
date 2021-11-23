@@ -4,7 +4,7 @@ lang: en
 permalink: /en/blast/
 title: Balloon-borne Large Aperture Submillimeter Telescope (BLAST)
 altLangPage: /fr/blast/
-headerimage: /static/images/blast.jpg
+headerimage: /static/images/archive-info/blast.jpg
 dateModified: 2021-10-14
 nofooter: layout.nofooter
 signing: layout.signing

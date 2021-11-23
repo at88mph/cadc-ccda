@@ -43,6 +43,10 @@ exclude:
 - .jekyll-cache
 - node_modules
 - vendor/
+- terraform/
+- docker-compose*
+- Dockerfile
+- rsync-excludes.txt
 
 # 2. Installed Gems
 
@@ -69,6 +73,7 @@ analytics_adobe: ""
 assets: "https://wet-boew.github.io/themes-dist"
 baseurl: "" # the subpath of your site, e.g. /blog
 # description: >- # this means to ignore newlines until "baseurl:"
+
 description:
   en: "Canadian Astronomy like mum used to make, only better." # English site description and default description
   fr: "L'astronomie canadienne comme maman le faisait, mais en mieux." # French site description and default description
@@ -85,7 +90,6 @@ defaults:
       type: pages
     values:
       layout: cadc
-      share: true
       sitemenu: true
       nositesearch: true
   -
@@ -98,6 +102,8 @@ defaults:
       path: "fr/"
     values:
       lang: "fr"
+
+support_form_submit: mailto:support@canfar.net
 
 title: 
   en: "Canadian Astronomy Data Centre" # Site name or title

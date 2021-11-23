@@ -4,7 +4,7 @@ lang: en
 permalink: /en/jcmt/credits
 title: Credits and Acknowledgements
 altLangPage: /fr/tjcm/credits
-headerimage: /static/images/cfht.jpg
+headerimage: /static/images/archive-info/cfht.jpg
 dateModified: 2021-11-02
 nofooter: layout.nofooter
 signing: layout.signing

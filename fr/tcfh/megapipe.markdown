@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/megapipe
 title: Système de traitement d'images MegaPipe
 altLangPage: /en/megapipe
-headerimage: /static/images/megapipe.jpg
+headerimage: /static/images/archive-info/megapipe.jpg
 dateModified: 2021-10-25
 nofooter: layout.nofooter
 signing: layout.signing

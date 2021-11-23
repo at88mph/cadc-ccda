@@ -4,7 +4,7 @@ lang: en
 permalink: /en/wirwolf/
 title: The WIRwolf image stacking pipeline
 altLangPage: /fr/wirwolf
-headerimage: /static/images/wirwolf.jpg
+headerimage: /static/images/archive-info/wirwolf.jpg
 dateModified: 2021-10-25
 nofooter: layout.nofooter
 signing: layout.signing

@@ -4,7 +4,7 @@ lang: en
 permalink: /en/jcmt/
 title: James Clerk Maxwell Telescope
 altLangPage: /fr/tjcm/
-headerimage: /static/images/jcmt.jpg
+headerimage: /static/images/archive-info/jcmt.jpg
 dateModified: 2021-10-14
 nofooter: layout.nofooter
 signing: layout.signing

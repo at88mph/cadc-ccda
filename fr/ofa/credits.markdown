@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/ofa/credits
 title: Credits and Acknowledgements de l'OFA
 altLangPage: /en/dao/credits
-headerimage: /static/images/dao.jpg
+headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-03
 nofooter: layout.nofooter
 signing: layout.signing

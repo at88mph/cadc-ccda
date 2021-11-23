@@ -2,23 +2,41 @@
 layout: cadc
 lang: en
 permalink: /en/search/
-title: Search
+title: Archive Search
 altLangPage: /fr/recherche/
-dateModified: 2021-07-03
+dateModified: 2021-11-16
+nofooter: layout.nofooter
+signing: layout.signing
+nositesearch: layout.nositesearchs
+
+# Used for post label formatting (dates and links)
+# script: [/static/js/search.js]
+
+breadcrumbs:
+    - link: /en/search/
+      title: Archive Search
 ---
 
-<div class="wb-frmvld nojs-hide wb-init wb-frmvld-inited row">
-    <form action="#" method="get" id="search-form" novalidate="novalidate">
+<div class="wb-frmvld nojs-hide wb-init wb-frmvld-inited container">
+    <form action="#" method="get" class="container small form-horizontal" id="search-form">
         <input type="hidden" name="language" value="en">
-        <div id="input" class="col-sm-12">
-            <div class="form-group">
-                <label for="search" class="hidden"><span class="field-name">Search</span></label>
-                <input id="search" name="search" placeholder="M31" class="form-control" size="55" list="suggestions" />
-                <datalist id="suggestions">
-                    <option label="M13" value="M13"></option>
-                </datalist>
-            </div>
+        <div class="form-group">
+            <label for="collectionQuery" class="control-label"><span class="field-name">Collection</span></label>
+            <input id="collectionQuery" name="collectionQuery" placeholder="DAO" class="form-control" size="30" list="collectionsuggest" />
+            <datalist id="collectionsuggest" data-wb-json='{ "url": "/tap-ui/preset?column=collection", "mapping": [ { "selector": "option", "attr": "value", "value": "" } ] }'>
+                <template>
+                    <option label="" value=""></option>
+                </template>
+            </datalist>
+        </div>
+        <div class="form-group">
+            <label for="instrumentQuery" class="control-label"><span class="field-name">Instrument</span></label>
+            <input id="instrumentQuery" name="instrumentQuery" placeholder="McKellan Spectrograph" class="form-control" size="30" list="instrumentsuggest" />
+            <datalist id="instrumentsuggest" data-wb-json='{ "url": "/tap-ui/preset?column=instrument_name", "mapping": [ { "selector": "option", "attr": "value", "value": "" } ] }'>
+                <template>
+                    <option label="" value=""></option>
+                </template>
+            </datalist>
         </div>
     </form>
-    <div class="arialive wb-inv" aria-live="polite" aria-relevant="all"></di0v>
 </div>

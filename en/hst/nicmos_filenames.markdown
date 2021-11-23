@@ -1,11 +1,11 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/hst/nicmos_filenames
-title: Hubble Space Telescope
-altLangPage: /fr/hst/nicmos_fichiers
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
+permalink: /en/hst/nicmos_filenames.html
+title: HST NICMOS Filenames
+altLangPage: /fr/hst/nicmos_fichiers.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
@@ -20,7 +20,6 @@ breadcrumbs:
 <div class="span-6">
  <h1 id="wb-cont" class="wb-invisible">Hubble Space Telescope NICMOS filenames</h1>
  <h2 class="align-center">NICMOS filenames</h2>
-              
 
 
 <p class="color-attention">Note: The NICMOS files names are all starting with the letter 'N'</p>

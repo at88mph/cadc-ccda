@@ -1,10 +1,12 @@
 en:
   nav:
+    - title: Data 
     - links:
         - name: Search the DAO Science Archive 
           url: /en/search/?collection=DAO&noexec=true
         - name: Search the DAO Spectroscopic Plate Archive
           url: /en/search/?collection=DAOPLATES&noexec=true
+    - title: Applications
     - links:
         - name: Airmass Calculator
           url: /en/dao/airmass.html
@@ -20,6 +22,7 @@ en:
           url: /en/dao/publications.html
         - name: Telescope Schedules
           url: /en/dao/schedule.html
+    - title: Miscellaneous
     - links:
         - name: Credits and Acknowledgements
           url: /en/dao/credits.html

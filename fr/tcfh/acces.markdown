@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/tcfh/acces
 title: Gestion d'accès au donées privées
 altLangPage: /en/cfht/access
-headerimage: /static/images/cfht.jpg
+headerimage: /static/images/archive-info/cfht.jpg
 dateModified: 2021-11-02
 nofooter: layout.nofooter
 signing: layout.signing

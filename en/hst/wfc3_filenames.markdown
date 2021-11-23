@@ -1,11 +1,11 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/hst/wfc3_filenames
-title: Hubble Space Telescope
-altLangPage: /fr/hst/wfc3_fichiers
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
+permalink: /en/hst/wfc3_filenames.html
+title: HST WFC3 Filenames
+altLangPage: /fr/hst/wfc3_fichiers.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
@@ -18,8 +18,8 @@ breadcrumbs:
 ---
 
 <div class="span-6">
-  <h1 id="wb-cont" class="wb-invisible">Hubble Space Telescope WFC3 filenames</h1>
-  <h2 class="align-center">WFC3 filenames</h2>
+   <h1 id="wb-cont" class="wb-invisible">Hubble Space Telescope WFC3 filenames</h1>
+   <h2 class="align-center">WFC3 filenames</h2>
               
 
 <p class="color-attention">Note: The WFC3 files names are all starting with the letter 'I'</p>

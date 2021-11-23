@@ -3,7 +3,7 @@ layout: cadc
 lang: fr
 permalink: /fr/tcfh/
 title:  Télescope Canada France Hawai'i
-headerimage: /static/images/cfht.jpg
+headerimage: /static/images/archive-info/cfht.jpg
 altLangPage: /en/cfht/
 dateModified: 2021-10-25
 nofooter: layout.nofooter

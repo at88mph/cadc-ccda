@@ -1,16 +1,20 @@
 en:
   nav:
+    - title: Data
     - links:
         - name: Search for data
           url: /en/search/?collection=MACHO&noexec=true
+    - title: Miscellaneous
     - links:
         - name: MACHO project
           url: https://macho.nci.org.au/
 fr:
   nav:
+    - title: Données
     - links:
         - name: Recherche de données
           url: /fr/recherche/?collection=MACHO&noexec=true
+    - title: Divers
     - links:
         - name: Le project MACHO - anglais seulement
           url: https://macho.nci.org.au/

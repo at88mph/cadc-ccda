@@ -1,11 +1,11 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/hst/wfpc2_filenames
-title: Hubble Space Telescope
-altLangPage: /fr/hst/wfpc2_fichiers
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
+permalink: /en/hst/wfpc2_filenames.html
+title: HST WFPC2 Filenames
+altLangPage: /fr/hst/wfpc2_fichiers.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch

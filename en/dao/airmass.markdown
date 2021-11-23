@@ -4,7 +4,7 @@ lang: en
 permalink: /en/dao/airmass.html
 title: DAO Airmass Calculator
 altLangPage: /fr/ofa/masse-air.html
-headerimage: /static/images/dao.jpg
+headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-05
 nofooter: layout.nofooter
 signing: layout.signing

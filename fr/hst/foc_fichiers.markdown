@@ -1,11 +1,11 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/hst/foc_fichiers
+permalink: /fr/hst/foc_fichiers.html
 title: Télescope Spatial Hubble
-altLangPage: /fr/hst/foc_filenames
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
+altLangPage: /fr/hst/foc_filenames.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
@@ -13,7 +13,7 @@ nositesearch: layout.nositesearch
 nav: hst
 
 breadcrumbs:
-    - link: /en/hst/
+    - link: /fr/hst/
       title: HST
 ---
 

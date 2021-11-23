@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/ofa/robotic
 title: Observation automitasée de l'OFA
 altLangPage: /en/dao/robotic
-headerimage: /static/images/dao.jpg
+headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-05
 nofooter: layout.nofooter
 signing: layout.signing

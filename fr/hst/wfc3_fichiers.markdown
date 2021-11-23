@@ -1,11 +1,11 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/hst/wfc3_fichiers
-title: Télescope Spatial Hubble
-altLangPage: /fr/hst/wfc3_filenames
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
+permalink: /fr/hst/wfc3_fichiers.html
+title: HST Fichiers WFC3
+altLangPage: /fr/hst/wfc3_filenames.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
 nofooter: layout.nofooter
 signing: layout.signing
 nositesearch: layout.nositesearch
@@ -13,15 +13,13 @@ nositesearch: layout.nositesearch
 nav: hst
 
 breadcrumbs:
-    - link: /en/hst/
+    - link: /fr/hst/
       title: HST
 ---
 
 <div class="span-6">
- <h1 id="wb-cont" class="wb-invisible">Télescope Spatial de Hubble(HST) Fichiers WFC3</h1>
- <h2 class="align-center">Fichiers WFC3</h2>
-              
-
+   <h1 id="wb-cont" class="wb-invisible">Télescope Spatial de Hubble(HST) Fichiers WFC3</h1>
+   <h2 class="align-center">Fichiers WFC3</h2>
 
 <p class="color-attention">Note: Note: Les noms de fichiers WFC3 débutent toujours par la lettre 'I'</p>
 <p class="color-attention">Note: La 9ième lettre du nom de fichier est toujours '0' pour les observations composites</p>
