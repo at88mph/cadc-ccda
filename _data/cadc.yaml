@@ -7,7 +7,7 @@ en:
     url: /en/contact.html
     label: Contact us
   email:
-    url: /en/contact.html#courriel
+    url: /en/contact.html#email
     label: Email
   address:
     url: /en/contact.html#address
