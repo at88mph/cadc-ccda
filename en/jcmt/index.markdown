@@ -6,7 +6,7 @@ title: James Clerk Maxwell Telescope
 altLangPage: /fr/tjcm/
 headerimage: /static/images/archive-info/jcmt.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

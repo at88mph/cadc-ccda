@@ -8,7 +8,7 @@ title: International Astronomy Meetings
 permalink: /en/meetings/this-month/
 altLangPage: /fr/rencontres/ce-mois/
 dateModified: 2021-10-22
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

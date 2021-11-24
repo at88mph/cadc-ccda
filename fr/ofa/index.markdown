@@ -6,7 +6,7 @@ title: l'Observatoire fédéral astrophysique
 headerimage: /static/images/archive-info/dao.jpg
 altLangPage: /en/dao/
 dateModified: 2021-09-20
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

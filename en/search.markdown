@@ -5,7 +5,7 @@ permalink: /en/search/
 title: Archive Search
 altLangPage: /fr/recherche/
 dateModified: 2021-11-16
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearchs
 

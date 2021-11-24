@@ -6,7 +6,7 @@ title: Dominion Radio Astrophysical Observatory
 altLangPage: /fr/ofr/
 headerimage: /static/images/archive-info/drao.jpg
 dateModified: 2021-11-22
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

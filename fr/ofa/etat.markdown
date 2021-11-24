@@ -6,7 +6,7 @@ title: Etat actuel de l’OFA
 altLangPage: /en/dao/status
 headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-10-26
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

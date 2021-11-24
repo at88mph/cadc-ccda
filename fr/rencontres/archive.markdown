@@ -8,7 +8,7 @@ title: Rencontres astronomiques archivées
 permalink: /fr/rencontres/archive/
 altLangPage: /en/meetings/archive/
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

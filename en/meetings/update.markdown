@@ -8,7 +8,7 @@ lang: en
 permalink: /en/meetings/update/
 altLangPage: /fr/rencontres/mise-a-jour/
 dateModified: 2021-10-07
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

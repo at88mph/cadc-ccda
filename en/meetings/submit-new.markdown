@@ -8,7 +8,7 @@ lang: en
 permalink: /en/meetings/submit-new/
 altLangPage: /fr/rencontres/soumire-nouveau/
 dateModified: 2021-10-08
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

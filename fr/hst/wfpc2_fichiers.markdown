@@ -6,7 +6,7 @@ title: HST Fichiers WFPC2
 altLangPage: /fr/hst/wfpc2_filenames.html
 headerimage: /static/images/archive-info/hst.jpg
 dateModified: 2021-11-23
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

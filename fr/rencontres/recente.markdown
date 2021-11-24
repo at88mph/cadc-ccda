@@ -8,7 +8,7 @@ lang: fr
 permalink: /fr/rencontres/recente/
 altLangPage: /en/meetings/recent/
 dateModified: 2021-10-01
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

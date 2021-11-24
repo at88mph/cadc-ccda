@@ -6,7 +6,7 @@ title: Télescope James Clerk Maxwell
 altLangPage: /en/jcmt/
 headerimage: /static/images/archive-info/jcmt.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

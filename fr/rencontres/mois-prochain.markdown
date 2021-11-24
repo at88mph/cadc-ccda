@@ -8,7 +8,7 @@ title: Rencontres internationales en astronomie (le mois prochain)
 permalink: /fr/rencontres/mois-prochain/
 altLangPage: /en/meetings/next-month/
 dateModified: 2021-09-30
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

@@ -6,7 +6,7 @@ title: Explorateur Spectroscopique de l'Ultraviolet Lointain (FUSE)
 altLangPage: /en/fuse/
 headerimage: /static/images/archive-info/fuse.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

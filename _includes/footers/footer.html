@@ -1,0 +1,24 @@
+{%- include variable-core.liquid -%}
+{%- assign i18n=site.data.cadc[i18nText-lang] -%}
+
+<footer id="wb-info">
+    {% unless page.nofooter %}
+        <div class="landscape">
+            <nav class="container wb-navcurr">
+                <h2 class="wb-inv">{{ i18nText-footerAbout }}</h2>
+                <ul class="list-unstyled colcount-sm-2 colcount-md-3 colcount-lg-3">
+                    <li><a href="{{ i18n.contact.url }}">{{ i18n.contact.label }}</a></li>
+                    <li><a href="{{ i18n.email.url }}">{{ i18n.email.label }}</a></li>
+                    <li><a href="{{ i18n.address.url }}">{{ i18n.address.label }}</a></li>
+                    <li><a href="{{ i18n.github.url }}"><span class="fa fa-brands fa-github mrgn-rght-sm"></span>GitHub</a></li>
+                    <li><a href="{{ i18n.twitter.url }}"><span class="fa fa-brands fa-twitter mrgn-rght-sm"></span>Twitter</a></li>
+                    <li><a href="{{ i18n.slack.url }}"><span class="fa fa-brands fa-slack mrgn-rght-sm"></span>Slack</a></li>
+                    <li><a href="{{ i18n.about.url }}">{{ i18n.about.label }}</a></li>
+                    <li><a href="{{ i18n.mandate.url }}">{{ i18n.mandate.label }}</a></li>
+                    <li><a href="{{ i18n.acknowledgements.url }}">{{ i18n.acknowledgements.label }}</a></li>
+                </ul>
+            </nav>
+        </div>
+    {% endunless %}
+</footer>
+    

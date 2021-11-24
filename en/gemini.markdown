@@ -6,7 +6,7 @@ title: Gemini Science Archive
 altLangPage: /fr/gemini/
 headerimage: /static/images/archive-info/gemini.jpg
 dateModified: 2021-11-22
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

@@ -8,7 +8,7 @@ lang: fr
 permalink: /fr/
 altLangPage: /en/
 dateModified: 2021-10-05
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 pageclass: ["home"]

@@ -8,7 +8,7 @@ title: Test Astronomy Meetings
 permalink: /en/meetings/test/
 altLangPage: /fr/rencontres/test/
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

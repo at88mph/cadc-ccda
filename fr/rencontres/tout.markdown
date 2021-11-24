@@ -8,7 +8,7 @@ title: Rencontres internationales en astronomie
 permalink: /fr/rencontres/
 altLangPage: /en/meetings/
 dateModified: 2021-10-21
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

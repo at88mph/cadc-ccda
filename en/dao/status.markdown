@@ -6,7 +6,7 @@ title: DAO Current Status
 altLangPage: /fr/ofa/etat
 headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

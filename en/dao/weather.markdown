@@ -6,7 +6,7 @@ title: DAO Current Weather
 altLangPage: /fr/ofa/meteo
 headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-03
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

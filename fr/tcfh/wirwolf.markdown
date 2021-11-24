@@ -6,7 +6,7 @@ title: Système de traitement d'images WIRwolf
 altLangPage: /en/wirwolf
 headerimage: /static/images/archive-info/wirwolf.jpg
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

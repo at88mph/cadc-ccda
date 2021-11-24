@@ -3,6 +3,30 @@ en:
     url: /en/login
   register:
     url: /en/register
+  contact:
+    url: /en/contact.html
+    label: Contact us
+  email:
+    url: /en/contact.html#courriel
+    label: Email
+  address:
+    url: /en/contact.html#address
+    label: Address
+  github:
+    url: https://github.com/opencadc
+  twitter:
+    url: https://twitter.com/AstroCADC
+  slack:
+    url: /en/slack
+  about:
+    url: /en/about.html
+    label: About us
+  mandate:
+    url: /en/about.html#mandate
+    label: Our mandate
+  acknowledgements:
+    url: /en/about.html#acknowledgements
+    label: Acknowledgements
   labels:
     username: Username
     password: Password
@@ -33,6 +57,30 @@ fr:
     url: /fr/connexion
   register:
     url: /fr/inscrire
+  contact:
+    url: /fr/contactez.html
+    label: Contactez-nous
+  email:
+    url: /fr/contactez.html#courriel
+    label: Courriel
+  address:
+    url: /fr/contactez.html#adresse
+    label: Adresse
+  github:
+    url: https://github.com/opencadc
+  twitter:
+    url: https://twitter.com/AstroCADC
+  slack:
+    url: /fr/slack
+  about:
+    url: /fr/apropos.html
+    label: À propos de nous
+  mandate:
+    url: /fr/apropos.html#mandat
+    label: Notre mandat
+  acknowledgements:
+    url: /fr/apropos.html#mention
+    label: Mention
   labels:
     username: Nom d'utilisateur
     password: Mot de passe

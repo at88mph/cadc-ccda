@@ -5,7 +5,7 @@ permalink: /fr/connexion/
 title: Ouvrir une session
 altLangPage: /en/signin/
 dateModified: 2021-10-28
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 ---

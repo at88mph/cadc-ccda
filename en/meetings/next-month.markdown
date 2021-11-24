@@ -8,7 +8,7 @@ title: International Astronomy Meetings (Next Month)
 permalink: /en/meetings/next-month/
 altLangPage: /fr/rencontres/mois-prochain/
 dateModified: 2021-09-28
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

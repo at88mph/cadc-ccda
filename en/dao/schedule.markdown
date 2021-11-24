@@ -6,7 +6,7 @@ title: DAO Telescope Schedules
 altLangPage: /fr/ofa/horaire.html
 headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-04
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

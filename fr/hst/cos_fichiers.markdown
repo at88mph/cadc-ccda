@@ -6,7 +6,7 @@ title: HST Fichiers COS
 altLangPage: /en/hst/cos_filenames.html
 headerimage: /static/images/archive-info/hst.jpg
 dateModified: 2021-11-23
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

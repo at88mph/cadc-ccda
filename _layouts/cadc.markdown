@@ -92,5 +92,4 @@ nositesearch: true
             {{ content }}
         {%- endif -%}
     </div>
-    {% include main-footer/inc-footer.html %}
 </main>

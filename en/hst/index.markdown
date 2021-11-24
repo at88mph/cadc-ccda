@@ -6,7 +6,7 @@ title: Hubble Space Telescope
 altLangPage: /fr/hst/
 headerimage: /static/images/archive-info/hst.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

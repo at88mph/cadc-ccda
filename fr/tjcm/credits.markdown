@@ -6,7 +6,7 @@ title: Crédits et mentions
 altLangPage: /en/jcmt/credits
 headerimage: /static/images/archive-info/cfht.jpg
 dateModified: 2021-11-02
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

@@ -8,7 +8,7 @@ title: Archived Astronomy Meetings
 permalink: /en/meetings/archive/
 altLangPage: /fr/rencontres/archive/
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

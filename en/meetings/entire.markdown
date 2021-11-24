@@ -8,7 +8,7 @@ title: International Astronomy Meetings
 permalink: /en/meetings/entire/
 altLangPage: /fr/rencontres/entier/
 dateModified: 2021-10-28
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

@@ -6,7 +6,7 @@ title: Far Ultraviolet Spectroscopic Explorer (FUSE)
 altLangPage: /fr/fuse/
 headerimage: /static/images/archive-info/fuse.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

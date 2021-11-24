@@ -8,7 +8,7 @@ lang: fr
 permalink: /fr/rencontres/ce-mois/
 altLangPage: /en/meetings/this-month/
 dateModified: 2021-09-29
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

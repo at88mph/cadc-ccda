@@ -5,7 +5,7 @@ permalink: /en/cfht/wirds
 title: CFHT WIRDS T0002
 altLangPage: /fr/tcfh/wirds
 dateModified: 2021-10-18
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

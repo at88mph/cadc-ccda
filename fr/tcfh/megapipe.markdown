@@ -6,7 +6,7 @@ title: Système de traitement d'images MegaPipe
 altLangPage: /en/megapipe
 headerimage: /static/images/archive-info/megapipe.jpg
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 
