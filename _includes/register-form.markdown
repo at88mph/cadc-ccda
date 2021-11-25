@@ -1,7 +1,7 @@
 {%- include variable-core.liquid -%}
 {%- assign i18n-form=site.data.cadc[i18nText-lang]['labels'] -%}
 
-<div class="mrgn-tp-lg container wb-frmvld">
+<div class="wb-frmvld">
     <form method="post" class="col-md-4" action="/access/request">
         <div class="form-group">
             <label for="first_name" class="control-label">{{ i18n-form.first_name }}</label>

@@ -3,230 +3,280 @@ en:
     services:
       title: Services
       links:
-        - name: Meetings
+        meetings:
+          name: Meetings
           url: /en/meetings/
           short_name: Meetings
           splash_image_url: /static/images/splash/meeting.png
-        - name: Advanced Search
+        search:
+          name: Advanced Search
           url: /en/search/
-          short_name: Data
-          splash_image_url: /static/images/splash/search-data.png
-        - name: Community Pages
+          short_name: Advanced Search
+        community:
+          name: Community Pages
           url: /en/community/
           short_name: Community
           splash_image_url: /static/images/splash/community.png
-        - name: Solar System Object Image Search
+        ssos:
+          name: Solar System Object Image Search
           url: /en/ssois/
           short_name: SSOIS
           splash_image_url: /static/images/splash/ssos.png
-        - name: Canadian Advanced Network For Astronomical Research
+        canfar:
+          name: Canadian Advanced Network For Astronomical Research
           url: https://www.canfar.net/
           external: true
           short_name: CANFAR
           splash_image_url: /static/images/splash/canfar.png
-        - name: Digital Sky Survey
+        dss:
+          name: Digital Sky Survey
           url: /en/dss/
           short_name: DSS
           splash_image_url: /static/images/splash/dss.png
     advanced_data_products:
       title: Advanced Data Products
       links:
-        - name: MegaPipe image stacking pipeline
+        megapipe:
+          name: MegaPipe image stacking pipeline
           url: /en/megapipe/
           short_name: MegaPipe
           splash_image_url: /static/images/splash/megapipe.png
-        - name: Hubble Legacy Archive
+        hla:
+          name: Hubble Legacy Archive
           url: /en/hla/
           short_name: HLA
           splash_image_url: /static/images/splash/hla.png
-        - name: Improved Reprocessing of the IRAS Survey
+        iris:
+          name: Improved Reprocessing of the IRAS Survey
           url: /en/iris/
           short_name: IRIS
           splash_image_url: /static/images/splash/iris.png
-        - name: Canadian Galactic Plane Survey
+        cgps:
+          name: Canadian Galactic Plane Survey
           url: /en/cgps/
           short_name: CGPS
           splash_image_url: /static/images/splash/cgps.png
-        - name: Canada France Hawai'i Telescope Legacy Survey
+        cfhtls:
+          name: Canada France Hawai'i Telescope Legacy Survey
           url: /en/cfhtls/
           short_name: CFHTLS
           splash_image_url: /static/images/splash/cfhtls.png
-        - name: WIRWolf image stacking pipeline
+        wirwolf:
+          name: WIRWolf image stacking pipeline
           url: /en/wirwolf/
           short_name: WIRWolf
           splash_image_url: /static/images/splash/wirwolf.png
     telescope_data_products:
       title: Telescope Data Products
       links:
-          - name: Gemini Observatory
-            url: /en/gemini/
-            short_name: Gemini
-            splash_image_url: /static/images/splash/gemini.png
-          - name: Canada France Hawai'i Telescope
-            url: /en/cfht/
-            short_name: CFHT
-            splash_image_url: /static/images/splash/cfht.png
-          - name: James Clerk Maxwell Telescope
-            url: /en/jcmt/
-            short_name: JCMT
-            splash_image_url: /static/images/splash/jcmt.png
-          - name: Hubble Space Telescope
-            url: /en/hst/
-            short_name: HST
-            splash_image_url: /static/images/splash/hst.png
-          - name: Balloon-borne Large-Aperture Submillimeter Telescope
-            url: /en/blast/
-            short_name: BLAST
-            splash_image_url: /static/images/splash/blast.png
-          - name: Microvariability & Oscillations of Stars Telescope
-            url: /en/most/
-            short_name: MOST
-            splash_image_url: /static/images/splash/most.png
-          - name: Dominion Astrophysical Observatory Science Archive
-            url: /en/dao/
-            short_name: DAO
-            splash_image_url: /static/images/splash/dao.png
-          - name: Dominion Radio Astrophysical Observatory Science Archive
-            url: /en/drao/
-            short_name: DRAO
-            splash_image_url: /static/images/splash/drao.png
-          - name: MAssive Compact Halo Object project
-            url: /en/macho/
-            short_name: MACHO
-            splash_image_url: /static/images/splash/macho.png
-          - name: Mont Mégantic Observatory
-            url: /en/omm/
-            short_name: OMM
-            splash_image_url: /static/images/splash/omm.png
-          - name: Far Ultraviolet Spectroscopic Explorer
-            url: /en/fuse/
-            short_name: FUSE
-            splash_image_url: /static/images/splash/fuse.png
-          - name: United Kingdom IfraRed Telescope
-            url: /en/ukirt/
-            short_name: UKIRT
-            splash_image_url: /static/images/splash/ukirt.png
-          - name: Near-Earth Object Surveillance Satellite
-            url: /en/neossat/
-            short_name: NEOSSat
-            splash_image_url: /static/images/splash/neossat.png
-          - name: Very Large Array Sky Survey
-            url: /en/vlass/
-            short_name: VLASS
-            splash_image_url: /static/images/splash/vlass.png
+        gemini:
+          name: Gemini Observatory
+          url: /en/gemini/
+          short_name: Gemini
+          splash_image_url: /static/images/splash/gemini.png
+        cfht:
+          name: Canada France Hawai'i Telescope
+          url: /en/cfht/
+          short_name: CFHT
+          splash_image_url: /static/images/splash/cfht.png
+        jcmt:
+          name: James Clerk Maxwell Telescope
+          url: /en/jcmt/
+          short_name: JCMT
+          splash_image_url: /static/images/splash/jcmt.png
+        hst:
+          name: Hubble Space Telescope
+          url: /en/hst/
+          short_name: HST
+          splash_image_url: /static/images/splash/hst.png
+        blast:
+          name: Balloon-borne Large-Aperture Submillimeter Telescope
+          url: /en/blast/
+          short_name: BLAST
+          splash_image_url: /static/images/splash/blast.png
+        most:
+          name: Microvariability & Oscillations of Stars Telescope
+          url: /en/most/
+          short_name: MOST
+          splash_image_url: /static/images/splash/most.png
+        dao:
+          name: Dominion Astrophysical Observatory Science Archive
+          url: /en/dao/
+          short_name: DAO
+          splash_image_url: /static/images/splash/dao.png
+        drao:
+          name: Dominion Radio Astrophysical Observatory Science Archive
+          url: /en/drao/
+          short_name: DRAO
+          splash_image_url: /static/images/splash/drao.png
+        macho:
+          name: MAssive Compact Halo Object project
+          url: /en/macho/
+          short_name: MACHO
+          splash_image_url: /static/images/splash/macho.png
+        omm:
+          name: Mont Mégantic Observatory
+          url: /en/omm/
+          short_name: OMM
+          splash_image_url: /static/images/splash/omm.png
+        fuse:
+          name: Far Ultraviolet Spectroscopic Explorer
+          url: /en/fuse/
+          short_name: FUSE
+          splash_image_url: /static/images/splash/fuse.png
+        ukirt:
+          name: United Kingdom IfraRed Telescope
+          url: /en/ukirt/
+          short_name: UKIRT
+          splash_image_url: /static/images/splash/ukirt.png
+        neossat:
+          name: Near-Earth Object Surveillance Satellite
+          url: /en/neossat/
+          short_name: NEOSSat
+          splash_image_url: /static/images/splash/neossat.png
+        vlass:
+          name: Very Large Array Sky Survey
+          url: /en/vlass/
+          short_name: VLASS
+          splash_image_url: /static/images/splash/vlass.png
 fr:
   nav:
     services:
       title: Services
       links:
-        - name: Rencontres
+        meetings:
+          name: Rencontres
           url: /fr/rencontres/
           short_name: Rencontres
           splash_image_url: /static/images/splash/meeting.png
-        - name: Recherche Avancée
+        search:
+          name: Recherche Avancée
           url: /fr/recherche/
-          short_name: Données
-          splash_image_url: /static/images/splash/search-data.png
-        - name: Projets communauté
+          short_name: Recherche Avancée
+        community:
+          name: Projets communauté
           url: /fr/communaute/
           short_name: Communauté
           splash_image_url: /static/images/splash/community.png
-        - name: Recherche d'images d'objets du Système Solaire
+        ssos:
+          name: Recherche d'images d'objets du Système Solaire
           url: /fr/rioss/
           short_name: RIOSS
           splash_image_url: /static/images/splash/ssos.png
-        - name: Canadian Advanced Network For Astronomical Research
+        canfar:
+          name: Canadian Advanced Network For Astronomical Research
           url: https://www.canfar.net/
           external: true
           short_name: CANFAR
           splash_image_url: /static/images/splash/canfar.png
-        - name: Système du Digital Sky Survey
+        dss:
+          name: Système du Digital Sky Survey
           url: /fr/dss/
           short_name: DSS
           splash_image_url: /static/images/splash/dss.png
     advanced_data_products:
       title: Données avancées
       links:
-        - name: Système de traitement d'images MegaPipe
+        megapipe:
+          name: Système de traitement d'images MegaPipe
           url: /fr/megapipe/
           short_name: MegaPipe
           splash_image_url: /static/images/splash/megapipe.png
-        - name: Le Hubble Legacy Archive
+        hla:
+          name: Le Hubble Legacy Archive
           url: /fr/hla/
           short_name: hla
           splash_image_url: /static/images/splash/hla.png
-        - name: Retraitement Amélioré de l'enquête IRAS
+        iris:
+          name: Retraitement Amélioré de l'enquête IRAS
           url: /fr/iris/
           short_name: IRIS
           splash_image_url: /static/images/splash/iris.png
-        - name: Relevé canadien du plan galactique
+        cgps:
+          name: Relevé canadien du plan galactique
           url: /fr/rcpg/
           short_name: RCPG
           splash_image_url: /static/images/splash/cgps.png
-        - name: Archives scientifiques TCFH
+        cfht:
+          name: Archives scientifiques TCFH
           url: /fr/cfhtls/
           short_name: CFHTLS
           splash_image_url: /static/images/splash/cfhtls.png
-        - name: Système de traitement d'images WIRwolf
+        wirwolf:
+          name: Système de traitement d'images WIRwolf
           url: /fr/wirwolf/
           short_name: WIRWolf
           splash_image_url: /static/images/splash/wirwolf.png
     telescope_data_products:
       title: Données de téléscopes
       links:
-          - name: Archives scientifiques Gemini
-            url: /fr/gemini/
-            short_name: Gemini
-            splash_image_url: /static/images/splash/gemini.png
-          - name: Archives scientifiques du Téléscope Canada France Hawai'i
-            url: /fr/tcfh/
-            short_name: TCFH
-            splash_image_url: /static/images/splash/cfht.png
-          - name: Archives scientifiques du Téléscope James Clerk Maxwell
-            url: /fr/tjcm/
-            short_name: TJCM
-            splash_image_url: /static/images/splash/jcmt.png
-          - name: Télescope spatial Hubble
-            url: /fr/hst/
-            short_name: HST
-            splash_image_url: /static/images/splash/hst.png
-          - name: Telescope submillimétrique à grande ouverture porté par ballon
-            url: /fr/blast/
-            short_name: BLAST
-            splash_image_url: /static/images/splash/blast.png
-          - name: Microvariabilité et oscillations stellaires
-            url: /fr/most/
-            short_name: MOST
-            splash_image_url: /static/images/splash/most.png
-          - name: Archives scientifiques et outils de l’Observatoire fédéral d’astrophysique 
-            url: /fr/ofa/
-            short_name: OFA
-            splash_image_url: /static/images/splash/dao.png
-          - name: Archives scientifiques et outils de l’Observatoire fédéral radioastrophysique
-            url: /fr/ofr/
-            short_name: OFR
-            splash_image_url: /static/images/splash/drao.png
-          - name: MAssive Compact Halo Object project
-            url: /fr/macho/
-            short_name: MACHO
-            splash_image_url: /static/images/splash/macho.png
-          - name: Observatoire du Mont Mégantic
-            url: /fr/omm/
-            short_name: OMM
-            splash_image_url: /static/images/splash/omm.png
-          - name: Explorateur Spectroscopique de l'Ultraviolet Lointain
-            url: /fr/fuse/
-            short_name: FUSE
-            splash_image_url: /static/images/splash/fuse.png
-          - name: Téléscope Infrarouge du Royaume Uni
-            url: /fr/ukirt/
-            short_name: UKIRT
-            splash_image_url: /static/images/splash/ukirt.png
-          - name: Near-Earth Object Surveillance Satellite
-            url: /fr/neossat/
-            short_name: NEOSSat
-            splash_image_url: /static/images/splash/neossat.png
-          - name: Very Large Array Sky Survey
-            url: /fr/vlass/
-            short_name: VLASS
-            splash_image_url: /static/images/splash/vlass.png
+        gemini:
+          name: Archives scientifiques Gemini
+          url: /fr/gemini/
+          short_name: Gemini
+          splash_image_url: /static/images/splash/gemini.png
+        cfht:
+          name: Archives scientifiques du Téléscope Canada France Hawai'i
+          url: /fr/tcfh/
+          short_name: TCFH
+          splash_image_url: /static/images/splash/cfht.png
+        jcmt:
+          name: Archives scientifiques du Téléscope James Clerk Maxwell
+          url: /fr/tjcm/
+          short_name: TJCM
+          splash_image_url: /static/images/splash/jcmt.png
+        hst:
+          name: Télescope spatial Hubble
+          url: /fr/hst/
+          short_name: HST
+          splash_image_url: /static/images/splash/hst.png
+        blast:
+          name: Telescope submillimétrique à grande ouverture porté par ballon
+          url: /fr/blast/
+          short_name: BLAST
+          splash_image_url: /static/images/splash/blast.png
+        most:
+          name: Microvariabilité et oscillations stellaires
+          url: /fr/most/
+          short_name: MOST
+          splash_image_url: /static/images/splash/most.png
+        dao:
+          name: Archives scientifiques et outils de l’Observatoire fédéral d’astrophysique 
+          url: /fr/ofa/
+          short_name: OFA
+          splash_image_url: /static/images/splash/dao.png
+        drao:
+          name: Archives scientifiques et outils de l’Observatoire fédéral radioastrophysique
+          url: /fr/ofr/
+          short_name: OFR
+          splash_image_url: /static/images/splash/drao.png
+        macho:
+          name: MAssive Compact Halo Object project
+          url: /fr/macho/
+          short_name: MACHO
+          splash_image_url: /static/images/splash/macho.png
+        omm:
+          name: Observatoire du Mont Mégantic
+          url: /fr/omm/
+          short_name: OMM
+          splash_image_url: /static/images/splash/omm.png
+        fuse:
+          name: Explorateur Spectroscopique de l'Ultraviolet Lointain
+          url: /fr/fuse/
+          short_name: FUSE
+          splash_image_url: /static/images/splash/fuse.png
+        ukirt:
+          name: Téléscope Infrarouge du Royaume Uni
+          url: /fr/ukirt/
+          short_name: UKIRT
+          splash_image_url: /static/images/splash/ukirt.png
+        neossat:
+          name: Near-Earth Object Surveillance Satellite
+          url: /fr/neossat/
+          short_name: NEOSSat
+          splash_image_url: /static/images/splash/neossat.png
+        vlass:
+          name: Very Large Array Sky Survey
+          url: /fr/vlass/
+          short_name: VLASS
+          splash_image_url: /static/images/splash/vlass.png

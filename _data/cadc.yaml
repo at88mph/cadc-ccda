@@ -1,6 +1,6 @@
 en:
   signin:
-    url: /en/login
+    url: /en/signin
   register:
     url: /en/register
   contact:
@@ -38,6 +38,9 @@ en:
     register_submit: Send request
     reset: Clear
     report_problem_link_text: Report a problem on this page
+    quicksearch_placeholder: Search for data by target
+    quicksearch: Search for data
+    quicksearch_submit_button: Search
     dates:
       months:
         - January
@@ -92,6 +95,9 @@ fr:
     register_submit: Soumettre la demande
     reset: Effacer
     report_problem_link_text: Signaler un problème sur cette page
+    quicksearch_placeholder: Recherche les données par cible
+    quicksearch: Recherche les données
+    quicksearch_submit_button: Recherche
     dates:
       months:
         - janvier

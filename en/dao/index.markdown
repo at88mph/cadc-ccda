@@ -8,7 +8,6 @@ headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-24
 signing: layout.signing
 nositesearch: layout.nositesearch
-share: layout.share
 
 nav: dao
 ---
