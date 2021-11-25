@@ -12,27 +12,53 @@
         background-position: bottom left !important;
         background-repeat: no-repeat !important;
     }
+
+    a.home-link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    a.home-link:hover {
+        color: #ffffff;
+    }
+
+    section.cadc-banner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.cadc-banner-bg {
+        padding-left: 0;
+        padding-right: 0;
+    }
 </style>
 
-<section>
+<section class="cadc-banner clearfix">
     <h2 class="wb-inv">{{ i18nText-signOnOff }}</h2>
     <div class="highlighted mrgn-tp-md">
         <div class="region region-highlighted">
             <section id="block-homepagebannerenglish" data-block-plugin-id="block_content:7ee5051c-11db-4619-b6e8-9979c981acea" class="block block-block-content block-block-content7ee5051c-11db-4619-b6e8-9979c981acea clearfix">
                 <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
                     <!-- IMG INTRO -->
-                    <div class="row cadc-banner-container row-no-gutters">
-                        <div class="cadc-banner-inner-bg">
-                            <div class="text-right container" style="padding-top: 10px">
-                                <p class="text-white h3 col-md-4 opct-90">{{ site.title[i18nText-lang] }}</p>
-                                <div class="text-right">
-                                    {% unless page.signed %}
-                                    <button class="btn btn-default" type="button">{{ i18nText-signOnRegister }}</button>
-                                    <button class="btn btn-primary" type="button">{{ i18nText-signIn }}</button> {% else %}
-                                    <p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span>John Doe</span></span>
-                                    </p>
-                                    <button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
-                                    <button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button> {% endunless %}
+                    <div class="cadc-banner-bg col-md-12">
+                        <div class="row cadc-banner-container row-no-gutters">
+                            <div class="container cadc-banner-inner-bg">
+                                <div class="text-white mrgn-bttm-md mrgn-rght-md mrgn-lft-md">
+                                    <p class="h1 opct-90 col-md-9">
+                                        <a class="text-white home-link" href="/{{ i18nText-lang }}/">{{ site.title[i18nText-lang] }}</a>
+                                    <div class="text-right col-md-3 mrgn-tp-lg">
+                                        {% unless page.signed %}
+                                        <button class="btn btn-default" type="button">{{ i18nText-signOnRegister }}</button>
+                                        <button class="btn btn-primary" type="button">{{ i18nText-signIn }}</button> 
+                                        {% else %}
+                                        <p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span>John Doe</span></span></p>
+                                        <button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
+                                        <button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button>
+                                        {% endunless %}
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div><div class="mrgn-lft-xl mrgn-bttm-md">
+                                    <p class="text-white small mrgn-tp-sm mrgn-lft-lg">{{ site.description[i18nText-lang] }}</p>
                                 </div>
                             </div>
                         </div>

@@ -18,47 +18,52 @@ nositesearch: true
         </div>
     </div>
     {%- endif -%}
-    <div class="row">
-        <div class="container">
-            <div class="col-md-6 col-sm-6">
-                <section id="services">
-                    <h3>{{ i18nText-nav.services.title }}</h3>
-                    <ul class="list-style-none">
-                        {%- for n in i18nText-nav.services.links -%}
-                            <li><a href="{{ n.url }}">{{ n.name }}</a></li>
-                        {%- endfor -%}
-                    </ul>
-                </section>
+    <div class="row small wb-eqht mrgn-tp-md">
+        <div class="col-md-6 col-sm-6 hght-inhrt">
+            <div class="well hght-inhrt">
+                {% comment %}
+                    In order to facilitate the 4 column layout, there needs to be an odd number of items,
+                    so we'll pad that here if necessary.
+                {% endcomment %}
+                {%- assign list_size_mod = i18nText-nav.telescope_data_products.links.size | modulo: 2 | to_number -%}
+                <h5 class="mrgn-tp-0">{{ i18nText-nav.telescope_data_products.title }}</h5>
+                <ul class="list-unstyled text-center colcount-sm-3 colcount-md-4 colcount-lg-4">
+                {%- for l in i18nText-nav.telescope_data_products.links -%}
+                <li>
+                    <a href="{{ l.url }}">
+                        <span class="small"><img class="img-thumbnail" width="60" height="60" src="{{ l.splash_image_url }}" /><br /><small>{{ l.short_name }}</small></span></a>
+                </li>
+                {%- endfor -%}
+                {%- if list_size_mod == 0 -%}
+                <li style="height: 95px;"></li>
+                {%- endif -%}
+                </ul>
             </div>
-            <div class="col-md-6 col-sm-6">
-                <section id="advanced-data-products">
-                    <h3>{{ i18nText-nav.advanced_data_products.title }}</h3>
-                    <ul class="list-style-none">
-                        {%- for n in i18nText-nav.advanced_data_products.links -%}
-                        <li><a href="{{ n.url }}">{{ n.name }}</a></li>
-                        {%- endfor -%}
-                    </ul>
-                </section>
+        </div>
+        <div class="col-md-3 col-sm-3 hght-inhrt">
+            <div class="well hght-inhrt">
+                <h5 class="mrgn-tp-0">{{ i18nText-nav.advanced_data_products.title }}</h5>
+                <ul class="list-unstyled colcount-sm-1 text-center colcount-md-2 colcount-lg-2">
+                {%- for l in i18nText-nav.advanced_data_products.links -%}
+                <li>
+                    <a href="{{ l.url }}">
+                        <span class="small"><img class="img-thumbnail" width="60" height="60" src="{{ l.splash_image_url }}" /><br /><small>{{ l.short_name }}</small></span></a>
+                </li>
+                {%- endfor -%}
+                </ul>
             </div>
-            <div class="col-md-12 col-sm-12">
-            {%- assign tdp-links = i18nText-nav.telescope_data_products.links -%}
-                <section id="telescope-data-products">
-                    <h3>{{ i18nText-nav.telescope_data_products.title }}</h3>
-                    <div class="col-md-6 col-sm-6">
-                        <ul class="list-style-none">
-                            {%- for l in i18nText-nav.telescope_data_products.links.left -%}
-                            <li><a href="{{ l.url }}">{{ l.name }}</a></li>
-                            {%- endfor -%}
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <ul class="list-style-none">
-                            {%- for l in i18nText-nav.telescope_data_products.links.right -%}
-                            <li><a href="{{ l.url }}">{{ l.name }}</a></li>
-                            {%- endfor -%}
-                        </ul>
-                    </div>
-                </section>
+        </div>
+        <div class="col-md-3 col-sm-3 hght-inhrt">
+            <div class="well hght-inhrt">
+                <h5 class="mrgn-tp-0">{{ i18nText-nav.services.title }}</h5>
+                <ul class="list-unstyled colcount-sm-1 text-center colcount-md-2 colcount-lg-2">
+                {%- for l in i18nText-nav.services.links -%}
+                <li>
+                    <a href="{{ l.url }}">
+                        <span><img class="img-thumbnail" width="60" height="60" src="{{ l.splash_image_url }}" /><br /><small>{{ l.short_name }}</small></span></a>
+                </li>
+                {%- endfor -%}
+                </ul>
             </div>
         </div>
     </div>
