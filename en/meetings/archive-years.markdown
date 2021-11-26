@@ -4,22 +4,20 @@
 
 layout: cadc
 lang: en
-title: International Astronomy Meetings
-permalink: /en/meetings/entire/
-altLangPage: /fr/rencontres/entier/
-dateModified: 2021-10-28
-
+title: Archived Astronomy Meetings
+permalink: /en/meetings/archive-years/
+altLangPage: /fr/rencontres/archive-annees/
+dateModified: 2021-11-26
 signing: layout.signing
 nositesearch: layout.nositesearch
 
-# Used for post label formatting (dates and links)
-script: [/static/js/meetings.js]
+script: [/static/js/meetings/archive.js]
 
-css: /static/css/meetings.css
+nav: meetings
 
 breadcrumbs:
     - link: /en/meetings/
       title: Meetings
 ---
 
-{%- include meetings/entire.markdown -%}
+{%- include meetings/archive-years.markdown -%}

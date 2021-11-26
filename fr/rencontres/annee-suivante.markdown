@@ -1,12 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: cadc
+title: Rencontres de l'année suivante
 lang: fr
-title: Rencontres du mois prochain
-permalink: /fr/rencontres/mois-prochain/
-altLangPage: /en/meetings/next-month/
+permalink: /fr/rencontres/annee-suivante/
+altLangPage: /en/meetings/year-after-next/
 dateModified: 2021-11-26
 signing: layout.signing
 nositesearch: layout.nositesearch
@@ -23,4 +20,4 @@ breadcrumbs:
       title: Rencontres
 ---
 
-{% include meetings/next-month.markdown %}
+{% include meetings/year-after-next.markdown %}

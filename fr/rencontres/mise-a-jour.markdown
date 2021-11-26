@@ -7,14 +7,17 @@ title: Modifiez rencontre
 lang: fr
 permalink: /fr/rencontres/mise-a-jour/
 altLangPage: /en/meetings/update/
-dateModified: 2021-10-07
-
+dateModified: 2021-11-26
 signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: meetings
 
-script: /static/js/meetings.js
+script: /static/js/meetings/meetings.js
+
+breadcrumbs:
+    - link: /fr/rencontres/
+      title: Rencontres
 ---
 
 {%- include meetings/update-form.markdown -%}
