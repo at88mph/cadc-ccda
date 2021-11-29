@@ -2,41 +2,66 @@
 layout: cadc
 lang: en
 permalink: /en/search/
-title: Archive Search
+title: Advanced Search
 altLangPage: /fr/recherche/
-dateModified: 2021-11-16
-
+dateModified: 2021-11-29
 signing: layout.signing
 nositesearch: layout.nositesearchs
 
-# Used for post label formatting (dates and links)
-# script: [/static/js/search.js]
+# Trip off the mechanism to allow a list of js scripts
+script:
+    first:
+
+script:
+    - /static/js/slickgrid/lib/jquery-ui.min.js
+    - /static/js/slickgrid/lib/jquery.event.drag-2.3.0.js
+    - /static/js/slickgrid/aladin.js
+    - /static/js/slickgrid/extra/jquery.form.js
+    - /static/js/slickgrid/extra/jquery.csv-0.71.min.js
+    - /static/js/search/org.opencadc.js
+    - /static/js/slickgrid/extra/moment.min.js
+    - /static/js/slickgrid/extra/json.human.js
+    - /static/js/slickgrid/extra/wgxpath.install.js
+    - /static/js/slickgrid/extra/jquery.tooltipster.custom.min.js
+    - /static/js/slickgrid/slick.core.js
+    - /static/js/slickgrid/cadc.rowselectionmodel.js
+    - /static/js/slickgrid/cadc.checkboxselectcolumn.js
+    - /static/js/slickgrid/slick.grid.js
+    - /static/js/slickgrid/slick.dataview.js
+    - /static/js/slickgrid/slick.pager.js
+    - /static/js/slickgrid/cadc.columnpicker.modal.js
+    - /static/js/slickgrid/cadc.plugin.unitselection.js
+    - /static/js/slickgrid/cadc.plugin.filter_suggest.js
+    - /static/js/slickgrid/cadc.votable.js
+    - /static/js/slickgrid/cadc.votable-reader.js
+    - /static/js/slickgrid/cadc.votv.js
+    - /static/js/slickgrid/cadc.votv.comparer.js
+    - /static/js/slickgrid/cadc.resultstate.js
+    - /static/js/slickgrid/cadc.plugin.footprint-viewer.js
+    - /static/js/search/validator.js
+    - /static/js/search/cadc.uri.js
+    - /static/js/search/cadc.search.uws.js
+    - /static/js/search/cadc.util.js
+    - /static/js/search/cadc.search.tapclient.js
+    - /static/js/search/cadc.search.format.js
+    - /static/js/search/cadc.search.unitconversion.js
+    - /static/js/search/cadc.search.columnbundles.js
+    - /static/js/search/cadc.search.columns.js
+    - /static/js/search/cadc.search.core.js
+    - /static/js/search/cadc.search.form.js
+    - /static/js/search/cadc.search.preview.js
+    - /static/js/search/cadc.search.app.js
+    - /static/js/search/cadc.search.tooltipcreator.js
+    - /static/js/search/hierarchy.js
+    - /static/js/search/init.js
+
+css: 
+    - /static/css/search/caom2.css
+    - /static/css/search/search.css
 
 breadcrumbs:
     - link: /en/search/
-      title: Archive Search
+      title: Advanced Search
 ---
 
-<div class="wb-frmvld nojs-hide wb-init wb-frmvld-inited container">
-    <form action="#" method="get" class="container small form-horizontal" id="search-form">
-        <input type="hidden" name="language" value="en">
-        <div class="form-group">
-            <label for="collectionQuery" class="control-label"><span class="field-name">Collection</span></label>
-            <input id="collectionQuery" name="collectionQuery" placeholder="DAO" class="form-control" size="30" list="collectionsuggest" />
-            <datalist id="collectionsuggest" data-wb-json='{ "url": "/tap-ui/preset?column=collection", "mapping": [ { "selector": "option", "attr": "value", "value": "" } ] }'>
-                <template>
-                    <option label="" value=""></option>
-                </template>
-            </datalist>
-        </div>
-        <div class="form-group">
-            <label for="instrumentQuery" class="control-label"><span class="field-name">Instrument</span></label>
-            <input id="instrumentQuery" name="instrumentQuery" placeholder="McKellan Spectrograph" class="form-control" size="30" list="instrumentsuggest" />
-            <datalist id="instrumentsuggest" data-wb-json='{ "url": "/tap-ui/preset?column=instrument_name", "mapping": [ { "selector": "option", "attr": "value", "value": "" } ] }'>
-                <template>
-                    <option label="" value=""></option>
-                </template>
-            </datalist>
-        </div>
-    </form>
-</div>
+{% include search.markdown %}
