@@ -34,7 +34,7 @@
           search: {
             datatrain: {
               URI_MATCH_REGEX: /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/,
-              SELECT_DISPLAY_OPTION_COUNT: 12,
+              SELECT_DISPLAY_OPTION_COUNT: 8,
               SPACER_CHAR: '&#9472;',
               /**
                * Obtain a spacer formatter.
@@ -52,7 +52,7 @@
               },
               tap: {
                 QUERY_TEMPLATE:
-                  'SELECT {1}, (CASE WHEN {2} >= {3} THEN 1 ELSE 0 END) as cs FROM {4} GROUP BY {1}, cs',
+                  'SELECT {1}, ( CASE WHEN {2} >= {3} THEN 1 ELSE 0 END ) as cs FROM {4} GROUP BY {1}, cs',
                 INSTRUMENT_FRESH_MJD_FIELD_NAME: {
                   caom2: 'max_time_bounds_cval1',
                   obscore: 'max_t_min'

@@ -26,9 +26,9 @@
 <div class="col-sm-12">
     {{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_PREFIX'] }}&nbsp;<span class="glyphicon glyphicon-question-sign text-info"></span>&nbsp;{{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_SUFFIX'] }}
 </div>
-<div class="row">
-    <div class="col-md-3 search-category">
-        <div class="panel panel-default">
+<div class="row wb-eqht">
+    <div class="col-md-3 search-category hght-inhrt">
+        <div class="panel panel-default hght-inhrt">
             <div class="panel-heading">{{ i18nForm.labels['OBSERVATION_CONSTRAINT_LABEL'] }}</div>
             <div class="panel-body search-constraints small">
             {% for utype in i18nForm-search.form.observation_constraints.text_utypes %}
@@ -39,6 +39,7 @@
                 {{ utype }}@Text
             {%- endcapture -%}
                 <div data-toggle="popover"
+                     data-container="body"
                      data-utype="{{ utype }}"
                      data-placement="right"
                      data-title="{{ i18nForm.labels[label_key] }}"
@@ -60,6 +61,7 @@
                 {{ data_release_utype }}_FORM_LABEL
             {%- endcapture -%}
                 <div data-toggle="popover"
+                     data-container="body"
                      data-utype="{{ data_release_utype }}"
                      data-placement="right"
                      data-title="{{ i18nForm.labels[data_release_label_key] }}"
@@ -82,10 +84,11 @@
                     </details>
                 </div>
                 {%- assign intent_utype = "Observation.intent" -%}
+                {%- capture intent_label_key -%}
+                    {{ intent_utype }}_FORM_LABEL
+                {%- endcapture -%}
                 <div id="{{ intent_utype }}_details" class="form-group" style="margin-bottom:0px; margin-top:10px;">
-                    <label for="{{ intent_utype }}" id="{{ intent_utype }}_LABEL" class="hidden search_criteria_label">
-                        <fmt:message key="{{ intent_utype }}_FORM_LABEL" bundle="${langBundle}" />
-                    </label>
+                    <label for="{{ intent_utype }}" id="{{ intent_utype }}_LABEL" class="hidden search_criteria_label">{{ i18nForm.labels[intent_label_key] }}</label>
                     <select id="{{ intent_utype }}" name="{{ intent_utype }}" class="form-control search_criteria_input">
                         <option value="calibration">Calibration only</option>
                         <option value="" selected="selected">Science and Calibration</option>
@@ -96,8 +99,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 search-category">
-        <div class="panel panel-default">
+    <div class="col-md-3 search-category hght-inhrt">
+        <div class="panel panel-default hght-inhrt">
             <div class="panel-heading">{{ i18nForm.labels['SPATIAL_CONSTRAINT_LABEL'] }}</div>
             <div class="panel-body search-constraints small">
                 {%- assign spatial_target_utype = "Plane.position.bounds" -%}
@@ -109,10 +112,11 @@
                 {%- endcapture -%}
                 <div id="{{ spatial_target_utype }}_formgroup" class="form-group">
                     <div data-toggle="popover"
-                        data-utype="{{ spatial_target_utype }}"
-                        data-placement="right"
-                        data-title="{{ i18nForm.labels[spatial_target_label_key] }}"
-                        class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
+                         data-container="body"
+                         data-utype="{{ spatial_target_utype }}"
+                         data-placement="right"
+                         data-title="{{ i18nForm.labels[spatial_target_label_key] }}"
+                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
                     <details id="{{ spatial_target_utype }}_details">
                         <summary class="search_criteria_label_container">
@@ -180,11 +184,12 @@
                 {%- endcapture -%}
                 <div id="{{ pixel_scale_utype }}_formgroup" class="form-group">
                     <div data-utype="{{ pixel_scale_utype }}"
-                        data-toggle="popover"
-                        data-placement="left"
-                        data-title="{{ i18nForm.labels[pixel_scale_label_key] }}"
-                        style="float:right;"
-                        class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
+                         data-toggle="popover"
+                         data-container="body"
+                         data-placement="left"
+                         data-title="{{ i18nForm.labels[pixel_scale_label_key] }}"
+                         style="float:right;"
+                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
                     <details id="{{ pixel_scale_utype }}_details">
                         <summary class="search_criteria_label_container">
@@ -207,10 +212,11 @@
                         {{ spatial_cutout_name }}_FORM_LABEL
                     {%- endcapture -%}
                     <div data-toggle="popover"
-                        data-utype="{{ spatial_cutout_name }}"
-                        data-placement="right"
-                        data-title="{{ i18nForm.labels[spatial_cutout_name_label_key] }}"
-                        class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
+                         data-container="body"
+                         data-utype="{{ spatial_cutout_name }}"
+                         data-placement="right"
+                         data-title="{{ i18nForm.labels[spatial_cutout_name_label_key] }}"
+                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
                     <div class="form-group">
                         <label for="{{ spatial_cutout_name }}" id="{{ spatial_cutout_name }}_LABEL" class="search_criteria_label control-label">
@@ -223,8 +229,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 search-category">
-        <div class="panel panel-default">
+    <div class="col-md-3 search-category hght-inhrt">
+        <div class="panel panel-default hght-inhrt">
             <div class="panel-heading">{{ i18nForm.labels['TIME_CONSTRAINT_LABEL'] }}</div>
             <div class="panel-body search-constraints small">
             {%- assign date_utype = "Plane.time.bounds.samples" -%}
@@ -246,6 +252,7 @@
                 <div id="{{ date_utype }}_formgroup" class="form-group">
                     <div id="{{ date_utype }}_tooltip"
                         data-toggle="popover"
+                        data-container="body"
                         data-placement="left"
                         data-utype="{{ date_utype }}"
                         data-title="{{ i18nForm.labels[date_label_key] }}"
@@ -291,11 +298,12 @@
                 {%- endcapture -%}
                 <div id="{{ utype }}_formgroup" class="form-group">
                     <div data-utype="{{ utype }}"
-                        data-toggle="popover"
-                        data-placement="left"
-                        data-title="{{ i18nForm.labels[label_key] }}"
-                        style="float:right;"
-                        class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
+                         data-container="body"
+                         data-toggle="popover"
+                         data-placement="left"
+                         data-title="{{ i18nForm.labels[label_key] }}"
+                         style="float:right;"
+                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
                     <details id="{{ utype }}_details">
                         <summary class="search_criteria_label_container">
@@ -316,8 +324,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 search-category">
-        <div class="panel panel-default">
+    <div class="col-md-3 search-category hght-inhrt">
+        <div class="panel panel-default hght-inhrt">
             <div class="panel-heading">{{ i18nForm.labels['SPECTRAL_CONSTRAINT_LABEL'] }}</div>
             <div class="panel-body search-constraints small">
                 {%- assign spectral_coverage_utype = "Plane.energy.bounds.samples" -%}
@@ -326,10 +334,11 @@
                 {%- endcapture -%}
                 <div id="{{ spectral_coverage_utype }}_formgroup" class="form-group">
                     <div data-toggle="popover"
-                        data-utype="{{ spectral_coverage_utype }}"
-                        data-placement="${param.tipSide}"
-                        data-title="{{ i18nForm.labels[spectral_coverage_label_key] }}"
-                        class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
+                         data-container="body"
+                         data-utype="{{ spectral_coverage_utype }}"
+                         data-placement="left"
+                         data-title="{{ i18nForm.labels[spectral_coverage_label_key] }}"
+                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
                     <details id="{{ spectral_coverage_utype }}_details">
                         <summary class="search_criteria_label_container">
@@ -355,11 +364,12 @@
                 {%- endcapture -%}
                 <div id="{{ utype }}_formgroup" class="form-group">
                     <div data-utype="{{ utype }}"
-                        data-toggle="popover"
-                        data-placement="left"
-                        data-title="{{ i18nForm.labels[label_key] }}"
-                        style="float:right;"
-                        class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
+                         data-container="body"
+                         data-toggle="popover"
+                         data-placement="left"
+                         data-title="{{ i18nForm.labels[label_key] }}"
+                         style="float:right;"
+                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
                     <details id="{{ utype }}_details">
                         <summary class="search_criteria_label_container">
@@ -383,10 +393,11 @@
                         {{ energy_cutout_name }}_FORM_LABEL
                     {%- endcapture -%}
                     <div data-toggle="popover"
-                        data-utype="{{ energy_cutout_name }}"
-                        data-placement="left"
-                        data-title="{{ i18nForm.labels[energy_cutout_name_label_key] }}"
-                        class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
+                         data-container="body"
+                         data-utype="{{ energy_cutout_name }}"
+                         data-placement="left"
+                         data-title="{{ i18nForm.labels[energy_cutout_name_label_key] }}"
+                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
                     <div class="form-group">
                         <label for="{{ energy_cutout_name }}" id="{{ energy_cutout_name }}_LABEL" class="search_criteria_label control-label">

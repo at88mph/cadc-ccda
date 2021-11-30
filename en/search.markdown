@@ -13,6 +13,8 @@ script:
     first:
 
 script:
+    - /static/js/search/bootstrap.min.js
+    - /static/js/search/bootstrap-toggle.min.js
     - /static/js/slickgrid/lib/jquery-ui.min.js
     - /static/js/slickgrid/lib/jquery.event.drag-2.3.0.js
     - /static/js/slickgrid/aladin.js
@@ -56,8 +58,8 @@ script:
     - /static/js/search/init.js
 
 css: 
+    - /static/css/search/caom2_search.css
     - /static/css/search/caom2.css
-    - /static/css/search/search.css
 
 breadcrumbs:
     - link: /en/search/
