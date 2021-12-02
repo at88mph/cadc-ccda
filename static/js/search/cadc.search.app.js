@@ -793,8 +793,12 @@
         var onFormSubmitComplete = function (eventData, args) {
           if (args.success) {
             this._processResults(args.data, args.startDate, function () {
-              queryOverlay.modal('hide')
-              $('#resultTableTabLink').tab('show')
+              const searchTabs = document.getElementsByClassName('advancedsearch-tab')
+              const searchTabsLength = searchTabs.length
+              $('div.wb-tabs').trigger({
+                type: 'wb-select.wb-tabs',
+                id: 'resultTableTab'
+              });
             })
             this._setBookmarkURL(new cadc.web.util.currentURI())
           } else {
@@ -913,7 +917,10 @@
             enableAsyncPostRender: true,
             fullWidthRows: false,
             pager: false,
-            headerRowHeight: 52,
+
+            // Sets the height of the filter row with the unit conversions.
+            headerRowHeight: 62,
+            
             variableViewportHeight: true,
             heightOffset: heightOffset,
             multiSelect: true,

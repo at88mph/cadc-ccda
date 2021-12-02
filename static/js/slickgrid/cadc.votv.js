@@ -167,7 +167,7 @@
             var $gridHeaderIcon = getHeader().find('img.grid-header-icon')
 
             // clear the wait icon
-            $gridHeaderIcon.attr('src', 'cadcVOTV/images/transparent-20.png')
+            $gridHeaderIcon.attr('src', '/static/images/cadcVOTV/transparent-20.png')
 
             if (getRows().length === 0) {
               $(getTargetNodeSelector()).addClass(
@@ -203,7 +203,7 @@
               if ($gridHeaderIcon) {
                 $gridHeaderIcon.attr(
                   'src',
-                  'cadcVOTV/images/PleaseWait-small.gif'
+                  '/static/images/cadcVOTV/PleaseWait-small.gif'
                 )
               }
             }

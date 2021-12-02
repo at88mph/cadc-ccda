@@ -129,7 +129,7 @@
               'caom2:Observation.uri': {
                 label: 'Preview',
                 tap_column_name: 'Observation.observationURI',
-                width: 70,
+                width: 90,
                 sortable: false,
                 filterable: false,
                 formatter: function () {
@@ -489,7 +489,8 @@
               },
               'caom2:Observation.collection': {
                 label: 'Collection',
-                fitMax: true
+                fitMax: true,
+                width: 110
               },
               'caom2:Observation.algorithm.name': {
                 label: 'Algorithm Name'

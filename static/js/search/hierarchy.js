@@ -437,13 +437,6 @@
           position = 'left'
         }
 
-        if (i === 0) {
-          containerElement.className += ' row-start'
-        } else if (i === groupUTypesLength - 1) {
-          // Last item
-          containerElement.className += ' row-end'
-        }
-
         select = this._buildSelect(_group.uTypes[i], containerElement, position)
 
         if (firstSelect === undefined) {
@@ -494,8 +487,9 @@
 
       labelSpanFieldName.className = 'indent-small field-name'
       labelSpanFieldName.innerHTML = select.title + '<div data-toggle="dt-popover" data-utype="' + uType
-          + '" data-placement="' + position + '" data-title="' + select.title
-          + '" class="advancedsearch-tooltip glyphicon glyphicon-question-sign popover-blue popover-left" data-original-title="" title="">\n' +
+          + '" data-placement="' + position + '" data-title="' + select.title + '" data-container="body'
+          + '" style="float: right;'
+          + '" class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info" data-original-title="" title="">\n' +
           '  </div>'
 
       label.appendChild(labelSpanFieldName)

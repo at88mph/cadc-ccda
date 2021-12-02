@@ -58,8 +58,17 @@ script:
     - /static/js/search/init.js
 
 css: 
+    - /static/css/cadcVOTV/slick-default-theme.css
+    - /static/css/cadcVOTV/cadc.votv.css
+    - /static/css/cadcVOTV/cadc-theme.css
+    - /static/css/cadcVOTV/cadc.columnpicker.dialog.css
+    - /static/css/cadcVOTV/slick.pager.css
+    - /static/css/cadcVOTV/slick.grid.css
     - /static/css/search/caom2_search.css
-    - /static/css/search/caom2.css
+    - /static/css/search/search.css
+    - /static/css/search/tooltipster.css
+    - /static/css/cadcVOTV/jquery-ui-1.11.4.min.css
+    - /static/css/cadcVOTV/aladin.min.css
 
 breadcrumbs:
     - link: /en/search/

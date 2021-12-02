@@ -1,3 +1,4 @@
 terraform
 _site
 Gemfile.lock
+docker-compose*

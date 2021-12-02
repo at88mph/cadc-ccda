@@ -1112,6 +1112,7 @@
       this._getTargetNameResolutionStatusObject().popover({
         html: true,
         placement: 'auto left',
+        container: 'body',
         template: '<div class="popover resolver-popover" role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
       })
 
@@ -1162,14 +1163,14 @@
      * @param {boolean} [args.resolved=true]   Whether the resolver resolved a name.  This affects the tooltip being
      * shown.
      */
-    this.targetAccepted = function (event, args) {
+    this.targetAccepted = function (_event, args) {
       var $targetNameResolutionStatus = this._getTargetNameResolutionStatusObject()
       $targetNameResolutionStatus.addClass('target_ok')
       var tooltipCreator = new ca.nrc.cadc.search.TooltipCreator()
       tooltipCreator.extractResolverValue(args.data.resolveValue)
-      var $resolverTooltip = this.$form.find('.resolver-result-tooltip')
+      const resolverTooltip = document.getElementById('resolver_result_tooltip')
       var $tooltipContainer = tooltipCreator.getContent(
-        $resolverTooltip.html(),
+        resolverTooltip.innerHTML,
         '', // title blank
         'resolver-result-tooltip-text',
         $targetNameResolutionStatus
@@ -1300,8 +1301,7 @@
     this._searchCriteriaChanged = function ($node) {
       var id = $node.attr('id')
       var value = $node.val()
-      var autocompleteURL =
-        this.configuration.options.autocompleteEndpoint + '/' + id
+      var autocompleteURL = this.configuration.options.autocompleteEndpoint + '/' + id
       var hasValue = stringUtil.hasText(value)
 
       if (id === this.targetNameFieldID) {

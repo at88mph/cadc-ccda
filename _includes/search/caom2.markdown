@@ -14,7 +14,7 @@
 <input type="hidden" name="format" value="csv"/>
 <!-- Used by AdvancedSearch to pass to VOTV. -->
 <input type="hidden" id="max_row_limit_warning" value="{{ i18nForm.labels['MAX_ROW_LIMIT_WARNING'] }}"/>
-<div class="col-sm-12 button-holder">
+<div class="col-sm-12 mrgn-tp-md mrgn-bttm-md">
     <button disabled 
             type="submit"
             class="btn btn-primary submit-query"
@@ -26,7 +26,7 @@
 <div class="col-sm-12">
     {{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_PREFIX'] }}&nbsp;<span class="glyphicon glyphicon-question-sign text-info"></span>&nbsp;{{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_SUFFIX'] }}
 </div>
-<div class="row wb-eqht">
+<div class="wb-eqht">
     <div class="col-md-3 search-category hght-inhrt">
         <div class="panel panel-default hght-inhrt">
             <div class="panel-heading">{{ i18nForm.labels['OBSERVATION_CONSTRAINT_LABEL'] }}</div>
@@ -43,8 +43,9 @@
                      data-utype="{{ utype }}"
                      data-placement="right"
                      data-title="{{ i18nForm.labels[label_key] }}"
+                     style="float:right;"
                      class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info"></div>
-                <div id="{{ utype }}_formgroup" class="form-group">
+                <div id="{{ utype }}_formgroup">
                     <details id="{{ utype }}_details">
                         <summary class="search_criteria_label_container">
                             <label for="{{ utype }}" class="control-label search_criteria_label">{{ i18nForm.labels[label_key] }}<span class="search_criteria_label_contents color-accent"></span></label>
@@ -64,6 +65,7 @@
                      data-container="body"
                      data-utype="{{ data_release_utype }}"
                      data-placement="right"
+                     style="float:right;"
                      data-title="{{ i18nForm.labels[data_release_label_key] }}"
                      class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info"></div>
                 <div id="{{ data_release_utype }}_formgroup" class="form-group data_release_date_panel">
@@ -87,7 +89,7 @@
                 {%- capture intent_label_key -%}
                     {{ intent_utype }}_FORM_LABEL
                 {%- endcapture -%}
-                <div id="{{ intent_utype }}_details" class="form-group" style="margin-bottom:0px; margin-top:10px;">
+                <div id="{{ intent_utype }}_details" style="margin-bottom:0px; margin-top:10px;">
                     <label for="{{ intent_utype }}" id="{{ intent_utype }}_LABEL" class="hidden search_criteria_label">{{ i18nForm.labels[intent_label_key] }}</label>
                     <select id="{{ intent_utype }}" name="{{ intent_utype }}" class="form-control search_criteria_input">
                         <option value="calibration">Calibration only</option>
@@ -110,11 +112,12 @@
                 {%- capture spatial_target_label_key -%}
                     {{ spatial_target_utype }}_FORM_LABEL
                 {%- endcapture -%}
-                <div id="{{ spatial_target_utype }}_formgroup" class="form-group">
+                <div id="{{ spatial_target_utype }}_formgroup">
                     <div data-toggle="popover"
                          data-container="body"
                          data-utype="{{ spatial_target_utype }}"
                          data-placement="right"
+                         style="float:right;"
                          data-title="{{ i18nForm.labels[spatial_target_label_key] }}"
                          class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
@@ -182,7 +185,7 @@
                 {%- capture pixel_scale_label_key -%}
                     {{ pixel_scale_utype }}_FORM_LABEL
                 {%- endcapture -%}
-                <div id="{{ pixel_scale_utype }}_formgroup" class="form-group">
+                <div id="{{ pixel_scale_utype }}_formgroup">
                     <div data-utype="{{ pixel_scale_utype }}"
                          data-toggle="popover"
                          data-container="body"
@@ -215,6 +218,7 @@
                          data-container="body"
                          data-utype="{{ spatial_cutout_name }}"
                          data-placement="right"
+                         style="float:right;"
                          data-title="{{ i18nForm.labels[spatial_cutout_name_label_key] }}"
                          class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
@@ -249,11 +253,12 @@
             {%- capture date_month_preset_label_key -%}
                 {{ date_utype }}_PRESET_PAST_MONTH_FORM_LABEL
             {%- endcapture -%}
-                <div id="{{ date_utype }}_formgroup" class="form-group">
+                <div id="{{ date_utype }}_formgroup">
                     <div id="{{ date_utype }}_tooltip"
                         data-toggle="popover"
                         data-container="body"
                         data-placement="left"
+                        style="float:right;"
                         data-utype="{{ date_utype }}"
                         data-title="{{ i18nForm.labels[date_label_key] }}"
                         class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info"></div>
@@ -296,7 +301,7 @@
                 {%- capture form_name -%}
                     {{ utype }}@Number
                 {%- endcapture -%}
-                <div id="{{ utype }}_formgroup" class="form-group">
+                <div id="{{ utype }}_formgroup">
                     <div data-utype="{{ utype }}"
                          data-container="body"
                          data-toggle="popover"
@@ -332,11 +337,12 @@
                 {%- capture spectral_coverage_label_key -%}
                     {{ spectral_coverage_utype }}_FORM_LABEL
                 {%- endcapture -%}
-                <div id="{{ spectral_coverage_utype }}_formgroup" class="form-group">
+                <div id="{{ spectral_coverage_utype }}_formgroup">
                     <div data-toggle="popover"
                          data-container="body"
                          data-utype="{{ spectral_coverage_utype }}"
                          data-placement="left"
+                         style="float:right;"
                          data-title="{{ i18nForm.labels[spectral_coverage_label_key] }}"
                          class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
                     </div>
@@ -362,7 +368,7 @@
                 {%- capture form_name -%}
                     {{ utype }}@Number
                 {%- endcapture -%}
-                <div id="{{ utype }}_formgroup" class="form-group">
+                <div id="{{ utype }}_formgroup">
                     <div data-utype="{{ utype }}"
                          data-container="body"
                          data-toggle="popover"
@@ -395,6 +401,7 @@
                     <div data-toggle="popover"
                          data-container="body"
                          data-utype="{{ energy_cutout_name }}"
+                         style="float:right;"
                          data-placement="left"
                          data-title="{{ i18nForm.labels[energy_cutout_name_label_key] }}"
                          class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info">
@@ -410,23 +417,9 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-12 resolver-result-tooltip hidden">
-    <strong>{{ i18nForm.labels['RES_TARGET'] }}</strong><br>
-    <p class="resolver-result-target"></p>
-    <strong>{{ i18nForm.labels['RES_SERVICE'] }}</strong><br>
-    <p class="resolver-result-service"></p>
-    <strong>{{ i18nForm.labels['RES_COORDINATES'] }}</strong><br>
-    <p class="resolver-result-coordinates"></p>
-    <strong>{{ i18nForm.labels['RES_TYPE'] }}</strong><br>
-    <p class="resolver-result-type"></p>
-    <strong>{{ i18nForm.labels['RES_MORPHOLOGY'] }}</strong><br>
-    <p class="resolver-result-morphology"></p>
-    <strong>{{ i18nForm.labels['RES_TIME'] }}</strong><br>
-    <p class="resolver-result-time"></p>
-    </div>
     {% include search/caom2_datatrain.markdown %}
 </div>
-<div class="col-sm-12 button-holder">
+<div class="col-sm-12 mrgn-tp-md mrgn-bttm-md">
     <button disabled
             type="submit"
             class="btn btn-primary submit-query"

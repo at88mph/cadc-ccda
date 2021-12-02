@@ -88,7 +88,7 @@
 
     function handleHeaderRowCellRendered(e, args) {
       var column = args.column
-      var node = $(args.node).append('<br>')
+      var node = $(args.node)
 
       if (column.header && column.header.units) {
         // Append unit pulldowns in reverse order since they are floated to the

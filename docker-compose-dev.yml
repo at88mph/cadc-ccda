@@ -41,38 +41,62 @@ services:
             - "/home/debian/src/jekyll:/srv/jekyll"
         networks:
             - "jekyll"
-    wet:
-        image: nginx:alpine
+    resolver:
+        image: tomcat:9-jdk11-openjdk-slim
         labels:
             - "traefik.enable=true"
-            - "traefik.http.services.wet.loadbalancer.server.port=80"
-            - "traefik.http.routers.wet.rule=PathPrefix(`/themes-dist`)"
-            - "traefik.http.routers.wet.service=wet"
-            - "traefik.http.routers.wet.entrypoints=web"
+            - "traefik.http.services.resolver.loadbalancer.server.port=8080"
+            - "traefik.http.routers.resolver.rule=PathPrefix(`/cadc-target-resolver`)"
+            - "traefik.http.routers.resolver.service=resolver"
+            - "traefik.http.routers.resolver.entrypoints=web"
             # - "traefik.http.routers.wet.entrypoints=websecure"
             # - "traefik.http.routers.wet.tls.certresolver=kawfeeresolver"
         volumes:
-            - "/home/debian/src/wet/themes-dist:/usr/share/nginx/html/themes-dist"
+            - "/home/debian/src/resolver/webapps:/usr/local/tomcat/webapps"
         networks:
             - "jekyll"
-    # rally:
-    #     image: opencadc/phoenix:slim-node-10
-    #     command: mix phx.server
-    #     working_dir: "/app"
-    #     labels:
-    #         - "traefik.enable=true"
-    #         - "traefik.http.services.rally.loadbalancer.server.port=4004"
-    #         - "traefik.http.routers.rally.rule=PathPrefix(`/rally`)"
-    #         - "traefik.http.routers.rally.entrypoints=web"
-    #         # - "traefik.http.routers.rally.entrypoints=websecure"
-    #         # - "traefik.http.routers.rally.tls.certresolver=kawfeeresolver"
-    #         - "traefik.http.routers.rally.service=rally"
-    #     volumes:
-    #         - "/home/debian/src/rally:/app"
-    #     networks:
-    #         - "jekyll"
-    #     environment: 
-    #         PORT: 4004
+    tap:
+        image: nginx:alpine
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.services.tap.loadbalancer.server.port=80"
+            - "traefik.http.routers.tap.rule=(PathPrefix(`/tap`) || Path(`/argus/capabilities`))"
+            - "traefik.http.routers.tap.service=tap"
+            - "traefik.http.routers.tap.entrypoints=web"
+            # - "traefik.http.routers.wet.entrypoints=websecure"
+            # - "traefik.http.routers.wet.tls.certresolver=kawfeeresolver"
+        volumes:
+            - "/home/debian/src/tap/conf:/etc/nginx/conf.d"
+            - "/home/debian/src/tap/root:/usr/share/nginx/html"
+        networks:
+            - "jekyll"
+    advancedsearch:
+        image: tomcat:9-jdk11-openjdk-slim
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.services.advancedsearch.loadbalancer.server.port=8080"
+            - "traefik.http.routers.advancedsearch.rule=PathPrefix(`/AdvancedSearch`)"
+            - "traefik.http.routers.advancedsearch.service=advancedsearch"
+            - "traefik.http.routers.advancedsearch.entrypoints=web"
+            # - "traefik.http.routers.wet.entrypoints=websecure"
+            # - "traefik.http.routers.wet.tls.certresolver=kawfeeresolver"
+        volumes:
+            - "/home/debian/src/advancedsearch/webapps:/usr/local/tomcat/webapps"
+            - "/home/debian/src/advancedsearch/config:/root/config"
+        ports:
+            - 30002:5555
+        environment:
+            CATALINA_OPTS: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=0.0.0.0:5555 -Djava.security.egd=file:/dev/./urandom -Dadvancedsearch.uws.maxActive=2 -Dadvancedsearch.uws.username=asuws -Dadvancedsearch.uws.password=asuwspw -Dadvancedsearch.uws.url=jdbc:postgresql://aspg/uws -Dca.nrc.cadc.reg.client.RegistryClient.host=kawfee.ca"
+        networks:
+            - "jekyll"
+    aspg:
+        image: opencadc/uws-postgres:13-alpine
+        networks:
+            - "jekyll"
+        environment:
+          POSTGRES_USER: asuws
+          POSTGRES_PASSWORD: asuwspw
+          POSTGRES_DB: uws
 
     meetings:
         image: tomcat:9-jdk11-openjdk-slim
@@ -109,17 +133,6 @@ services:
             POSTGRES_PASSWORD: meetingspass
             POSTGRES_DB: cadcmisc
             PGDATA: /var/lib/postgresql/data/cadcmisc
-
-    mongo:
-        image: mongo:5
-        ports:
-            - 27017:27017
-        environment:
-            MONGO_INITDB_ROOT_USERNAME: root
-            MONGO_INITDB_ROOT_PASSWORD: rootpass
-            MONGO_INITDB_DATABASE: meetings
-        networks:
-            - jekyll
 
 networks:
     jekyll:
