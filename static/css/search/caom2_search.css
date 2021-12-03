@@ -41,19 +41,12 @@
 /* These need to be !important as jquery ui will override it as well as bootstrap */
 .slick-row .slick-cell a
 {
-  color:#337ab7; !important
+  color:#337ab7 !important;
 }
 
 .slick-row .slick-cell a:hover
 {
-  text-decoration: underline; !important
-}
-
-
-.grid-container
-{
-  width: 1180px;
-  margin-top: 5px;
+  text-decoration: underline !important;
 }
 
 .grid-header
@@ -180,7 +173,6 @@ div.align-middle.column-picker-icon
 .slick-row .selected
 {
   z-index: 10;
-  background: #207e0d;
 }
 
 .slick-row.odd
