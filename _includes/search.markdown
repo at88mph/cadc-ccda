@@ -7,6 +7,10 @@
             <summary>{{ i18nForm.labels['CAOM_QUERY_TAB_TITLE'] }}</summary>
             {% include search/caom2.markdown %}
         </details>
+        <details id="obsCoreQueryFormTab" class="advancedsearch-tab">
+            <summary>{{ i18nForm.labels['OBSCORE_QUERY_TAB_TITLE'] }}</summary>
+            {% include search/obscore.markdown %}
+        </details>
         <details id="resultTableTab" class="advancedsearch-tab">
             <summary>{{ i18nForm.labels['RESULTS_TAB_TITLE'] }}</summary>
             {% include search/results.markdown %}

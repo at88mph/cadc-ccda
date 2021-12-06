@@ -1,21 +1,38 @@
 form:
-  observation_constraints:
-    text_utypes:
-      - "Observation.observationID"
-      - "Observation.proposal.pi"
-      - "Observation.proposal.id"
-      - "Observation.proposal.title"
-      - "Observation.proposal.keywords"
-  energy_constraints:
-    number_utypes:
-      - "Plane.energy.sampleSize"
-      - "Plane.energy.resolvingPower"
-      - "Plane.energy.bounds.width"
-      - "Plane.energy.restwav"
-  time_constraints:
-    number_utypes:
-      - "Plane.time.exposure"
-      - "Plane.time.bounds.width"
+  caom2:
+    observation_constraints:
+      text_utypes:
+        - "Observation.observationID"
+        - "Observation.proposal.pi"
+        - "Observation.proposal.id"
+        - "Observation.proposal.title"
+        - "Observation.proposal.keywords"
+    energy_constraints:
+      number_utypes:
+        - "Plane.energy.sampleSize"
+        - "Plane.energy.resolvingPower"
+        - "Plane.energy.bounds.width"
+        - "Plane.energy.restwav"
+    time_constraints:
+      number_utypes:
+        - "Plane.time.exposure"
+        - "Plane.time.bounds.width"
+  obscore:
+    spatial_constraints:
+      number_utypes:
+        - "Char.SpatialAxis.Coverage.Bounds.Extent.diameter"
+        - "Char.SpatialAxis.Resolution.refval.value"
+        - "Char.SpatialAxis.numBins1"
+        - "Char.SpatialAxis.numBins2"
+    energy_constraints:
+      number_utypes:
+        - "Char.SpectralAxis.Resolution.ResolPower.refval"
+        - "Char.SpectralAxis.numBins"
+    time_constraints:
+      number_utypes:
+        - "Char.TimeAxis.Coverage.Support.Extent"
+        - "Char.TimeAxis.Resolution.refval.value"
+        - "Char.TimeAxis.numBins"
 en:
   labels:
     TITLE: "Advanced Search"
@@ -151,7 +168,7 @@ en:
     Char.SpectralAxis.numBins_FORM_LABEL: "em_xel"
     Char.SpectralAxis.Coverage.Bounds.Limits.LoLimit_FORM_LABEL: "em_min"
     Char.SpectralAxis.Coverage.Bounds.Limits.HiLimit_FORM_LABEL: "em_max"
-    Char.SpectralAxis.DOWNLOADCUTOUT_FORM_LABEL: "Do Spatial Cutout"
+    Char.SpectralAxis.DOWNLOADCUTOUT_FORM_LABEL: "Do Spectral Cutout"
 
 
     # Results page

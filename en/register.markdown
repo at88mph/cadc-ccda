@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/register/
+permalink: /en/register.html
 title: Request an account
-altLangPage: /fr/inscrire/
-dateModified: 2021-11-25
+altLangPage: /fr/inscrire.html
+dateModified: 2021-12-06
 signing: layout.signing
 nositesearch: layout.nositesearch
 ---

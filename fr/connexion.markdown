@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/connexion/
+permalink: /fr/connexion.html
 title: Ouvrir une session
-altLangPage: /en/signin/
-dateModified: 2021-11-25
+altLangPage: /en/login.html
+dateModified: 2021-12-06
 signing: layout.signing
 nositesearch: layout.nositesearch
 ---

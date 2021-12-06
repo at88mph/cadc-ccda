@@ -1,8 +1,8 @@
 en:
   signin:
-    url: /en/signin
+    url: /en/login.html
   register:
-    url: /en/register
+    url: /en/register.html
   contact:
     url: /en/contact.html
     label: Contact us
@@ -57,9 +57,9 @@ en:
         - December
 fr:
   signin:
-    url: /fr/connexion
+    url: /fr/connexion.html
   register:
-    url: /fr/inscrire
+    url: /fr/inscrire.html
   contact:
     url: /fr/contactez.html
     label: Contactez-nous

@@ -2,36 +2,35 @@
 {%- assign i18nForm-search=site.data.search -%}
 {%- assign i18nForm=i18nForm-search[i18nText-lang] -%}
 
-<form id="queryForm" name="queryForm" class="queryForm"
-    method="post" action="{{ i18nForm.servlet_context_path }}/find" enctype="multipart/form-data">
-<!-- Used by VOView to sort the results. -->
-<input type="hidden" name="sort_column" value="Start Date"/>
-<input type="hidden" name="sort_order" value="descending"/>
-<!-- Used by AdvancedSearch to pass to TAP. -->
-<input type="hidden" name="formName" value="adsform"/>
-<input type="hidden" name="SelectList" class="CAOM2_selectlist"/>
-<input type="hidden" name="MaxRecords" value="30000"/>
-<input type="hidden" name="format" value="csv"/>
-<!-- Used by AdvancedSearch to pass to VOTV. -->
-<input type="hidden" id="max_row_limit_warning" value="{{ i18nForm.labels['MAX_ROW_LIMIT_WARNING'] }}"/>
-<div class="col-sm-12 mrgn-tp-md mrgn-bttm-md">
-    <button disabled 
-            type="submit"
-            class="btn btn-primary submit-query"
-            value="{{ i18nForm.labels['SEARCH_BUTTON_LABEL'] }}">{{ i18nForm.labels['SEARCH_BUTTON_LABEL'] }}</button>
-    <button type="reset"
-            class="btn btn-default reset-query-form"
-            value="{{ i18nForm.labels['RESET_BUTTON_LABEL'] }}">{{ i18nForm.labels['RESET_BUTTON_LABEL'] }}</button>
-</div>
-<div class="col-sm-12">
-    {{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_PREFIX'] }}&nbsp;<span class="glyphicon glyphicon-question-sign text-info"></span>&nbsp;{{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_SUFFIX'] }}
-</div>
+<form id="queryForm" name="queryForm" class="queryForm" method="post" action="{{ i18nForm.servlet_context_path }}/find" enctype="multipart/form-data">
+    <!-- Used by VOView to sort the results. -->
+    <input type="hidden" name="sort_column" value="Start Date"/>
+    <input type="hidden" name="sort_order" value="descending"/>
+    <input type="hidden" name="formName" value="adsform"/>
+    <!-- Used by AdvancedSearch to pass to TAP. -->
+    <input type="hidden" name="SelectList" class="CAOM2_selectlist"/>
+    <input type="hidden" name="MaxRecords" value="30000"/>
+    <input type="hidden" name="format" value="csv"/>
+    <!-- Used by AdvancedSearch to pass to VOTV. -->
+    <input type="hidden" id="max_row_limit_warning" value="{{ i18nForm.labels['MAX_ROW_LIMIT_WARNING'] }}"/>
+    <div class="col-sm-12 mrgn-tp-md mrgn-bttm-md">
+        <button disabled 
+                type="submit"
+                class="btn btn-primary submit-query"
+                value="{{ i18nForm.labels['SEARCH_BUTTON_LABEL'] }}">{{ i18nForm.labels['SEARCH_BUTTON_LABEL'] }}</button>
+        <button type="reset"
+                class="btn btn-default reset-query-form"
+                value="{{ i18nForm.labels['RESET_BUTTON_LABEL'] }}">{{ i18nForm.labels['RESET_BUTTON_LABEL'] }}</button>
+    </div>
+    <div class="col-sm-12">
+        {{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_PREFIX'] }}&nbsp;<span class="glyphicon glyphicon-question-sign text-info"></span>&nbsp;{{ i18nForm.labels['TOOLTIP_CLARIFICATION_MESSAGE_SUFFIX'] }}
+    </div>
 <div class="wb-eqht">
     <div class="col-md-3 search-category hght-inhrt">
         <div class="panel panel-default hght-inhrt">
             <div class="panel-heading">{{ i18nForm.labels['OBSERVATION_CONSTRAINT_LABEL'] }}</div>
             <div class="panel-body search-constraints small">
-            {% for utype in i18nForm-search.form.observation_constraints.text_utypes %}
+            {% for utype in i18nForm-search.form.caom2.observation_constraints.text_utypes %}
             {%- capture label_key -%}
                 {{ utype }}_FORM_LABEL
             {%- endcapture -%}
@@ -294,7 +293,7 @@
                         <input type="hidden" name="Form.name" value="{{ date_utype }}@Date"/>
                     </details>
                 </div>
-            {% for utype in i18nForm-search.form.time_constraints.number_utypes %}
+            {% for utype in i18nForm-search.form.caom2.time_constraints.number_utypes %}
                 {%- capture label_key -%}
                     {{ utype }}_FORM_LABEL
                 {%- endcapture -%}
@@ -361,7 +360,7 @@
                         <input type="hidden" name="Form.name" value="{{ spectral_coverage_utype }}@Energy" />
                     </details>
                 </div>
-            {% for utype in i18nForm-search.form.energy_constraints.number_utypes %}
+            {% for utype in i18nForm-search.form.caom2.energy_constraints.number_utypes %}
                 {%- capture label_key -%}
                     {{ utype }}_FORM_LABEL
                 {%- endcapture -%}

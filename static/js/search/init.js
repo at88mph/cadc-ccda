@@ -17,7 +17,7 @@ $(document).ready(function() {
       serviceLocatorEndpoint: `${pathName}service-locator`,
       pageLanguage: pageLang,
       autoInitFlag: false,
-      showObscoreTab: false,
+      showObscoreTab: true,
       baseURL: `https://${window.location.hostname}/`
     })
 
