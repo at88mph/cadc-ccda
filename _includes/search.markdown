@@ -1,16 +1,18 @@
 {%- include variable-core.liquid -%}
 {%- assign i18nForm=site.data.search[i18nText-lang] -%}
 
-<div class="wb-tabs ignore-session">
-    <div class="tabpanels small">
+<div class="wb-tabs ignore-session small">
+    <div class="tabpanels">
         <details id="queryFormTab" class="advancedsearch-tab" open="open">
             <summary>{{ i18nForm.labels['CAOM_QUERY_TAB_TITLE'] }}</summary>
             {% include search/caom2.markdown %}
         </details>
+        {%- if site.search.obscore -%}
         <details id="obsCoreQueryFormTab" class="advancedsearch-tab">
             <summary>{{ i18nForm.labels['OBSCORE_QUERY_TAB_TITLE'] }}</summary>
             {% include search/obscore.markdown %}
         </details>
+        {%- endif -%}
         <details id="resultTableTab" class="advancedsearch-tab">
             <summary>{{ i18nForm.labels['RESULTS_TAB_TITLE'] }}</summary>
             {% include search/results.markdown %}

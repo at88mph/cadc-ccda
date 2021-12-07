@@ -110,7 +110,12 @@ title:
   fr: "Centre canadien de données astronomiques"
 
 email: Dustin.Jenkins@nrc-cnrc.gc.ca
-  
+
+# Remove this in Production to eliminate the ObsCore tab in Advanced Search.
+search:
+  obscore: true
+
+
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

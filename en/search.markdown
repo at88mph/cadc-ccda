@@ -73,6 +73,8 @@ css:
 breadcrumbs:
     - link: /en/search/
       title: Advanced Search
+
+fluid: true
 ---
 
 {% include search.markdown %}

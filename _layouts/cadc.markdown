@@ -24,7 +24,7 @@ nositesearch: true
     {%- endif -%}
 {%- endcapture -%}
 
-<main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+<main class="{%- if page.fluid -%}container-fluid{%- else -%}container{%- endif -%}" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
     {%- if site.warning.enabled -%}
     <div class="row">
         <div class="full-width">
@@ -48,7 +48,9 @@ nositesearch: true
         <h1 id="wb-cont" class="mrgn-tp-sm" property="name">{{ page-title }} {{ header-html }}</h1>
         {%- endif -%}
     </div>
+    {%- unless page.fluid -%}
     <div class="row">
+    {%- endunless -%}
         {%- if page.nav -%}
             {%- capture nav_size -%}
             {%- if page.nav_size -%}
@@ -91,6 +93,8 @@ nositesearch: true
         {%- else -%}
             {{ content }}
         {%- endif -%}
+    {%- unless page.fluid -%}
     </div>
+    {%- endunless -%}
     {% include main-footer/inc-footer.html %}
 </main>

@@ -42,30 +42,38 @@ permalink: /en/dao/     # This page's endpoint
 title: Dominion Astrophysical Observatory   # This page's title
 altLangPage: /fr/ofa/   # This page's alternate language page
 headerimage: /static/images/archive-info/dao.jpg     # The image to use in the archive page's header.  [OPTIONAL]
-dateModified: 2021-11-23    # The date this page was modified.  Set manually.
+dateModified: 2021-12-07    # The date this page was modified.  Set manually.
 
-# Navigation links (right side navigation)
-nav:
-  # First well of links
-  - links:
-      - name: Search the DAO Science Archive 
-        url: /en/search/?collection=DAO&noexec=true
-      - name: Search the DAO Spectroscopic Plate Archive
-        url: /en/search/?collection=DAOPLATES&noexec=true
-  # Second well of links
-  - links:
-      - name: Airmass Calculator
-        url: /cadcbin/en/dao/airmass.pl
-      - name: Sky Calendar
-        url: /cadcbin/en/dao/skycal.pl
-      - name: Robotic Observing
-        url: /cadcbin/en/dao/robotic.pl
-  # Third well of links
-  - links:
-      - name: Credits and Acknowledgements
-        url: /en/dao/credits.html
+# Navigation links (left side submenu)
+nav: dao
 ---
 # End page specific
 ```
 
 The `cadc` layout can successfully handle a side navigation or plain page.
+
+### Side Menu Navigation
+```yaml
+...
+nav: mynavname
+...
+```
+
+This will expect a `_data/mynavname.yaml` file to be present and contain bilingual navigation items in the following format:
+
+```yaml
+en:
+  nav:
+    links:
+      - name:
+        url:
+      ...
+      title:
+fr:
+  nav:
+    links:
+      - name:
+        url:
+      ...
+      title:
+```
