@@ -20,7 +20,7 @@ script:
     - /static/js/slickgrid/aladin.js
     - /static/js/slickgrid/extra/jquery.form.js
     - /static/js/slickgrid/extra/jquery.csv-0.71.min.js
-    - /static/js/search/org.opencadc.js
+    - /static/js/cadc/org.opencadc.js
     - /static/js/slickgrid/extra/moment.min.js
     - /static/js/slickgrid/extra/json.human.js
     - /static/js/slickgrid/extra/wgxpath.install.js
@@ -41,9 +41,9 @@ script:
     - /static/js/slickgrid/cadc.resultstate.js
     - /static/js/slickgrid/cadc.plugin.footprint-viewer.js
     - /static/js/search/validator.js
-    - /static/js/search/cadc.uri.js
+    - /static/js/cadc/cadc.uri.js
     - /static/js/search/cadc.search.uws.js
-    - /static/js/search/cadc.util.js
+    - /static/js/cadc/cadc.util.js
     - /static/js/search/cadc.search.tapclient.js
     - /static/js/search/cadc.search.format.js
     - /static/js/search/cadc.search.unitconversion.js

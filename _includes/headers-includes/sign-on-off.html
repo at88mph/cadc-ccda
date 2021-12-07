@@ -50,13 +50,15 @@
                                     <p class="h1 opct-90 col-md-9">
                                         <a class="text-white home-link" href="/{{ i18nText-lang }}/">{{ site.title[i18nText-lang] }}</a>
                                     <div class="text-right col-md-3 mrgn-tp-lg">
-                                        <a class="btn btn-default" href="{{ i18nText-cadc.register.url }}">{{ i18nText-signOnRegister }}</a>
-                                        <a class="btn btn-primary" href="{{ i18nText-cadc.signin.url }}">{{ i18nText-signIn }}</a>
-                                        {% comment %}
-                                        <p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span>John Doe</span></span></p>
-                                        <button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
-                                        <button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button>
-                                        {% endcomment %}
+                                        <div class="unsigned">
+                                            <a class="btn btn-default" href="{{ i18nText-cadc.register.url }}">{{ i18nText-signOnRegister }}</a>
+                                            <a class="btn btn-primary" href="{{ i18nText-cadc.signin.url }}">{{ i18nText-signIn }}</a>
+                                        </div>
+                                        <div class="signed hidden">
+                                            <p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span class="user-full-name"></span></span></p>
+                                            <button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
+                                            <button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div><div class="mrgn-lft-xl mrgn-bttm-md">
