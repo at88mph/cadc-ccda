@@ -1,13 +1,29 @@
 en:
   nav:
     - links:
-      - name: Listing
-        url: "/en/meetings/"
+      - name: New Meetings
+        url: "/en/meetings/recent/"
+      - name: Meetings This Month
+        url: "/en/meetings/this-month/"
+      - name: Meetings Next Month
+        url: "/en/meetings/next-month/"
+      - name: "2023"
+        url: "/en/meetings/year-after-next/"
+      - name: "2022"
+        url: "/en/meetings/next-year/"
+      - name: "2021"
+        url: "/en/meetings/this-year/"
+      - name: "2020"
+        url: "/en/meetings/last-year/"
+      - name: "2019"
+        url: "/en/meetings/year-preceding/"
+      - name: Complete Archive
+        url: "/en/meetings/archive-years/"
+      title: Meetings
+    - links:      
       - name: Submit New Meeting
         url: "/en/meetings/submit-new/"
-      - name: Search Archived Meetings
-        url: "/en/meetings/archive/"
-      title: Related links
+      title: Operations
     - links:
       - name: RSS
         url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cadcbin/en/meetings/rss-meetings.py
@@ -53,13 +69,29 @@ en:
 fr:
   nav:
     - links:
-      - name: Référencement
-        url: "/fr/rencontres/"
+      - name: Nouvelles rencontres
+        url: "/fr/rencontres/recente/"
+      - name: Rencontres du mois
+        url: "/fr/rencontres/ce-mois/"
+      - name: Rencontres du mois prochain
+        url: "/fr/rencontres/mois-prochain/"
+      - name: "2023"
+        url: "/fr/rencontres/annee-suivante/"
+      - name: "2022"
+        url: "/fr/rencontres/annee-prochaine/"
+      - name: "2021"
+        url: "/fr/rencontres/cette-annee/"
+      - name: "2020"
+        url: "/fr/rencontres/annee-derniere/"
+      - name: "2019"
+        url: "/fr/rencontres/annee-precede/"
+      - name: Archive complète
+        url: "/fr/rencontres/archive-annees/"
+      title: Rencontres
+    - links:
       - name: Inscrire une rencontre
         url: "/fr/rencontres/soumire-nouveau/"
-      - name: Recherche les rencontres archivées
-        url: "/fr/rencontres/archive/"
-      title: Liens connexes
+      title: Opérations
     - links:
       - name: RSS
         url: https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cadcbin/en/meetings/rss-meetings.py

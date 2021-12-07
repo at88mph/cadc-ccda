@@ -1,29 +1,33 @@
 en:
   nav:
+    - title: Data 
     - links:
         - name: Search the DAO Science Archive 
           url: /en/search/?collection=DAO&noexec=true
         - name: Search the DAO Spectroscopic Plate Archive
           url: /en/search/?collection=DAOPLATES&noexec=true
+    - title: Applications
     - links:
         - name: Airmass Calculator
-          url: /en/dao/airmass
+          url: /en/dao/airmass.html
         - name: Sky Calendar
-          url: /en/dao/skycal
+          url: /en/dao/skycal.html
         - name: Robotic Observing
-          url: /en/dao/robotic
+          url: /en/dao/robotic.html
         - name: Current Telescope Status
           url: /en/dao/status.html
         - name: Current Weather
           url: /en/dao/weather.html
         - name: DAO Publications
-          url: /en/dao/publications
+          url: /en/dao/publications.html
         - name: Telescope Schedules
-          url: /en/dao/schedule
+          url: /en/dao/schedule.html
+    - title: Miscellaneous
     - links:
         - name: Credits and Acknowledgements
           url: /en/dao/credits.html
   labels:
+    path_acronym: dao
     search_publications: Search Publications
     airmass_submit_button: Get Coordinates
     robotic_target_list: File Containing Target List
@@ -44,10 +48,6 @@ en:
     sky_clock: DAO Clear Sky Clock
     sky_camera: DAO Sky Camera
     ir_sat_image: IR Satellite Image
-    schedule_pi_name: PI
-    schedule_pi_name_observer: Observer
-    schedule_program: Program
-    schedule_detector: Detector
     this_week: This Week
     1_2_dome: 1.2-m Telescope Dome Camera
     1_8_dome: 1.8-m Telescope Dome Camera
@@ -63,23 +63,24 @@ fr:
         url: /fr/recherche/?collection=DAOPLATES&noexec=true
     - links:
         - name: Calculateur de la masse d'air
-          url: /fr/ofa/airmass
+          url: /fr/ofa/masse-air.html
         - name: Calendrier astronomique
-          url: /fr/ofa/skycal
+          url: /fr/ofa/skycal.html
         - name: Observation automatisé
-          url: /fr/ofa/robotic
+          url: /fr/ofa/robotic.html
         - name: État actuel du télescope
           url: /fr/ofa/etat.html
         - name: Météo actuelle
           url: /fr/ofa/meteo.html
         - name: Publications de l'OFA
-          url: /fr/ofa/publications
+          url: /fr/ofa/publications.html
         - name: Horaires des télescopes
-          url: /fr/ofa/horaire
+          url: /fr/ofa/horaire.html
     - links:
         - name: Crédits and remerciements
           url: /fr/ofa/credits.html
   labels:
+    path_acronym: ofa
     search_publications: Rechercher les publications
     airmass_submit_button: Obtenir coordonnées
     robotic_target_list: Fichier contenant la liste cible
@@ -100,10 +101,6 @@ fr:
     sky_clock: Carte du ciel clair
     sky_camera: Caméra pour le ciel du site de l'OFA
     ir_sat_image: Image satellite infrarouge
-    schedule_pi_name: Chercheur
-    schedule_pi_name_observer: Observateur
-    schedule_program: Prog.
-    schedule_detector: Dét.
     this_week: Cette semaine
     1_2_dome: Caméra du dome du télescope de 1,2m
     1_8_dome: Caméra du dome du télescope de 1,8m

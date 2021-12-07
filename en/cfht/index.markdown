@@ -4,9 +4,9 @@ lang: en
 permalink: /en/cfht/
 title: Canada France Hawai'i Telescope
 altLangPage: /fr/tcfh/
-headerimage: /static/images/cfht.jpg
+headerimage: /static/images/archive-info/cfht.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

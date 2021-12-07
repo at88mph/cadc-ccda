@@ -4,9 +4,9 @@ lang: fr
 permalink: /fr/ofr/
 title: Observatoire fédéral de radioastrophysique
 altLangPage: /en/drao/
-headerimage: /static/images/drao.jpg
+headerimage: /static/images/archive-info/drao.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

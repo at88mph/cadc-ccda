@@ -1,5 +1,6 @@
 en:
   nav:
+    - title: Data
     - links:
         - name: Complete collection
           url: /en/search/?collection=CFHT&noexec=true
@@ -13,6 +14,7 @@ en:
           url: /en/search/?collection=CFHT&Observation.instrument.name=SPIRou&noexec=true
         - name: WIRCam
           url: /en/search/?collection=CFHT&Observation.instrument.name=WIRCam&noexec=true
+    - title: Products
     - links:
         - name: CFHT Legacy Survey
           url: /en/cfht/cfhtls.html
@@ -22,6 +24,7 @@ en:
           url: /en/megapipe/
         - name: WIRwolf
           url: /en/wirwolf/
+    - title: Miscellaneous
     - links:
         - name: Proprietary Data Access
           url: /en/cfht/access.html
@@ -31,6 +34,7 @@ en:
           url: /en/cfht/credits.html
 fr:
   nav:
+    - title: Données
     - links:
       - name: Collection complète
         url: /fr/recherche/?collection=CFHT&noexec=true
@@ -44,6 +48,7 @@ fr:
         url: /fr/recherche/?collection=CFHT&Observation.instrument.name=SPIRou&noexec=true
       - name: WIRCam
         url: /fr/recherche/?collection=CFHT&Observation.instrument.name=WIRCam&noexec=true
+    - title: Produits
     - links:
       - name: CFHT Legacy Survey
         url: /fr/tcfh/cfhtls.html
@@ -53,6 +58,7 @@ fr:
         url: /fr/megapipe/
       - name: WIRwolf
         url: /fr/wirwolf/
+    - title: Divers
     - links:
       - name: Accès et contrôle des données exclusives
         url: /fr/tcfh/acces.html

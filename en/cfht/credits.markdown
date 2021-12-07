@@ -4,9 +4,9 @@ lang: en
 permalink: /en/cfht/credits
 title: Credits and Acknowledgements
 altLangPage: /fr/tcfh/credits
-headerimage: /static/images/cfht.jpg
+headerimage: /static/images/archive-info/cfht.jpg
 dateModified: 2021-11-02
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

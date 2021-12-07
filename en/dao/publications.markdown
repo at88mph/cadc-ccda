@@ -4,9 +4,9 @@ lang: en
 permalink: /en/dao/publications
 title: DAO Publications
 altLangPage: /fr/ofa/publications
-headerimage: /static/images/dao.jpg
+headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-04
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

@@ -1,11 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/signin/
-title: Sign In
-altLangPage: /fr/connexion/
-dateModified: 2021-10-28
-nofooter: layout.nofooter
+permalink: /en/login.html
+title: Login
+altLangPage: /fr/connexion.html
+dateModified: 2021-12-06
 signing: layout.signing
 nositesearch: layout.nositesearch
 ---

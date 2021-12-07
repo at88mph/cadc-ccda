@@ -1,10 +1,12 @@
 en:
   nav:
+    - title: Data
     - links:
         - name: Search for data
           url: /en/search/?collection=BLAST&noexec=true
 fr:
   nav:
+    - title: Données
     - links:
         - name: Recherche de données
           url: /fr/recherche/?collection=BLAST&noexec=true

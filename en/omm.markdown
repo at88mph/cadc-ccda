@@ -4,9 +4,9 @@ lang: en
 permalink: /en/omm/
 title: Mont Mégantic Observatory
 altLangPage: /fr/omm/
-headerimage: /static/images/omm.jpg
+headerimage: /static/images/archive-info/omm.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

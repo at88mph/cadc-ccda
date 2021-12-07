@@ -1,8 +1,32 @@
 en:
   signin:
-    url: /en/login
+    url: /en/login.html
   register:
-    url: /en/register
+    url: /en/register.html
+  contact:
+    url: /en/contact.html
+    label: Contact us
+  email:
+    url: /en/contact.html#email
+    label: Email
+  address:
+    url: /en/contact.html#address
+    label: Address
+  github:
+    url: https://github.com/opencadc
+  twitter:
+    url: https://twitter.com/AstroCADC
+  slack:
+    url: /en/slack
+  about:
+    url: /en/about.html
+    label: About us
+  mandate:
+    url: /en/about.html#mandate
+    label: Our mandate
+  acknowledgements:
+    url: /en/about.html#acknowledgements
+    label: Acknowledgements
   labels:
     username: Username
     password: Password
@@ -13,6 +37,10 @@ en:
     signin_submit: Sign In
     register_submit: Send request
     reset: Clear
+    report_problem_link_text: Report a problem on this page
+    quicksearch_placeholder: Search for data by target
+    quicksearch: Search for data
+    quicksearch_submit_button: Search
     dates:
       months:
         - January
@@ -29,9 +57,33 @@ en:
         - December
 fr:
   signin:
-    url: /fr/connexion
+    url: /fr/connexion.html
   register:
-    url: /fr/inscrire
+    url: /fr/inscrire.html
+  contact:
+    url: /fr/contactez.html
+    label: Contactez-nous
+  email:
+    url: /fr/contactez.html#courriel
+    label: Courriel
+  address:
+    url: /fr/contactez.html#adresse
+    label: Adresse
+  github:
+    url: https://github.com/opencadc
+  twitter:
+    url: https://twitter.com/AstroCADC
+  slack:
+    url: /fr/slack
+  about:
+    url: /fr/apropos.html
+    label: À propos de nous
+  mandate:
+    url: /fr/apropos.html#mandat
+    label: Notre mandat
+  acknowledgements:
+    url: /fr/apropos.html#mention
+    label: Mention
   labels:
     username: Nom d'utilisateur
     password: Mot de passe
@@ -42,6 +94,10 @@ fr:
     signin_submit: Connexion
     register_submit: Soumettre la demande
     reset: Effacer
+    report_problem_link_text: Signaler un problème sur cette page
+    quicksearch_placeholder: Recherche les données par cible
+    quicksearch: Recherche les données
+    quicksearch_submit_button: Recherche
     dates:
       months:
         - janvier

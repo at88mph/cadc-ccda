@@ -4,9 +4,9 @@ lang: en
 permalink: /en/megapipe
 title: The MegaPipe image stacking pipeline
 altLangPage: /fr/megapipe
-headerimage: /static/images/megapipe.jpg
+headerimage: /static/images/archive-info/megapipe.jpg
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

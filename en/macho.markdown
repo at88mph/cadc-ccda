@@ -5,7 +5,7 @@ permalink: /en/macho/
 title: MACHO
 altLangPage: /fr/macho/
 dateModified: 2021-10-21
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

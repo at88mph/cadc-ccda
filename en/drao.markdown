@@ -4,9 +4,9 @@ lang: en
 permalink: /en/drao/
 title: Dominion Radio Astrophysical Observatory
 altLangPage: /fr/ofr/
-headerimage: /static/images/drao.jpg
-dateModified: 2021-10-14
-nofooter: layout.nofooter
+headerimage: /static/images/archive-info/drao.jpg
+dateModified: 2021-11-22
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

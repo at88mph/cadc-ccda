@@ -1,19 +1,19 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: cadc
+title: Meetings For Year
 lang: en
-title: Archived Astronomy Meetings
 permalink: /en/meetings/archive/
 altLangPage: /fr/rencontres/archive/
-dateModified: 2021-10-25
-nofooter: layout.nofooter
+dateModified: 2021-11-26
 signing: layout.signing
 nositesearch: layout.nositesearch
 
+nav: meetings
+
 # Used for post label formatting (dates and links)
-script: [/static/js/meetings.js]
+script: 
+    - /static/js/meetings/archive.js
+    - /static/js/meetings/meetings.js
 
 css: /static/css/meetings.css
 
@@ -22,4 +22,4 @@ breadcrumbs:
       title: Meetings
 ---
 
-{%- include meetings/archive.markdown -%}
+{% include meetings/archive-listing.markdown %}

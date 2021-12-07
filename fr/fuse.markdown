@@ -4,9 +4,9 @@ lang: fr
 permalink: /fr/fuse/
 title: Explorateur Spectroscopique de l'Ultraviolet Lointain (FUSE)
 altLangPage: /en/fuse/
-headerimage: /static/images/fuse.jpg
+headerimage: /static/images/archive-info/fuse.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

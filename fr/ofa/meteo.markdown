@@ -4,9 +4,9 @@ lang: fr
 permalink: /fr/ofa/meteo
 title: Météo actuelle
 altLangPage: /en/dao/weather
-headerimage: /static/images/dao.jpg
+headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-11-03
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

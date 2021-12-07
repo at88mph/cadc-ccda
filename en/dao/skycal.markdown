@@ -1,12 +1,12 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/dao/skycal
+permalink: /en/dao/skycal.html
 title: DAO Sky Calendar
-altLangPage: /fr/ofa/skycal
-headerimage: /static/images/dao.jpg
-dateModified: 2021-11-03
-nofooter: layout.nofooter
+altLangPage: /fr/ofa/skycal.html
+headerimage: /static/images/archive-info/dao.jpg
+dateModified: 2021-11-10
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

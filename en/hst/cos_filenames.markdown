@@ -1,12 +1,12 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/hst/cos_filenames
-title: Hubble Space Telescope
-altLangPage: /fr/hst/cos_fichiers
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
-nofooter: layout.nofooter
+permalink: /en/hst/cos_filenames.html
+title: HST COS Filenames
+altLangPage: /fr/hst/cos_fichiers.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

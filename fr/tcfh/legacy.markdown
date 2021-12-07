@@ -5,7 +5,7 @@ permalink: /fr/tcfh/cfhtls
 title: CFHT Legacy Survey
 altLangPage: /en/cfht/cfhtls
 dateModified: 2021-10-25
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

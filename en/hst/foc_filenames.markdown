@@ -1,12 +1,12 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/hst/foc_filenames
+permalink: /en/hst/foc_filenames.html
 title: Hubble Space Telescope
-altLangPage: /fr/hst/foc_fichiers
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
-nofooter: layout.nofooter
+altLangPage: /fr/hst/foc_fichiers.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

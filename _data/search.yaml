@@ -1,0 +1,376 @@
+form:
+  caom2:
+    observation_constraints:
+      text_utypes:
+        - "Observation.observationID"
+        - "Observation.proposal.pi"
+        - "Observation.proposal.id"
+        - "Observation.proposal.title"
+        - "Observation.proposal.keywords"
+    energy_constraints:
+      number_utypes:
+        - "Plane.energy.sampleSize"
+        - "Plane.energy.resolvingPower"
+        - "Plane.energy.bounds.width"
+        - "Plane.energy.restwav"
+    time_constraints:
+      number_utypes:
+        - "Plane.time.exposure"
+        - "Plane.time.bounds.width"
+  obscore:
+    spatial_constraints:
+      number_utypes:
+        - "Char.SpatialAxis.Coverage.Bounds.Extent.diameter"
+        - "Char.SpatialAxis.Resolution.refval.value"
+        - "Char.SpatialAxis.numBins1"
+        - "Char.SpatialAxis.numBins2"
+    energy_constraints:
+      number_utypes:
+        - "Char.SpectralAxis.Resolution.ResolPower.refval"
+        - "Char.SpectralAxis.numBins"
+    time_constraints:
+      number_utypes:
+        - "Char.TimeAxis.Coverage.Support.Extent"
+        - "Char.TimeAxis.Resolution.refval.value"
+        - "Char.TimeAxis.numBins"
+en:
+  labels:
+    TITLE: "Advanced Search"
+    BC_TITLE: "Breadcrumb Trail"
+    BC_HOME_LABEL: "CADC Home"
+    BC_HOME_URI: "/en/"
+
+    # Tab labels
+    CAOM_QUERY_TAB_TITLE: "Search"
+    OBSCORE_QUERY_TAB_TITLE: "ObsCore Search"
+    RESULTS_TAB_TITLE: "Results"
+    ERROR_TAB_TITLE: "Error"
+    ADQL_QUERY_TAB_TITLE: "ADQL"
+    HELP_TAB_TITLE: "Help"
+    ACKNOWLEDGEMENTS_TAB_TITLE: "Acknowledgements"
+
+    # Form button labels
+    SEARCH_BUTTON_LABEL: "Search"
+    RESET_BUTTON_LABEL: "Reset"
+    CLEAR_BUTTON_LABEL: "Clear"
+    CANCEL_BUTTON_LABEL: "Cancel"
+
+    # Messages
+    TOOLTIP_CLARIFICATION_MESSAGE_PREFIX: "Click on"
+    TOOLTIP_CLARIFICATION_MESSAGE_SUFFIX: "for explanations"
+
+    #
+    # Form labels
+    #
+
+    # General word translation
+    OR_LABEL: "Or"
+    EXECUTING_QUERY_LABEL: "Searching"
+    DATE_MODIFIED_LABEL: "Date modified"
+    LOADING_MESSAGE: "Loading..."
+    ERROR_SEARCH_NOT_AVAILABLE: "Error initializing search. Refresh to try again. If problem persists, please contact CADC support."
+
+
+    # Datatrain labels
+    DATATRAIN_UNAVAILABLE: "Problem loading."
+    USE_UPPER_SEARCH_FORM: "Please proceed using the upper part of this form, or"
+    RELOAD_CONSTRAINTS: "try reloading"
+
+    # CAOM-2
+
+    # Observation Constraints
+    OBSERVATION_CONSTRAINT_LABEL: "Observation Constraints"
+    Observation_FORM_LABEL: "e.g. Kavelaars, galaxy, 2010-01-01"
+    Observation.observationID_FORM_LABEL: "Observation ID"
+    Observation.proposal.pi_FORM_LABEL: "P.I. Name"
+    Observation.proposal.id_FORM_LABEL: "Proposal ID"
+    Observation.proposal.title_FORM_LABEL: "Proposal Title"
+    Observation.proposal.keywords_FORM_LABEL: "Proposal Keywords"
+    PUBLIC_DATA_FLAG_FORM_LABEL: "Public only"
+    Plane.dataRelease_FORM_LABEL: "Data Release Date"
+    Observation.intent_FORM_LABEL: "Intent"
+
+    # Spatial Constraints
+    SPATIAL_CONSTRAINT_LABEL: "Spatial Constraints"
+    Plane.position.bounds_FORM_LABEL: "Target"
+    ANY_RESOLVER_FORM_LABEL: "Automatic (recommended)"
+    NO_RESOLVER_FORM_LABEL: "None (Target Name match)"
+    RESOLVER_FORM_LABEL: "Resolve with"
+    RESOLVER_FORM_LABEL_ADDENDUM: "(if applicable)"
+    TARGET_LIST_TOOLTIP: "Upload a list of target names or RA DEC (degrees or sexigessimal) with optional radius (in degrees by default)."
+    TARGET_LIST_FORM_LABEL: "Upload targets"
+    Plane.position.sampleSize_FORM_LABEL: "Pixel Scale"
+    Plane.position.DOWNLOADCUTOUT_FORM_LABEL: "Do Spatial Cutout"
+    SSOIS_MOBILE_OBJECTS: "SSOIS Moving object search"
+
+    # Resolver Detail
+    RES_TARGET: "Target"
+    RES_SERVICE: "Service"
+    RES_COORDINATES: "Coordinates (RA Dec)"
+    RES_TYPE: "Object Type"
+    RES_MORPHOLOGY: "Morphology Type"
+    RES_TIME: "Time (ms)"
+
+    # Temporal Constraints
+    TIME_CONSTRAINT_LABEL: "Temporal Constraints"
+    Plane.time.bounds.samples_FORM_LABEL: "Observation Date"
+    Plane.time.bounds.samples_PRESET_FORM_LABEL: "Data obtained within the past:"
+    Plane.time.bounds.samples_PRESET_PAST_24_HOURS_FORM_LABEL: "24 hours"
+    Plane.time.bounds.samples_PRESET_PAST_WEEK_FORM_LABEL: "Week"
+    Plane.time.bounds.samples_PRESET_PAST_MONTH_FORM_LABEL: "Month"
+    Plane.time.exposure_FORM_LABEL: "Integration Time"
+    Plane.time.bounds.width_FORM_LABEL: "Time Span"
+
+    # Spectral Constraints
+    SPECTRAL_CONSTRAINT_LABEL: "Spectral Constraints"
+    Plane.energy.bounds.samples_FORM_LABEL: "Spectral Coverage"
+    Plane.energy.sampleSize_FORM_LABEL: "Spectral Sampling"
+    Plane.energy.resolvingPower_FORM_LABEL: "Resolving Power"
+    Plane.energy.bounds.width_FORM_LABEL: "Bandpass Width"
+    Plane.energy.restwav_FORM_LABEL: "Rest-frame Energy"
+    Plane.energy.DOWNLOADCUTOUT_FORM_LABEL: "Do Spectral Cutout"
+
+
+    # Data Acquisition
+    DATA_ACQUISITION_LABEL: "Additional Constraints"
+
+    # ObsCore
+
+    # Observation Constraints
+    DataID.observationID_FORM_LABEL: "obs_id"
+    Target.Name_FORM_LABEL: "target_name"
+    Curation.releaseDate_FORM_LABEL: "obs_release_date"
+
+    # Spatial Constraints
+    Char.SpatialAxis.Coverage.Support.Area_FORM_LABEL: "s_region"
+    Char.SpatialAxis.Coverage.Bounds.Extent.diameter_FORM_LABEL: "s_fov"
+    Char.SpatialAxis.Resolution.refval.value_FORM_LABEL: "s_resolution"
+    Char.SpatialAxis.numBins1_FORM_LABEL: "s_xel1"
+    Char.SpatialAxis.numBins2_FORM_LABEL: "s_xel2"
+    Char.SpatialAxis.DOWNLOADCUTOUT_FORM_LABEL: "Do Spatial Cutout"
+
+    # Temporal/Polarization Constraints
+    TIME_POLARIZATION_CONSTRAINT_LABEL: "Time&#47;Polarization"
+    Char.TimeAxis.Coverage.Bounds.Limits_FORM_LABEL: "t_coverage"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_FORM_LABEL: "Data obtained within the past:"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_PAST_24_HOURS_FORM_LABEL: "24 hours"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_PAST_WEEK_FORM_LABEL: "Week"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_PAST_MONTH_FORM_LABEL: "Month"
+    Char.TimeAxis.Coverage.Support.Extent_FORM_LABEL: "t_exptime"
+    Char.TimeAxis.Resolution.refval.value_FORM_LABEL: "t_resolution"
+    Char.TimeAxis.numBins_FORM_LABEL: "t_xel"
+    Char.PolarizationAxis.stateList_FORM_LABEL: "pol_state"
+    Char.PolarizationAxis.numBins_FORM_LABEL: "pol_xel"
+
+    # Spectral Coverage
+    Char.SpectralAxis.Coverage.Bounds.Limits_FORM_LABEL: "em_coverage"
+    Char.SpectralAxis.Resolution.ResolPower.refval_FORM_LABEL: "em_res_power"
+    Char.SpectralAxis.numBins_FORM_LABEL: "em_xel"
+    Char.SpectralAxis.Coverage.Bounds.Limits.LoLimit_FORM_LABEL: "em_min"
+    Char.SpectralAxis.Coverage.Bounds.Limits.HiLimit_FORM_LABEL: "em_max"
+    Char.SpectralAxis.DOWNLOADCUTOUT_FORM_LABEL: "Do Spectral Cutout"
+
+
+    # Results page
+    NO_RESULTS_RETURNED: "No results returned."
+    RESULTS_VISUALIZE_BUTTON_LABEL: "View in sky"
+    CLOSE_BUTTON_LABEL: "Close"
+    COLUMN_MANAGER_BUTTON_LABEL: "Change Columns"
+    COLUMN_MANAGER_HEADING_TEXT: "Add/remove displayed columns"
+    COLUMN_MANAGER_HELP_TEXT: "Drag &amp; drop columns between menus, or click the checkboxes."
+    COLUMN_MANAGER_SHOW_ALL_BUTTON_TEXT: "Show all columns"
+    COLUMN_MANAGER_DEFAULT_COLUMNS_BUTTON_TEXT: "Default columns"
+    COLUMN_MANAGER_ORDER_ALPHABETICALLY_BUTTON_TEXT: "Order alphabetically"
+
+    # Product types
+    PRODUCT_TYPE_LABEL: "Product Types"
+    PRODUCT_TYPE_SCIENCE_LABEL: "Science"
+    PRODUCT_TYPE_CALIBRATION_LABEL: "Calibration"
+    PRODUCT_TYPE_AUXILIARY_LABEL: "Auxiliary"
+    PRODUCT_TYPE_INFO_LABEL: "Info"
+    PRODUCT_TYPE_PREVIEW_LABEL: "Preview"
+    PRODUCT_TYPE_CATALOG_LABEL: "Catalog"
+    PRODUCT_TYPE_NOISE_LABEL: "Noise"
+    PRODUCT_TYPE_WEIGHT_LABEL: "Weight"
+
+    # Downloads
+    FULL_VOTABLE_LINK_LABEL: "Download complete query results:"
+    RESULT_STATE_LINK_LABEL: "Bookmark URL"
+    DOWNLOAD_BUTTON_LABEL: "Download"
+    NO_OBSERVATIONS_SELECTED_MESSAGE: "Please select at least one observation from the table below."
+
+    # Maximum row limit warning message
+    MAX_ROW_LIMIT_WARNING: "There are more rows available by downloading the complete query results."
+  servlet_context_path: /AdvancedSearch
+# End en
+# Begin fr
+fr:
+  labels:
+    TITLE: "Recherche avanc&eacute;e"
+    BC_TITLE: "Fil d'Ariane"
+    BC_HOME_LABEL: "Accueil CCDA"
+    BC_HOME_URI: "/fr/"
+
+    # Tab labels
+    #CAOM_QUERY_TAB_TITLE = Recherche CAOM
+    CAOM_QUERY_TAB_TITLE: "Recherche"
+    OBSCORE_QUERY_TAB_TITLE: "Recherche ObsCore"
+    RESULTS_TAB_TITLE: "R&eacute;sultats"
+    ERROR_TAB_TITLE: "Erreur"
+    ADQL_QUERY_TAB_TITLE: "ADQL"
+    HELP_TAB_TITLE: "Aide"
+    ACKNOWLEDGEMENTS_TAB_TITLE: "Mention"
+
+    # Form button labels
+    SEARCH_BUTTON_LABEL: "Recherche"
+    RESET_BUTTON_LABEL: "Initialiser"
+    CLEAR_BUTTON_LABEL: "Effacer"
+    CANCEL_BUTTON_LABEL: "Annuler"
+
+    # Messages
+    TOOLTIP_CLARIFICATION_MESSAGE_PREFIX: "Cliquez sur le"
+    TOOLTIP_CLARIFICATION_MESSAGE_SUFFIX: "pour l'explication"
+
+    #
+    # Form labels
+    #
+
+    # General word translation
+    OR_LABEL: "Ou"
+    EXECUTING_QUERY_LABEL: "Recherche en cours"
+    DATE_MODIFIED_LABEL: "Date de modification"
+    LOADING_MESSAGE: "Chargement..."
+    ERROR_SEARCH_NOT_AVAILABLE: "Erreur lors de l'initialisation de la recherche. Actualisez pour r&eacute;essayer.Si le problème persiste, contactez le CADC."
+
+
+    # Datatrain labels
+    RELOAD_CONSTRAINTS: "essayez de recharger"
+    DATATRAIN_UNAVAILABLE: "Probl&egrave;me de chargement."
+    USE_UPPER_SEARCH_FORM: "Veuillez proc&eacute;der en utilisant la partie sup&eacute;rieure de ce formulaire, ou"
+
+    # CAOM-2
+
+    # Observation Constraints
+    OBSERVATION_CONSTRAINT_LABEL: "Contraintes d'observation"
+    Observation_FORM_LABEL: "e.g. Kavelaars, galaxy, 2010-01-01"
+    Observation.observationID_FORM_LABEL: "Observation ID"
+    Observation.proposal.pi_FORM_LABEL: "P.I. Name"
+    Observation.proposal.id_FORM_LABEL: "Proposal ID"
+    Observation.proposal.title_FORM_LABEL: "Proposal Title"
+    Observation.proposal.keywords_FORM_LABEL: "Proposal Keywords"
+    PUBLIC_DATA_FLAG_FORM_LABEL: "Publique seulement"
+    Plane.dataRelease_FORM_LABEL: "Date de publique"
+    Observation.intent_FORM_LABEL: "Intention"
+
+    # Spatial Constraints
+    SPATIAL_CONSTRAINT_LABEL: "Contraintes spatiales"
+    Plane.position.bounds_FORM_LABEL: "Target"
+    ANY_RESOLVER_FORM_LABEL: "Automatique (recommend&eacute;)"
+    NO_RESOLVER_FORM_LABEL: "Aucun (concordance de Target Name)"
+    RESOLVER_FORM_LABEL: "Transformer avec"
+    RESOLVER_FORM_LABEL_ADDENDUM: "(si applicable)"
+    TARGET_LIST_TOOLTIP: "Upload a list of target names or RA DEC (degrees or sexigessimal) with optional radius (in degrees by default)."
+    TARGET_LIST_FORM_LABEL: "Upload targets"
+    Plane.position.sampleSize_FORM_LABEL: "Pixel Scale"
+    Plane.position.DOWNLOADCUTOUT_FORM_LABEL: "D&eacute;coupage spatial"
+    SSOIS_MOBILE_OBJECTS: "SSOIS Recherche d'objets en mouvement"
+
+    # Resolver Detail
+    RES_TARGET: "Target"
+    RES_SERVICE: "Service"
+    RES_COORDINATES: "Coordinates (RA Dec)"
+    RES_TYPE: "Object Type"
+    RES_MORPHOLOGY: "Morphology Type"
+    RES_TIME: "Time (ms)"
+
+    # Temporal Constraints
+    TIME_CONSTRAINT_LABEL: "Contraintes temporelles"
+    Plane.time.bounds.samples_FORM_LABEL: "Observation Date"
+    Plane.time.bounds.samples_PRESET_FORM_LABEL: "Donn&eacute;es obtenues dans la derni&egrave;re:"
+    Plane.time.bounds.samples_PRESET_PAST_24_HOURS_FORM_LABEL: "24 heures"
+    Plane.time.bounds.samples_PRESET_PAST_WEEK_FORM_LABEL: "semaine"
+    Plane.time.bounds.samples_PRESET_PAST_MONTH_FORM_LABEL: "mois"
+    Plane.time.exposure_FORM_LABEL: "Integration Time"
+    Plane.time.bounds.width_FORM_LABEL: "Time Span"
+
+    # Spectral Constraints
+    SPECTRAL_CONSTRAINT_LABEL: "Contraintes spectrales"
+    Plane.energy.bounds.samples_FORM_LABEL: "Spectral Coverage"
+    Plane.energy.sampleSize_FORM_LABEL: "Spectral Sampling"
+    Plane.energy.resolvingPower_FORM_LABEL: "Resolving Power"
+    Plane.energy.bounds.width_FORM_LABEL: "Bandpass Width"
+    Plane.energy.restwav_FORM_LABEL: "Rest-frame Energy"
+    Plane.energy.DOWNLOADCUTOUT_FORM_LABEL: "D&eacute;coupage spectral"
+
+    # Data Acquisition
+    DATA_ACQUISITION_LABEL: "Contraintes suppl&eacute;mentaires"
+
+
+    # ObsCore
+
+    # Observation Constraints
+    DataID.observationID_FORM_LABEL: "obs_id"
+    Target.Name_FORM_LABEL: "target_name"
+    Curation.releaseDate_FORM_LABEL: "obs_release_date"
+
+    # Spatial Constraints
+    Char.SpatialAxis.Coverage.Support.Area_FORM_LABEL: "s_region"
+    Char.SpatialAxis.Coverage.Bounds.Extent.diameter_FORM_LABEL: "s_fov"
+    Char.SpatialAxis.Resolution.refval.value_FORM_LABEL: "s_resolution"
+    Char.SpatialAxis.numBins1_FORM_LABEL: "s_xel1"
+    Char.SpatialAxis.numBins2_FORM_LABEL: "s_xel2"
+    Char.SpatialAxis.DOWNLOADCUTOUT_FORM_LABEL: "D&eacute;coupage spatial"
+
+    # Temporal/Polarization Constraints
+    TIME_POLARIZATION_CONSTRAINT_LABEL: "Contraintes de temps et de polarisation"
+    Char.TimeAxis.Coverage.Bounds.Limits_FORM_LABEL: "t_coverage"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_FORM_LABEL: "Donn&eacute;es obtenues dans la derni&egrave;re:"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_PAST_24_HOURS_FORM_LABEL: "24 heurs"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_PAST_WEEK_FORM_LABEL: "semaine"
+    Char.TimeAxis.Coverage.Bounds.Limits_PRESET_PAST_MONTH_FORM_LABEL: "mois"
+    Char.TimeAxis.Coverage.Support.Extent_FORM_LABEL: "t_tempsexp"
+    Char.TimeAxis.Resolution.refval.value_FORM_LABEL: "t_resolution"
+    Char.TimeAxis.numBins_FORM_LABEL: "t_xel"
+    Char.PolarizationAxis.stateList_FORM_LABEL: "pol_state"
+    Char.PolarizationAxis.numBins_FORM_LABEL: "pol_xel"
+
+    # Spectral Coverage
+    Char.SpectralAxis.Coverage.Bounds.Limits_FORM_LABEL: "em_coverage"
+    Char.SpectralAxis.Resolution.ResolPower.refval_FORM_LABEL: "em_res_power"
+    Char.SpectralAxis.numBins_FORM_LABEL: "em_xel"
+    Char.SpectralAxis.Coverage.Bounds.Limits.LoLimit_FORM_LABEL: "em_min"
+    Char.SpectralAxis.Coverage.Bounds.Limits.HiLimit_FORM_LABEL: "em_max"
+    Char.SpectralAxis.DOWNLOADCUTOUT_FORM_LABEL: "D&eacute;coupage spectral"
+
+
+    # Results page
+    NO_RESULTS_RETURNED: "Aucun r&eacutesultat."
+    RESULTS_VISUALIZE_BUTTON_LABEL: "Voir dans le ciel"
+    CLOSE_BUTTON_LABEL: "Fermer"
+    COLUMN_MANAGER_BUTTON_LABEL: "G&eacute;rer l'affichage des colonnes"
+    COLUMN_MANAGER_HEADING_TEXT: "Ajouter/supprimer les colonnes"
+    COLUMN_MANAGER_HELP_TEXT: "Glisser-d&eacuteposer les colonnes entre les menus"
+    COLUMN_MANAGER_SHOW_ALL_BUTTON_TEXT: "Montrer tous"
+    COLUMN_MANAGER_DEFAULT_COLUMNS_BUTTON_TEXT: "Colonnes d&eacute;faut"
+    COLUMN_MANAGER_ORDER_ALPHABETICALLY_BUTTON_TEXT: "Par ordre alphab&eacute;tique"
+
+    # Product types
+    PRODUCT_TYPE_LABEL: "Types de produits"
+    PRODUCT_TYPE_SCIENCE_LABEL: "Science"
+    PRODUCT_TYPE_CALIBRATION_LABEL: "Calibration"
+    PRODUCT_TYPE_AUXILIARY_LABEL: "Auxiliaire"
+    PRODUCT_TYPE_INFO_LABEL: "Info"
+    PRODUCT_TYPE_PREVIEW_LABEL: "Pr&eacute;visualisation"
+    PRODUCT_TYPE_CATALOG_LABEL: "Catalogue"
+    PRODUCT_TYPE_NOISE_LABEL: "Bruit"
+    PRODUCT_TYPE_WEIGHT_LABEL: "Poids"
+
+    # Downloads
+    FULL_VOTABLE_LINK_LABEL: "T&eacute;l&eacute;charger les r&eacute;sultats complets de la recherche:"
+    RESULT_STATE_LINK_LABEL: "l'URL du signet"
+    DOWNLOAD_BUTTON_LABEL: "T&eacute;l&eacute;charger"
+    NO_OBSERVATIONS_SELECTED_MESSAGE: "Veuillez s&eacute;lectionner au moins une observation de la table ci-dessous."
+
+    # Maximum row limit warning message
+    MAX_ROW_LIMIT_WARNING: "Il y a plus de rang&eacute;es disponibles en t&eacute;l&eacute;chargeant les r&eacute;sultats complets de la recherche."
+  servlet_context_path: /AdvancedSearch

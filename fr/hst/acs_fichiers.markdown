@@ -1,19 +1,19 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/hst/acs_fichiers
-title: Télescope Spatial Hubble
-altLangPage: /en/hst/acs_filenames
-headerimage: /static/images/hst.jpg
-dateModified: 2021-11-01
-nofooter: layout.nofooter
+permalink: /fr/hst/acs_fichiers.html
+title: HST Fichiers ACS
+altLangPage: /en/hst/acs_filenames.html
+headerimage: /static/images/archive-info/hst.jpg
+dateModified: 2021-11-23
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: hst
 
 breadcrumbs:
-    - link: /en/hst/
+    - link: /fr/hst/
       title: HST
 ---
 

@@ -1,13 +1,16 @@
 en:
   nav:
+    - title: Data
     - links:
         - name: Search the HST archive
           url: /en/search/?collection=HST&noexec=true
+    - title: Documentation
     - links:
         - name: HST Instrument Handbook and Filenames
           url: /en/hst/filenames.html
         - name: Some HST filters information
           url: http://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
+    - title: Miscellaneous
     - links:
         - name: HST Archive at STScI (USA)
           url: https://archive.stsci.edu/
@@ -15,14 +18,17 @@ en:
           url: http://hst.esac.esa.int/ehst/
 fr:
   nav:
+    - title: Données
     - links:
         - name: Recherche dans l'archive scientifique de HST
           url: /fr/recherche/?collection=HST&noexec=true
+    - title: Documentation
     - links:
         - name: Manuels et nom de fichiers des instruments
           url: /fr/hst/fichiers.html
         - name: Information sur quelques filtres - anglais seulement
           url: http://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
+    - title: Divers
     - links:
         - name: Archive HST au STScI (USA) - anglais seulement
           url: https://archive.stsci.edu/

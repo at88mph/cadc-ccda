@@ -7,8 +7,7 @@ title: Centre canadien de données astronomiques
 lang: fr
 permalink: /fr/
 altLangPage: /en/
-dateModified: 2021-10-05
-nofooter: layout.nofooter
+dateModified: 2021-11-24
 signing: layout.signing
 nositesearch: layout.nositesearch
 pageclass: ["home"]

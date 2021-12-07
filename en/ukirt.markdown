@@ -4,9 +4,9 @@ lang: en
 permalink: /en/ukirt/
 title: United Kingdom Infrared Telescope (UKIRT)
 altLangPage: /fr/ukirt/
-headerimage: /static/images/ukirt.jpg
+headerimage: /static/images/archive-info/ukirt.jpg
 dateModified: 2021-10-14
-nofooter: layout.nofooter
+
 signing: layout.signing
 nositesearch: layout.nositesearch
 

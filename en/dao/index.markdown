@@ -4,9 +4,8 @@ lang: en
 permalink: /en/dao/
 title: Dominion Astrophysical Observatory
 altLangPage: /fr/ofa/
-headerimage: /static/images/dao.jpg
-dateModified: 2021-09-23
-nofooter: layout.nofooter
+headerimage: /static/images/archive-info/dao.jpg
+dateModified: 2021-11-24
 signing: layout.signing
 nositesearch: layout.nositesearch
 

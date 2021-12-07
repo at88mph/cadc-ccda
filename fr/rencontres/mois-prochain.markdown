@@ -4,24 +4,23 @@
 
 layout: cadc
 lang: fr
-title: Rencontres internationales en astronomie (le mois prochain)
+title: Rencontres du mois prochain
 permalink: /fr/rencontres/mois-prochain/
 altLangPage: /en/meetings/next-month/
-dateModified: 2021-09-30
-nofooter: layout.nofooter
+dateModified: 2021-11-26
 signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: meetings
 
 # Used for post label formatting (dates and links)
-script: [/static/meetings.js]
+script: [/static/js/meetings/meetings.js]
+
+css: /static/css/meetings.css
+
+breadcrumbs:
+    - link: /fr/rencontres/
+      title: Rencontres
 ---
 
-<ul id="meetings_list" class="list-unstyled lst-spcd-2" data-wb-json='{ "url": "/meetings/meetings?month=next", "mapping": ["/title", "/web", "/start", "/end", "/contact", "/location", "/address", "/phone", "/email", "/bibCode", "/keywords", "/meetingNumber"], "queryall": ["summary", ".web", ".start", ".end", ".contact", ".location", ".address", ".phone", ".email", ".proceedings", ".keywords", ".meeting-number"] }'>
-	<template>
-        <li>
-        {%- include meetings/listing-item.markdown -%}
-        </li>
-	</template>
-</ul>
+{% include meetings/next-month.markdown %}
