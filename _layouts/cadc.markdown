@@ -38,14 +38,14 @@ nositesearch: true
         {%- if page.headerimage -%}
         <div class="row">
             <div class="col-md-9">
-                <h1 id="wb-cont" class="mrgn-tp-sm" property="name">{{ page-title }} {{ header-html }}</h1>
+                <h1 id="wb-cont" class="mrgn-tp-lg" property="name">{{ page-title }} {{ header-html }}</h1>
             </div>
             <div class="col-md-3 margin-top-medium hidden-sm hidden-xs">
                 <img class="pull-right img-responsive thumbnail mrgn-bttm-sm" src="{{ page.headerimage }}" />
             </div>
         </div>
         {%- else -%}
-        <h1 id="wb-cont" class="mrgn-tp-sm" property="name">{{ page-title }} {{ header-html }}</h1>
+        <h1 id="wb-cont" class="mrgn-tp-lg" property="name">{{ page-title }} {{ header-html }}</h1>
         {%- endif -%}
     </div>
     {%- unless page.fluid -%}
