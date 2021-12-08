@@ -7,6 +7,7 @@ en:
           url: /en/megapipe/access/cut.html
         - name: MegaCam graphical search tool
           url: /en/megapipe/access/graph.html
+      title: Data
     - links:
         - name: Introductory documentation
           url: /en/megapipe/docs/intro.html
@@ -22,6 +23,7 @@ en:
           url: /en/megapipe/docs/caveats.html
         - name: The MegaCam ugriz filter set
           url: /en/megapipe/docs/filt.html
+      title: Documentation
     - links:
         - name: CFHTLS-MegaPipe Introduction
           url: /en/megapipe/cfhtls/index.html
@@ -47,6 +49,7 @@ en:
           url: /en/megapipe/cfhtls/input.html
         - name: Data at other wavelenghts
           url: /en/megapipe/cfhtls/cov.html
+      title: CFHTLS - MegaPipe
     - links:
         - name: CFHT archive
           url: /en/cfht/
@@ -63,6 +66,15 @@ en:
           url: https://www.astromatic.net/software/sextractor
         - name: SWarp
           url: https://www.astromatic.net/software/swarp
+  labels:
+    object_name: Object name
+    resolve: Resolve
+    right_ascension: Right Ascension
+    declination: Declination
+    image_size_in_pixels: Image size in pixels
+    image_size_in_pixels_max: Maximum 256 pixels
+    submit: Get cutout
+    reset: Reset
 
 fr:
   nav:
@@ -73,6 +85,7 @@ fr:
           url: /fr/megapipe/access/cut.html
         - name: Outil de recherche graphique MegaCam
           url: /fr/megapipe/access/graph.html
+      title: Données
     - links:
         - name: Documentation d'introduction
           url: /fr/megapipe/docs/intro.html
@@ -88,6 +101,7 @@ fr:
           url: /fr/megapipe/docs/caveats.html
         - name: Les filtres ugriz de MegaCam
           url: /fr/megapipe/docs/filt.html
+      title: Documentation
     - links:
         - name: Introduction au CFHTLS-MegaPipe
           url: /fr/megapipe/cfhtls/index.html
@@ -113,6 +127,7 @@ fr:
           url: /fr/megapipe/cfhtls/input.html
         - name: Données à d'autres longueurs d'onde
           url: /fr/megapipe/cfhtls/cov.html
+      title: CFHTLS - MegaPipe
     - links:
         - name: Archive TCFH
           url: /fr/tcfh/
@@ -129,3 +144,12 @@ fr:
           url: https://www.astromatic.net/software/sextractor
         - name: SWarp - anglais seulement
           url: https://www.astromatic.net/software/swarp
+  labels:
+    object_name: Nom de l'objet
+    resolve: Résoudre
+    right_ascension: Ascension droit
+    declination: Declinasion
+    image_size_in_pixels: Taille de l'image en pixels
+    image_size_in_pixels_max: Maximum 256 pixels
+    submit: Recherche d'images
+    reset: Réinitialiser
