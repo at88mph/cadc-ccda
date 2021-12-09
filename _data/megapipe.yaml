@@ -27,14 +27,16 @@ en:
     - links:
         - name: CFHTLS-MegaPipe Introduction
           url: /en/megapipe/cfhtls/index.html
-        - name: CFHTLS D1
-          url: /en/megapipe/cfhtls/scrollD1.html
-        - name: CFHTLS D2
-          url: /en/megapipe/cfhtls/scrollD2.html
-        - name: CFHTLS D3
-          url: /en/megapipe/cfhtls/scrollD3.html
-        - name: CFHTLS D4
-          url: /en/megapipe/cfhtls/scrollD4.html
+        - links:
+          - name: CFHTLS D1
+            url: /en/megapipe/cfhtls/scrollD1.html
+          - name: CFHTLS D2
+            url: /en/megapipe/cfhtls/scrollD2.html
+          - name: CFHTLS D3
+            url: /en/megapipe/cfhtls/scrollD3.html
+          - name: CFHTLS D4
+            url: /en/megapipe/cfhtls/scrollD4.html
+          title: Scrollable deep field images
         - name: Unified catalogues
           url: /en/megapipe/cfhtls/uc.html
         - name: Catalogue queries
@@ -119,14 +121,16 @@ fr:
     - links:
         - name: Introduction au CFHTLS-MegaPipe
           url: /fr/megapipe/cfhtls/index.html
-        - name: CFHTLS D1
-          url: /fr/megapipe/cfhtls/scrollD1.html
-        - name: CFHTLS D2
-          url: /fr/megapipe/cfhtls/scrollD2.html
-        - name: CFHTLS D3
-          url: /fr/megapipe/cfhtls/scrollD3.html
-        - name: CFHTLS D4
-          url: /fr/megapipe/cfhtls/scrollD4.html
+        - links:
+          - name: CFHTLS D1
+            url: /fr/megapipe/cfhtls/scrollD1.html
+          - name: CFHTLS D2
+            url: /fr/megapipe/cfhtls/scrollD2.html
+          - name: CFHTLS D3
+            url: /fr/megapipe/cfhtls/scrollD3.html
+          - name: CFHTLS D4
+            url: /fr/megapipe/cfhtls/scrollD4.html
+          title: Images défilables des Champs Profonds
         - name: Catalogues Unifiés
           url: /fr/megapipe/cfhtls/uc.html
         - name: Recheche des catalogues

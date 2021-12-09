@@ -67,13 +67,28 @@ nositesearch: true
                         {% for n in site.data[page.nav][i18nText-lang]['nav'] %}
                         <li>
                             {%- if n.title -%}
-                            <h3 class="wb-navcurr">{{ n.title }}</h3>
+                            <h3>{{ n.title }}</h3>
                             {%- endif -%}
                             {%- if n.links -%}
                             <ul class="list-group menu list-unstyled">
                                 {% for link in n.links %}
                                 {%- if link.html -%}
                                 <li>{{ link.html }}</li>
+                                {%- elsif link.links -%}
+                                {% comment %}
+                                Sub links.  This shouldn't happen often, but if another links field is found, expect 
+                                them to have the url and name fields.
+                                {% endcomment %}
+                                <li>
+                                    {%- if link.title -%}
+                                    <h4>{{ link.title }}</h4>
+                                    {%- endif -%}
+                                    <ul class="list-group menu list-unstyled">
+                                    {% for nl in link.links %}
+                                        <li><a class="list-group-item" href="{{ nl.url }}">{{ nl.name }}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </li>
                                 {%- else -%}
                                 <li><a class="list-group-item" href="{{ link.url }}">{{ link.name }}</a></li>
                                 {%- endif -%}
