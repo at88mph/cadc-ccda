@@ -57,6 +57,7 @@ en:
           url: /en/cfht/
         - name: WIRwolf image stacking pipeline
           url: /en/wirwolf/
+      title: Related
     - links:
         - name: MegaPipe Paper
           url: http://adsabs.harvard.edu/abs/2008PASP..120..212G
@@ -68,6 +69,7 @@ en:
           url: https://www.astromatic.net/software/sextractor
         - name: SWarp
           url: https://www.astromatic.net/software/swarp
+      title: External
   labels:
     object_name: Object name
     resolve: Resolve
@@ -151,6 +153,7 @@ fr:
           url: /fr/tcfh/
         - name: Système de traitement d'images WIRwolf
           url: /fr/wirwolf/
+      title: Reliées
     - links:
         - name: Article MegaPipe - anglais seulement
           url: http://adsabs.harvard.edu/abs/2008PASP..120..212G
@@ -162,6 +165,7 @@ fr:
           url: https://www.astromatic.net/software/sextractor
         - name: SWarp - anglais seulement
           url: https://www.astromatic.net/software/swarp
+      title: Externe
   labels:
     object_name: Nom de l'objet
     resolve: Résoudre
