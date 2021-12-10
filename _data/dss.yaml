@@ -1,0 +1,45 @@
+en:
+  nav:
+    - links:
+      - name: Query by Object Identification
+        url: /en/dss/dss_query_name.html
+      - name: Query by Coordinate
+        url: /en/dss/dss_query_coord.html
+      - name: Query using a list of object Identifications
+        url: /en/dss/dss_query_name_list.html
+      - name: Query using a list of coordinates
+        url: /en/dss/dss_query_coord_list.html
+      title: Data
+    - links:
+      - name: STScI Digitized Sky Survey(USA)
+        url: http://archive.stsci.edu/dss/
+      - name: SkyView (USA)
+        url: http://skyview.gsfc.nasa.gov/
+      - name: European Southern Observatory (Germany)
+        url: http://archive.eso.org/dss/dss/
+      - name: Digitized Sky Survey Online at NOAJ (Japan)
+        url: http://dss.mtk.nao.ac.jp/
+      title: Information
+
+fr:
+  nav:
+    - links:
+      - name: Interrogation par nom d'objet
+        url: /fr/dss/dss_interrogation_nom.html
+      - name: Interrogation par coordonn&eacute;es
+        url: /fr/dss/dss_interrogation_coord.html
+      - name: Interrogation via une liste d'objets
+        url: /fr/dss/dss_interrogation_nom_liste.html
+      - name: Interrogation via une liste de coordonn&eacute;es
+        url: /fr/dss/dss_interrogation_coord_liste.html
+      title: Données
+    - links:
+      - name: STScI Digitized Sky Survey(USA)
+        url: http://archive.stsci.edu/dss/
+      - name: SkyView (USA)
+        url: http://skyview.gsfc.nasa.gov/
+      - name: European Southern Observatory (Allemagne)
+        url: http://archive.eso.org/dss/dss/
+      - name: Digitized Sky Survey Online at NOAJ (Japon)
+        url: http://dss.mtk.nao.ac.jp/
+      title: Information
