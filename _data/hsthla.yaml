@@ -1,0 +1,49 @@
+en:
+  nav:
+    - links:
+      - name: Search
+        url: /en/search/?collection=CGPS&noexec=true
+      title: Data
+    - links:
+      - name: HST Instrument Handbook and Filenames
+        url: /en/hst/filenames.html
+      - name: Some HST filters information
+        url: http://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
+      - name: CADC publications about the HST archive project
+        url: /en/hst/publications.html
+      title: Documentation
+    - links:
+      - name: Credits and Acknowledgement
+        url: /en/hst/credits.html
+      title: Credits
+    - links:
+      - name: HST Archive at STScI (USA)
+        url: http://archive.stsci.edu
+      - name: HST Archive at ESAC (Spain)
+        url: http://archives.esac.esa.int/hst/
+      title: Other
+
+fr:
+  nav:
+    - links:
+      - name: Recherche
+        url: /fr/recherche/?collection=CGPS&noexec=true
+      title: Données
+    - links:
+      - name: Manuels et nom de fichiers des instruments
+        url: /fr/hst/fichiers.html
+      - name: Information sur quelques filtres (anglais seulement)
+        url: http://svo2.cab.inta-csic.es/theory/fps/index.php?mode=browse&gname=HST
+      - name: Les publications du CCDA concernant l'archive du HST
+        url: /fr/hst/publications.html
+      title: Documentation
+    - links:
+      - name: Crédits et remerciements
+        url: /fr/hst/credits.html
+      title: Crédits
+    - links:
+      - name: Archive HLA au STScI (USA)
+        url: http://archive.stsci.edu
+      - name: Archive &agrave; l'ESAC (Espagne)
+        url: http://archives.esac.esa.int/hst/
+      title: Autre

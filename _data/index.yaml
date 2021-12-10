@@ -43,7 +43,7 @@ en:
           splash_image_url: /static/images/splash/megapipe.png
         hla:
           name: Hubble Legacy Archive
-          url: /en/hla/
+          url: /en/hsthla/
           short_name: HLA
           splash_image_url: /static/images/splash/hla.png
         iris:
@@ -184,7 +184,7 @@ fr:
           splash_image_url: /static/images/splash/megapipe.png
         hla:
           name: Le Hubble Legacy Archive
-          url: /fr/hla/
+          url: /fr/hsthla/
           short_name: hla
           splash_image_url: /static/images/splash/hla.png
         iris:
