@@ -43,7 +43,7 @@ en:
           splash_image_url: /static/images/splash/megapipe.png
         hla:
           name: Hubble Legacy Archive
-          url: /en/hla/
+          url: /en/hsthla/
           short_name: HLA
           splash_image_url: /static/images/splash/hla.png
         iris:
@@ -58,7 +58,7 @@ en:
           splash_image_url: /static/images/splash/cgps.png
         cfhtls:
           name: Canada France Hawai'i Telescope Legacy Survey
-          url: /en/cfhtls/
+          url: /en/cfht/cfhtls.html
           short_name: CFHTLS
           splash_image_url: /static/images/splash/cfhtls.png
         wirwolf:
@@ -184,8 +184,8 @@ fr:
           splash_image_url: /static/images/splash/megapipe.png
         hla:
           name: Le Hubble Legacy Archive
-          url: /fr/hla/
-          short_name: hla
+          url: /fr/hsthla/
+          short_name: HLA
           splash_image_url: /static/images/splash/hla.png
         iris:
           name: Retraitement Amélioré de l'enquête IRAS
@@ -197,9 +197,9 @@ fr:
           url: /fr/rcpg/
           short_name: RCPG
           splash_image_url: /static/images/splash/cgps.png
-        cfht:
-          name: Archives scientifiques TCFH
-          url: /fr/cfhtls/
+        cfhtls:
+          name: TCFH Legacy Survey
+          url: /fr/tcfh/cfhtls.html
           short_name: CFHTLS
           splash_image_url: /static/images/splash/cfhtls.png
         wirwolf:

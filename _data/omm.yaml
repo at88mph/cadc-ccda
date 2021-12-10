@@ -1,16 +1,20 @@
 en:
   nav:
     - links:
-        - name: Search for data
-          url: /en/search/?collection=OMM&noexec=true
+      - name: Search
+        url: /en/search/?collection=OMM&noexec=true
+      title: Data
     - links:
-        - name: The OMM observatory - French only
-          url: http://omm.craq-astro.ca/
+      - name: The OMM observatory - French only
+        url: http://omm.craq-astro.ca/
+      title: Information
 fr:
   nav:
     - links:
-        - name: Chercher dans l'archive
-          url: /fr/recherche/?collection=OMM&noexec=true
+      - name: Chercher dans l'archive
+        url: /fr/recherche/?collection=OMM&noexec=true
+      title: Données
     - links:
-        - name: Observatoire OMM
-          url: http://omm.craq-astro.ca/
+      - name: Observatoire OMM
+        url: http://omm.craq-astro.ca/
+      title: Information

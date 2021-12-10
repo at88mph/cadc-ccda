@@ -1,0 +1,21 @@
+en:
+  nav:
+    - links:
+      - name: Search
+        url: /en/search/?collection=IRIS&amp;noexec=true
+      title: Data
+    - links:
+      - name: IRIS home page at CITA
+        url: http://www.cita.utoronto.ca/~mamd/IRIS/
+      title: Miscellaneous
+
+fr:
+  nav:
+    - links:
+      - name: Recherche
+        url: /fr/recherche/?collection=IRIS&amp;noexec=true
+      title: Données
+    - links:
+      - name: Page IRIS &agrave; CITA (anglais seulement)
+        url: http://www.cita.utoronto.ca/~mamd/IRIS/
+      title: Divers

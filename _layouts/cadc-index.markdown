@@ -69,10 +69,7 @@ nositesearch: true
                 {%- for l in i18nText-nav.advanced_data_products.links -%}
                 {% assign link = l[1] %}
                 {% if link.splash_image_url %}
-                    <li>
-                        <a href="{{ link.url }}">
-                            <span class="small"><img class="img-thumbnail" width="60" height="60" src="{{ link.splash_image_url }}" /><br /><small>{{ link.short_name }}</small></span></a>
-                    </li>
+                    <li><a href="{{ link.url }}"><span class="small"><img class="img-thumbnail" width="60" height="60" src="{{ link.splash_image_url }}" /><br /><small>{{ link.short_name }}</small></span></a></li>
                 {% else %}                    
                     {%- assign list_size_mod = list_size_mod | minus: 1 -%}
                 {% endif %}

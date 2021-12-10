@@ -27,14 +27,16 @@ en:
     - links:
         - name: CFHTLS-MegaPipe Introduction
           url: /en/megapipe/cfhtls/index.html
-        - name: CFHTLS D1
-          url: /en/megapipe/cfhtls/scrollD1.html
-        - name: CFHTLS D2
-          url: /en/megapipe/cfhtls/scrollD2.html
-        - name: CFHTLS D3
-          url: /en/megapipe/cfhtls/scrollD3.html
-        - name: CFHTLS D4
-          url: /en/megapipe/cfhtls/scrollD4.html
+        - links:
+          - name: CFHTLS D1
+            url: /en/megapipe/cfhtls/scrollD1.html
+          - name: CFHTLS D2
+            url: /en/megapipe/cfhtls/scrollD2.html
+          - name: CFHTLS D3
+            url: /en/megapipe/cfhtls/scrollD3.html
+          - name: CFHTLS D4
+            url: /en/megapipe/cfhtls/scrollD4.html
+          title: Scrollable deep field images
         - name: Unified catalogues
           url: /en/megapipe/cfhtls/uc.html
         - name: Catalogue queries
@@ -55,6 +57,7 @@ en:
           url: /en/cfht/
         - name: WIRwolf image stacking pipeline
           url: /en/wirwolf/
+      title: Related
     - links:
         - name: MegaPipe Paper
           url: http://adsabs.harvard.edu/abs/2008PASP..120..212G
@@ -66,6 +69,7 @@ en:
           url: https://www.astromatic.net/software/sextractor
         - name: SWarp
           url: https://www.astromatic.net/software/swarp
+      title: External
   labels:
     object_name: Object name
     resolve: Resolve
@@ -73,8 +77,22 @@ en:
     declination: Declination
     image_size_in_pixels: Image size in pixels
     image_size_in_pixels_max: Maximum 256 pixels
+    make_quasar_coordinate_grid: Coordinate grid
+    make_quasar_individual_images: Individual images
+    make_quasar_stacked_images: Stacked images
     submit: Get cutout
+    submit_individual_image_list: Individual image list
+    submit_stacked_image_list: Stacked image list
+    submit_individual_and_stacked_image_list: Individual and stacked image list
     reset: Reset
+    button_go: Go
+    button_clear: Clear
+    filters: Filters
+    filters_all: All
+    filters_first_generation: First generation filters
+    filters_second_generation: Second generation filters
+    filters_narrow_band: Narrow band filters
+    object: Object
 
 fr:
   nav:
@@ -105,14 +123,16 @@ fr:
     - links:
         - name: Introduction au CFHTLS-MegaPipe
           url: /fr/megapipe/cfhtls/index.html
-        - name: CFHTLS D1
-          url: /fr/megapipe/cfhtls/scrollD1.html
-        - name: CFHTLS D2
-          url: /fr/megapipe/cfhtls/scrollD2.html
-        - name: CFHTLS D3
-          url: /fr/megapipe/cfhtls/scrollD3.html
-        - name: CFHTLS D4
-          url: /fr/megapipe/cfhtls/scrollD4.html
+        - links:
+          - name: CFHTLS D1
+            url: /fr/megapipe/cfhtls/scrollD1.html
+          - name: CFHTLS D2
+            url: /fr/megapipe/cfhtls/scrollD2.html
+          - name: CFHTLS D3
+            url: /fr/megapipe/cfhtls/scrollD3.html
+          - name: CFHTLS D4
+            url: /fr/megapipe/cfhtls/scrollD4.html
+          title: Images défilables des Champs Profonds
         - name: Catalogues Unifiés
           url: /fr/megapipe/cfhtls/uc.html
         - name: Recheche des catalogues
@@ -133,6 +153,7 @@ fr:
           url: /fr/tcfh/
         - name: Système de traitement d'images WIRwolf
           url: /fr/wirwolf/
+      title: Reliées
     - links:
         - name: Article MegaPipe - anglais seulement
           url: http://adsabs.harvard.edu/abs/2008PASP..120..212G
@@ -144,6 +165,7 @@ fr:
           url: https://www.astromatic.net/software/sextractor
         - name: SWarp - anglais seulement
           url: https://www.astromatic.net/software/swarp
+      title: Externe
   labels:
     object_name: Nom de l'objet
     resolve: Résoudre
@@ -151,5 +173,19 @@ fr:
     declination: Declinasion
     image_size_in_pixels: Taille de l'image en pixels
     image_size_in_pixels_max: Maximum 256 pixels
+    make_quasar_coordinate_grid: Grille de coordonnées
+    make_quasar_individual_images: Images empilés
+    make_quasar_stacked_images: Stacked images
     submit: Recherche d'images
+    submit_individual_image_list: Liste des images individuelles
+    submit_stacked_image_list: Liste des images empilées
+    submit_individual_and_stacked_image_list: Liste des images individuelles et empilées
     reset: Réinitialiser
+    button_go: Aller
+    button_clear: Effacer
+    filters: Filtres
+    filters_all: Tous
+    filters_first_generation: Filtres première génératation
+    filters_second_generation: Filtres première génératation
+    filters_narrow_band: Filtres à bande étroite
+    object: Objet
