@@ -1,31 +1,31 @@
 en:
   nav:
-    - title: Data 
     - links:
-        - name: Search the DAO Science Archive 
-          url: /en/search/?collection=DAO&noexec=true
-        - name: Search the DAO Spectroscopic Plate Archive
-          url: /en/search/?collection=DAOPLATES&noexec=true
-    - title: Applications
+      - name: Search the DAO Science Archive 
+        url: /en/search/?collection=DAO&noexec=true
+      - name: Search the DAO Spectroscopic Plate Archive
+        url: /en/search/?collection=DAOPLATES&noexec=true
+      title: Data
     - links:
-        - name: Airmass Calculator
-          url: /en/dao/airmass.html
-        - name: Sky Calendar
-          url: /en/dao/skycal.html
-        - name: Robotic Observing
-          url: /en/dao/robotic.html
-        - name: Current Telescope Status
-          url: /en/dao/status.html
-        - name: Current Weather
-          url: /en/dao/weather.html
-        - name: DAO Publications
-          url: /en/dao/publications.html
-        - name: Telescope Schedules
-          url: /en/dao/schedule.html
-    - title: Miscellaneous
+      - name: Airmass Calculator
+        url: /en/dao/airmass.html
+      - name: Sky Calendar
+        url: /en/dao/skycal.html
+      - name: Robotic Observing
+        url: /en/dao/robotic.html
+      - name: Current Telescope Status
+        url: /en/dao/status.html
+      - name: Current Weather
+        url: /en/dao/weather.html
+      - name: DAO Publications
+        url: /en/dao/publications.html
+      - name: Telescope Schedules
+        url: /en/dao/schedule.html
+      title: Applications
     - links:
-        - name: Credits and Acknowledgements
-          url: /en/dao/credits.html
+      - name: Credits and Acknowledgements
+        url: /en/dao/credits.html
+      title: Information
   labels:
     path_acronym: dao
     search_publications: Search Publications
@@ -61,24 +61,27 @@ fr:
         url: /fr/recherche/?collection=DAO&noexec=true
       - name: Recherche dans l'archive des spectres photographiques numérisés
         url: /fr/recherche/?collection=DAOPLATES&noexec=true
+      title: Données
     - links:
-        - name: Calculateur de la masse d'air
-          url: /fr/ofa/masse-air.html
-        - name: Calendrier astronomique
-          url: /fr/ofa/skycal.html
-        - name: Observation automatisé
-          url: /fr/ofa/robotic.html
-        - name: État actuel du télescope
-          url: /fr/ofa/etat.html
-        - name: Météo actuelle
-          url: /fr/ofa/meteo.html
-        - name: Publications de l'OFA
-          url: /fr/ofa/publications.html
-        - name: Horaires des télescopes
-          url: /fr/ofa/horaire.html
+      - name: Calculateur de la masse d'air
+        url: /fr/ofa/masse-air.html
+      - name: Calendrier astronomique
+        url: /fr/ofa/skycal.html
+      - name: Observation automatisé
+        url: /fr/ofa/robotic.html
+      - name: État actuel du télescope
+        url: /fr/ofa/etat.html
+      - name: Météo actuelle
+        url: /fr/ofa/meteo.html
+      - name: Publications de l'OFA
+        url: /fr/ofa/publications.html
+      - name: Horaires des télescopes
+        url: /fr/ofa/horaire.html
+      title: Applications
     - links:
-        - name: Crédits and remerciements
-          url: /fr/ofa/credits.html
+      - name: Crédits and remerciements
+        url: /fr/ofa/credits.html
+      title: Information
   labels:
     path_acronym: ofa
     search_publications: Rechercher les publications

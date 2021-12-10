@@ -1,28 +1,32 @@
 en:
   nav:
     - links:
-        - name: Search for data
-          url: /en/search/?collection=DRAO&noexec=true
+      - name: Search for data
+        url: /en/search/?collection=DRAO&noexec=true
+      title: Data
     - links:
-        - name: DRAO home page
-          url: /en/research-development/nrc-facilities/dominion-radio-astrophysical-observatory-research-facility
-        - name: Solar weather monitoring
-          url: /en/research-development/products-services/technical-advisory-services/solar-weather-monitoring
-        - name: Apply for DRAO observing time
-          url: /en/research-development/products-services/technical-advisory-services/dominion-radio-astrophysical-observatory-drao-applying-observing-time
-        - name: CHIME
-          url: https://chime-experiment.ca/en
+      - name: DRAO home page
+        url: /en/research-development/nrc-facilities/dominion-radio-astrophysical-observatory-research-facility
+      - name: Solar weather monitoring
+        url: /en/research-development/products-services/technical-advisory-services/solar-weather-monitoring
+      - name: Apply for DRAO observing time
+        url: /en/research-development/products-services/technical-advisory-services/dominion-radio-astrophysical-observatory-drao-applying-observing-time
+      - name: CHIME
+        url: https://chime-experiment.ca/en
+      title: Information
 fr:
   nav:
     - links:
-        - name: Recherche dans l'archive scientifique de HST
-          url: /fr/recherche/?collection=DRAO&noexec=true
+      - name: Recherche dans l'archive scientifique de HST
+        url: /fr/recherche/?collection=DRAO&noexec=true
+      title: Données
     - links:
-        - name: Installation de recherche
-          url: /fr/recherche-developpement/installations-cnrc/observatoire-federal-radioastrophysique-installation-recherche
-        - name: Surveillance des conditions solaires
-          url: /fr/recherche-developpement/produits-services/services-techniques-consultatifs/surveillance-conditions-meteorologiques-lespace
-        - name: Demandes de temps d'observation
-          url: /fr/recherche-developpement/produits-services/services-techniques-consultatifs/observatoire-federal-radioastrophysique-ofr-demandes-temps-dobservation
-        - name: CHIME
-          url: https://chime-experiment.ca/fr
+      - name: Installation de recherche
+        url: /fr/recherche-developpement/installations-cnrc/observatoire-federal-radioastrophysique-installation-recherche
+      - name: Surveillance des conditions solaires
+        url: /fr/recherche-developpement/produits-services/services-techniques-consultatifs/surveillance-conditions-meteorologiques-lespace
+      - name: Demandes de temps d'observation
+        url: /fr/recherche-developpement/produits-services/services-techniques-consultatifs/observatoire-federal-radioastrophysique-ofr-demandes-temps-dobservation
+      - name: CHIME
+        url: https://chime-experiment.ca/fr
+      title: Information

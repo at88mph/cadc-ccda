@@ -1,10 +1,12 @@
 en:
   nav:
     - links:
-        - name: Search for data
-          url: /en/search/?collection=UKIRT&noexec=true
+      - name: Search
+        url: /en/search/?collection=UKIRT&noexec=true
+      title: Data
 fr:
   nav:
     - links:
-        - name: Chercher des données
-          url: /fr/recherche/?collection=UKIRT&noexec=true
+      - name: Chercher des données
+        url: /fr/recherche/?collection=UKIRT&noexec=true
+      title: Données

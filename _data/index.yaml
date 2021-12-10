@@ -185,7 +185,7 @@ fr:
         hla:
           name: Le Hubble Legacy Archive
           url: /fr/hsthla/
-          short_name: hla
+          short_name: HLA
           splash_image_url: /static/images/splash/hla.png
         iris:
           name: Retraitement Amélioré de l'enquête IRAS
