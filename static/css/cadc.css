@@ -10,3 +10,22 @@
     background-position: bottom left !important;
     background-repeat: no-repeat !important;
 }
+
+div.profile-modal {
+    position: absolute;
+    padding: 10px;
+    left: 100px;
+    text-align: center;
+    color: #23447e;
+    border-radius: 0.8em;
+    border-width: 0.2em;
+    border-color: #23447e;
+    background-color: #fff;
+    width: 200px;
+    height: auto;
+    display: none;
+}
+  
+div.profile-modal, a.sign-on-off-cancel {
+    z-index: 1000000;
+}

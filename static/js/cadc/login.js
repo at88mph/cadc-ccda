@@ -7,7 +7,7 @@ $(document).ready(function() {
     function initVars() {
         if (window.location.hash !== '') {
             // Pull the query fragment with OIDC login values in for processing
-            var hashParams = window.location.hash.substr(1).split('&')
+            var hashParams = window.location.hash.substring(1).split('&')
 
             if (hashParams.length > 0) {
                 // Add params to language link so when en/fr is selected
@@ -53,6 +53,8 @@ $(document).ready(function() {
     var $loginForm = $('#login_form')
     var requestURI = new cadc.web.util.currentURI()
     var hashValue = requestURI.getHash()
+
+    $loginForm.append(`<input type="hidden" name="target" value="${document.referrer}" />`)
 
     if (hashValue.indexOf('PASSWORD_RESET_SUCCESS') >= 0) {
         var $successMessageContainer = $('#success_message_container')
