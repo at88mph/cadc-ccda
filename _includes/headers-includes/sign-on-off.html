@@ -59,9 +59,9 @@
                                             <button id="sign_on_off_account" class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
                                             <div id="profile_modal" class="profile-modal brdr-tp brdr-bttm brdr-lft brdr-rght" style="display: none;">
                                                 <ul class="lst-none text-left">
-                                                    <li><a class="user_edit_profile ui-link" href="/en/auth/update.html">Edit Profile</a></li>
-                                                    <li><a class="change_password ui-link" href="/en/auth/resetPassword.html">Reset Password</a></li>
-                                                    <li><a id="download_certificate" class="download_certificate ui-link" href="/cred/priv?daysValid=30" title="Valid for thirty (30) days">Obtain a Certificate</a></li>
+                                                    <li><a class="user_edit_profile ui-link" href="{{ i18nText-cadc.profile.edit.url }}">{{ i18nText-cadc.profile.edit.label }}</a></li>
+                                                    <li><a class="change_password ui-link" href="{{ i18nText-cadc.profile.reset_password.url }}">{{ i18nText-cadc.profile.reset_password.label }}</a></li>
+                                                    <li><a id="download_certificate" class="download_certificate ui-link" href="{{ i18nText-cadc.profile.obtain_certificate.url }}" title="{{ i18nText-cadc.profile.obtain_certificate.title }}">{{ i18nText-cadc.profile.obtain_certificate.label }}</a></li>
                                                     <li><hr /></li>
                                                     <li><a id="sign_on_off_cancel" class="sign-on-off-cancel ui-link" href="#">Cancel</a></li>
                                                 </ul>

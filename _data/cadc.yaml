@@ -3,6 +3,9 @@ en:
     url: /en/login.html
   register:
     url: /en/register.html
+  forgot_password: 
+    label: Forgot your account information?
+    url: /en/forgot_password/index.html
   contact:
     url: /en/contact.html
     label: Contact us
@@ -27,6 +30,17 @@ en:
   acknowledgements:
     url: /en/about.html#acknowledgements
     label: Acknowledgements
+  profile:
+    edit: 
+      url: /en/profile/
+      label: Edit Profile
+    reset_password:
+      url: /en/
+      label: Reset Password
+    obtain_certificate:
+      url: /cred/
+      title: Valid for thirty (30) days
+      label: Obtain a certificate
   labels:
     username: Username
     password: Password
@@ -37,7 +51,9 @@ en:
     signin_submit: Sign In
     register_submit: Send request
     reset: Clear
+    login_required: Authentication required
     report_problem_link_text: Report a problem on this page
+    profile_edit: Edit Profile
     quicksearch_placeholder: Search for data by target
     quicksearch: Search for data
     quicksearch_submit_button: Search
@@ -60,6 +76,9 @@ fr:
     url: /fr/connexion.html
   register:
     url: /fr/inscrire.html
+  forgot_password: 
+    label: Avez-vous oubli&eacute; votre information de compte?
+    url: /fr/oublie_mot_de_passe.index.html
   contact:
     url: /fr/contactez.html
     label: Contactez-nous
@@ -84,6 +103,17 @@ fr:
   acknowledgements:
     url: /fr/apropos.html#mention
     label: Mention
+  profile:
+    edit: 
+      url: /fr/profile/
+      label: Modifier le Profile
+    reset_password:
+      url: /en/
+      label: Réinitialiser le mot de passe
+    obtain_certificate:
+      url: /cred/priv?daysValid=30
+      title: Valide pour trente (30) jours
+      label: Obtenir un certificat
   labels:
     username: Nom d'utilisateur
     password: Mot de passe
@@ -94,6 +124,7 @@ fr:
     signin_submit: Connexion
     register_submit: Soumettre la demande
     reset: Effacer
+    login_required: Authentification requise
     report_problem_link_text: Signaler un problème sur cette page
     quicksearch_placeholder: Recherche les données par cible
     quicksearch: Recherche les données

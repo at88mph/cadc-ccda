@@ -51,10 +51,19 @@ $(document).ready(function() {
     }
 
     var $loginForm = $('#login_form')
-    var requestURI = new cadc.web.util.currentURI()
+    var requestURI = cadc.web.util.currentURI()
     var hashValue = requestURI.getHash()
+    const targetInput = document.createElement('input')
+    targetInput.setAttribute('type', 'hidden')
+    targetInput.setAttribute('name', 'target')
 
-    $loginForm.append(`<input type="hidden" name="target" value="${document.referrer}" />`)
+    if ($loginForm.get(0).classList.contains('no-referrer-redirect') === false) {
+        targetInput.setAttribute('value', document.referrer)
+    } else {
+        targetInput.setAttribute('value', requestURI.uri)
+    }
+
+    $loginForm.get(0).appendChild(targetInput)
 
     if (hashValue.indexOf('PASSWORD_RESET_SUCCESS') >= 0) {
         var $successMessageContainer = $('#success_message_container')
@@ -74,7 +83,7 @@ $(document).ready(function() {
     // turn the form submission into an ajax request
     $loginForm.submit(function() {
         var clientIDVal = $('#clientid').val()
-        if (clientIDVal !== '') {
+        if (clientIDVal && clientIDVal !== '') {
             // OIDC login
 
             var formData = $(this).serializeArray()
@@ -134,7 +143,8 @@ $(document).ready(function() {
                     (scope && (scope.length > 0)) ?
                     (scope.val().indexOf('vos://') >= 0) :
                     false
-                var targetURL = requestURI.getTargetURL()
+                var formTarget = $loginForm.find('input[name="target"]')
+                var targetURL = (formTarget && formTarget.val()) ? formTarget.val() : requestURI.getTargetURL()
 
                 // For VOSpace scopes, proceed onward.
                 if (isVOSpaceScope === true) {

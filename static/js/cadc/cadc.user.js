@@ -1,5 +1,5 @@
 ;
-(function($, window, undefined) {
+(function($, window, document, undefined) {
     // Register namespace
     $.extend(true, window, {
         cadc: {
@@ -321,9 +321,9 @@
           if (user) {
             const logoutLink = document.getElementById('sign_on_off_signoff')
             const userFullNameDisplayList = document.getElementsByClassName('user-full-name')
-            const userFirstNameDisplayList = document.getElementsByClassName('user-first-name')
             const accountButton = document.getElementById('sign_on_off_account')
             const cancelLink = document.getElementById('sign_on_off_cancel')
+            const $accountModal = $(document.getElementById('profile_modal'))
 
             if (userFullNameDisplayList) {
               const len = userFullNameDisplayList.length
@@ -332,22 +332,22 @@
               }
             }
 
-            if (userFirstNameDisplayList) {
-              const len = userFirstNameDisplayList.length
-              for (let i = 0; i < len; i++) {
-                userFirstNameDisplayList[i].textContent = user.getFirstName().split(/\s/)[0]
-              }
-            }
-
             const accountClickListener = function(event) {
               event.preventDefault()
-              $(document.getElementById('profile_modal')).fadeToggle(300)
+              $accountModal.fadeToggle(300)
             }
 
             const accountCancelClickListener = function(event) {
               event.preventDefault()
-              $(document.getElementById('profile_modal')).fadeOut("fast")
+              $accountModal.fadeOut("fast")
             }
+
+            document.addEventListener('keydown', function(event) {             
+                if (event.key === 'Escape') {
+                  // The escape key should close the modal.
+                  $accountModal.fadeOut("fast")
+                }
+            })
 
             accountButton.removeEventListener('click', accountClickListener, false)
             accountButton.addEventListener('click', accountClickListener, false)
@@ -368,4 +368,4 @@
           userManager.loadCurrent()
         }
     })
-})(jQuery, window)
+})(jQuery, window, document)
