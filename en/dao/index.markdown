@@ -10,6 +10,10 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
+
+breadcrumbs:
+    - link: /en/dao/index.html
+      title: DAO
 ---
 
 <p>This page presents World-Wide-Web links to the data archives of the Dominion 

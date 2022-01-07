@@ -35,7 +35,7 @@ l'<a rel="external" href="http://omm.craq-astro.ca" class="ui-link">Observatoire
 <p> Veuillez noter que même si l'instrument CPAPIR est utilisé sur d'autres télescopes, les données seront
 disponibles via cet archive. </p>
 
-<h2> Citations </h2>
+<h3> Citations </h3>
 
 <p>
 Tout article utilisant les données CPAPIR doit inclure la mention suivante :

@@ -1,0 +1,280 @@
+html,
+body {
+  width: 100%;
+  height: 96%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.group_container div.modal-content,
+.associates div.modal-content {
+  height: 400px;
+}
+
+.group_container div.modal-body,
+.associates div.modal-body {
+  width: 600px;
+}
+
+.container {
+  width: auto;
+}
+
+.fill {
+  width: 100%;
+  min-width: 100%;
+  min-height: 98%;
+  height: 98%;
+  margin: auto;
+}
+
+.fill-width {
+  margin: auto;
+  width: 100%;
+  min-width: 100%;
+}
+
+#group_list_grid {
+  width: 100% !important;
+  font-size: 1em;
+  outline: 0;
+  background: #fff;
+  border: 1px solid gray;
+  z-index: 100 !important;
+}
+
+#content_column_main {
+  margin-top: 5px;
+}
+
+/**
+Used to determine column widths.
+*/
+
+#lengthFinder {
+  position: absolute;
+  visibility: hidden;
+  height: auto;
+  font-size: 1.4em;
+  /*width: auto;*/
+  white-space: nowrap;
+
+  /* Be generous with spacing. */
+  /*font-size: 1.1em;*/
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.slick-header-column .slick-column-name {
+  font-weight: normal;
+}
+
+.flex-column-container {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+.flex-item-auto {
+  flex: 1 1 auto;
+  padding-top: 10px;
+}
+
+.flex-item-footer {
+  flex: 0 1 120px;
+}
+
+#body_container {
+  height: 100%;
+}
+
+main {
+  margin-bottom: 15px;
+}
+
+main.container-fluid {
+  background-color: #fff;
+  width: 100%;
+}
+
+html {
+  background: #efefef;
+}
+
+.header-bg {
+  background-image: url(images/header-leaf.jpg), url(images/header-bg.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat, repeat-x;
+  margin: 0;
+  height: 120px;
+}
+
+/* sft-deco.gif has 20+ px of whitespace on the top. negative margin
+   tightens up the footer & maximizes area for results table */
+#footer {
+  background: #efefef url(images/sft-deco.gif) repeat-x;
+  margin-top: -20px;
+  padding-bottom: 30px;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+#footer-nav {
+  background: 0 0;
+  content: ' ';
+  display: block;
+  height: 25px;
+  margin-top: 30px;
+}
+
+.contact {
+  padding-right: 5px;
+}
+
+.contact-list {
+  padding-right: 0;
+}
+
+.section-text {
+  color: black;
+  font-weight: 700;
+}
+
+#nrc-tctr {
+  border-right: 1px solid #999;
+  padding-right: 10px;
+}
+
+#banner {
+  height: 120px;
+}
+
+#banner_wrapper {
+  width: 40%;
+}
+
+#banner_title a {
+  height: 120px;
+  background: 0;
+  font-size: 30px;
+  border: 0;
+  font-weight: 400;
+  margin-left: 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#banner_title:hover {
+  text-decoration: underline;
+}
+
+#banner_title_in {
+  margin: 0;
+}
+
+#logo {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+#goc_logo {
+  float: right;
+  margin-right: 25px;
+  width: 143px;
+  height: 34px;
+  background-image: url(images/wmms.svg);
+}
+
+#dd_mod {
+  display: inline;
+  font-weight: 400;
+  margin-right: 0;
+}
+
+#dt_mod {
+  display: inline;
+  font-weight: 400;
+  margin-right: 0;
+}
+
+#cadc_home {
+  margin-top: 15px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+#advancedsearch_navbar {
+  background-color: #e4e4e4;
+}
+
+label.control-label {
+  cursor: pointer;
+}
+
+ul.login-container {
+  min-width: 490px;
+  text-align: center;
+}
+
+ul.login-container > li > a {
+  color: #337ab7;
+}
+
+ul.login-container > li > a:hover {
+  border-bottom-color: #337ab7;
+  transition: border 1s linear;
+}
+
+.dropdown-link {
+  text-align: left;
+}
+
+#date_mod {
+  margin-bottom: 0 !important;
+}
+
+.text-danger {
+  color: #a94442;
+}
+
+div#twitter_logo {
+  width: 33px;
+  height: 32px;
+  margin: auto;
+  border-width: 0;
+  background: url(images/twitter_30x30.png) no-repeat center;
+}
+
+.gmui-no-access {
+  color: darkgrey;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.popover-content {
+  color: white;
+  background-color: #979797;
+  padding: 5px;
+  font-size: 11px;
+}
+
+
+.popover {
+  background-color: #979797; /*substitute 'red' with your color of choice*/
+  border-color: #979797;
+  border-radius: 0px;
+  padding: 0px;
+}
+.popover.right>.arrow:after {
+  border-right-color: #979797;
+}

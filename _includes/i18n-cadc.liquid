@@ -1,0 +1,18 @@
+{%- comment -%}
+
+++++++++++++++++++++++++++++++++++
++ i18 CADC Text
++
++ Contains elements outside the base set of translations.
++
++ jenkinsd 2022.01.04
+++++++++++++++++++++++++++++++++++
+
+{%- endcomment -%}
+{%- if i18nText-lang == "fr" -%}
+	{%- assign i18nText-root = "Canada.ca" -%}
+	{%- assign i18nText-rootPage = "https://www.canada.ca/fr.html" -%}
+{%- elsif i18nText-lang == "en" -%}
+	{%- assign i18nText-root = "Canada.ca" -%}
+	{%- assign i18nText-rootPage = "https://www.canada.ca/en.html" -%}
+{%- endif -%}

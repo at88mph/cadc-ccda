@@ -13,6 +13,8 @@ nositesearch: layout.nositesearch
 pageclass: ["home"]
 includeBanner: true
 
+pageclass: home
+
 css: /static/css/cadc.css
 
 nav: index

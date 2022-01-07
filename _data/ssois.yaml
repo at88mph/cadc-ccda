@@ -1,0 +1,33 @@
+en:
+  nav:
+    - links:
+      - name: Search by name
+        url: /en/ssois/index.html#name
+      - name: Search by arc
+        url: /en/ssois/index.html#arc
+      - name: Search by orbital elements
+        url: /en/ssois/index.html#oe
+      - name: Search by ephemeris
+        url: /en/ssois/index.html#ephem
+      title: Data
+    - links:
+      - name: Documentation
+        url: /en/ssois/documentation.html
+      title: Other
+
+fr:
+  nav:
+    - links:
+      - name: Rechercher par nom
+        url: /fr/rioss/index.html#name
+      - name: Rechercher par arc
+        url: /fr/rioss/index.html#arc
+      - name: Rechercher par &eacute;l&eacute;ments orbitaux
+        url: /fr/rioss/index.html#oe
+      - name: Rechercher &agrave; partir d'une &eacute;ph&eacute;m&eacute;ride
+        url: /fr/rioss/index.html#ephem
+      title: Données
+    - links:
+      - name: Documentation
+        url: /fr/rioss/documentation.html
+      title: Documentation

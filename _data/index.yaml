@@ -12,6 +12,10 @@ en:
           name: Advanced Search
           url: /en/search/
           short_name: Advanced Search
+        group_management:
+          name: Group Management
+          url: /en/groups/
+          short_name: Group Management
         community:
           name: Community Pages
           url: /en/community/
@@ -153,6 +157,10 @@ fr:
           name: Recherche Avancée
           url: /fr/recherche/
           short_name: Recherche Avancée
+        group_management:
+          name: Gestion de groupes
+          url: /fr/groupes/
+          short_name: Gestion de groupes
         community:
           name: Projets communauté
           url: /fr/communaute/

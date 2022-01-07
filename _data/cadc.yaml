@@ -3,6 +3,9 @@ en:
     url: /en/login.html
   register:
     url: /en/register.html
+  forgot_password: 
+    label: Forgot your account information?
+    url: /en/forgot_password/index.html
   contact:
     url: /en/contact.html
     label: Contact us
@@ -27,6 +30,24 @@ en:
   acknowledgements:
     url: /en/about.html#acknowledgements
     label: Acknowledgements
+  profile:
+    edit: 
+      url: /en/edit-profile.html
+      label: Edit Profile
+    reset_password:
+      url: /en/reset-password.html
+      label: Reset Password
+    obtain_certificate:
+      url: /cred/priv?daysValid=30
+      title: Valid for thirty (30) days
+      label: Obtain a certificate
+    update_profile_message_success: Your CADC Profile has been updated.
+    update_profile_message_failure: Update did not succeed.
+    update_profile_message_bot_error: "Request Denied: bot error. Please contact us at <a href='mailto:support@canfar.net'>support@canfar.net</a> to correct the problem"
+    update_profile_message_load_error: "Error: unable to retrieve your Profile\nMessage from server: "
+    update_profile_message_user_exists_error: "Error: Duplicate Account Requested."
+    update_profile_message_email_exists_error: "There is already an account associated with this email address. Please contact us to resolve this situation <a href='mailto:support@canfar.net'>support@canfar.net</a>."
+    update_profile_message_unknown_error: "Unknown error."
   labels:
     username: Username
     password: Password
@@ -36,8 +57,11 @@ en:
     institute: Institute
     signin_submit: Sign In
     register_submit: Send request
+    update_submit: Update
     reset: Clear
+    login_required: Authentication required
     report_problem_link_text: Report a problem on this page
+    profile_edit: Edit Profile
     quicksearch_placeholder: Search for data by target
     quicksearch: Search for data
     quicksearch_submit_button: Search
@@ -60,6 +84,9 @@ fr:
     url: /fr/connexion.html
   register:
     url: /fr/inscrire.html
+  forgot_password: 
+    label: Avez-vous oubli&eacute; votre information de compte?
+    url: /fr/oublie_mot_de_passe.index.html
   contact:
     url: /fr/contactez.html
     label: Contactez-nous
@@ -84,6 +111,24 @@ fr:
   acknowledgements:
     url: /fr/apropos.html#mention
     label: Mention
+  profile:
+    edit: 
+      url: /fr/modifier-profil.html
+      label: Modifier le Profil
+    reset_password:
+      url: /fr/reinitialiser-mot-de-passe.html
+      label: Réinitialiser le mot de passe
+    obtain_certificate:
+      url: /cred/priv?daysValid=30
+      title: Valide pour trente (30) jours
+      label: Obtenir un certificat
+    update_profile_message_success: Votre profil CCDA a été actualisé.
+    update_profile_message_failure: Mise à jour n'a pas réussi.
+    update_profile_message_bot_error: "Demande refusée: erreur bot. S'il vous plaît nous contacter à l'adresse <a href='mailto:support@canfar.net'>support@canfar.net</a> pour corriger le problème."
+    update_profile_message_load_error: "Erreur: impossible de récupérer votre profil."
+    update_profile_message_user_exists_error: "Erreur: Compte en double demandé."
+    update_profile_message_email_exists_error: "Il existe déjà un compte associé à cette adresse courriel. S'il vous plaît communiquez avec nous afin de résoudre cette situation <a href='mailto:ccda@cnrc.gc.ca'>ccda@cnrc.gc.ca</a>."
+    update_profile_message_unknown_error: "Erreur inconnue."  
   labels:
     username: Nom d'utilisateur
     password: Mot de passe
@@ -93,7 +138,9 @@ fr:
     institute: Institut
     signin_submit: Connexion
     register_submit: Soumettre la demande
+    update_submit: Actualiser
     reset: Effacer
+    login_required: Authentification requise
     report_problem_link_text: Signaler un problème sur cette page
     quicksearch_placeholder: Recherche les données par cible
     quicksearch: Recherche les données

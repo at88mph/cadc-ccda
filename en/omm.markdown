@@ -36,7 +36,7 @@ NRC's Canadian Astronomy Data Centre (CADC) in Victoria and the
 
 <p> Please note that even is the CPAPIR instrument is used on another telescope, the data is accessible though this archive.</p>
 
-<h2> Acknowledgement </h2>
+<h3> Acknowledgement </h3>
 
 <p>All paper using CPAPIR data must include the following note in the "Acknowledgement" section :</p>
 <blockquote>

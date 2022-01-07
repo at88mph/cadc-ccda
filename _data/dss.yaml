@@ -1,0 +1,93 @@
+en:
+  nav:
+    - links:
+      - name: Query by Object Identification
+        url: /en/dss/dss_query_name.html
+      - name: Query by Coordinate
+        url: /en/dss/dss_query_coord.html
+      - name: Query using a list of object Identifications
+        url: /en/dss/dss_query_name_list.html
+      - name: Query using a list of coordinates
+        url: /en/dss/dss_query_coord_list.html
+      title: Data
+    - links:
+      - name: STScI Digitized Sky Survey(USA)
+        url: http://archive.stsci.edu/dss/
+      - name: SkyView (USA)
+        url: http://skyview.gsfc.nasa.gov/
+      - name: European Southern Observatory (Germany)
+        url: http://archive.eso.org/dss/dss/
+      - name: Digitized Sky Survey Online at NOAJ (Japan)
+        url: http://dss.mtk.nao.ac.jp/
+      title: Information
+  results_endpoint: /en/dss/results.html
+  results_backend_endpoint: /cadcbin/en/dss/dss_status.py
+  query_name_action: /cadcbin/en/dss/dss_query_name.pl
+  query_name_list_action: /cadcbin/en/dss/dss_query_name_list.pl
+  query_coord_action: /cadcbin/en/dss/dss_query_coord.pl
+  query_coord_list_action: /cadcbin/en/dss/dss_query_coord_list.pl
+  labels:
+    example: Example
+    query_name_list_format_label: "Format must be &quot;LABEL&lt;TAB&gt;TARGET&lt;TAB&gt;RA SIZE(arcmin)&lt;TAB&gt;DEC SIZE(arcmin)&quot; on a single line (fields separated by tabs)"
+    query_coord_list_format_label_1: "Format must be"
+    query_coord_list_pre_label_1: "&quot;LABEL&lt;TAB&gt;HH:MM:SS.ss&lt;TAB&gt;(S)DD:MM:SS.ss&lt;TAB&gt;RA BOX(arcmin)&lt;TAB&gt;DEC BOX (arcmin)&quot;"
+    query_coord_list_format_label_2: "on a single line (fields separated by tabs),  example:"
+    query_coord_list_pre_label_2: "my_object1\t07:42:29.0\t49:48:33.4\t4.\t4."
+    query_note: The query will return all the possible survey images.
+    query_list_file_name: File name containing list of objects
+    query_list_coordinate: File name containing list of coordinates
+    object_name: Object Name
+    ra_coord: Right Ascension (J2000) (HH:MM:SS.SS)
+    dec_coord: Declination (J2000) (+DD:MM:SS.SS)
+    ra_box_size: RA Box size (arcmin)
+    dec_box_size: DEC Box size (arcmin)
+    submit_button: Query DSS
+    refresh_button: Refresh the page
+    request_files: Request files
+
+fr:
+  nav:
+    - links:
+      - name: Interrogation par nom d'objet
+        url: /fr/dss/dss_interrogation_nom.html
+      - name: Interrogation par coordonn&eacute;es
+        url: /fr/dss/dss_interrogation_coord.html
+      - name: Interrogation via une liste d'objets
+        url: /fr/dss/dss_interrogation_nom_liste.html
+      - name: Interrogation via une liste de coordonn&eacute;es
+        url: /fr/dss/dss_interrogation_coord_liste.html
+      title: Données
+    - links:
+      - name: STScI Digitized Sky Survey(USA)
+        url: http://archive.stsci.edu/dss/
+      - name: SkyView (USA)
+        url: http://skyview.gsfc.nasa.gov/
+      - name: European Southern Observatory (Allemagne)
+        url: http://archive.eso.org/dss/dss/
+      - name: Digitized Sky Survey Online at NOAJ (Japon)
+        url: http://dss.mtk.nao.ac.jp/
+      title: Information
+  results_endpoint: /fr/dss/resultats.html
+  results_backend_endpoint: /cadcbin/fr/dss/dss_statut.py
+  query_name_action: /cadcbin/fr/dss/dss_interrogation_nom.pl
+  query_name_list_action: /cadcbin/fr/dss/dss_interrogation_nom_liste.pl
+  query_coord_action: /cadcbin/fr/dss/dss_interrogation_coord.pl
+  query_coord_list_action: /cadcbin/fr/dss/dss_interrogation_coord_liste.pl
+  labels:
+    example: Exemple
+    query_name_list_format_label: "Le format doit &ecirc;tre:  &quot;ETIQUETTE&lt;TAB&gt;OBJET&lt;TAB&gt;Boite AD(minute d'arc)&lt;TAB&gt;Boite DEC minute d'arc)&quot; sur une ligne unique (valeurs s&eacute;r&eacute;es par des tabs)"
+    query_coord_list_format_label_1: "Le format doit &ecirc;tre"
+    query_coord_list_pre_label_1: "&quot;ETIQUETTE&lt;TAB&gt;HH:MM:SS.ss&lt;TAB&gt;(S)DD:MM:SS.ss&lt;TAB&gt;BOITE AD(minute d'arc)&lt;TAB&gt;BOITE DEC(minute d'arc)&quot;"
+    query_coord_list_format_label_2: "sur une ligne unique (valeurs s&eacute;par&eacute;es par des tabs), exemple:"
+    query_coord_list_pre_label_2: "objet1\t07:42:29.0\t49:48:33.4\t4.\t4."
+    query_note: Le r&eacute;sultat de l'interrogation retourne les images de tout les relev&eacute;s disponibles.
+    query_list_file_name: Fichier contenant une liste d'objets
+    query_list_coordinate: Fichier contenant une liste de coordonnées
+    object_name: Nom d'objet
+    ra_coord: Ascention Droite (J2000) (HH:MM:SS.SS)
+    dec_coord: Declination (J2000) (+DD:MM:SS.SS)
+    ra_box_size: Dimension boite AD (minute d'arc)
+    dec_box_size: Dimension boite DEC (minute d'arc)
+    submit_button: Interroger le DSS
+    refresh_button: Rafraîchir la page
+    request_files: Récupération des fichiers

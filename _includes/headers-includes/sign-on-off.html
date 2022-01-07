@@ -46,18 +46,27 @@
                     <div class="cadc-banner-bg col-md-12">
                         <div class="row cadc-banner-container row-no-gutters">
                             <div class="container cadc-banner-inner-bg">
-                                <div class="text-white mrgn-bttm-md mrgn-rght-md mrgn-lft-md">
-                                    <p class="h1 opct-90 col-md-9">
+                                <div class="text-white mrgn-bttm-md mrgn-lft-md">
+                                    <p class="h1 opct-90 col-md-8">
                                         <a class="text-white home-link" href="/{{ i18nText-lang }}/">{{ site.title[i18nText-lang] }}</a>
-                                    <div class="text-right col-md-3 mrgn-tp-lg">
-                                        <div class="unsigned">
+                                    <div class="text-right col-md-4 mrgn-tp-lg small">
+                                        <div id="sign_on_off_unsigned" class="unsigned hidden">
                                             <a class="btn btn-default" href="{{ i18nText-cadc.register.url }}">{{ i18nText-signOnRegister }}</a>
                                             <a class="btn btn-primary" href="{{ i18nText-cadc.signin.url }}">{{ i18nText-signIn }}</a>
                                         </div>
-                                        <div class="signed hidden">
-                                            <p><span class="mrgn-rght-md">{{ i18nText-signAs }} <span class="user-full-name"></span></span></p>
-                                            <button class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
-                                            <button class="btn btn-primary" type="button">{{ i18nText-signOut }}</button>
+                                        <div id="sign_on_off_signed" class="signed hidden">
+                                            <strong class="col-md-12 small">{{ i18nText-signAs }} <span class="user-full-name"></span></strong>
+                                            <button id="sign_on_off_account" class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
+                                            <div id="profile_modal" class="profile-modal brdr-tp brdr-bttm brdr-lft brdr-rght" style="display: none;">
+                                                <ul class="lst-none text-left">
+                                                    <li><a class="user_edit_profile ui-link" href="{{ i18nText-cadc.profile.edit.url }}">{{ i18nText-cadc.profile.edit.label }}</a></li>
+                                                    <li><a class="change_password ui-link" href="{{ i18nText-cadc.profile.reset_password.url }}">{{ i18nText-cadc.profile.reset_password.label }}</a></li>
+                                                    <li><a id="download_certificate" class="download_certificate ui-link" href="{{ i18nText-cadc.profile.obtain_certificate.url }}" title="{{ i18nText-cadc.profile.obtain_certificate.title }}">{{ i18nText-cadc.profile.obtain_certificate.label }}</a></li>
+                                                    <li><hr /></li>
+                                                    <li><a id="sign_on_off_cancel" class="sign-on-off-cancel ui-link" href="#">Cancel</a></li>
+                                                </ul>
+                                            </div>
+                                            <a href="/access/logout" id="sign_on_off_signoff" class="btn btn-primary" type="button">{{ i18nText-signOut }}</a>
                                         </div>
                                     </div>
                                 </div>
