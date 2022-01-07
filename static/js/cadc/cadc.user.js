@@ -312,6 +312,20 @@
       const signedOnID = `${signOnOffIDPrefix}signed`
       const signedOnContainer = document.getElementById(signedOnID)
       const signedOffContainer = document.getElementById(signedOffID)
+      const accountButton = document.getElementById('sign_on_off_account')
+      const cancelLink = document.getElementById('sign_on_off_cancel')
+
+      const $accountModal = $(document.getElementById('profile_modal'))
+
+      const accountClickListener = function(event) {
+        event.preventDefault()
+        $accountModal.fadeToggle(300)
+      }
+
+      const accountCancelClickListener = function(event) {
+        event.preventDefault()
+        $accountModal.fadeOut("fast")
+      }
 
       var userManager = new cadc.web.UserManager({ registryClient: new Registry() })
       userManager.subscribe(cadc.web.events.onUserLoad,
@@ -321,25 +335,12 @@
           if (user) {
             const logoutLink = document.getElementById('sign_on_off_signoff')
             const userFullNameDisplayList = document.getElementsByClassName('user-full-name')
-            const accountButton = document.getElementById('sign_on_off_account')
-            const cancelLink = document.getElementById('sign_on_off_cancel')
-            const $accountModal = $(document.getElementById('profile_modal'))
 
             if (userFullNameDisplayList) {
               const len = userFullNameDisplayList.length
               for (let i = 0; i < len; i++) {
                 userFullNameDisplayList[i].textContent = user.getFullName()
               }
-            }
-
-            const accountClickListener = function(event) {
-              event.preventDefault()
-              $accountModal.fadeToggle(300)
-            }
-
-            const accountCancelClickListener = function(event) {
-              event.preventDefault()
-              $accountModal.fadeOut("fast")
             }
 
             document.addEventListener('keydown', function(event) {             
@@ -352,8 +353,8 @@
             accountButton.removeEventListener('click', accountClickListener, false)
             accountButton.addEventListener('click', accountClickListener, false)
 
-            cancelLink.removeEventListener('click', accountCancelClickListener)
-            cancelLink.addEventListener('click', accountCancelClickListener)
+            cancelLink.removeEventListener('click', accountCancelClickListener, false)
+            cancelLink.addEventListener('click', accountCancelClickListener, false)
 
             logoutLink.setAttribute('href', logoutLink.getAttribute('href') + `?target=${encodeURI(cadc.web.util.currentURI().uri)}`)
 

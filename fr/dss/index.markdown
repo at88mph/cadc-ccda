@@ -8,9 +8,6 @@ dateModified: 2021-12-10
 signing: layout.signing
 nositesearch: layout.nositesearch
 nav: dss
-breadcrumbs:
-    - link: /fr/dss/index.html
-      title: DSS
 ---
 <p>Cette page vous donne acc&egrave;s l'impl&eacute;mentation par le CCDA du <b>Digitized Sky Survey &copy; (DSS)</b>,
 un relev&eacute; du ciel complet num&eacute;ris&eacute; pour soutenir les observations du t&eacute;lescope spatial Hubble.</p>

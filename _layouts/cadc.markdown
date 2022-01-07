@@ -35,6 +35,7 @@ nositesearch: true
     </div>
     {%- endif -%}
     <div class="mwscolumns section">
+        {% comment %}
         {%- if page.headerimage -%}
         <div class="row">
             <div class="col-md-9">
@@ -47,6 +48,8 @@ nositesearch: true
         {%- else -%}
         <h1 id="wb-cont" class="mrgn-tp-lg" property="name">{{ page-title }} {{ header-html }}</h1>
         {%- endif -%}
+        {% endcomment %}
+        <h1 id="wb-cont" class="mrgn-tp-lg" property="name">{{ page-title }} {{ header-html }}</h1>
     </div>
     {%- unless page.fluid -%}
     <div class="row">

@@ -8,9 +8,6 @@ dateModified: 2021-12-10
 signing: layout.signing
 nositesearch: layout.nositesearch
 nav: dss
-breadcrumbs:
-    - link: /en/dss/index.html
-      title: DSS
 ---
 <p>This page give you access to the Canadian version of the <b>Digitized Sky Survey &copy;</b>,
 a survey of the complete sky digitized for the Hubble Space Telescope Project.</p>
