@@ -18,8 +18,6 @@ breadcrumbs:
       title: Data description
     - link: /en/megapipe/docs/filt.html
       title: Filter Set
-    - link: /en/megapipe/docs/filtold.html
-      title: Filter Set ugriz
 ---
 
 <p>

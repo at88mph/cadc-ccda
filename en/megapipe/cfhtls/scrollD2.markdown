@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /en/megapipe/cfhtls/scrollD2.html
-      title: D2 Image
 
 # Allow several scripts
 script:

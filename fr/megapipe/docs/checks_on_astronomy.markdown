@@ -13,8 +13,6 @@ nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/docs/astro.html
-      title: Vérifications de l'astrometrie
 ---
 
 <p>

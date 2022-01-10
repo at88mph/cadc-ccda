@@ -28,8 +28,6 @@ css:
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/access/graph.html
-      title: Outil de recherche
 ---
 
 {% include megapipe/graph-form.markdown %}

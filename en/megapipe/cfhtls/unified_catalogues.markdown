@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /en/megapipe/cfhtls/uc.html
-      title: Unified Catalogues
 ---
 <p>
    This page provides links to the CFHTLS unified catalogues and

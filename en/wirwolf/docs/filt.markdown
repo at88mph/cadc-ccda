@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/
       title: WIRwolf
-    - link: /en/wirwolf/docs/filt.html
-      title: JHK WIRCam filters
 ---
 <p>
     This page describes the WIRCam JHK filters and contrasts them with the 2MASS JHK filters.

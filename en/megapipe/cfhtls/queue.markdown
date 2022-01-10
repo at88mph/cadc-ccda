@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /en/megapipe/cfhtls/queue.html
-      title: Catalogue Queries
 ---
 <p>
     In addition to the full CFHTLS Deep stacks, stacks which only

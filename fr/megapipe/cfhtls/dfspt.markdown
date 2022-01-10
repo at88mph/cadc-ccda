@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /fr/megapipe/cfhtls/dfspt.html
-      title: Séries chronologiques stellaires des Champs Profonds
 ---
 <p>
     Cette page pr&eacute;sente une s&eacute;rie photom&eacute;trique temporelle de 28108

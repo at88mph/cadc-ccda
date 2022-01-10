@@ -18,8 +18,6 @@ breadcrumbs:
       title: Description des données
     - link: /fr/megapipe/docs/filt.html
       title: Le système de filtres
-    - link: /fr/megapipe/docs/filtold.html
-      title: Le système de filtres ugriz
 ---
 
 <p>

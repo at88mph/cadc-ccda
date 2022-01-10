@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /fr/megapipe/cfhtls/cq.html
-      title: Recherche des catalogues
 
 script: /static/js/megapipe/cq.js
 ---

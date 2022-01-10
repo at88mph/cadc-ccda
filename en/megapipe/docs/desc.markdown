@@ -14,8 +14,6 @@ nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/
       title: MegaPipe
-    - link: /en/megapipe/docs/desc.html
-      title: Data description
 ---
 
 <h2>Naming Convention</h2>

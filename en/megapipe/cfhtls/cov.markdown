@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /en/megapipe/cfhtls/cov.html
-      title: Data at other wavelengths
 ---
 <h2>Introduction</h2>
 <p>

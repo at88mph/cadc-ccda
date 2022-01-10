@@ -11,8 +11,6 @@ nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/
       title: MegaPipe
-    - link: /en/megapipe/docs/photo.html
-      title: Checks on photometry
 ---
 <ul>
   <li><a href="#system">Systematic errors</a></li>

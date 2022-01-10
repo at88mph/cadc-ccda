@@ -15,8 +15,6 @@ breadcrumbs:
       title: CFHTLS
     - link: /fr/megapipe/cfhtls/dfiq.html
       title: Champs Profonds (meilleur seeing)
-    - link: /fr/megapipe/cfhtls/bs.html
-      title: Sélection des images de meilleur seeing
 ---
 <p>
     Lors de la construction des image empil&eacute;s, il faut d&eacute;cider combien

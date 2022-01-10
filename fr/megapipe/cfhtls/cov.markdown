@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /fr/megapipe/cfhtls/cov.html
-      title: Données à d'autres longueurs d'onde
 ---
 <h2>Introduction</h2>
 <p>

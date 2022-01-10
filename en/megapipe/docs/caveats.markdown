@@ -11,8 +11,6 @@ nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/
       title: MegaPipe
-    - link: /en/megapipe/docs/caveats.html
-      title: Caveats
 ---
 
 <h2>Missing groups</h2>

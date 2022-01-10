@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/
       title: WIRwolf
-    - link: /en/wirwolf/docs/astro.html
-      title: Checks on astrometry
 ---
 <p>
     This page describes the series of checks that are done on the

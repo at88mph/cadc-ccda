@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/
       title: WIRwolf
-    - link: /en/wirwolf/docs/depthprof.html
-      title: Checks on depth
 ---
 <p>
     This page describes the series of checks that are done in WIRwolf

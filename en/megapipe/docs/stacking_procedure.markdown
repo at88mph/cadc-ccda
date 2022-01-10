@@ -14,8 +14,6 @@ nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/
       title: MegaPipe
-    - link: /en/megapipe/docs/proc.html
-      title: Stacking Procedure
 ---
 
 <p>

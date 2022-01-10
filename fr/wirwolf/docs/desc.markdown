@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /fr/wirwolf/
       title: WIRwolf
-    - link: /fr/wirwolf/docs/desc.html
-      title: Description des données
 ---
 <h2>Convention de nommage</h2>
 <p>

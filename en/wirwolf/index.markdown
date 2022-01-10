@@ -10,10 +10,6 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: wirwolf
-
-breadcrumbs:
-    - link: /en/wirwolf/
-      title: WIRwolf
 ---
 
 <p>

@@ -14,8 +14,6 @@ nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/docs/proc.html
-      title: Procédure de coadditionement
 ---
 
 <p>

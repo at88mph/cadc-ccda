@@ -18,8 +18,6 @@ breadcrumbs:
       title: Data description
     - link: /en/megapipe/docs/filt.html
       title: Filter Set
-    - link: /en/megapipe/docs/ifilt.html
-      title: i Filter
 ---
   <p>
     As discussed on

@@ -15,8 +15,6 @@ breadcrumbs:
       title: CFHTLS
     - link: /fr/megapipe/cfhtls/dfiq.html
       title: Champs Profonds (meilleur seeing)
-    - link: /fr/megapipe/cfhtls/input.html
-      title: Images d'entrée et magnitudes limites
 ---
 <h2>Champs Profonds (entiers)</h2>
 <table class="table small table-bordered">

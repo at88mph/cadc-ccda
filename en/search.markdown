@@ -4,7 +4,7 @@ lang: en
 permalink: /en/search/
 title: Advanced Search
 altLangPage: /fr/recherche/
-dateModified: 2021-11-29
+dateModified: 2022-01-10
 signing: layout.signing
 nositesearch: layout.nositesearchs
 
@@ -70,11 +70,7 @@ css:
     - /static/css/cadcVOTV/jquery-ui-1.11.4.min.css
     - /static/css/cadcVOTV/aladin.min.css
 
-breadcrumbs:
-    - link: /en/search/
-      title: Advanced Search
-
 fluid: true
 ---
 
-{% include search.markdown %}
+{% include search/index.markdown %}

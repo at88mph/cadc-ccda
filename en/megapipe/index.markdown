@@ -10,10 +10,6 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: megapipe
-
-breadcrumbs:
-    - link: /en/megapipe/
-      title: MegaPipe
 ---
 
 <p>

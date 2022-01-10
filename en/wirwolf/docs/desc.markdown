@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/
       title: WIRwolf
-    - link: /en/wirwolf/docs/desc.html
-      title: Data Description
 ---
 <h2>Naming Convention</h2>
 <p>

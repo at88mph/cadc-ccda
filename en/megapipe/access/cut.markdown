@@ -14,8 +14,6 @@ nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/
       title: MegaPipe
-    - link: /en/megapipe/access/cut.html
-      title: Cutout Service
 
 # This flag more than one script to be used.
 script:

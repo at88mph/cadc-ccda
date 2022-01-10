@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /en/megapipe/cfhtls/dfiq.html
-      title: Deep Fields (best seeing)
 ---
 
 <p>

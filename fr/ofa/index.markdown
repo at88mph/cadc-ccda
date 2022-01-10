@@ -11,10 +11,6 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: dao
-
-breadcrumbs:
-    - link: /fr/ofa/index.html
-      title: OFA
 ---
 
 <p>Cette page vous donne accès aux archives de l'Observatoire fédéral d'astrophysique (OFA), et des outils pour les utilisateurs pour les télescopes de 1,2 et de 1,8m de l'OFA.</p>

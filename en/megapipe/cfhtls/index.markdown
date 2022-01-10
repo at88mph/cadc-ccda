@@ -11,8 +11,6 @@ nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/
       title: MegaPipe
-    - link: /en/megapipe/cfhtls/index.html
-      title: CFHTLS
 ---
 
 <p>

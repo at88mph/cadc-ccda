@@ -15,8 +15,6 @@ breadcrumbs:
       title: CFHTLS
     - link: /en/megapipe/cfhtls/dfiq.html
       title: Deep Fields (best seeing)
-    - link: /en/megapipe/cfhtls/input.html
-      title: Input images and limiting magnitudes
 ---
 <h2>Deep Fields (full)</h2>
 <table class="table small table-bordered">
