@@ -16,8 +16,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/docs/intro.html
       title: Data description
-    - link: /en/megapipe/docs/filt.html
-      title: Filter Set
 ---
 
 <p>

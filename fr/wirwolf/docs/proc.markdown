@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /fr/wirwolf/
       title: WIRwolf
-    - link: /fr/wirwolf/docs/proc.html
-      title: Procédure de coadditionement
 ---
   <p>
     Cette page d&eacute;crit le pipeline de donn&eacute;es WIRwolf. Le pipeline peut &ecirc;tre d&eacute;compos&eacute; en les &eacute;l&eacute;ments suivants:

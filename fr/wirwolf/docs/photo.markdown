@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /fr/wirwolf/
       title: WIRwolf
-    - link: /fr/wirwolf/docs/photo.html
-      title: Vérifications du photometrie
 ---
 <p>
     Des contr&ocirc;les sont effectu&eacute;s sur la photom&eacute;trie de s'assurer que la

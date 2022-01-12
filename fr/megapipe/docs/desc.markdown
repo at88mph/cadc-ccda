@@ -14,8 +14,6 @@ nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/docs/desc.html
-      title: Description des données
 ---
 
 <h2>Convention de nommage</h2>

@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/
       title: WIRwolf
-    - link: /en/wirwolf/docs/photo.html
-      title: Checks on photometry
 ---
 <p>
     Checks are performed on the photometry to make sure that the

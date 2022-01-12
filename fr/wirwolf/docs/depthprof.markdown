@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /fr/wirwolf/
       title: WIRwolf
-    - link: /fr/wirwolf/docs/depthprof.html
-      title: Vérifications du profondeur
 ---
 <p>
     Cette page d&eacute;crit la s&eacute;rie de v&eacute;rifications qui sont faites dans

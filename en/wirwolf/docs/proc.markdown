@@ -11,8 +11,6 @@ nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/
       title: WIRwolf
-    - link: /en/wirwolf/docs/proc.html
-      title: Stacking Procedure
 ---
 <p>
 This page describes the WIRwolf data pipeline. The pipeline can be broken down into the following components: 

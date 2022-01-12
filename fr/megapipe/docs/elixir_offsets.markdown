@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/docs/proc.html
       title: Procédure de coadditionement
-    - link: /fr/megapipe/docs/elixphot.htm
-      title: Décalages photometriques dans Elixir
 ---
 <h2>Synopsis</h2>
 <p>

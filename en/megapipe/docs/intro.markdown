@@ -14,8 +14,6 @@ nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/
       title: MegaPipe
-    - link: /en/megapipe/docs/intro.html
-      title: Introduction
 ---
 
 <h2>Motivation</h2>

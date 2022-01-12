@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /en/megapipe/cfhtls/psf.html
-      title: Point Spread Functions
 ---
 <p>
     This page describes the CFHTLS point spread function (PSF)

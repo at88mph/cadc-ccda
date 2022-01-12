@@ -46,10 +46,6 @@ css:
     - /static/css/groups/cadc.gms.css
     - /static/css/groups/cadc_gmui.css
 
-breadcrumbs:
-    - link: /fr/groupes/
-      title: Gestion de groupes
-
 fluid: true
 ---
 

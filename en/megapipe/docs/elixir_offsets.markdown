@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /en/megapipe/docs/proc.html
       title: Stacking Procedure
-    - link: /en/megapipe/docs/elixphot.html
-      title: Elixir Photometric Offsets
 ---
 
 <h2>Synopsis</h2>

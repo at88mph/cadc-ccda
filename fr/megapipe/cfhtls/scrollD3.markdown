@@ -11,8 +11,6 @@ nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/cfhtls/scrollD3.html
-      title: D3 image
 # Allow several scripts
 script:
   first:

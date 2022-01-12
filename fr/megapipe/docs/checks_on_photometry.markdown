@@ -11,8 +11,6 @@ nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/docs/photo.html
-      title: Vérifications de le photometrie
 ---
 
 <ul>

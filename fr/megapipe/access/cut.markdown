@@ -14,8 +14,6 @@ nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/access/cut.html
-      title: Service de découpment
 
 # This flag more than one script to be used.
 script:

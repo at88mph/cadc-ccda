@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /fr/megapipe/cfhtls/psf.html
-      title: Fonctions d'étalement du point
 ---
 <p>
     Cette page d&eacute;crit le service de la CFHTLS relatif aux fonctions

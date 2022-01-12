@@ -16,8 +16,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/docs/desc.html
       title: Description des données
-    - link: /fr/megapipe/docs/filt.html
-      title: Le système de filtres
 ---
 
 <p>

@@ -11,10 +11,6 @@ signing: layout.signing
 nositesearch: layout.nositesearch
 
 nav: hst
-
-breadcrumbs:
-    - link: /en/hst/
-      title: HST
 ---
 
 <p>

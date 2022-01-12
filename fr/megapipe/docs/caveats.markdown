@@ -11,8 +11,6 @@ nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
       title: MegaPipe
-    - link: /fr/megapipe/docs/caveates.html
-      title: Mises en gardes
 ---
 
 <h2>Groupes manquants</h2>

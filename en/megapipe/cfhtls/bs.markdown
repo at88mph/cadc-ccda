@@ -15,8 +15,6 @@ breadcrumbs:
       title: CFHTLS
     - link: /en/megapipe/cfhtls/dfiq.html
       title: Deep Fields (best seeing)
-    - link: /en/megapipe/cfhtls/bs.html
-      title: Selecting the best seeing images
 ---
 
 <p>

@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /fr/megapipe/cfhtls/dfiq.html
-      title: Champs Profonds (meilleur seeing)
 ---
 
 <p>

@@ -13,8 +13,6 @@ breadcrumbs:
       title: MegaPipe
     - link: /fr/megapipe/cfhtls/index.html
       title: CFHTLS
-    - link: /fr/megapipe/cfhtls/queue.html
-      title: Images et catalogues par séquence
 ---
 <p>
     En plus des CFHTLS complets piles profondes, des piles ont &eacute;t&eacute;
