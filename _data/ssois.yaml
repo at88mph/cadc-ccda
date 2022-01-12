@@ -14,6 +14,34 @@ en:
       - name: Documentation
         url: /en/ssois/documentation.html
       title: Other
+  labels:
+    yes: Yes
+    no: No
+    error_units: Error units
+    arcseconds: Arcseconds
+    arcminutes: Arcminutes
+    from_date: from Date
+    to_date: to Date
+    clear_form: Clear form
+    show_example: Show example
+    show_telescope_instrument_list: Show telescope/instrument list
+    button_full_date_range: Set to full date range
+    query_by_name_header: Search by object name
+    query_by_name_object_field_strong: Enter object name(s)
+    query_by_name_object_field: one per row
+    query_by_name_ephemeric_cadc_only: CADC only
+    query_by_name_ephemeric_jpl_horizons: JPL Horizons
+    query_by_name_ephemeric_jpl_horizons_link: Link to the JPL Horizons ephemeris generator
+    query_by_name_ephemeric_minor_planet: Minor Planet Center
+    query_by_name_ephemeric_minor_planet_link: Link to the Minor Planet Center ephemeris generator
+    query_by_name_ephemeric_lowell_observatory: Lowell Observtory
+    query_by_name_ephemeric_lowell_observatory_link: Link to the Lowell Observtory ephemeris generator
+    query_by_name_ephemeric_all_of_the_above: All of the above
+    query_by_name_date_range_search: Date range for search
+    query_by_name_position_uncertainty_header: Positional uncertainty
+    query_by_name_resolve_to_image_extension: Resolve to image extension?
+    query_by_name_resolve_to_x_y: Resolve to X,Y?
+    query_by_name_submit_button: Search by name
 
 fr:
   nav:
@@ -31,3 +59,31 @@ fr:
       - name: Documentation
         url: /fr/rioss/documentation.html
       title: Documentation
+  labels:
+    yes: Oui
+    no: Non
+    error_units: Error units
+    arcseconds: Arcsecondes
+    arcminutes: Arcminutes
+    from_date: du Date
+    to_date: au Date
+    clear_form: Effacer
+    show_example: Show example
+    show_telescope_instrument_list: Montrez la liste des telescopes/instruments
+    button_full_date_range: R&eacute;glez sur toute la gamme des dates
+    query_by_name_header: Rechercher par nom de l'objet
+    query_by_name_object_field_strong: Enter le(s) nom(s) de(s) objet(s)
+    query_by_name_object_field: un par ligne
+    query_by_name_ephemeric_cadc_only: CCDA seulement
+    query_by_name_ephemeric_jpl_horizons: JPL Horizons
+    query_by_name_ephemeric_jpl_horizons_link: Lien au g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides de JPL Horizons
+    query_by_name_ephemeric_minor_planet: Minor Planet Center
+    query_by_name_ephemeric_minor_planet_link: Lien au g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides du Minor Planet Center
+    query_by_name_ephemeric_lowell_observatory: Lowell Observtory
+    query_by_name_ephemeric_lowell_observatory_link: Lien au g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides du Lowell Observtory
+    query_by_name_ephemeric_all_of_the_above: Tous les methodes pr&eacute;c&egrave;dentes
+    query_by_name_date_range_search: Intervalle de dates pour la recherche
+    query_by_name_position_uncertainty_header: Incertitude de position
+    query_by_name_resolve_to_image_extension: R&eacute;soudre &agrave; l'extension d'image?
+    query_by_name_resolve_to_x_y: R&eacute;soudre &agrave; X,Y?
+    query_by_name_submit_button: Rechercher par nom

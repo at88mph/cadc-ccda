@@ -1,6 +1,7 @@
 {%- include variable-core.liquid -%}
 {%- assign i18nText-cadc=site.data.cadc[i18nText-lang] -%}
 
+{%- if page.pageclass contains "home" -%}
 <style type="text/css">
     .cadc-banner-container {
         background-image: url('/static/images/web-banner-bg.gif');
@@ -36,7 +37,7 @@
     }
 </style>
 
-<section class="cadc-banner clearfix">
+<section id="wb-so" class="cadc-banner clearfix">
     <h2 class="wb-inv">{{ i18nText-signOnOff }}</h2>
     <div class="highlighted mrgn-tp-md">
         <div class="region region-highlighted">
@@ -47,7 +48,7 @@
                         <div class="row cadc-banner-container row-no-gutters">
                             <div class="container cadc-banner-inner-bg">
                                 <div class="text-white mrgn-bttm-md mrgn-lft-md">
-                                    <p class="h1 opct-90 col-md-8">
+                                    <p class="h1 opct-90 col-md-8 text-left">
                                         <a class="text-white home-link" href="/{{ i18nText-lang }}/">{{ site.title[i18nText-lang] }}</a>
                                     <div class="text-right col-md-4 mrgn-tp-lg small">
                                         <div id="sign_on_off_unsigned" class="unsigned hidden">
@@ -70,7 +71,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="clearfix"></div><div class="mrgn-lft-xl mrgn-bttm-md">
+                                <div class="clearfix"></div><div class="mrgn-lft-xl mrgn-bttm-md text-left">
                                     <p class="text-white small mrgn-tp-sm mrgn-lft-lg">{{ site.description[i18nText-lang] }}</p>
                                 </div>
                             </div>
@@ -82,3 +83,32 @@
         <!-- END | FIN -->
     </div>
 </section>
+{% else %}
+<section id="wb-so" class="clearfix">
+    <h2 class="wb-inv">{{ i18nText-signOnOff }}</h2>
+    <div class="container small">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="sign_on_off_unsigned" class="unsigned hidden">
+                    <a class="btn btn-default" href="{{ i18nText-cadc.register.url }}">{{ i18nText-signOnRegister }}</a>
+                    <a class="btn btn-primary" href="{{ i18nText-cadc.signin.url }}">{{ i18nText-signIn }}</a>
+                </div>
+                <div id="sign_on_off_signed" class="signed hidden">
+                    <strong class="col-md-12 small">{{ i18nText-signAs }} <span class="user-full-name"></span></strong>
+                    <button id="sign_on_off_account" class="btn btn-default" type="button">{{ i18nText-signAccount }}</button>
+                    <div id="profile_modal" class="profile-modal brdr-tp brdr-bttm brdr-lft brdr-rght" style="display: none;">
+                        <ul class="lst-none text-left">
+                            <li><a class="user_edit_profile ui-link" href="{{ i18nText-cadc.profile.edit.url }}">{{ i18nText-cadc.profile.edit.label }}</a></li>
+                            <li><a class="change_password ui-link" href="{{ i18nText-cadc.profile.reset_password.url }}">{{ i18nText-cadc.profile.reset_password.label }}</a></li>
+                            <li><a id="download_certificate" class="download_certificate ui-link" href="{{ i18nText-cadc.profile.obtain_certificate.url }}" title="{{ i18nText-cadc.profile.obtain_certificate.title }}">{{ i18nText-cadc.profile.obtain_certificate.label }}</a></li>
+                            <li><hr /></li>
+                            <li><a id="sign_on_off_cancel" class="sign-on-off-cancel ui-link" href="#">Cancel</a></li>
+                        </ul>
+                    </div>
+                    <a href="/access/logout" id="sign_on_off_signoff" class="btn btn-primary" type="button">{{ i18nText-signOut }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
