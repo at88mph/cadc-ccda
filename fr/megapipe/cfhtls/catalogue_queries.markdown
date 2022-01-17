@@ -92,7 +92,7 @@ script: /static/js/megapipe/cq.js
       <label for="sunits">Unit&eacute;s</label>
       <select name="sunits" id="sunits" class="form-control"> 
 	<option value="arcsec">Arcsecondes</option> 
-	<option value="arcmin">Arcminutes</option> 
+	<option value="arcmin">{{ i18n-ssois-labels.arcminutes }}</option> 
 	<option value="degree">degr&eacute;s</option>
       </select>
     </div>

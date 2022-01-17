@@ -29,6 +29,7 @@ en:
     query_by_name_header: Search by object name
     query_by_name_object_field_strong: Enter object name(s)
     query_by_name_object_field: one per row
+    query_by_name_ephemeric_field: Select emphemeris generator
     query_by_name_ephemeric_cadc_only: CADC only
     query_by_name_ephemeric_jpl_horizons: JPL Horizons
     query_by_name_ephemeric_jpl_horizons_link: Link to the JPL Horizons ephemeris generator
@@ -37,11 +38,30 @@ en:
     query_by_name_ephemeric_lowell_observatory: Lowell Observtory
     query_by_name_ephemeric_lowell_observatory_link: Link to the Lowell Observtory ephemeris generator
     query_by_name_ephemeric_all_of_the_above: All of the above
-    query_by_name_date_range_search: Date range for search
-    query_by_name_position_uncertainty_header: Positional uncertainty
-    query_by_name_resolve_to_image_extension: Resolve to image extension?
-    query_by_name_resolve_to_x_y: Resolve to X,Y?
+    date_range_search: Date range for search
+    position_uncertainty_header: Positional uncertainty
+    resolve_to_image_extension: Resolve to image extension?
+    resolve_to_x_y: Resolve to X,Y?
     query_by_name_submit_button: Search by name
+    query_by_arc_header: Search by arc
+    query_by_arc_orbit_field_header: Select orbit fitter
+    query_by_arc_observation_list: Enter observations (in MPC format)
+    query_by_arc_bernstein_link: Read Bernstein and Khushalani (2000)
+    query_by_arc_minor_planet_link: Go to the Minor Planet Center new object ephemeris generator
+    query_by_orbital_elements_header: Search by orbital elements
+    query_by_orbital_elements_description: Orbital elements should be in heliocentric J2000.0 coordinates.
+    query_by_orbital_elements_epoch_field: Epoch
+    query_by_orbital_elements_semi_major_axis: Semi-major axis
+    query_by_orbital_elements_eccentricity: Eccentricity
+    query_by_orbital_elements_inclination: Inclination
+    query_by_orbital_elements_longitude_of_ascending_node: Longitude of the ascending node
+    query_by_orbital_elements_argument_of_perihelion: Argument of perihelion
+    query_by_orbital_elements_mean_anomaly_at_epoch: Mean anomaly at epoch
+    query_by_ephemeris_header: Search by ephemeris
+    query_by_ephemeris_list_values_label: Enter a series of date/time, RA and Dec values
+    query_by_ephemeris_documentation_link: See the documentation for a list of accepted formats
+    query_by_ephemeris_list_values_placeholder: date time RA Dec
+  query_form_action: /en/ssois/results.html
 
 fr:
   nav:
@@ -74,6 +94,7 @@ fr:
     query_by_name_header: Rechercher par nom de l'objet
     query_by_name_object_field_strong: Enter le(s) nom(s) de(s) objet(s)
     query_by_name_object_field: un par ligne
+    query_by_name_ephemeric_field: S&eacute;lectionnez le g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides
     query_by_name_ephemeric_cadc_only: CCDA seulement
     query_by_name_ephemeric_jpl_horizons: JPL Horizons
     query_by_name_ephemeric_jpl_horizons_link: Lien au g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides de JPL Horizons
@@ -82,8 +103,27 @@ fr:
     query_by_name_ephemeric_lowell_observatory: Lowell Observtory
     query_by_name_ephemeric_lowell_observatory_link: Lien au g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides du Lowell Observtory
     query_by_name_ephemeric_all_of_the_above: Tous les methodes pr&eacute;c&egrave;dentes
-    query_by_name_date_range_search: Intervalle de dates pour la recherche
-    query_by_name_position_uncertainty_header: Incertitude de position
-    query_by_name_resolve_to_image_extension: R&eacute;soudre &agrave; l'extension d'image?
-    query_by_name_resolve_to_x_y: R&eacute;soudre &agrave; X,Y?
+    date_range_search: Intervalle de dates pour la recherche
+    position_uncertainty_header: Incertitude de position
+    resolve_to_image_extension: R&eacute;soudre &agrave; l'extension d'image?
+    resolve_to_x_y: R&eacute;soudre &agrave; X,Y?
     query_by_name_submit_button: Rechercher par nom
+    query_by_arc_header: Rechercher par arc
+    query_by_arc_orbit_field_header: Sélectionnez le logicel pour calculer l'orbite
+    query_by_arc_observation_list: Enter observations (in MPC format)
+    query_by_arc_bernstein_link: Lisez l'article de Bernstein and Khushalani (2000)
+    query_by_arc_minor_planet_link: Visitez le Minor Planet Center new object ephemeris generator
+    query_by_orbital_elements_header: Rechercher par &eacute;l&eacute;ments orbitaux
+    query_by_orbital_elements_description: Les &eacute;l&eacute;ments orbitaux doivent &ecirc;tre en coordonn&eacute;es h&eacute;liocentriques.
+    query_by_orbital_elements_epoch_field: Epoque
+    query_by_orbital_elements_semi_major_axis: Demi-grand axe
+    query_by_orbital_elements_eccentricity: Eccentricit&eacute;
+    query_by_orbital_elements_inclination: Inclinaison
+    query_by_orbital_elements_longitude_of_ascending_node: Longitude du noeud ascendant
+    query_by_orbital_elements_argument_of_perihelion: Argument du p&eacute;rih&eacute;lie
+    query_by_orbital_elements_mean_anomaly_at_epoch: Anomalie moyenne
+    query_by_ephemeris_header: Rechercher &agrave; partir d'une &eacute;ph&eacute;m&eacute;ride que vous fournissez
+    query_by_ephemeris_list_values_label: Entrez une s&eacute;rie de valeurs de date/heure, RA et Dec
+    query_by_ephemeris_documentation_link: Voir le documentation pour une liste de formats accept&eacute;s
+    query_by_ephemeris_list_values_placeholder: date temps RA De
+query_form_action: /fr/rioss/resultats.html

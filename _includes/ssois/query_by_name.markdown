@@ -3,7 +3,7 @@
 {%- assign i18n-ssois-labels=i18n-ssois.labels -%}
 
 <h2 id="name">{{ i18n-ssois-labels.query_by_name_header }}</h2>
-<form name="nameform" action="/cadcbin/ssos/ssosclf.pl" id="nameform">
+<form name="nameform" action="{{ i18n-ssois.query_form_action }}" id="nameform">
 	<input type="hidden" name="lang" value="{{ i18nText-lang }}"/>
 	<div class="form-group">
 		<label class="control-label" for="object"><strong>{{ i18n-ssois-labels.query_by_name_object_field_strong }}</strong> {{ i18n-ssois-labels.query_by_name_object_field }}</label>
@@ -35,7 +35,7 @@
 			</div>
 		</div>
 	</fieldset>
-	<strong>{{ i18n-ssois-labels.query_by_name_date_range_search }}:</strong>
+	<strong>{{ i18n-ssois-labels.date_range_search }}:</strong>
 	<div class="form-group">
 		<div class="form-inline mrgn-bttm-sm">
 			<label class="control-label" for="nameepoch1">{{ i18n-ssois-labels.from_date }}:&nbsp;</label>
@@ -48,7 +48,7 @@
 		<input type="button" class="btn btn-default" value="{{ i18n-ssois-labels.button_full_date_range }}" onclick="nameform.epoch1.value='1990 01 01';  nameform.epoch2.value=today"/>
 	</div>
 	<div class="form-group form-inline">
-		<label class="control-label" for="nameeellipse"><strong>{{ i18n-ssois-labels.query_by_name_position_uncertainty_header }}:</strong></label>
+		<label class="control-label" for="nameeellipse"><strong>{{ i18n-ssois-labels.position_uncertainty_header }}:</strong></label>
 		<input type="text" class="form-control" id="nameeellipse" name="eellipse" value="" size="4" />
 		<label class="control-label" for="nameeunits" class="hidden">{{ i18n-ssois-labels.error_units }}</label>
 		<select class="form-control" id="nameeunits" name="eunits">
@@ -58,8 +58,8 @@
 	</div>
 	<fieldset>
 		<div class="form-group form-inline">
-			<legend class="hidden">{{ i18n-ssois-labels.query_by_name_resolve_to_image_extension }}:</legend>
-			<strong>{{ i18n-ssois-labels.query_by_name_resolve_to_image_extension }}:&nbsp;</strong>
+			<legend class="hidden">{{ i18n-ssois-labels.resolve_to_image_extension }}:</legend>
+			<strong>{{ i18n-ssois-labels.resolve_to_image_extension }}:&nbsp;</strong>
 			<div class="radio-inline">
 				<input type="radio" class="form-control" id="nameextresyes" name="extres" value="yes"/>
 				<label class="control-label" for="nameextresyes">{{ i18n-ssois-labels.yes }}</label>
@@ -72,8 +72,8 @@
 	</fieldset>
 	<fieldset>
 		<div class="form-group form-inline">
-			<legend class="hidden">{{ i18n-ssois-labels.query_by_name_resolve_to_x_y }}:</legend>
-			<strong>{{ i18n-ssois-labels.query_by_name_resolve_to_x_y }}:&nbsp;</strong>
+			<legend class="hidden">{{ i18n-ssois-labels.resolve_to_x_y }}:</legend>
+			<strong>{{ i18n-ssois-labels.resolve_to_x_y }}:&nbsp;</strong>
 			<div class="radio-inline">
 				<input type="radio" class="form-control" id="namexyresyes" name="xyres" value="yes" onclick="nameform.extres[0].checked=true" />
 				<label class="control-label" for="namexyresyes">{{ i18n-ssois-labels.yes }}</label>

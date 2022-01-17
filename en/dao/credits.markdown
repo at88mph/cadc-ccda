@@ -14,7 +14,7 @@ nav: dao
 
 breadcrumbs:
     - link: /en/dao/
-      title: DAO
+      title: Dominion Astrophysical Observatory
 ---
 
 <p>
