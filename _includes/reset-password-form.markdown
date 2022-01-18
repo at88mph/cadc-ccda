@@ -8,10 +8,10 @@
 
 <div class="wb-frmvld">
     <div class="form-content col-md-12">
-        <form name="resetForm" id="reset_form" method="post" action="#">
+        <form name="resetForm" id="reset_form" method="post" class="wb-postback" action="/access/passwordResetRequest" data-wb-postback="{&quot;success&quot;:&quot;.success-message&quot;,&quot;failure&quot;:&quot;.failure-message&quot;,&quot;content&quot;:&quot;.form-content&quot;}">
             <div class="form-group">
                 <label for="emailAddress" id="emailAddressLabel" class="control-label">{{ i18n-cadc-labels.reset_password_email_label }}</label>
-                <input class="form-control" type="email" id="emailAddress" name="emailAddress" required="required" tabindex="1" />
+                <input class="form-control" type="email" id="emailAddress" name="emailAddress" required="required" size="35" tabindex="1" />
             </div>
             <!-- Hidden items that need to be carried to the server. -->
             <input class="form-control" type="hidden" id="loginURI" name="loginURI" tabindex="-1" value="{{ i18n-cadc.signin.url }}" />
@@ -24,6 +24,11 @@
             </div>
         </form>
     </div>
+    <section class="alert alert-success success-message hide">
+        <h3>{{ i18n-cadc-labels.reset_password_success_header }}</h3>
+        <p>{{ i18n-cadc-labels.reset_password_success_message }}</p>
+    </section>
+    <section class="alert alert-danger failure-message hide"></section>
 </div>
 <div class="clearfix"></div>
 <div class="col-md-5 mrgn-tp-sm small">

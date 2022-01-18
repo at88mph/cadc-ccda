@@ -58,6 +58,7 @@ en:
     signin_submit: Sign In
     register_submit: Send request
     update_submit: Update
+    submit: Submit
     reset: Clear
     required: 
     login_required: Authentication required
@@ -69,6 +70,11 @@ en:
     reset_password_instructions: Enter your email address. If it exists in our database, you will be sent an e-mail with instructions on resetting your password.
     reset_password_email_label: Email address
     reset_password_submit_button_label: Reset your password
+    reset_password_success_header: Email sent
+    reset_password_success_message: Instructions for resetting your password have been sent to the email address provided.
+    new_password: New password
+    confirm_new_password: Confirm password
+    new_password_success_message: Password reset was successful
     dates:
       months:
         - January
@@ -143,6 +149,7 @@ fr:
     signin_submit: Connexion
     register_submit: Soumettre la demande
     update_submit: Actualiser
+    submit: Soumettre
     reset: Effacer
     login_required: Authentification requise
     report_problem_link_text: Signaler un problème sur cette page
@@ -152,6 +159,11 @@ fr:
     reset_password_instructions: Saisissez votre adresse courriel. Si elle existe déjà dans notre base de données, vous recevrez un courriel avec les instructions pour la réínitialization de votre mot de passe.
     reset_password_email_label: Courriel
     reset_password_submit_button_label: Réinitialiser votre mot de passe
+    reset_password_success_header: Courriel a été envoyé
+    reset_password_success_message: Les instructions pour r&eacute;initialiser votre mot de passe ont &eacute;t&eacute; envoy&eacute;es &agrave; l'adresse courriel que vous avez fournie.
+    new_password: Nouveau mot de passe
+    confirm_new_password: Confirmation du nouveau mot de passe
+    new_password_success_message: Mot de passe réinitialisation a réussi.
     dates:
       months:
         - janvier
