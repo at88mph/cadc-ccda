@@ -3,8 +3,8 @@
 {%- assign i18n-cadc-labels=i18n-cadc.labels -%}
 
 <div class="wb-frmvld">
-    <div class="form-content col-md-12">
-        <form name="newPasswordForm" id="new_password_form" class="wb-postback" action="/access/control/resetPassword" method="POST" data-wb-postback="{&quot;success&quot;:&quot;.success-message&quot;,&quot;failure&quot;:&quot;.failure-message&quot;,&quot;content&quot;:&quot;.form-content&quot;}">
+    <div class="form-content">
+        <form name="newPasswordForm" id="new_password_form" class="wb-postback col-md-5 col-sm-5" action="/access/control/resetPassword" method="POST" data-wb-postback="{&quot;success&quot;:&quot;.success-message&quot;,&quot;failure&quot;:&quot;.failure-message&quot;,&quot;content&quot;:&quot;.form-content&quot;}">
             <div class="form-group">
                 <label for="new_password" class="control-label" id="new_password_label">{{ i18n-cadc-labels.new_password }}</label>
                 <input type="password" id="new_password"
