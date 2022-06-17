@@ -2,3 +2,4 @@ terraform
 _site
 Gemfile.lock
 docker-compose*
+*node_modules*

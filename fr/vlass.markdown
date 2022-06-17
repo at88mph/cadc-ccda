@@ -24,7 +24,7 @@ nav: vlass
   bande passante (2 à 4 GHz). Les premières observations ont commencé en septembre 2017 et devraient
   se terminer en 2024. Le VLASS utilise environ 5500 heures d'observations sur le très grand réseau
   de télescope Karl G. Jansky (Very Large Array) pour couvrir
-  le ciel entier visible par le VLA (déclinaison &gt; −40◦), soit un total de 33 885 deg². Les données
+  le ciel entier visible par le VLA (déclinaison &gt; −40&deg;), soit un total de 33 885 deg². Les données
   sont prises en trois époques pour permettre la découverte de sources radio variables et transitoires.
 </p>
 <p>

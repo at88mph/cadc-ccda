@@ -22,7 +22,7 @@ nav: vlass
     sensitivity (a 1σ goal of 70 µJy/beam in the coadded data), full linear Stokes polarimetry, time domain coverage,
     and wide bandwidth (2–4 GHz). The first observations began in September 2017, and observing is projected to finish
     in 2024. VLASS uses approximately 5500 hours of time on the Karl G. Jansky Very Large Array (VLA) to cover the
-    whole sky visible to the VLA (Declination &gt; −40◦), a total of 33 885 deg2. The data is taken in three epochs to allow
+    whole sky visible to the VLA (Declination &gt; −40&deg;), a total of 33 885 deg2. The data is taken in three epochs to allow
     the discovery of variable and transient radio sources.
 </p>
 
