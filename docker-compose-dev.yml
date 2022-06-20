@@ -1,7 +1,7 @@
 version: '3.7'
 services:
     proxy:
-        image: traefik:v2.5
+        image: traefik:v2.7
         ports:
             - 80:80
             # - 443:443
@@ -26,17 +26,33 @@ services:
             - "jekyll"
         networks:
             - "jekyll"
+    wet:
+        image: nginx:alpine
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.services.wet.loadbalancer.server.port=80"
+            - "traefik.http.routers.wet.rule=PathPrefix(`/themes-dist`)"
+            - "traefik.http.routers.wet.service=wet"
+            - "traefik.http.routers.wet.entrypoints=web"
+            # - "traefik.http.routers.wet.entrypoints=websecure"
+            # - "traefik.http.routers.wet.tls=true"
+            # - "traefik.http.routers.wet.tls.domains[0].main=cadc.dao.nrc.ca"
+            # - "traefik.http.routers.wet.tls.domains[0].sans=*.cadc.dao.nrc.ca"
+        volumes:
+            - "/home/debian/src/wet/themes-dist:/usr/share/nginx/html/themes-dist"
+        networks:
+            - "jekyll"
     jekyll:
-        image: jekyll/jekyll:4
+        image: jekyll/jekyll:3
         command: jekyll serve 0.0.0.0
         labels:
             - "traefik.enable=true"
             - "traefik.http.services.jekyll.loadbalancer.server.port=4000"
             - "traefik.http.routers.jekyll.rule=PathPrefix(`/`)"
             - "traefik.http.routers.jekyll.entrypoints=web"
+            - "traefik.http.routers.jekyll.service=jekyll"
             # - "traefik.http.routers.jekyll.entrypoints=websecure"
             # - "traefik.http.routers.jekyll.tls.certresolver=kawfeeresolver"
-            - "traefik.http.routers.jekyll.service=jekyll"
         volumes:
             - "/home/debian/src/jekyll:/srv/jekyll"
         networks:

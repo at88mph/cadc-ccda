@@ -46,11 +46,11 @@
  *  any later version.                   toute version ultérieure.
  *
  *  OpenCADC is distributed in the       OpenCADC est distribué
- *  hope that it will be useful,         dans l’espoir qu’il vous
+ *  hope that it will be useful,         dans l'espoir qu'il vous
  *  but WITHOUT ANY WARRANTY;            sera utile, mais SANS AUCUNE
  *  without even the implied             GARANTIE : sans même la garantie
  *  warranty of MERCHANTABILITY          implicite de COMMERCIALISABILITÉ
- *  or FITNESS FOR A PARTICULAR          ni d’ADÉQUATION À UN OBJECTIF
+ *  or FITNESS FOR A PARTICULAR          ni d'ADÉQUATION À UN OBJECTIF
  *  PURPOSE.  See the GNU Affero         PARTICULIER. Consultez la Licence
  *  General Public License for           Générale Publique GNU Affero
  *  more details.                        pour plus de détails.
@@ -58,7 +58,7 @@
  *  You should have received             Vous devriez avoir reçu une
  *  a copy of the GNU Affero             copie de la Licence Générale
  *  General Public License along         Publique GNU Affero avec
- *  with OpenCADC.  If not, see          OpenCADC ; si ce n’est
+ *  with OpenCADC.  If not, see          OpenCADC ; si ce n'est
  *  <http://www.gnu.org/licenses/>.      pas le cas, consultez :
  *                                       <http://www.gnu.org/licenses/>.
  *
@@ -66,120 +66,121 @@
  *
  ************************************************************************
  */
-;(function($) {
-  // register namespace
-  $.extend(true, window, {
-    org: {
-      opencadc: {
-        StringUtil: StringUtil
-      }
-    }
-  })
-
-  /**
-   * Basic String utility class.
-   *
-   * @constructor
-   */
-  function StringUtil() {
-    /**
-     * Obtain whether the given string has any length (i.e. > 0).
-     * @param _str          The string to check.
-     * @returns {boolean}
-     */
-    function hasLength(_str) {
-      return _str != null && String(_str).length > 0
-    }
-
-    /**
-     * Obtain whether the given string has any text (i.e. !== '').
-     * @param _str          The string to check.
-     * @returns {boolean}
-     */
-    function hasText(_str) {
-      return this.hasLength(_str) && String(_str).trim() !== ''
-    }
-
-    /**
-     * Format the given string.
-     *
-     * Given the string:
-     *
-     * {code}
-     * var str = 'My name is {1} and I am {2} years old';
-     * new org.opencadc.StringUtil().format(str, 'George', 39);
-     * {code}
-     *
-     * would return:
-     *
-     * My name is George and I am 39 years old
-     *
-     * Indexes begin at 1, NOT 0.
-     *
-     * @param _str                The string to check.
-     * @param _values {Array}     The values to replace.
-     * @returns {string}
-     */
-    function format(_str, _values) {
-      // Create new string to not modify the original.
-      return _str.replace(/{(\d+)}/g, function(match, number) {
-        var index = number - 1
-        return _values[index] ? _values[index] : match
-      })
-    }
-
-    /**
-     * Sanitize the given string for HTML.
-     *
-     * @param _str        String to sanitize.
-     * @returns {string}
-     */
-    function markupForHTML(_str) {
-      return _str
-        ? _str
-            .toString()
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-        : ''
-    }
-
-    /**
-     * Obtain whether the given regex matches the given string.
-     *
-     * @param _regex        The regex to execute.
-     * @param _str          The string to execute against.
-     * @returns {boolean}
-     */
-    function matches(_regex, _str) {
-      return new RegExp(_regex).test(_str)
-    }
-
-    /**
-     * Obtain whether the _string contains the given _str.
-     *
-     * @param {String} _string         The String to check.
-     * @param {String} _match          The string to see if is contained.
-     * @param {boolean} [_matchCase=false]      Optionally match case.
-     * @returns {boolean}
-     */
-    function contains(_string, _match, _matchCase) {
-      return (
-        _string &&
-        _match &&
-        (_matchCase === true
-          ? _string.indexOf(_match)
-          : _string.toLowerCase().indexOf(_match.toLowerCase())) >= 0
-      )
-    }
-
-    $.extend(this, {
-      sanitize: markupForHTML,
-      hasLength: hasLength,
-      hasText: hasText,
-      format: format,
-      matches: matches,
-      contains: contains
+;
+(function($) {
+    // register namespace
+    $.extend(true, window, {
+        org: {
+            opencadc: {
+                StringUtil: StringUtil
+            }
+        }
     })
-  }
+
+    /**
+     * Basic String utility class.
+     *
+     * @constructor
+     */
+    function StringUtil() {
+        /**
+         * Obtain whether the given string has any length (i.e. > 0).
+         * @param _str          The string to check.
+         * @returns {boolean}
+         */
+        function hasLength(_str) {
+            return _str != null && String(_str).length > 0
+        }
+
+        /**
+         * Obtain whether the given string has any text (i.e. !== '').
+         * @param _str          The string to check.
+         * @returns {boolean}
+         */
+        function hasText(_str) {
+            return this.hasLength(_str) && String(_str).trim() !== ''
+        }
+
+        /**
+         * Format the given string.
+         *
+         * Given the string:
+         *
+         * {code}
+         * var str = 'My name is {1} and I am {2} years old';
+         * new org.opencadc.StringUtil().format(str, 'George', 39);
+         * {code}
+         *
+         * would return:
+         *
+         * My name is George and I am 39 years old
+         *
+         * Indexes begin at 1, NOT 0.
+         *
+         * @param _str                The string to check.
+         * @param _values {Array}     The values to replace.
+         * @returns {string}
+         */
+        function format(_str, _values) {
+            // Create new string to not modify the original.
+            return _str.replace(/{(\d+)}/g, function(match, number) {
+                var index = number - 1
+                return _values[index] ? _values[index] : match
+            })
+        }
+
+        /**
+         * Sanitize the given string for HTML.
+         *
+         * @param _str        String to sanitize.
+         * @returns {string}
+         */
+        function markupForHTML(_str) {
+            return _str ?
+                _str
+                .toString()
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;') :
+                ''
+        }
+
+        /**
+         * Obtain whether the given regex matches the given string.
+         *
+         * @param _regex        The regex to execute.
+         * @param _str          The string to execute against.
+         * @returns {boolean}
+         */
+        function matches(_regex, _str) {
+            return new RegExp(_regex).test(_str)
+        }
+
+        /**
+         * Obtain whether the _string contains the given _str.
+         *
+         * @param {String} _string         The String to check.
+         * @param {String} _match          The string to see if is contained.
+         * @param {boolean} [_matchCase=false]      Optionally match case.
+         * @returns {boolean}
+         */
+        function contains(_string, _match, _matchCase) {
+            return (
+                _string &&
+                _match &&
+                (_matchCase === true ?
+                    _string.indexOf(_match) :
+                    _string.toLowerCase().indexOf(_match.toLowerCase())) >= 0
+            )
+        }
+
+        $.extend(this, {
+            sanitize: markupForHTML,
+            hasLength: hasLength,
+            hasText: hasText,
+            format: format,
+            matches: matches,
+            contains: contains
+        })
+    }
 })(jQuery)

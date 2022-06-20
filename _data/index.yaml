@@ -249,12 +249,12 @@ fr:
           short_name: MOST
           splash_image_url: /static/images/splash/most.png
         dao:
-          name: Archives scientifiques et outils de l’Observatoire fédéral d’astrophysique 
+          name: Archives scientifiques et outils de l'Observatoire fédéral d'astrophysique 
           url: /fr/ofa/
           short_name: OFA
           splash_image_url: /static/images/splash/dao.png
         drao:
-          name: Archives scientifiques et outils de l’Observatoire fédéral radioastrophysique
+          name: Archives scientifiques et outils de l'Observatoire fédéral radioastrophysique
           url: /fr/ofr/
           short_name: OFR
           splash_image_url: /static/images/splash/drao.png

@@ -24,7 +24,7 @@ nav: neossat
     parallax measurement of near-Earth objects can be obtained.  NEOSSat is well suited for the astrometric and
     photometric study of solar system bodies. NEOSSat also enables continual photometry for asteroseismology,
     exoplanet transits and other transients.  The instrument is a 15-cm Maksutov telescope and CCD
-    with 3”/pixel scale and 0.85° field of view.
+    with 3”/pixel scale and 0.85&deg; field of view.
 </p>
 
 <p>
@@ -46,7 +46,7 @@ nav: neossat
     <blockquote>
         Based on data from the NEOSSat satellite, a joint mission of the
         Canadian Space Agency (CSA) and Defence Research and Development Canada (DRDC),
-        with contributions from Microsat Systems Canada Inc. (MSCI), the University of Calgary, Bishop’s University,
+        with contributions from Microsat Systems Canada Inc. (MSCI), the University of Calgary, Bishop's University,
         and the National Research Council of Canada (NRC).
     </blockquote>
 </div>

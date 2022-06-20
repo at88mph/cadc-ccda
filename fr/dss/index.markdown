@@ -276,7 +276,7 @@ et sont distribu&eacute;es ici sous entente.</p>
 Le relev&eacute; "Equatorial Red Atlas" du ciel de l'h&eacute;misph&egrave;re sud a &eacute;t&eacute; au 
 t&eacute;lescope Schmidt de la Grande-Bretagne.
 Les plaques photographiques ont &eacute;t&eacute; num&eacute;ris&eacute;es et comprim&eacute;es au "Space Telescope Science Institute (STScI)"
-Les droits de reproductions des images num&eacute;riques appartiennent (&copy; 19921995)
+Les droits de reproductions des images num&eacute;riques appartiennent (&copy; 1992-1995)
 au "Particle Physics and Astronomy Research Council" et au "Anglo-Australian Telescope Board" et sont distribu&eacute;es via une entente.</p>
 <p>
 Les images comprim&eacute;es du "Palomar Observatory - Space Telescope Science

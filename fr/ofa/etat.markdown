@@ -2,7 +2,7 @@
 layout: cadc
 lang: fr
 permalink: /fr/ofa/etat
-title: Etat actuel de l’OFA
+title: Etat actuel de l'OFA
 altLangPage: /en/dao/status
 headerimage: /static/images/archive-info/dao.jpg
 dateModified: 2021-10-26

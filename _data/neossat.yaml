@@ -5,7 +5,7 @@ en:
         url: /en/search/?collection=NEOSSAT&noexec=true
       title: Data
     - links:
-      - name: NEOSSat FITS Image User’s Guide 
+      - name: NEOSSat FITS Image User's Guide 
         url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/CSA-NEOSSAT-MAN-0002_FITS_IMAGE_UGUIDE.pdf
       - name: The NEOSSat Experience
         url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/NEOSSat%20Experience-v1.5.pdf
@@ -22,7 +22,7 @@ fr:
         url: /fr/recherche/?collection=NEOSSAT&noexec=true
       title: Données
     - links:
-      - name: Guide de l’utilisateur de NEOSSat FITS Image - anglais seulement
+      - name: Guide de l'utilisateur de NEOSSat FITS Image - anglais seulement
         url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/CSA-NEOSSAT-MAN-0002_FITS_IMAGE_UGUIDE.pdf
       - name: L'expérience NEOSSat - anglais seulement
         url: ftp://ftp.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/NEOSSat%20Experience-v1.5.pdf

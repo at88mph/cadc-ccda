@@ -266,23 +266,23 @@ is pertinent can be identified from the FITS header file. </p>
 The "Second Epoch Survey" of the southern sky was made by the
 Anglo-Australian Observatory (AAO) with the UK Schmidt Telescope. Plates
 from this survey have been digitized and compressed by the STScI. The
-digitized images are copyright © 1993-5 by the Anglo-Australian
+digitized images are copyright &copy; 1993-1995 by the Anglo-Australian
 Observatory Board, and are distributed herein by agreement.</p>
 <p>
 The "Equatorial Red Atlas" of the southern sky was made with the UK
 Schmidt Telescope. Plates from this survey have been digitized and
-compressed by the STScI. The digitized images are copyright © 1992-5,
+compressed by the STScI. The digitized images are copyright &copy; 1992-1995,
 jointly by the UK SERC/PPARC (Particle Physics and Astronomy Research
 Council, formerly Science and Engineering Research Council) and the
 Anglo-Australian Telescope Board, and are distributed herein by agreement.</p>
 <p>
 The compressed files of the "Palomar Observatory - Space Telescope Science
 Institute Digital Sky Survey" of the northern sky, based on scans of the
-Second Palomar Sky Survey are copyright © 1993-1995 by the California
+Second Palomar Sky Survey are copyright &copy; 1993-1995 by the California
 Institute of Technology and are distributed herein by agreement.</p>
 <p>
 All material not subject to one of the above copyright provisions is
-copyright © 1995 by the Association of Universities for Research in
+copyright &copy; 1995 by the Association of Universities for Research in
 Astronomy, Inc.</p>
 <p>
 Produced under Contract No. NAS5-26555 with the National Aeronautics

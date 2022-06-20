@@ -4,7 +4,7 @@ lang: en
 permalink: /en/cgps/
 title: Canadian Galactic Plane Survey
 altLangPage: /fr/rcpg/
-dateModified: 2021-12-09
+dateModified: 2022-06-17
 signing: layout.signing
 nositesearch: layout.nositesearch
 nav: cgps
@@ -24,21 +24,16 @@ Complementary images in the four IRAS infrared bands and data cubes of CO (J=1-0
 </p>
 <p>
 These observations comprise the Canadian Galactic Plane Survey (CGPS), the product of an international Consortium, which maps all the major interstellar components of the Milky Way at 1 - 3 arcmin resolution: neutral atomic gas, molecular gas, ionized gas, dust grains and relativistic plasma. For many of these constituents, angular resolution is improved over previous studies by more than a factor of ten. The principal goal of the project is the creation and scientific analysis of a database of panoramic, high-resolution images of all the major components of the ISM. 
-	     </p>
+</p>
 <h3>References: </h3>
 <ul>
-<li>
-The Canadian Galactic Plane Survey: Taylor A.R., Gibson S.J., Peracaula M., Martin P.G., Landecker T.L., Brunt C.M., Dewdney P.E., Dougherty S.M., Gray A.D., Higgs L.A., Kerton C.R., Knee L.B., Kothes R., Purton C.R., Uyanıker B., Wallace B.J., Willis A.G., Durand D., 2003, The Astronomical Journal 125, 3145
-</li>
-<li>
-A Survey of the polarized emission from the Galactic Plane at 1420 MHz with arcminute angular resolution: Landecker T.L., Reich W., Reid R.I., Reich P., Wolleben M., Kothes R., Uyanıker B., Gray A.D., Del Rizzo D., Fürst E., Taylor A.R., Wielebinski R., 2010, Astronomy and Astrophysics 520, A80
-</li>
-<li>
-A High Resolution Survey of the Galactic Plane at 408 MHz: Tung A.K., Kothes R., Landecker T.L., Geisbüsch J., Del Rizzo D., Taylor A.R., Brunt C.M., Gray A., Dougherty S.M., 2017, The Astronomical Journal 154, 19
+	<li>The Canadian Galactic Plane Survey: Taylor A.R., Gibson S.J., Peracaula M., Martin P.G., Landecker T.L., Brunt C.M., Dewdney P.E., Dougherty S.M., Gray A.D., Higgs L.A., Kerton C.R., Knee L.B., Kothes R., Purton C.R., Uyanıker B., Wallace B.J., Willis A.G., Durand D., 2003, The Astronomical Journal 125, 3145</li>
+	<li>A Survey of the polarized emission from the Galactic Plane at 1420 MHz with arcminute angular resolution: Landecker T.L., Reich W., Reid R.I., Reich P., Wolleben M., Kothes R., Uyanıker B., Gray A.D., Del Rizzo D., Fürst E., Taylor A.R., Wielebinski R., 2010, Astronomy and Astrophysics 520, A80</li>
+	<li>A High Resolution Survey of the Galactic Plane at 408 MHz: Tung A.K., Kothes R., Landecker T.L., Geisbüsch J., Del Rizzo D., Taylor A.R., Brunt C.M., Gray A., Dougherty S.M., 2017, The Astronomical Journal 154, 19</li>
 </ul>
 <h2> The VGPS Survey </h2>
 <p>
-The 21-cm line emission from neutral atomic hydrogen (HI) in the Milky Way disk is being mapped with 1' resolution and brightness sensitivity of a few K rms by three groups using telescopes at the ATNF (the Southern Galactic Plane Survey, SGPS, McClure-Griffiths et al. 2001), the DRAO (the Canadian Galactic Plane Survey, CGPS, Taylor et al. 2003), and the VLA (Stil, J. M., Taylor, A. R., Dickey, J. M., Kavars, D. W., Martin, P. G., Rothwell, T. A., Boothroyd, A. I., Lockman, Felix J., & McClure-Griffiths, N. M. 2006, AJ 132, 1158). These projects are charting the disk between longitudes 255° and 357°, between 50° and 147° and between 18° and 50° respectively. Working together as an international community, we are now in a position to obtain a complete image of the HI emission from the plane of the Galaxy at 1' resolution. The longitude range 18° and 67° can only be explored with the VLA, because at these longitudes the Galactic plane passes through the celestial equator. The VLA survey will provide a link between the northern and southern surveys and cover the first quadrant of the Galaxy, where the effects of star formation and the interaction between the disk and halo are expected to be dominant shapers of the ISM (e.g. Heiles 1984). The VGPS will also overlap the FCRAO survey of CO emission in the molecular ring from 18° to 52°, providing, together with high resolution infrared images, complete imaging of the major components of the interstellar medium in this region down to scales of a few pc.
+The 21-cm line emission from neutral atomic hydrogen (HI) in the Milky Way disk is being mapped with 1' resolution and brightness sensitivity of a few K rms by three groups using telescopes at the ATNF (the Southern Galactic Plane Survey, SGPS, McClure-Griffiths et al. 2001), the DRAO (the Canadian Galactic Plane Survey, CGPS, Taylor et al. 2003), and the VLA (Stil, J. M., Taylor, A. R., Dickey, J. M., Kavars, D. W., Martin, P. G., Rothwell, T. A., Boothroyd, A. I., Lockman, Felix J., & McClure-Griffiths, N. M. 2006, AJ 132, 1158). These projects are charting the disk between longitudes 255&deg; and 357&deg;, between 50&deg; and 147&deg; and between 18&deg; and 50&deg; respectively. Working together as an international community, we are now in a position to obtain a complete image of the HI emission from the plane of the Galaxy at 1' resolution. The longitude range 18&deg; and 67&deg; can only be explored with the VLA, because at these longitudes the Galactic plane passes through the celestial equator. The VLA survey will provide a link between the northern and southern surveys and cover the first quadrant of the Galaxy, where the effects of star formation and the interaction between the disk and halo are expected to be dominant shapers of the ISM (e.g. Heiles 1984). The VGPS will also overlap the FCRAO survey of CO emission in the molecular ring from 18&deg; to 52&deg;, providing, together with high resolution infrared images, complete imaging of the major components of the interstellar medium in this region down to scales of a few pc.
 </p>
 <p>
 We ask that papers that use CGPS data provide the following acknowledgement:

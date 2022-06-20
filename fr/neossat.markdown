@@ -19,13 +19,13 @@ nav: neossat
 
 <p>
   NEOSSat est un télescope spatial canadien agile qui soutient deux missions en parallèle, une de
-  reconnaissance de la situation dans l’espace et l’autre d’astronomie spatiale.  Il offre une acquisition de
+  reconnaissance de la situation dans l'espace et l'autre d'astronomie spatiale.  Il offre une acquisition de
   cible sur tout le ciel, un contrôle précis du pointage, un mode « Track Rate » pour les cibles en mouvement et un
-  déflecteur (baffle) étendu pour les observations relativement proches du soleil.  À partir d’une orbite polaire,
-  il est possible d’obtenir une mesure directe de parallaxe d’objets proches de la Terre.  NEOSSat convient
+  déflecteur (baffle) étendu pour les observations relativement proches du soleil.  À partir d'une orbite polaire,
+  il est possible d'obtenir une mesure directe de parallaxe d'objets proches de la Terre.  NEOSSat convient
   parfaitement à l'étude astrométrique et photométrique des corps du système solaire.  NEOSSat permet également
   la photométrie en continu pour l'astérosismologie, les transits d'exoplanètes et d'autres phénomènes transitoires.
-  L'instrument est un télescope Maksutov de 15 cm et un CCD avec une échelle de 3”/ pixel et un champ de vision de 0,85 °.
+  L'instrument est un télescope Maksutov de 15 cm et un CCD avec une échelle de 3”/ pixel et un champ de vision de 0,85 &deg;.
 </p>
 
 <p>
@@ -47,9 +47,9 @@ nav: neossat
   </p>
 
   <blockquote>
-    Basé sur les données du satellite NEOSSat, une mission conjointe de l’Agence spatiale canadienne (ASC) et de
+    Basé sur les données du satellite NEOSSat, une mission conjointe de l'Agence spatiale canadienne (ASC) et de
     Recherche et développement pour la défense Canada (RDDC), avec des contributions de la part de
-    Microsat Systems Canada Inc. (MSCI), l’université de Calgary, l’université Bishop’s et
+    Microsat Systems Canada Inc. (MSCI), l'université de Calgary, l'université Bishop's et
     du Conseil national de recherches Canada (CNRC).
   </blockquote>
 
