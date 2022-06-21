@@ -10,7 +10,7 @@ nositesearch: true
 {%- assign i18nText = site.data[page.nav][i18nText-lang] -%}
 {%- assign i18nText-nav = i18nText['nav'] -%}
 
-<main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+<main class="container mrgn-tp-lg" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">    
     {%- if site.warning.enabled -%}
     <div class="row">
         <div class="full-width">
@@ -20,9 +20,20 @@ nositesearch: true
         </div>
     </div>
     {%- endif -%}
-    <div class="row mrgn-tp-md mrgn-bttm-0">
-        <div class="col-md-offset-3 col-md-6">
-            <div class="well">
+    <div class="mrgn-bttm-lg">
+        <div class="panel-pane pane-block pane-bean-homepage-banner">
+            <div class="pane-content"></div>
+        </div>
+        <div class="panel-separator"></div>
+        <div class="panel-pane pane-page-title">
+            <div class="pane-content">
+                <h1 id="wb-cont"><span class="wb-inv">Home page — </span>{{ page.title }}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row mrgn-tp-md mrgn-bttm-xl">
+        <div class="col-md-offset-7 col-md-5">
+            <div class="small">
                 <form action="{{ i18nText-nav.services.links.search.url }}" class="form-inline form-horizontal" method="get">
                     <div class="medium text-left">
                         <label class="hide control-label">{{ i18nText-cadc.labels.quicksearch }}</label>
@@ -36,74 +47,40 @@ nositesearch: true
         </div>
     </div>
     <div class="row small wb-eqht">
-        <div class="col-md-6 col-sm-6 hght-inhrt">
-            <div class="well hght-inhrt">
-                {% comment %}
-                    In order to facilitate the 4 column layout, there needs to be an odd number of items,
-                    so we'll pad that here if necessary.
-                {% endcomment %}
-                {%- assign list_size_mod = i18nText-nav.telescope_data_products.links.size | modulo: 2 | to_number -%}
-                <h5 class="mrgn-tp-0">{{ i18nText-nav.telescope_data_products.title }}</h5>
-                <ul class="list-unstyled text-center colcount-sm-3 colcount-md-4 colcount-lg-4">
+        <div class="col-md-4 col-sm-4 hght-inhrt brdr-rght">
+            <div class="hght-inhrt">
+                <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.telescope_data_products.title }}</h2>
+                <dl class="mrgn-tp-md">
                 {%- for l in i18nText-nav.telescope_data_products.links -%}
                 {% assign link = l[1] %}
-                {% if link.splash_image_url %}
-                    <li>
-                        <a href="{{ link.url }}">
-                            <span class="small"><img class="img-thumbnail" width="60" height="60" src="{{ link.splash_image_url }}" /><br /><small>{{ link.short_name }}</small></span></a>
-                    </li>
-                {% else %}                    
-                    {%- assign list_size_mod = list_size_mod | minus: 1 -%}
-                {% endif %}
+                    <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
+                    <dd>{{ link.name }}</dd>
                 {% endfor %}
-                {%- if list_size_mod == 0 -%}
-                <li style="height: 95px;"></li>
-                {%- endif -%}
-                </ul>
+                </dl>
             </div>
         </div>
-        <div class="col-md-3 col-sm-3 hght-inhrt">
-            <div class="well hght-inhrt">
-                <h5 class="mrgn-tp-0">{{ i18nText-nav.advanced_data_products.title }}</h5>
-                <ul class="list-unstyled colcount-sm-1 text-center colcount-md-2 colcount-lg-2">
+        <div class="col-md-4 col-sm-4 hght-inhrt brdr-lft brdr-rght">
+            <div class="hght-inhrt">
+                <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.advanced_data_products.title }}</h2>
+                <dl class="mrgn-tp-md">
                 {%- for l in i18nText-nav.advanced_data_products.links -%}
                 {% assign link = l[1] %}
-                {% if link.splash_image_url %}
-                    <li><a href="{{ link.url }}"><span class="small"><img class="img-thumbnail" width="60" height="60" src="{{ link.splash_image_url }}" /><br /><small>{{ link.short_name }}</small></span></a></li>
-                {% else %}                    
-                    {%- assign list_size_mod = list_size_mod | minus: 1 -%}
-                {% endif %}
+                    <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
+                    <dd>{{ link.name }}</dd>
                 {% endfor %}
-                {%- if list_size_mod != 0 -%}
-                <li style="height: 95px;"></li>
-                {%- endif -%}
-                </ul>
+                </dl>
             </div>
         </div>
-        <div class="col-md-3 col-sm-3 hght-inhrt">
-            <div class="well hght-inhrt">
-                {% comment %}
-                    In order to facilitate the 2 column layout, there needs to be an even number of items,
-                    so we'll pad that here if necessary.
-                {% endcomment %}
-                {%- assign list_size_mod = i18nText-nav.services.links.size | modulo: 2 | to_number -%}
-                <h5 class="mrgn-tp-0">{{ i18nText-nav.services.title }}</h5>
-                <ul class="list-unstyled colcount-sm-1 text-center colcount-md-2 colcount-lg-2">
-                {% for l in i18nText-nav.services.links %}
+        <div class="col-md-4 col-sm-4 hght-inhrt brdr-lft">
+            <div class="hght-inhrt">
+                <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.services.title }}</h2>
+                <dl class="mrgn-tp-md">
+                {%- for l in i18nText-nav.services.links -%}
                 {% assign link = l[1] %}
-                {% if link.splash_image_url %}
-                    <li>
-                        <a href="{{ link.url }}">
-                            <span class="small"><img class="img-thumbnail" width="60" height="60" src="{{ link.splash_image_url }}" /><br /><small>{{ link.short_name }}</small></span></a>
-                    </li>
-                {% else %}                    
-                    {%- assign list_size_mod = list_size_mod | minus: 1 -%}
-                {% endif %}
+                    <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
+                    <dd>{{ link.name }}</dd>
                 {% endfor %}
-                {%- if list_size_mod != 0 -%}
-                <li style="height: 95px;"></li>
-                {%- endif -%}
-                </ul>
+                </dl>
             </div>
         </div>
     </div>

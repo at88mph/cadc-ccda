@@ -13,6 +13,7 @@ nositesearch: layout.nositesearch
 pageclass: ["home"]
 includeBanner: true
 auth: true
+nomenu: true
 
 pageclass: home
 

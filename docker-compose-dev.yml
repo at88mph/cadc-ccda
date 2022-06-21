@@ -22,7 +22,7 @@ services:
         volumes:
             - "proxy:/letsencrypt:rw"
             - "/var/run/docker.sock:/var/run/docker.sock:ro"
-        depends_on: 
+        depends_on:
             - "jekyll"
         networks:
             - "jekyll"
