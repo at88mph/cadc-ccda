@@ -91,7 +91,6 @@ defaults:
     values:
       layout: cadc
       sitemenu: true
-      nositesearch: true
   -
     scope:
       path: "en/"

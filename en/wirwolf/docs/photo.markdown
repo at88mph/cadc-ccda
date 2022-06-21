@@ -6,7 +6,7 @@ title: Checks on photometry
 altLangPage: /fr/wirwolf/docs/photo.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/

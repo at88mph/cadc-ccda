@@ -9,7 +9,7 @@ permalink: /fr/rencontres/
 altLangPage: /en/meetings/
 dateModified: 2021-11-26
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 # Used for post label formatting (dates and links)
 script: [/static/js/meetings/meetings.js]

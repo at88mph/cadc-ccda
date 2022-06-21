@@ -6,7 +6,7 @@ title: Recherche des catalogues
 altLangPage: /en/megapipe/cfhtls/cq.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/

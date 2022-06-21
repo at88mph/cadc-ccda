@@ -6,7 +6,7 @@ title: Query By Coordinate List
 altLangPage: /fr/dss/dss_interrogation_coord_liste.html
 dateModified: 2021-12-10
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 script: /static/js/dss/search.js
 breadcrumbs:

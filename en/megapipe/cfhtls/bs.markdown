@@ -6,7 +6,7 @@ title: Selecting the best seeing images
 altLangPage: /fr/megapipe/cfhtls/bs.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/

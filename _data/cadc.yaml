@@ -75,6 +75,7 @@ en:
     new_password: New password
     confirm_new_password: Confirm password
     new_password_success_message: Password reset was successful
+    home_page: Home page
     dates:
       months:
         - January
@@ -164,6 +165,7 @@ fr:
     new_password: Nouveau mot de passe
     confirm_new_password: Confirmation du nouveau mot de passe
     new_password_success_message: Mot de passe réinitialisation a réussi.
+    home_page: Page acceuil
     dates:
       months:
         - janvier

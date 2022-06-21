@@ -6,7 +6,7 @@ title: Description des données
 altLangPage: /en/wirwolf/docs/desc.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: wirwolf
 breadcrumbs:
     - link: /fr/wirwolf/

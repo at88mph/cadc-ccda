@@ -6,7 +6,7 @@ permalink: /en/meetings/this-year/
 altLangPage: /fr/rencontres/cette-annee/
 dateModified: 2021-11-26
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: meetings
 

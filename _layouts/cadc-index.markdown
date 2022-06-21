@@ -3,7 +3,7 @@ layout: core
 
 nofooter: true
 signing: true
-nositesearch: true
+
 ---
 {%- include variable-core.liquid -%}
 {%- assign i18nText-cadc = site.data.cadc[i18nText-lang] -%}
@@ -20,17 +20,18 @@ nositesearch: true
         </div>
     </div>
     {%- endif -%}
-    <div class="mrgn-bttm-lg">
+    <div class="mrgn-bttm-xl">
         <div class="panel-pane pane-block pane-bean-homepage-banner">
             <div class="pane-content"></div>
         </div>
         <div class="panel-separator"></div>
         <div class="panel-pane pane-page-title">
             <div class="pane-content">
-                <h1 id="wb-cont"><span class="wb-inv">Home page — </span>{{ page.title }}</h1>
+                <h1 id="wb-cont"><span class="wb-inv">{{ i18nText-cadc.labels.home_page }} — </span>{{ i18nText-home }}</h1>
             </div>
         </div>
     </div>
+    {% comment %}
     <div class="row mrgn-tp-md mrgn-bttm-xl">
         <div class="col-md-offset-7 col-md-5">
             <div class="small">
@@ -46,6 +47,7 @@ nositesearch: true
             </div>
         </div>
     </div>
+    {% endcomment %}
     <div class="row small wb-eqht">
         <div class="col-md-4 col-sm-4 hght-inhrt brdr-rght">
             <div class="hght-inhrt">

@@ -9,7 +9,7 @@ permalink: /fr/rencontres/archive-annees/
 altLangPage: /en/meetings/archive-years/
 dateModified: 2021-11-26
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 script: [/static/js/meetings/archive.js]
 

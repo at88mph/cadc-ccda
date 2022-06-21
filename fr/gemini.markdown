@@ -8,7 +8,7 @@ headerimage: /static/images/archive-info/gemini.jpg
 dateModified: 2021-09-24
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: gemini
 ---

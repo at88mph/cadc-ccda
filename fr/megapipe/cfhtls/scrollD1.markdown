@@ -6,7 +6,7 @@ title: D1 image de défilement multi-longueur d'onde
 altLangPage: /en/megapipe/cfhtls/scrollD1.html
 dateModified: 2021-12-08
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/

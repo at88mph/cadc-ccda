@@ -7,7 +7,7 @@ altLangPage: /fr/tcfh/wirds
 dateModified: 2021-10-18
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: cfht
 

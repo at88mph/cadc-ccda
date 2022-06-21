@@ -3,7 +3,7 @@ layout: core
 
 nofooter: true
 signing: true
-nositesearch: true
+
 ---
 {%- include variable-core.liquid -%}
 {%- capture page-title -%}

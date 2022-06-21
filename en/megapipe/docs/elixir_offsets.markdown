@@ -6,7 +6,7 @@ title: Elixir Photometric Offsets
 altLangPage: /fr/megapipe/docs/elixphot.html
 dateModified: 2021-12-08
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/

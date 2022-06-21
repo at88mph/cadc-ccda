@@ -6,7 +6,7 @@ permalink: /en/meetings/recent/
 altLangPage: /fr/rencontres/recente/
 dateModified: 2021-11-25
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 # Used for post label formatting (dates and links)
 script: [/static/js/meetings/meetings.js]

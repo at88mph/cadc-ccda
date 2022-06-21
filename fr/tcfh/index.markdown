@@ -8,7 +8,7 @@ altLangPage: /en/cfht/
 dateModified: 2021-10-25
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: cfht
 ---

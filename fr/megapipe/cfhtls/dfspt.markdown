@@ -6,7 +6,7 @@ title: Séries chronologiques stellaires des Champs Profonds
 altLangPage: /en/megapipe/cfhtls/dfspt.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/

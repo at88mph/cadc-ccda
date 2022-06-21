@@ -8,7 +8,7 @@ altLangPage: /en/dao/
 dateModified: 2021-09-20
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: dao
 ---

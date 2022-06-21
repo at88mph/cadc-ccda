@@ -8,7 +8,7 @@ headerimage: /static/images/archive-info/megapipe.jpg
 dateModified: 2021-10-25
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: megapipe
 

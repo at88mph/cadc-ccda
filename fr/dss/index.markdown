@@ -6,7 +6,7 @@ title: Système du Digital Sky Survey (DSS)
 altLangPage: /en/dss/index.html
 dateModified: 2021-12-10
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 ---
 <p>Cette page vous donne acc&egrave;s l'impl&eacute;mentation par le CCDA du <b>Digitized Sky Survey &copy; (DSS)</b>,

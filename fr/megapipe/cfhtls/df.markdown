@@ -6,7 +6,7 @@ title: CFHTLS Champs Profonds (complet)
 altLangPage: /en/megapipe/cfhtls/df.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/

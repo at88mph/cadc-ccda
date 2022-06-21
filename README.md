@@ -33,7 +33,7 @@ The easiest pages to create are the Archive Telescope pages.  To create a new on
 # Common values to each page
 layout: cadc    # Handles side navigation or plain pages.  Used for all pages in the CADC site.
 signing: layout.signing     # Show the sign-in button(s). Inherited from the layout.
-nositesearch: layout.nositesearch         # Show the site search.  Inherited from the layout.
+         # Show the site search.  Inherited from the layout.
 # End common values
 
 # Page specific

@@ -6,7 +6,7 @@ title: Recherche avancée
 altLangPage: /en/search/
 dateModified: 2022-01-10
 signing: layout.signing
-nositesearch: layout.nositesearchs
+s
 
 # Trip off the mechanism to allow a list of js scripts
 script:
