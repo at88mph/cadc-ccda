@@ -1,0 +1,74 @@
+{%- assign i18nText-nav = site.data.index[i18nText-lang]['nav'] -%}
+{%- assign i18nText-cadc = site.data.cadc[i18nText-lang] -%}
+<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
+    <h2>Menus</h2>
+    <ul class="list-inline text-right chvrn">
+      <li>
+        <a href="#mb-pnl" title="Menus" aria-controls="mb-pnl" class="overlay-lnk" role="button">
+            <span class="glyphicon glyphicon-th-list">
+                <span class="wb-inv">Menus</span>
+            </span>
+        </a>
+      </li>
+    </ul>
+    <div id="mb-pnl" class="modal-content" aria-hidden="true" tabindex="-1"></div>
+</section>
+<nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+    <div class="container nvbar">
+        <h2 class="wb-inv">{{ i18nText-menu }}</h2>
+        <div class="row">
+            <ul class="list-inline menu">
+                <li><a class="item" tabindex="-1" aria-posinset="6" aria-setsize="9" role="menuitem" aria-haspopup="true" href="#gc-mnu-tdp">{{ i18nText-nav.telescope_data_products.title }}</a>
+                    <ul id="gc-mnu-tdp" class="sm list-unstyled" role="menu">
+                        {%- for n in i18nText-nav.telescope_data_products.links -%}
+                        {% assign link = n[1] %}
+                        <li>
+                            <a href="{{ link.url }}" {% if link.external %} rel="external"{% endif %}>{{ link.short_name }}</a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+                <li><a class="item" href="#gc-mnu-adp">{{ i18nText-nav.advanced_data_products.title }}</a>
+                    <ul id="gc-mnu-adp" class="sm list-unstyled" role="menu">
+                        {%- for n in i18nText-nav.advanced_data_products.links -%}
+                        {% assign link = n[1] %}
+                        <li><a href="{{ link.url }}" {% if link.external %} rel="external"{% endif %}>{{ link.short_name }}</a></li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+                <li><a class="item" href="#gc-mnu-svc">{{ i18nText-nav.services.title }}</a>
+                    <ul id="gc-mnu-svc" class="sm list-unstyled" role="menu">
+                        {%- for n in i18nText-nav.services.links -%}
+                        {% assign link = n[1] %}
+                        <li><a href="{{ link.url }}" {% if link.external %} rel="external"{% endif %}>{{ link.short_name }}</a></li>
+                        {%- endfor -%}
+                    </ul>
+                </li>
+                <li><a class="item" href="{{ i18nText-nav.documentation.url }}">{{ i18nText-nav.documentation.name }}</a></li>
+                <li><a class="item" href="{{ i18nText-nav.services.links.search.url }}">{{ i18nText-nav.services.links.search.name }}</a></li>
+                {%- if page.auth -%}
+                <li class="hidden authenticated">
+                    <h2 class="wb-inv">
+                        {%- unless page.auth.type == "contextual" -%}
+                            {{ i18nText-signOnOff }}
+                        {%- else -%}
+                            {{ i18nText-signIn }}
+                        {%- endunless -%}
+                    </h2>
+                    <a class="item" href="#gc-mnu-acc"></a>
+                    <ul id="gc-mnu-acc" class="sm list-unstyled" role="menu">
+                        <li><a class="user_edit_profile ui-link" href="{{ i18nText-cadc.profile.edit.url }}">{{ i18nText-cadc.profile.edit.label }}</a></li>
+                        <li><a class="change_password ui-link" href="{{ i18nText-cadc.profile.reset_password.url }}">{{ i18nText-cadc.profile.reset_password.label }}</a></li>
+                        <li><a id="download_certificate" class="download_certificate ui-link" href="{{ i18nText-cadc.profile.obtain_certificate.url }}" title="{{ i18nText-cadc.profile.obtain_certificate.title }}">{{ i18nText-cadc.profile.obtain_certificate.label }}</a></li>
+                        <li><hr /></li>
+                        <li><a id="sign_on_off_cancel" class="sign-on-off-cancel ui-link" href="#">Cancel</a></li>
+                    </ul>                
+                </li>
+                <li class="signin">
+                    <a class="item" href="{{ i18nText-cadc.signin.url }}">{{ i18nText-signIn }}</a>
+                </li>
+                {%- endif -%}
+            </ul>
+        </div>
+    </div>    
+</nav>    

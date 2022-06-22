@@ -48,42 +48,36 @@ signing: true
         </div>
     </div>
     {% endcomment %}
-    <div class="row small wb-eqht">
-        <div class="col-md-4 col-sm-4 hght-inhrt brdr-rght">
-            <div class="hght-inhrt">
-                <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.telescope_data_products.title }}</h2>
-                <dl class="mrgn-tp-md">
-                {%- for l in i18nText-nav.telescope_data_products.links -%}
-                {% assign link = l[1] %}
-                    <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
-                    <dd>{{ link.name }}</dd>
-                {% endfor %}
-                </dl>
-            </div>
+    <div class="row small">
+        <div class="col-md-4 col-sm-4">
+            <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.telescope_data_products.title }}</h2>
+            <dl class="mrgn-tp-md">
+            {%- for l in i18nText-nav.telescope_data_products.links -%}
+            {% assign link = l[1] %}
+                <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
+                <dd>{{ link.name }}</dd>
+            {% endfor %}
+            </dl>
         </div>
-        <div class="col-md-4 col-sm-4 hght-inhrt brdr-lft brdr-rght">
-            <div class="hght-inhrt">
-                <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.advanced_data_products.title }}</h2>
-                <dl class="mrgn-tp-md">
-                {%- for l in i18nText-nav.advanced_data_products.links -%}
-                {% assign link = l[1] %}
-                    <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
-                    <dd>{{ link.name }}</dd>
-                {% endfor %}
-                </dl>
-            </div>
+        <div class="col-md-4 col-sm-4 brdr-lft">
+            <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.advanced_data_products.title }}</h2>
+            <dl class="mrgn-tp-md">
+            {%- for l in i18nText-nav.advanced_data_products.links -%}
+            {% assign link = l[1] %}
+                <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
+                <dd>{{ link.name }}</dd>
+            {% endfor %}
+            </dl>
         </div>
-        <div class="col-md-4 col-sm-4 hght-inhrt brdr-lft">
-            <div class="hght-inhrt">
-                <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.services.title }}</h2>
-                <dl class="mrgn-tp-md">
-                {%- for l in i18nText-nav.services.links -%}
-                {% assign link = l[1] %}
-                    <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
-                    <dd>{{ link.name }}</dd>
-                {% endfor %}
-                </dl>
-            </div>
+        <div class="col-md-4 col-sm-4 brdr-lft">
+            <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.services.title }}</h2>
+            <dl class="mrgn-tp-md">
+            {%- for l in i18nText-nav.services.links -%}
+            {% assign link = l[1] %}
+                <dt><a href="{{ link.url }}">{{ link.short_name }}</a></dt>
+                <dd>{{ link.name }}</dd>
+            {% endfor %}
+            </dl>
         </div>
     </div>
     {% include main-footer/inc-footer.html %}

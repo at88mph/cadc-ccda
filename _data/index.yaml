@@ -143,6 +143,10 @@ en:
           url: /en/vlass/
           short_name: VLASS
           splash_image_url: /static/images/splash/vlass.png
+    documentation:
+      name: Documentation
+      url: /en/doc/
+      short_name: Documentation
 fr:
   nav:
     services:
@@ -288,3 +292,7 @@ fr:
           url: /fr/vlass/
           short_name: VLASS
           splash_image_url: /static/images/splash/vlass.png
+    documentation:
+      name: Documentation
+      url: /fr/doc/
+      short_name: Documentation

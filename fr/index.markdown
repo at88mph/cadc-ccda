@@ -11,7 +11,6 @@ dateModified: 2022-06-21
 signing: layout.signing
 pageclass: ["home"]
 includeBanner: true
-nomenu: true
 
 css: /static/css/cadc.css
 

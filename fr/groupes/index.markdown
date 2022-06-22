@@ -6,7 +6,6 @@ title: Gestion de groupes
 altLangPage: /en/groups/
 dateModified: 2021-12-15
 signing: layout.signing
-s
 
 # Trip off the mechanism to allow a list of js scripts
 script:
