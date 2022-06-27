@@ -7,9 +7,8 @@ title: Canadian Astronomy Data Centre
 lang: en
 permalink: /en/
 altLangPage: /fr/
-dateModified: 2022-06-21
+dateModified: 2022-06-27
 signing: layout.signing
-pageclass: ["home"]
 includeBanner: true
 auth: true
 

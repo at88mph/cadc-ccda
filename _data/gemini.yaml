@@ -1,11 +1,11 @@
 en:
   nav:
     - title: Data
-    - links:
+      links:
         - name: Search the Gemini Science Archive
           url: /en/search/?collection=GEMINI&noexec=true
     - title: Miscellaneous
-    - links:
+      links:
         - name: GEMINI Observatory Archive
           url: https://www.gemini.edu/sciops/data-and-results/gemini-observatory-archive
         - name: GEMINI Observatory
@@ -13,11 +13,11 @@ en:
 fr:
   nav:
     - title: Données
-    - links:
+      links:
         - name: Recherche de données du Archives scientifiques Gemini
           url: /fr/recherche/?collection=GEMINI&noexec=true
     - title: Divers
-    - links:
+      links:
         - name: Archives de l'Observatoire Gemini (anglais seulement)
           url: https://www.gemini.edu/sciops/data-and-results/gemini-observatory-archive
         - name: Observatoire Gemini (anglais seulement)

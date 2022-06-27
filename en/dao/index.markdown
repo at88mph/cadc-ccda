@@ -5,15 +5,9 @@ permalink: /en/dao/
 title: Dominion Astrophysical Observatory
 altLangPage: /fr/ofa/
 headerimage: /static/images/archive-info/dao.jpg
-dateModified: 2021-11-24
+dateModified: 2022-06-27
 signing: layout.signing
-
-
 nav: dao
-
-breadcrumbs:
-    - link: /en/dao/index.html
-      title: DAO
 ---
 
 <p>This page presents World-Wide-Web links to the data archives of the Dominion 
