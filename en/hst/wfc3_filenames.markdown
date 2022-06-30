@@ -23,22 +23,24 @@ breadcrumbs:
               
 
 <p class="color-attention">Note: The WFC3 files names are all starting with the letter 'I'</p>
-<p class="color-attention">Note: The 9th character of an association of simple observation is always '0' at CADC  </p>
-<p class="color-attention">Note: Please consult the full documentation <a rel="external" href="http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/wfc3_cover.html" class="ui-link">Here</a></p>
+<p class="color-attention">Note: The 9th character of an association of simple observation is always '0' at CADC</p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/wfc3_cover.html" class="ui-link">full documentation</a>.</p>
 
-<p class="color-attention"> The suffixes used for WFC3 raw and calibrated data products are described in the following and closely mimic those used by ACS and NICMOS.  </p>
+<p class="color-attention">The suffixes used for WFC3 raw and calibrated data products are described in the following and closely mimic those used by ACS and NICMOS.</p>
 
 <h2>For a unique observation</h2>
 <table class="table">
-   <tbody><tr>
-   <th id="a"> CADC file names (proxy) </th>
-   <th id="b">File Suffix</th>
-   <th id="c">Description</th>
-   <th id="d">Units</th>
-   <th id="f">Type</th>
-   <th id="e">Access Example</th>
-   </tr>
-
+   <thead>
+      <tr>
+         <th id="a"> CADC file names (proxy) </th>
+         <th id="b">File Suffix</th>
+         <th id="c">Description</th>
+         <th id="d">Units</th>
+         <th id="f">Type</th>
+         <th id="e">Access Example</th>
+      </tr>
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">ixxxxxxxx_raw.fits</td>
    <td headers="b">_RAW.FITS</td>
@@ -90,8 +92,8 @@ breadcrumbs:
 </tbody></table>
 
 <h2>For a composite observation (9th character is '0')</h2>
-<table>
-   <tbody><tr>
+<table class="table">
+   <thead><tr>
    <th id="a"> CADC file names (proxy) </th>
    <th id="b">File Suffix</th>
    <th id="c">Description</th>
@@ -99,7 +101,8 @@ breadcrumbs:
    <th id="f">Type</th>
    <th id="e">Access Example</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">ixxxxxxx0_asn.fits</td>
    <td headers="b">_ASN.FITS</td>
@@ -116,7 +119,8 @@ breadcrumbs:
    <td headers="f">CAL</td>
    <td headers="e"><a href="/data/pub/HST/product/i9zl45010_drz.fits" class="ui-link">i9zl45010_drz.fits</a></td>
    </tr>
-</tbody></table>
+</tbody>
+</table>
 
 <p class="color-attention">
 For more details, please consult the <a rel="external" href="http://www.stsci.edu/hst/wfc3/documents/handbooks/currentDHB/wfc3_cover.html" class="ui-link">WFC3 instrument handbook at STScI.</a>

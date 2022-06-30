@@ -3,13 +3,10 @@ layout: cadc
 lang: fr
 permalink: /fr/hst/wfpc_fichiers.html
 title: HST Fichiers WFPC
-altLangPage: /fr/hst/wfpc_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
-dateModified: 2021-11-23
+altLangPage: /en/hst/wfpc_filenames.html
+dateModified: 2022-06-30
 
 signing: layout.signing
-
-
 nav: hst
 
 breadcrumbs:
@@ -23,10 +20,10 @@ breadcrumbs:
               
 
 <p class="color-attention">Note: Note: Les noms de fichiers WFPC débutent toujours par la lettre 'W'</p>
-<p class="color-attention">Note: Veuillez consulter la documentation complète disponible <a rel="external" href="http://www.stsci.edu/hst/wfpc/documents/HST_WFPC_Instrument_Handbook.pdf" class="ui-link">ici</a></p>
+<p class="color-attention">Note: Veuillez consulter la <a rel="external" href="http://www.stsci.edu/hst/wfpc/documents/HST_WFPC_Instrument_Handbook.pdf" class="ui-link">documentation compl&egrave;te disponible</a>.</p>
 
 <table class="table">
-   <tbody><tr>
+   <thead><tr>
    <th id="a">Nom de fichiers</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -34,7 +31,8 @@ breadcrumbs:
    <th id="f">Type</th>
    <th id="e">Exemple</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">wxxxxxxxx_d0f.fits</td>
    <td headers="b">_D0F.FITS</td>
@@ -115,9 +113,5 @@ breadcrumbs:
    <td headers="f">CAL</td>
    <td headers="e"><a href="/data/pub/HST/product/w10a0m03t_c2f.fits" class="ui-link">w10a0m03t_c2f.fits</a></td>
    </tr>
-
-
 </tbody></table>
-
-
 </div>

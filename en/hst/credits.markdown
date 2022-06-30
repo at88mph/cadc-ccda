@@ -5,13 +5,9 @@ permalink: /en/hst/credits.html
 title: Credits and Acknowledgement
 altLangPage: /fr/hst/credits.html
 headerimage: /static/images/archive-info/hst.jpg
-dateModified: 2021-12-09
-
+dateModified: 2022-06-30
 signing: layout.signing
-
-
 nav: hst
-
 breadcrumbs:
     - link: /en/hst/
       title: HST

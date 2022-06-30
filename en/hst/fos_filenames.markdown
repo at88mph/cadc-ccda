@@ -23,7 +23,7 @@ breadcrumbs:
               
 
 <p class="color-attention">Note: The FOS files names are all starting with the letter 'Y'</p>
-<p class="color-attention">Note: Please consult the full documentation <a rel="external" href="ftp://ftp.stsci.edu/pub/instrument_news/FOS/FOS_IHv60.pdf" class="ui-link">Here</a></p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="ftp://ftp.stsci.edu/pub/instrument_news/FOS/FOS_IHv60.pdf" class="ui-link">full documentation</a>.</p>
 
 <table class="table">
 

@@ -20,20 +20,20 @@ signing: true
         </div>
     </div>
     {%- endif -%}
-    <div class="row">
-        <div class="mrgn-bttm-xl">
-            <div class="panel-pane pane-block pane-bean-homepage-banner">
-                <div class="pane-content"></div>
-            </div>
-            <div class="panel-separator"></div>
-            <div class="panel-pane pane-page-title">
-                <div class="pane-content">
-                    <h1 id="wb-cont">{{ i18nText-home }}</h1>
-                </div>
-            </div>
-            <p class="lead">{{ i18nText-cadc.labels.landing_page_lead }}</p>
-            <p class="mrgn-bttm-lg">{{ i18nText-cadc.labels.landing_page_description }}</p>
+    <div class="mrgn-bttm-xl">
+        <div class="panel-pane pane-block pane-bean-homepage-banner">
+            <div class="pane-content"></div>
         </div>
+        <div class="panel-separator"></div>
+        <div class="panel-pane pane-page-title">
+            <div class="pane-content">
+                <h1 id="wb-cont">{{ i18nText-home }}</h1>
+            </div>
+        </div>
+        <p class="lead">{{ i18nText-cadc.labels.landing_page_lead }}</p>
+        <p class="mrgn-bttm-xl">{{ i18nText-cadc.labels.landing_page_description }}</p>
+    </div>
+    <div class="row">
         <div class="col-md-4 col-sm-6">
             <h2 class="mrgn-bttm-lg mrgn-tp-0">{{ i18nText-nav.telescope_data_products.title }}</h2>
             <dl class="mrgn-tp-md">

@@ -4,12 +4,8 @@ lang: fr
 permalink: /fr/hst/cos_fichiers.html
 title: HST Fichiers COS
 altLangPage: /en/hst/cos_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
 dateModified: 2021-11-23
-
 signing: layout.signing
-
-
 nav: hst
 
 breadcrumbs:
@@ -24,14 +20,14 @@ breadcrumbs:
 
 <p class="color-attention">Note: Les noms de fichiers COS débutent toujours par la lettre L</p>
 <p class="color-attention">Note: La 9ième lettre du nom de fichier est toujours '0' pour les observations composites</p>
-<p class="color-attention">Note: Veuillez consulter la documentation complète disponible <a rel="external" href="https://www.stsci.edu/hst/cos/documents/handbooks/current/cos_cover.html" class="ui-link">ici</a></p>
+<p class="color-attention">Note: Veuillez consulter la <a rel="external" href="https://www.stsci.edu/hst/cos/documents/handbooks/current/cos_cover.html" class="ui-link">documentation complète disponible</a>.</p>
 
 <p>
 Les fichiers COS utilisent une convention différente des autres instruments HST. En particulier, les observations en mode FUV ont deux suffixes différents. Le premier suffixe identifie le type de fichier tandis que le deuxième indique le numéro de segment du détecteur.
 </p>
 
-<table class="table">
-   <tbody><tr>
+<table class="table wb-tables" data-wb-tables='{ "ordering" : false, "scrollX": true }'>
+   <thead><tr>
    <th id="a">Nom de fichiers</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -39,7 +35,8 @@ Les fichiers COS utilisent une convention différente des autres instruments HST
    <th id="f">Type</th>
    <th id="e">Exemple</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">lxxxxxxx_rawaccum.fits</td>
    <td headers="b"> _RAWACCUM.FITS </td>

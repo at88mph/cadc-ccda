@@ -24,7 +24,7 @@ breadcrumbs:
 
 
 <p class="color-attention">Note: The WFPC2 files names are all starting with the letter 'U'</p>
-<p class="color-attention">Note: Please consult the full documentation; <a rel="external" href="http://documents.stsci.edu/hst/wfpc2/documents/handbooks/cycle17/wfpc2_cover.html" class="ui-link">here</a></p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="http://documents.stsci.edu/hst/wfpc2/documents/handbooks/cycle17/wfpc2_cover.html" class="ui-link">full documentation</a>.</p>
 
 <table class="table">
 <tbody><tr>

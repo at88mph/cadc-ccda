@@ -28,7 +28,7 @@ per pixel for the POSS-II surveys.</p>
 <h2>Plates</h2>
 <p>The DSS/XDSS plates includes the following surveys:</p>
 
-<table class="table small">
+<table class="table wb-tables" data-wb-tables='{ "ordering" : false, "scrollX": true }'>
 <thead>
 <tr>
 <th id='a'>Survey</th>

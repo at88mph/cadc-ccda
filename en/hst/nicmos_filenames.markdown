@@ -24,7 +24,7 @@ breadcrumbs:
 
 <p class="color-attention">Note: The NICMOS files names are all starting with the letter 'N'</p>
 <p class="color-attention">Note: The 9th character of an association of simple observation is always '0' at CADC  </p>
-<p class="color-attention">Note: Please consult the full documentation <a rel="external" href="http://www.stsci.edu/hst/nicmos/documents/handbooks/current_NEW/cover.html" class="ui-link">Here</a></p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="http://www.stsci.edu/hst/nicmos/documents/handbooks/current_NEW/cover.html" class="ui-link">full documentation</a>.</p>
 
 <table class="table">
 

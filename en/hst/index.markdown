@@ -5,11 +5,8 @@ permalink: /en/hst/
 title: Hubble Space Telescope
 altLangPage: /fr/hst/
 headerimage: /static/images/archive-info/hst.jpg
-dateModified: 2021-10-14
-
+dateModified: 2022-06-30
 signing: layout.signing
-
-
 nav: hst
 ---
 

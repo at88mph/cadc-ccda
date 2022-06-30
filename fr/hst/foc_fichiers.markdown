@@ -3,7 +3,7 @@ layout: cadc
 lang: fr
 permalink: /fr/hst/foc_fichiers.html
 title: Télescope Spatial Hubble
-altLangPage: /fr/hst/foc_filenames.html
+altLangPage: /en/hst/foc_filenames.html
 headerimage: /static/images/archive-info/hst.jpg
 dateModified: 2021-11-23
 
@@ -24,11 +24,10 @@ breadcrumbs:
 
 
 <p class="color-attention"> Note: Les noms de fichiers FOC débutent toujours par la lettre 'X'</p>
-<p class="color-attention">Note: Veuillez consulter la documentation complète disponible <a rel="external" href="http://www.stsci.edu/hst/foc/documents/handbooks/foc_handbook.html" class="ui-link">Here</a></p>
+<p class="color-attention">Note: Veuillez consulter la <a rel="external" href="http://www.stsci.edu/hst/foc/documents/handbooks/foc_handbook.html" class="ui-link">documentation compl&egrave;te disponible</a>.</p>
 
 <table class="table">
-
-   <tbody><tr>
+   <thead><tr>
    <th id="a">Nom de fichiers</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -36,7 +35,8 @@ breadcrumbs:
    <th id="f">Type</th>
    <th id="e">Exemple</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">xxxxxxxxxx_d0f.fits</td>
    <td headers="b">_D0F.FITS</td>
