@@ -76,7 +76,7 @@ services:
         labels:
             - "traefik.enable=true"
             - "traefik.http.services.tap.loadbalancer.server.port=80"
-            - "traefik.http.routers.tap.rule=(PathPrefix(`/tap`) || Path(`/argus/capabilities`))"
+            - "traefik.http.routers.tap.rule=(PathPrefix(`/tap`) || Path(`/tap/capabilities`) || Path(`/argus/capabilities`))"
             - "traefik.http.routers.tap.service=tap"
             - "traefik.http.routers.tap.entrypoints=web"
             # - "traefik.http.routers.wet.entrypoints=websecure"

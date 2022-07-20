@@ -1,0 +1,41 @@
+en:
+  nav:
+    - title: API
+      links:
+        - name: Table Access Protocol (TAP)
+          url: /en/doc/tap
+    - title: Archive Services
+      links:
+        - name: Archive as a Service
+          url: /en/doc/archive_as_a_service
+        - name: CAOM-2
+          url: /en/doc/caom
+        - name: Storage
+          url: /en/doc/ad
+        - name: Proprietary Data
+          url: /en/doc/props
+    - title: Applications
+      links:
+        - name: cadc-copy
+          url: /en/doc/cadc-copy
+
+fr:
+  nav:
+    - title: API
+      links:
+        - name: Protocol d'accès aux Tables (TAP)
+          url: /fr/doc/tap
+    - title: Services d'archive
+      links:
+        - name: Archive comme service
+          url: /fr/doc/archive_comme_service
+        - name: CAOM-2
+          url: /fr/doc/caom
+        - name: Stockage
+          url: /fr/doc/ad
+        - name: Données propriétaires
+          url: /fr/doc/props
+    - title: Applications
+      links:
+        - name: cadc-copy
+          url: /fr/doc/cadc-copy
