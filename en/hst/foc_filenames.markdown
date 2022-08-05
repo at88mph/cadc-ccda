@@ -4,11 +4,11 @@ lang: en
 permalink: /en/hst/foc_filenames.html
 title: Hubble Space Telescope
 altLangPage: /fr/hst/foc_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: hst
 
@@ -24,7 +24,7 @@ breadcrumbs:
 
 
 <p class="color-attention">Note: The FOC files names are all starting with the letter 'X'</p>
-<p class="color-attention">Note: Please consult the full documentation <a rel="external" href="http://www.stsci.edu/hst/foc/documents/handbooks/foc_handbook.html" class="ui-link">Here</a></p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="http://www.stsci.edu/hst/foc/documents/handbooks/foc_handbook.html" class="ui-link">full documentation</a>.</p>
 
 <table class="table">
 

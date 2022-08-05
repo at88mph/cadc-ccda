@@ -6,7 +6,7 @@ title: Résultats
 altLangPage: /en/dss/results.html
 dateModified: 2022-01-04
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 
 script: /static/js/dss/results.js

@@ -6,7 +6,7 @@ title: Vérifications de l'astrometrie
 altLangPage: /en/megapipe/docs/astro.html
 dateModified: 2021-12-08
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: megapipe
 

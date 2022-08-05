@@ -6,7 +6,7 @@ title: CFHTLS
 altLangPage: /en/megapipe/cfhtls/index.html
 dateModified: 2021-12-08
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/

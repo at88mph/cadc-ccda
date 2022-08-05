@@ -3,12 +3,12 @@ layout: cadc
 lang: fr
 permalink: /fr/hst/wfc3_fichiers.html
 title: HST Fichiers WFC3
-altLangPage: /fr/hst/wfc3_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
+altLangPage: /en/hst/wfc3_filenames.html
+
 dateModified: 2021-11-23
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: hst
 
@@ -23,13 +23,13 @@ breadcrumbs:
 
 <p class="color-attention">Note: Note: Les noms de fichiers WFC3 débutent toujours par la lettre 'I'</p>
 <p class="color-attention">Note: La 9ième lettre du nom de fichier est toujours '0' pour les observations composites</p>
-<p class="color-attention">Note: Veuillez consulter la documentation complète disponible <a rel="external" href="http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/wfc3_cover.html" class="ui-link">ici</a></p>
+<p class="color-attention">Note: Veuillez consulter la <a rel="external" href="http://www.stsci.edu/hst/wfc3/documents/handbooks/currentIHB/wfc3_cover.html" class="ui-link">documentation compl&egrave;te disponible</a>.</p>
 
 <p class="color-attention"> Les suffixes et types de fichiers utilisés par WFC3 sont similaires à ceux d'ACS et de NICMOS.  </p>
 
 
 <table class="table"> 
-   <tbody><tr>
+   <thead><tr>
    <th id="a">Num de fichier</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -37,7 +37,8 @@ breadcrumbs:
    <th id="f">Type</th>
    <th id="e">Exemple</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">ixxxxxxxx_raw.fits</td>
    <td headers="b">_RAW.FITS</td>
@@ -90,8 +91,8 @@ breadcrumbs:
 </tbody></table>
 
 <h2>For a composite observation (9th character is '0')</h2>
-<table>
-   <tbody><tr>
+<table class="table">
+   <thead><tr>
    <th id="a">Nom de fichier</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -99,7 +100,8 @@ breadcrumbs:
    <th id="f">Type
    </th><th id="e">Exemple</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">ixxxxxxx0_asn.fits</td>
    <td headers="b">_ASN.FITS</td>

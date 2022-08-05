@@ -4,11 +4,11 @@ lang: en
 permalink: /en/hst/acs_filenames.html
 title: HST ACS Filenames
 altLangPage: /fr/hst/acs_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: hst
 
@@ -25,7 +25,7 @@ breadcrumbs:
 
 <p class="color-attention">Note: The ACS files names are all starting with the letter 'J'</p>
 <p class="color-attention">Note: The 9th character of an association of simple observation is always '0' at CADC  </p>
-<p class="color-attention">Note: Please consult the full documentation <a rel="external" href="http://www.stsci.edu/hst/acs/documents/handbooks/current/cover.html" class="ui-link">Here</a></p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="http://www.stsci.edu/hst/acs/documents/handbooks/current/cover.html" class="ui-link">full documentation</a>.</p>
 
 <h2>For a unique observation</h2>
 <table class="table">

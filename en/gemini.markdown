@@ -4,11 +4,10 @@ lang: en
 permalink: /en/gemini/
 title: Gemini Science Archive
 altLangPage: /fr/gemini/
-headerimage: /static/images/archive-info/gemini.jpg
 dateModified: 2021-11-22
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: gemini
 ---
@@ -33,6 +32,6 @@ nav: gemini
     as a footnote on the first page of the paper.
     <p>If your research benefits from the use of the SVO Filter Profile Service, we would appreciate if you could include the following acknowledgement in your publication:</p>
     <blockquote>
-        <p>This research has made use of the SVO Filter Profile Service (http://svo2.cab.inta-csic.es/theory/fps/) supported from the Spanish MINECO through grant AYA2017-84089.</p>
+        <p>This research has made use of the <a href="http://svo2.cab.inta-csic.es/theory/fps/" rel="external">SVO Filter Profile Service</a> supported from the Spanish MINECO through grant AYA2017-84089.</p>
     </blockquote>
 </div>

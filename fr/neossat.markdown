@@ -4,11 +4,11 @@ lang: fr
 permalink: /fr/neossat/
 title: Near-Earth Object Surveillance Satellite (NEOSSat)
 altLangPage: /en/neossat/
-headerimage: /static/images/archive-info/neossat.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: neossat
 ---

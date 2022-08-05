@@ -6,7 +6,7 @@ title: Interrogation par coordonnées
 altLangPage: /en/dss/dss_query_coord.html
 dateModified: 2022-01-06
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 script: /static/js/dss/search.js
 breadcrumbs:

@@ -4,11 +4,11 @@ lang: en
 permalink: /en/hst/stis_filenames.html
 title: HST STIS Filenames
 altLangPage: /fr/hst/stis_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: hst
 
@@ -33,12 +33,15 @@ https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/HST/product/"filename"
 
 </p>
 
-<table class="table-medium other-classes table" class="table-medium">
-             <tbody><tr>
-             <th id="a">Instrument</th>
-	     <th id="b">Filenames</th>
-             <th id="c">Official documentation</th>
-             </tr>
+<table class="table">
+  <thead>
+    <tr>
+      <th id="a">Instrument</th>
+	    <th id="b">Filenames</th>
+      <th id="c">Official documentation</th>
+    </tr>
+  </thead>
+  <tbody>
              <tr>
 	     <td headers="a">ACS ( J ): Advanced Camera for Survey</td>
              <td headers="b"><a href="/en/hst/acs_filenames.html" class="ui-link">ACS</a></td>
@@ -88,8 +91,7 @@ https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/HST/product/"filename"
 	     <td headers="a">WFPC ( W ): Wide field Planetary Camera (retired)</td>
              <td headers="b"><a href="/en/hst/wfpc_filenames.html" class="ui-link">WFPC</a></td>
              <td headers="c"><a rel="external" href="https://www.stsci.edu/hst/wfpc/documents/HST_WFPC_Instrument_Handbook.pdf" class="ui-link">WFPC Handbook at STScI (PDF)</a></td>
-             </tr>
-             </tbody></table>
-
-
+      </tr>
+    </tbody>
+  </table>
 </div>

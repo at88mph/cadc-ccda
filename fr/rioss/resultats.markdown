@@ -6,7 +6,7 @@ title: Recherche d'Images d'Objets du Système Solaire Résultats
 altLangPage: /en/ssois/results.html
 dateModified: 2022-01-12
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: ssois
 script: /static/js/ssois/results.js
 

@@ -6,7 +6,7 @@ permalink: /fr/rencontres/annee-derniere/
 altLangPage: /en/meetings/last-year/
 dateModified: 2021-11-26
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: meetings
 

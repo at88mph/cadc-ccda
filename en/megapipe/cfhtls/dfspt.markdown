@@ -6,7 +6,7 @@ title: Deep Field stellar photometric timeseries
 altLangPage: /fr/megapipe/cfhtls/dfspt.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/

@@ -6,7 +6,7 @@ title: Système du Digital Sky Survey (DSS)
 altLangPage: /en/dss/index.html
 dateModified: 2021-12-10
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 ---
 <p>Cette page vous donne acc&egrave;s l'impl&eacute;mentation par le CCDA du <b>Digitized Sky Survey &copy; (DSS)</b>,
@@ -30,7 +30,7 @@ pour les relev&eacute;s du POSS-II.</p>
 <p>Veuillez utiliser les diff&eacute;rents syst&egrave;me d'interrogation ci-haut pour effectuer une recherche.</p>
 <h2>Plaques</h2>
 <p>Les plaques du DSS/XDSS sont issues des relev&eacute;s suivants:</p>
-<table class="table small">
+<table class="table wb-tables" data-wb-tables='{ "ordering" : false, "scrollX": true }'>
 <thead>
 <tr>
 <th id="a">Relev&eacute; </th>
@@ -48,6 +48,7 @@ pour les relev&eacute;s du POSS-II.</p>
 <th id="m">Propri&eacute;t&eacute;</th>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td headers="a">POSS-I E   </td>
 <td headers="b">XE </td>
@@ -258,6 +259,7 @@ pour les relev&eacute;s du POSS-II.</p>
 <td headers="l">1 </td>
 <td headers="m">STScI/ROE </td>
 </tr>
+</tbody>
 </table>
 <h2>Droit d'auteur</h2>
 <p>

@@ -6,7 +6,7 @@ title: Le Hubble Legacy Archive
 altLangPage: /en/hsthla/
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: hsthla
 ---
 

@@ -6,7 +6,7 @@ title: Improved Reprocessing of the IRAS Survey (IRIS)
 altLangPage: /fr/iris/
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: iris
 ---
 <p>

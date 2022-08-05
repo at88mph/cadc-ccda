@@ -6,7 +6,7 @@ title: Queue run images and catalogues
 altLangPage: /fr/megapipe/cfhtls/queue.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/

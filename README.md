@@ -33,7 +33,7 @@ The easiest pages to create are the Archive Telescope pages.  To create a new on
 # Common values to each page
 layout: cadc    # Handles side navigation or plain pages.  Used for all pages in the CADC site.
 signing: layout.signing     # Show the sign-in button(s). Inherited from the layout.
-nositesearch: layout.nositesearch         # Show the site search.  Inherited from the layout.
+         # Show the site search.  Inherited from the layout.
 # End common values
 
 # Page specific
@@ -41,7 +41,6 @@ lang: en        # This page's language.  Each page will have a mate of the other
 permalink: /en/dao/     # This page's endpoint
 title: Dominion Astrophysical Observatory   # This page's title
 altLangPage: /fr/ofa/   # This page's alternate language page
-headerimage: /static/images/archive-info/dao.jpg     # The image to use in the archive page's header.  [OPTIONAL]
 dateModified: 2021-12-07    # The date this page was modified.  Set manually.
 
 # Navigation links (left side submenu)

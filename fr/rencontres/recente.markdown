@@ -6,7 +6,7 @@ permalink: /fr/rencontres/recente/
 altLangPage: /en/meetings/recent/
 dateModified: 2021-11-25
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: meetings
 

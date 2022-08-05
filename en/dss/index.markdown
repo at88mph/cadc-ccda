@@ -6,7 +6,7 @@ title: Digital Sky Survey System (DSS)
 altLangPage: /fr/dss/index.html
 dateModified: 2021-12-10
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 ---
 <p>This page give you access to the Canadian version of the <b>Digitized Sky Survey &copy;</b>,
@@ -28,7 +28,7 @@ per pixel for the POSS-II surveys.</p>
 <h2>Plates</h2>
 <p>The DSS/XDSS plates includes the following surveys:</p>
 
-<table class="table small">
+<table class="table wb-tables" data-wb-tables='{ "ordering" : false, "scrollX": true }'>
 <thead>
 <tr>
 <th id='a'>Survey</th>

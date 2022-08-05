@@ -1,7 +1,7 @@
 en:
   nav:
     - title: Data
-    - links:
+      links:
         - name: Complete collection
           url: /en/search/?collection=CFHT&noexec=true
         - name: ESPaDOns
@@ -15,7 +15,7 @@ en:
         - name: WIRCam
           url: /en/search/?collection=CFHT&Observation.instrument.name=WIRCam&noexec=true
     - title: Products
-    - links:
+      links:
         - name: CFHT Legacy Survey
           url: /en/cfht/cfhtls.html
         - name: WIRDS
@@ -25,7 +25,7 @@ en:
         - name: WIRwolf
           url: /en/wirwolf/
     - title: Miscellaneous
-    - links:
+      links:
         - name: Proprietary Data Access
           url: /en/cfht/access.html
         - name: File Extension Definitions
@@ -35,34 +35,34 @@ en:
 fr:
   nav:
     - title: Données
-    - links:
-      - name: Collection complète
-        url: /fr/recherche/?collection=CFHT&noexec=true
-      - name: ESPaDOns
-        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=ESPaDOnS&noexec=true
-      - name: MegaPrime
-        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=MegaPrime&noexec=true
-      - name: SITELLE
-        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=SITELLE&noexec=true
-      - name: SPIRou
-        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=SPIRou&noexec=true
-      - name: WIRCam
-        url: /fr/recherche/?collection=CFHT&Observation.instrument.name=WIRCam&noexec=true
+      links:
+        - name: Collection complète
+          url: /fr/recherche/?collection=CFHT&noexec=true
+        - name: ESPaDOns
+          url: /fr/recherche/?collection=CFHT&Observation.instrument.name=ESPaDOnS&noexec=true
+        - name: MegaPrime
+          url: /fr/recherche/?collection=CFHT&Observation.instrument.name=MegaPrime&noexec=true
+        - name: SITELLE
+          url: /fr/recherche/?collection=CFHT&Observation.instrument.name=SITELLE&noexec=true
+        - name: SPIRou
+          url: /fr/recherche/?collection=CFHT&Observation.instrument.name=SPIRou&noexec=true
+        - name: WIRCam
+          url: /fr/recherche/?collection=CFHT&Observation.instrument.name=WIRCam&noexec=true
     - title: Produits
-    - links:
-      - name: CFHT Legacy Survey
-        url: /fr/tcfh/cfhtls.html
-      - name: WIRDS
-        url: /fr/tcfh/wirds.html
-      - name: MegaPipe
-        url: /fr/megapipe/
-      - name: WIRwolf
-        url: /fr/wirwolf/
+      links:
+        - name: CFHT Legacy Survey
+          url: /fr/tcfh/cfhtls.html
+        - name: WIRDS
+          url: /fr/tcfh/wirds.html
+        - name: MegaPipe
+          url: /fr/megapipe/
+        - name: WIRwolf
+          url: /fr/wirwolf/
     - title: Divers
-    - links:
-      - name: Accès et contrôle des données exclusives
-        url: /fr/tcfh/acces.html
-      - name: Extensions de fichiers
-        url: /fr/tcfh/extensions.html
-      - name: Crédits et mentions
-        url: /fr/tcfh/credits.html
+      links:
+        - name: Accès et contrôle des données exclusives
+          url: /fr/tcfh/acces.html
+        - name: Extensions de fichiers
+          url: /fr/tcfh/extensions.html
+        - name: Crédits et mentions
+          url: /fr/tcfh/credits.html

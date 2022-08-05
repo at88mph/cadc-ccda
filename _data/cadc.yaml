@@ -75,6 +75,10 @@ en:
     new_password: New password
     confirm_new_password: Confirm password
     new_password_success_message: Password reset was successful
+    landing_page_lead: Enabling the next astronomical discoveries
+    landing_page_description: The CADC's data collection, along with its world-leading cloud infrastructure for astronomy, provides a unique resource for data-intensive astrophysical research.
+    landing_page_disclaimer_notice: Notice
+    landing_page_disclaimer: The CADC data collections are an open data source for the international astronomy community, provided by the National Research Council of Canada. While publicly available, the CADC data collections, products and services are a digital research facility for professional astronomers and are not intended for general public use.
     dates:
       months:
         - January
@@ -127,22 +131,22 @@ fr:
       label: Modifier le Profil
     reset_password:
       url: /fr/auth/reinitialiser.html
-      label: Réinitialiser le mot de passe
+      label: R&eacute;initialiser le mot de passe
     obtain_certificate:
       url: /cred/priv?daysValid=30
       title: Valide pour trente (30) jours
       label: Obtenir un certificat
-    update_profile_message_success: Votre profil CCDA a été actualisé.
-    update_profile_message_failure: Mise à jour n'a pas réussi.
-    update_profile_message_bot_error: "Demande refusée: erreur bot. S'il vous plaît nous contacter à l'adresse <a href='mailto:support@canfar.net'>support@canfar.net</a> pour corriger le problème."
-    update_profile_message_load_error: "Erreur: impossible de récupérer votre profil."
-    update_profile_message_user_exists_error: "Erreur: Compte en double demandé."
-    update_profile_message_email_exists_error: "Il existe déjà un compte associé à cette adresse courriel. S'il vous plaît communiquez avec nous afin de résoudre cette situation <a href='mailto:ccda@cnrc.gc.ca'>ccda@cnrc.gc.ca</a>."
+    update_profile_message_success: Votre profil CCDA a &eacute;t&eacute; actualis&eacute;.
+    update_profile_message_failure: Mise &agrave; jour n'a pas r&eacute;ussi.
+    update_profile_message_bot_error: "Demande refus&eacute;e: erreur bot. S'il vous plaît nous contacter &agrave; l'adresse <a href='mailto:support@canfar.net'>support@canfar.net</a> pour corriger le probl&egrave;me."
+    update_profile_message_load_error: "Erreur: impossible de r&eacute;cup&eacute;rer votre profil."
+    update_profile_message_user_exists_error: "Erreur: Compte en double demand&eacute;."
+    update_profile_message_email_exists_error: "Il existe d&eacute;j&agrave; un compte associ&eacute; &agrave; cette adresse courriel. S'il vous plaît communiquez avec nous afin de r&eacute;soudre cette situation <a href='mailto:ccda@cnrc.gc.ca'>ccda@cnrc.gc.ca</a>."
     update_profile_message_unknown_error: "Erreur inconnue."  
   labels:
     username: Nom d'utilisateur
     password: Mot de passe
-    first_name: Prénom(s)
+    first_name: Pr&eacute;nom(s)
     last_name: Nom de famille
     email: Courriel
     institute: Institut
@@ -152,18 +156,22 @@ fr:
     submit: Soumettre
     reset: Effacer
     login_required: Authentification requise
-    report_problem_link_text: Signaler un problème sur cette page
-    quicksearch_placeholder: Recherche les données par cible
-    quicksearch: Recherche les données
+    report_problem_link_text: Signaler un probl&egrave;me sur cette page
+    quicksearch_placeholder: Recherche les donn&eacute;es par cible
+    quicksearch: Recherche les donn&eacute;es
     quicksearch_submit_button: Recherche
-    reset_password_instructions: Saisissez votre adresse courriel. Si elle existe déjà dans notre base de données, vous recevrez un courriel avec les instructions pour la réínitialization de votre mot de passe.
+    reset_password_instructions: Saisissez votre adresse courriel. Si elle existe d&eacute;j&agrave; dans notre base de donn&eacute;es, vous recevrez un courriel avec les instructions pour la r&eacute;ínitialization de votre mot de passe.
     reset_password_email_label: Courriel
-    reset_password_submit_button_label: Réinitialiser votre mot de passe
-    reset_password_success_header: Courriel a été envoyé
+    reset_password_submit_button_label: R&eacute;initialiser votre mot de passe
+    reset_password_success_header: Courriel a &eacute;t&eacute; envoy&eacute;
     reset_password_success_message: Les instructions pour r&eacute;initialiser votre mot de passe ont &eacute;t&eacute; envoy&eacute;es &agrave; l'adresse courriel que vous avez fournie.
     new_password: Nouveau mot de passe
     confirm_new_password: Confirmation du nouveau mot de passe
-    new_password_success_message: Mot de passe réinitialisation a réussi.
+    new_password_success_message: Mot de passe r&eacute;initialisation a r&eacute;ussi.
+    landing_page_lead: Stimulation du processus de d&eacute;couverte en astronomie
+    landing_page_description: Ensemble, la collection de donn&eacute;es du CCDA et l'infrastructure d'infonuagique de calibre mondial du CCDA constituent une ressource pr&eacute;cieuse pour la recherche en astrophysique &agrave; forte concentration de donn&eacute;es.
+    landing_page_disclaimer_notice: Avis
+    landing_page_disclaimer: Les collections de donn&eacute;es du CCDA sont une source de donn&eacute;es ouvertes pour la communaut&eacute; astronomique internationale, fournies par le Conseil national de recherches du Canada. Les collections de donn&eacute;es, les produits et les services du CCDA constituent une installation de recherche num&eacute;rique libre d'acc&egrave;s s'adressant &agrave; des astronomes professionnels et n'est pas pr&eacute;vue pour un usage grand public.
     dates:
       months:
         - janvier
@@ -173,8 +181,8 @@ fr:
         - mai
         - juin
         - juillet
-        - août
+        - ao&ucirc;t
         - septembre
         - octobre
         - novembre
-        - décembre
+        - d&eacute;cembre

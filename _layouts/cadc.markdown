@@ -3,7 +3,7 @@ layout: core
 
 nofooter: true
 signing: true
-nositesearch: true
+
 ---
 {%- include variable-core.liquid -%}
 {%- capture page-title -%}
@@ -35,20 +35,6 @@ nositesearch: true
     </div>
     {%- endif -%}
     <div class="mwscolumns section">
-        {% comment %}
-        {%- if page.headerimage -%}
-        <div class="row">
-            <div class="col-md-9">
-                <h1 id="wb-cont" class="mrgn-tp-lg" property="name">{{ page-title }} {{ header-html }}</h1>
-            </div>
-            <div class="col-md-3 margin-top-medium hidden-sm hidden-xs">
-                <img class="pull-right img-responsive thumbnail mrgn-bttm-sm" src="{{ page.headerimage }}" />
-            </div>
-        </div>
-        {%- else -%}
-        <h1 id="wb-cont" class="mrgn-tp-lg" property="name">{{ page-title }} {{ header-html }}</h1>
-        {%- endif -%}
-        {% endcomment %}
         <h1 id="wb-cont" class="mrgn-tp-lg" property="name">{{ page-title }} {{ header-html }}</h1>
     </div>
     {%- unless page.fluid -%}
@@ -63,12 +49,15 @@ nositesearch: true
             {%- endif -%}
             {%- endcapture -%}
             {%- assign main_size = 12 | minus: nav_size -%}
+            <div class="col-md-{{ main_size }}">
+                {{ content }}
+            </div>
             <div class="col-md-{{ nav_size }}">
-                <nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="small visible-md visible-lg">
+                <nav role="navigation" id="wb-sec" typeof="SiteNavigationElement" class="visible-md visible-lg">
                     <h2>Section menu</h2>
-                    <ul class="list-group menu list-unstyled mrgn-lft-0">
-                        {% for n in site.data[page.nav][i18nText-lang]['nav'] %}
+                    <ul class="list-group menu list-unstyled">
                         <li>
+                            {% for n in site.data[page.nav][i18nText-lang]['nav'] %}
                             {%- if n.title -%}
                             <h3>{{ n.title }}</h3>
                             {%- endif -%}
@@ -100,13 +89,10 @@ nositesearch: true
                             {%- elsif n.html_include -%}
                             {%- include {{ n.html_include }} -%}
                             {%- endif -%}
+                            {% endfor %}
                         </li>
-                        {% endfor %}
                     </ul>
                 </nav>
-            </div>
-            <div class="col-md-{{ main_size }}">
-                {{ content }}
             </div>
         {%- else -%}
             {{ content }}

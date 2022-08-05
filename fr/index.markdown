@@ -7,13 +7,9 @@ title: Centre canadien de données astronomiques
 lang: fr
 permalink: /fr/
 altLangPage: /en/
-dateModified: 2021-11-24
+dateModified: 2022-06-28
 signing: layout.signing
-nositesearch: layout.nositesearch
-pageclass: ["home"]
-includeBanner: true
-
 css: /static/css/cadc.css
-
 nav: index
+pageclass: [home]
 ---

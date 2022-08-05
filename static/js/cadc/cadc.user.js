@@ -305,32 +305,12 @@
 
     }
 
-    $(document).ready(function() {
-      const hiddenClass = 'hidden'
-      const signOnOffIDPrefix = 'sign_on_off_'
-      const signedOffID = `${signOnOffIDPrefix}unsigned`
-      const signedOnID = `${signOnOffIDPrefix}signed`
-      const signedOnContainer = document.getElementById(signedOnID)
-      const signedOffContainer = document.getElementById(signedOffID)
-      const accountButton = document.getElementById('sign_on_off_account')
-      const cancelLink = document.getElementById('sign_on_off_cancel')
-
-      const $accountModal = $(document.getElementById('profile_modal'))
-
-      const accountClickListener = function(event) {
-        event.preventDefault()
-        $accountModal.fadeToggle(300)
-      }
-
-      const accountCancelClickListener = function(event) {
-        event.preventDefault()
-        $accountModal.fadeOut("fast")
-      }
-
+    $(document).ready(() => {
       var userManager = new cadc.web.UserManager({ registryClient: new Registry() })
       userManager.subscribe(cadc.web.events.onUserLoad,
         function(_event, data) {
           const user = data.user
+          const signOnOffIDPrefix = 'sign_on_off_'
 
           if (user) {
             const logoutLink = document.getElementById('sign_on_off_signoff')
@@ -339,34 +319,30 @@
             if (userFullNameDisplayList) {
               const len = userFullNameDisplayList.length
               for (let i = 0; i < len; i++) {
-                userFullNameDisplayList[i].textContent = user.getFullName()
+                userFullNameDisplayList[i].querySelector('.user-full-name-text').textContent = user.getFullName()
+                break
               }
             }
 
-            document.addEventListener('keydown', function(event) {             
-                if (event.key === 'Escape') {
-                  // The escape key should close the modal.
-                  $accountModal.fadeOut("fast")
-                }
-            })
-
-            accountButton.removeEventListener('click', accountClickListener, false)
-            accountButton.addEventListener('click', accountClickListener, false)
-
-            cancelLink.removeEventListener('click', accountCancelClickListener, false)
-            cancelLink.addEventListener('click', accountCancelClickListener, false)
-
             logoutLink.setAttribute('href', logoutLink.getAttribute('href') + `?target=${encodeURI(cadc.web.util.currentURI().uri)}`)
 
-            signedOnContainer.classList.remove(hiddenClass)
+            const signedOnID = `${signOnOffIDPrefix}signed`
+            const signedOnContainer = document.getElementById(signedOnID)
+            const parentNode = signedOnContainer.parentNode // <li> element
+            parentNode.innerHTML = signedOnContainer.innerHTML
           } else {
-            signedOffContainer.classList.remove(hiddenClass)
+            const signedOffID = `${signOnOffIDPrefix}unsigned`
+            const signedOffContainer = document.getElementById(signedOffID)
+            const parentNode = signedOffContainer.parentNode // <li> element
+            parentNode.innerHTML = signedOffContainer.innerHTML
           }
+
+          const navMenu = document.getElementById('wb-sm')
+          navMenu.classList.add('wb-menu')
+          $('.wb-menu').trigger('wb-init.wb-menu')
+          navMenu.classList.remove('wb-inv')
         })
 
-        // Don't bother loading the current user unless there are sign-[on/off] buttons.
-        if (signedOnContainer && signedOffContainer) {
-          userManager.loadCurrent()
-        }
+        userManager.loadCurrent()
     })
 })(jQuery, window, document)

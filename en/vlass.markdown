@@ -4,11 +4,11 @@ lang: en
 permalink: /en/vlass/
 title: Very Large Array Sky Survey (VLASS)
 altLangPage: /fr/vlass/
-headerimage: /static/images/archive-info/vlass.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: vlass
 ---

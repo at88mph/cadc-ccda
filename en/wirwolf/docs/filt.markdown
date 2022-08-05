@@ -6,7 +6,7 @@ title: JHK WIRCam filters
 altLangPage: /fr/wirwolf/docs/filt.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: wirwolf
 breadcrumbs:
     - link: /en/wirwolf/

@@ -6,7 +6,7 @@ permalink: /fr/rencontres/ce-mois/
 altLangPage: /en/meetings/this-month/
 dateModified: 2021-11-26
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: meetings
 

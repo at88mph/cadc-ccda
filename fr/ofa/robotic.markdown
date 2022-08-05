@@ -4,11 +4,11 @@ lang: fr
 permalink: /fr/ofa/robotic
 title: Observation automitasée de l'OFA
 altLangPage: /en/dao/robotic
-headerimage: /static/images/archive-info/dao.jpg
+
 dateModified: 2021-11-05
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: dao
 

@@ -6,7 +6,7 @@ title: Fonctions d'étalement du point
 altLangPage: /en/megapipe/cfhtls/psf.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/

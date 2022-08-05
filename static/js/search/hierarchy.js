@@ -34,7 +34,7 @@
           search: {
             datatrain: {
               URI_MATCH_REGEX: /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/,
-              SELECT_DISPLAY_OPTION_COUNT: 8,
+              SELECT_DISPLAY_OPTION_COUNT: 12,
               SPACER_CHAR: '&#9472;',
               /**
                * Obtain a spacer formatter.
@@ -52,7 +52,7 @@
               },
               tap: {
                 QUERY_TEMPLATE:
-                  'SELECT {1}, ( CASE WHEN {2} >= {3} THEN 1 ELSE 0 END ) as cs FROM {4} GROUP BY {1}, cs',
+                  'SELECT {1}, (CASE WHEN {2} >= {3} THEN 1 ELSE 0 END) as cs FROM {4} GROUP BY {1}, cs',
                 INSTRUMENT_FRESH_MJD_FIELD_NAME: {
                   caom2: 'max_time_bounds_cval1',
                   obscore: 'max_t_min'
@@ -70,38 +70,59 @@
                 4: 'Analysis Product'
               },
               COLLECTION_ORDER: [
-                'CFHT',
-                'CFHTMEGAPIPE',
-                'CFHTTERAPIX',
-                'CFHTWIRWOLF',
-                'HST',
-                'HSTHLA',
-                'GEMINI',
-                'JCMT',
-                'JCMTLS',
-                'DAO',
-                'DAOPLATES'
+                'CFHT*',
+                'HST*',
+                'JWST',
+                'GEMINI*',
+                'JCMT*',
+                'DAO*',
+                'RACS',
+                'WALLABY',
+                'SUBARU*'
               ],
               sortCollections: function(val1, val2) {
-                var val1Index = ca.nrc.cadc.search.datatrain.COLLECTION_ORDER.indexOf(
-                  val1
-                )
-                var val2Index = ca.nrc.cadc.search.datatrain.COLLECTION_ORDER.indexOf(
-                  val2
-                )
+                /**
+                 * Function to look for those collections that encompass a matching group (i.e. end in "*").
+                 * @param {*} val The collection to check against the set of known Collections.
+                 * @returns int index of matched Collection, or -1 if no match
+                 */
+                const fuzzyMatchIndex = function(val) {
+                  const collectionLength = ca.nrc.cadc.search.datatrain.COLLECTION_ORDER.length
+                  for (let i = 0; i < collectionLength; i++) {
+                    const nextCollection = ca.nrc.cadc.search.datatrain.COLLECTION_ORDER[i]
+                    const fuzzyIndex = nextCollection.indexOf('*')
+                    if (fuzzyIndex > 0) {
+                      const collection = nextCollection.substring(0, fuzzyIndex)
+                      if (val.startsWith(collection)) {
+                        return i
+                      }
+                    }
+                  }
 
-                var placement
+                  // Default unmatched value
+                  return -1
+                }
+
+                // Get exact matches first.
+                let val1Index = ca.nrc.cadc.search.datatrain.COLLECTION_ORDER.indexOf(val1)
+                let val2Index = ca.nrc.cadc.search.datatrain.COLLECTION_ORDER.indexOf(val2)
+
+                if (val1Index < 0) {
+                  val1Index = fuzzyMatchIndex(val1)
+                }
+
+                if (val2Index < 0) {
+                  val2Index = fuzzyMatchIndex(val2)
+                }
 
                 // Put garbage at the bottom
                 if (val2Index < 0) {
-                  placement = -1
+                  return -1
                 } else if (val1Index < 0) {
-                  placement = 1
+                  return 1
                 } else {
-                  placement = val1Index - val2Index
+                  return val1Index - val2Index
                 }
-
-                return placement
               },
               sortNumericDescending: function(val1, val2) {
                 var descVal
@@ -487,9 +508,8 @@
 
       labelSpanFieldName.className = 'indent-small field-name'
       labelSpanFieldName.innerHTML = select.title + '<div data-toggle="dt-popover" data-utype="' + uType
-          + '" data-placement="' + position + '" data-title="' + select.title + '" data-container="body'
-          + '" style="float: right;'
-          + '" class="advancedsearch-tooltip glyphicon glyphicon-question-sign text-info" data-original-title="" title="">\n' +
+          + '" data-placement="' + position + '" data-title="' + select.title
+          + '" class="advancedsearch-tooltip glyphicon glyphicon-question-sign popover-blue popover-left" data-original-title="" title="">\n' +
           '  </div>'
 
       label.appendChild(labelSpanFieldName)

@@ -6,7 +6,7 @@ title: Interrogation par liste d'objets
 altLangPage: /en/dss/dss_query_name_list.html
 dateModified: 2021-12-10
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 script: /static/js/dss/search.js
 breadcrumbs:

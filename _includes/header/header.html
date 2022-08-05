@@ -10,81 +10,8 @@
 			{% endunless %}
 		</div>
 	</div>
-    <nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg wb-init wb-menu-inited wb-navcurr-inited mrgn-tp-md" data-trgt="mb-pnl" typeof="SiteNavigationElement">
-        <div class="pnl-strt container nvbar">
-            <h2 class="wb-inv">Navigation menu</h2>
-            <div class="row">
-                <ul class="list-inline menu" role="menubar">
-                    <li class="">
-                        <a class="item" href="#telescopedataproducts" tabindex="-1" aria-posinset="6" aria-setsize="9" role="menuitem" aria-haspopup="true">Telescope Data Products<span class="expicon glyphicon glyphicon-chevron-down"></span></a>
-                        <ul class="sm list-unstyled" id="census" role="menu" aria-expanded="false" aria-hidden="true">
-                            <li><a href="https://www12.statcan.gc.ca/census-recensement/index-eng.cfm?MM=1" tabindex="-1" aria-posinset="1" aria-setsize="4" role="menuitem">Census of Population</a></li>
-                            <li><a href="https://www.statcan.gc.ca/en/census-agriculture?MM=1" tabindex="-1" aria-posinset="2" aria-setsize="4" role="menuitem">Census of Agriculture</a></li>
-                            <li><a href="https://www.statcan.gc.ca/en/census/census-engagement?MM=1" tabindex="-1" aria-posinset="3" aria-setsize="4" role="menuitem">Census engagement</a></li>
-                            <li class="slflnk"><a href="https://www.statcan.gc.ca/en/census?MM=1" tabindex="-1" aria-posinset="4" aria-setsize="4" role="menuitem">Census – Main page</a></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a class="item" href="#advanceddataproducts" tabindex="-1" aria-posinset="6" aria-setsize="9" role="menuitem" aria-haspopup="true">Advanced Data Products<span class="expicon glyphicon glyphicon-chevron-down"></span></a>
-                        <ul class="sm list-unstyled" id="advanceddataproducts" role="menu" aria-expanded="false" aria-hidden="true">
-                            <li><a href="https://www12.statcan.gc.ca/census-recensement/index-eng.cfm?MM=1" tabindex="-1" aria-posinset="1" aria-setsize="4" role="menuitem">Census of Population</a></li>
-                            <li><a href="https://www.statcan.gc.ca/en/census-agriculture?MM=1" tabindex="-1" aria-posinset="2" aria-setsize="4" role="menuitem">Census of Agriculture</a></li>
-                            <li><a href="https://www.statcan.gc.ca/en/census/census-engagement?MM=1" tabindex="-1" aria-posinset="3" aria-setsize="4" role="menuitem">Census engagement</a></li>
-                            <li class="slflnk"><a href="https://www.statcan.gc.ca/en/census?MM=1" tabindex="-1" aria-posinset="4" aria-setsize="4" role="menuitem">Census – Main page</a></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a class="item" href="#services" tabindex="-1" aria-posinset="7" aria-setsize="9" role="menuitem" aria-haspopup="true">Services<span class="expicon glyphicon glyphicon-chevron-down"></span></a>
-                        <ul class="sm list-unstyled" id="surveys" role="menu" aria-expanded="false" aria-hidden="true">
-                            <li><a href="https://www.statcan.gc.ca/en/survey/index?MM=1" tabindex="-1" aria-posinset="1" aria-setsize="4" role="menuitem">Information for survey participants</a></li>
-                            <li><a href="https://www150.statcan.gc.ca/n1/en/type/surveys?MM=1" tabindex="-1" aria-posinset="2" aria-setsize="4" role="menuitem">Results and documentation of surveys and statistical programs</a></li>
-                            <li><a href="https://www.statcan.gc.ca/en/our-data?MM=1" tabindex="-1" aria-posinset="3" aria-setsize="4" role="menuitem">Using new and existing data for official statistics</a></li>
-                            <li class="slflnk"><a href="https://www.statcan.gc.ca/en/surveys?MM=1" tabindex="-1" aria-posinset="4" aria-setsize="4" role="menuitem">Surveys and statistical programs – Main page</a></li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a class="item" href="https://www.statcan.gc.ca/en/about/statcan?MM=1" tabindex="-1" aria-posinset="8" aria-setsize="9" role="menuitem">Advanced Search</a>
-                    </li>
-                    <li class="">
-                        <a class="item" href="https://www.statcan.gc.ca/en/about/statcan?MM=1" tabindex="-1" aria-posinset="8" aria-setsize="9" role="menuitem">Documentation</a>
-                    </li>
-                    <li>
-                        <a class="item" href="https://www.statcan.gc.ca/en/about/statcan?MM=1" tabindex="-1" aria-posinset="8" aria-setsize="9" role="menuitem"></a>
-                    </li>
-                    <li class="">
-                        <a class="item" href="https://www.statcan.gc.ca/en/about/statcan?MM=1" tabindex="-1" aria-posinset="8" aria-setsize="9" role="menuitem">Login</a>
-                    </li>
-                </ul>
-            </div>
-        </div>    
-    </nav>    
-
-    {% comment %}
-	<hr>
-	<div class="container">
-		<div class="row">
-			{%- unless page.nomenu -%}
-				{%- if page.auth -%}
-					<div class="col-md-8">
-						{% include gcweb-menu/sitemenu.html %}
-					</div>
-				{%- else -%}
-					<div class="col-md-12">
-						{% include gcweb-menu/sitemenu.html %}
-					</div>
-				{%- endif -%}
-			{%- endunless -%}
-			{%- assign colSo = "col-xs-5 col-xs-offset-7 col-md-offset-0 col-md-4" -%}
-			{%- if page.nomenu -%}
-				{%- assign colSo = "col-xs-12" -%}
-			{%- endif -%}
-			{%- if page.auth -%}
-				<div class="{{ colSo }}">
-					{% include authentication/authentication.html %}
-				</div>
-			{%- endif -%}
-		</div>
-	</div>
-    {% endcomment %}
 	{% include breadcrumbs/inc-breadcrumbs.html %}
+    {%- unless page.nomenu -%}
+	{% include gcweb-menu/sitemenu.html %}
+    {%- endunless -%}
 </header>

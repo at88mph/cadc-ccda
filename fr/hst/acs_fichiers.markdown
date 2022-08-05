@@ -4,12 +4,8 @@ lang: fr
 permalink: /fr/hst/acs_fichiers.html
 title: HST Fichiers ACS
 altLangPage: /en/hst/acs_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
-dateModified: 2021-11-23
-
+dateModified: 2022-06-30
 signing: layout.signing
-nositesearch: layout.nositesearch
-
 nav: hst
 
 breadcrumbs:
@@ -23,11 +19,11 @@ breadcrumbs:
 
 <p class="color-attention">Note: Les noms de fichiers ACS débutent toujours par la lettre 'J' </p>
 <p class="color-attention">Note: La 9ième lettre du nom de fichier est toujours '0' pour les observations composites</p>
-<p class="color-attention">Note: Veuillez consulter la documentation complète disponible <a rel="external" href="https://www.stsci.edu/hst/acs/documents/handbooks/current/cover.html" class="ui-link"> ici</a></p>
+<p class="color-attention">Note: Veuillez consulter la <a rel="external" href="https://www.stsci.edu/hst/acs/documents/handbooks/current/cover.html" class="ui-link">documentation complète disponible</a></p>
 
 <h2>Pour une observation simple</h2>
 <table class="table">
-   <tbody><tr>
+   <thead><tr>
    <th id="a">Nom de fichier</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -35,7 +31,8 @@ breadcrumbs:
    <th id="f">Type
    </th><th id="e">Exemple</th>
    </tr>
-
+</thead>
+<tbody>
    <tr>
    <td headers="a">jxxxxxxxx_raw.fits</td>
    <td headers="b">_RAW.FITS</td>

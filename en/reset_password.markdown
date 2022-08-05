@@ -6,7 +6,7 @@ title: Reset Password
 altLangPage: /fr/auth/reinitialiser.html
 dateModified: 2022-01-17
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 script: /static/js/cadc/cadc.passwordresetrequest.js
 ---

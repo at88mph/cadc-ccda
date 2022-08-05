@@ -6,7 +6,7 @@ title: Vérifications du profondeur
 altLangPage: /en/wirwolf/docs/depthprof.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: wirwolf
 breadcrumbs:
     - link: /fr/wirwolf/

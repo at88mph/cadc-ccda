@@ -6,7 +6,7 @@ title: Vérifications de l'astrometrie
 altLangPage: /en/wirwolf/docs/astro.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: wirwolf
 breadcrumbs:
     - link: /fr/wirwolf/

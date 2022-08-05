@@ -4,11 +4,11 @@ lang: en
 permalink: /en/hst/wfpc_filenames.html
 title: HST WFPC Filenames
 altLangPage: /fr/hst/wfpc_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: hst
 
@@ -22,7 +22,7 @@ breadcrumbs:
  <h2 class="align-center">WFPC filenames</h2>
               
 <p class="color-attention">Note: The WFPC files names are all starting with the letter 'W'</p>
-<p class="color-attention">Note: Please consult the full documentation <a rel="external" href="http://www.stsci.edu/hst/wfpc/documents/HST_WFPC_Instrument_Handbook.pdf" class="ui-link">Here</a></p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="http://www.stsci.edu/hst/wfpc/documents/HST_WFPC_Instrument_Handbook.pdf" class="ui-link">full documentation</a>.</p>
 
 <table class="table">
 

@@ -6,7 +6,6 @@ title: Canadian Galactic Plane Survey
 altLangPage: /fr/rcpg/
 dateModified: 2022-06-17
 signing: layout.signing
-nositesearch: layout.nositesearch
 nav: cgps
 ---
 <p>This page gives you access to the <strong>Canadian Galactic Plane Survey</strong></p>

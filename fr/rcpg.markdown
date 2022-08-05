@@ -6,7 +6,7 @@ title: Relev&eacute; canadien du plan galactique
 altLangPage: /en/cgps/
 dateModified: 2022-06-17
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: cgps
 ---
 <p>Cette page vous donne acc&egrave;s au <strong>Relev&eacute; canadien du plan galactique (RCPG)</strong></p>

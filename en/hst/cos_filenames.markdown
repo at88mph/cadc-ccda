@@ -4,11 +4,11 @@ lang: en
 permalink: /en/hst/cos_filenames.html
 title: HST COS Filenames
 altLangPage: /fr/hst/cos_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: hst
 
@@ -25,7 +25,7 @@ breadcrumbs:
 
 <p class="color-attention">Note: The COS files names are all starting with the letter 'L'</p>
 <p class="color-attention">Note: The 9th character of an association of simple observation is always '0' at CADC  </p>
-<p class="color-attention">Note: Please consult the full documentation <a rel="external" href="http://www.stsci.edu/hst/cos/documents/handbooks/current/cos_cover.html" class="ui-link">Here</a></p>
+<p class="color-attention">Note: Please consult the <a rel="external" href="http://www.stsci.edu/hst/cos/documents/handbooks/current/cos_cover.html" class="ui-link">full documentation</a>.</p>
 
 <p>
 COS data utilizes a modified naming convention from other HST
@@ -37,9 +37,9 @@ the filetype and will always include filetypes with the additional FUV
 segment suffix if they exist.
 </p>
 
-<table class="table">
+<table class="table wb-tables" data-wb-tables='{ "ordering" : false, "scrollX": true }'>
 
-   <tbody><tr>
+   <thead><tr>
    <th id="a">CADC file names</th>
    <th id="b">File Suffix</th>
    <th id="c">Description</th>
@@ -47,7 +47,8 @@ segment suffix if they exist.
    <th id="f">Type</th>
    <th id="e">Access Example</th>
    </tr>
-
+   </thead>
+  <tbody>
    <tr>
    <td headers="a">lxxxxxxx_rawaccum.fits</td>
    <td headers="b"> _RAWACCUM.FITS </td>

@@ -6,7 +6,7 @@ title: Edit profile
 altLangPage: /fr/modifier-profil.html
 dateModified: 2021-12-17
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 script:
     first:

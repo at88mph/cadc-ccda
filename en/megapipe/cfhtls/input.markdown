@@ -6,7 +6,7 @@ title: Input images and limiting magnitudes
 altLangPage: /fr/megapipe/cfhtls/input.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/

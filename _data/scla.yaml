@@ -1,0 +1,73 @@
+en:
+  nav:
+    - links:
+      - name: Search
+        url: /en/search/?collection=SUBARUCADC&amp;noexec=true
+      - name: Graphical search tool
+        url: /en/scla/access/graph.html
+      title: Data
+    - links:
+      - name: Data description
+        url: /en/scla/docs/desc.html
+      - name: Processing pipeline
+        url: /en/scla/docs/proc.html
+      - name: Suprime-Cam filters
+        url: /en/scla/docs/filt.html
+      title: Documentation
+    - links:
+      - name: MegaPipe image stacking pipeline
+        url: /en/megapipe
+      title: Related
+    - links:
+      - name: SCLA Paper
+        url: https://ui.adsabs.harvard.edu/abs/2020ASPC..527..575G/abstract
+      - name: Suprime-Cam Main
+        url: https://www.subarutelescope.org/Observing/Instruments/SCam/index.html
+      - name: STARS Archive
+        url: https://stars.naoj.org
+      - name: SMOKA Archive
+        url: https://smoka.nao.ac.jp/
+      - name: SDFRED data reduction software
+        url: https://www.naoj.org/Observing/DataReduction/mtk/subaru_red/SPCAM/v1.5/sdfred1_manual_ver1.5e.html
+      - name: SExtractor
+        url: https://www.astromatic.net/software/sextractor
+      - name: SWarp
+        url: https://www.astromatic.net/software/swarp
+      title: External
+
+fr:
+  nav:
+    - links:
+      - name: Recherche
+        url: /fr/recherche/?collection=SUBARUCADC&amp;noexec=true
+      - name: Graphical search tool
+        url: /fr/scla/access/graph.html
+      title: Data
+    - links:
+      - name: Description de données
+        url: /fr/scla/docs/desc.html
+      - name: Pipeline de traitement
+        url: /fr/scla/docs/proc.html
+      - name: Filtres Suprime-Cam
+        url: /fr/scla/docs/filt.html
+      title: Documentation
+    - links:
+      - name: MegaPipe image stacking pipeline
+        url: /fr/megapipe
+      title: Related
+    - links:
+      - name: Article SCLA
+        url: https://ui.adsabs.harvard.edu/abs/2020ASPC..527..575G/abstract
+      - name: Acceuil Suprime-Cam
+        url: https://www.subarutelescope.org/Observing/Instruments/SCam/index.html
+      - name: Archive STARS
+        url: https://stars.naoj.org
+      - name: Archive SMOKA
+        url: https://smoka.nao.ac.jp/
+      - name: Logiciel de réduction de données SDFRED
+        url: https://www.naoj.org/Observing/DataReduction/mtk/subaru_red/SPCAM/v1.5/sdfred1_manual_ver1.5e.html
+      - name: SExtractor
+        url: https://www.astromatic.net/software/sextractor
+      - name: SWarp
+        url: https://www.astromatic.net/software/swarp
+      title: External

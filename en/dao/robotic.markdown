@@ -4,11 +4,11 @@ lang: en
 permalink: /en/dao/robotic
 title: DAO Robotic Observing
 altLangPage: /fr/ofa/robotic
-headerimage: /static/images/archive-info/dao.jpg
+
 dateModified: 2021-11-05
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: dao
 

@@ -6,7 +6,7 @@ title: Query Results
 altLangPage: /fr/dss/resultats.html
 dateModified: 2021-01-06
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: dss
 
 script: /static/js/dss/results.js

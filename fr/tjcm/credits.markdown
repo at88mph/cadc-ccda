@@ -4,11 +4,11 @@ lang: fr
 permalink: /fr/tjcm/credits
 title: Crédits et mentions
 altLangPage: /en/jcmt/credits
-headerimage: /static/images/archive-info/cfht.jpg
+
 dateModified: 2021-11-02
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: jcmt
 

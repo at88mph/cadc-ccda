@@ -3,13 +3,9 @@ layout: cadc
 lang: fr
 permalink: /fr/hst/wfpc2_fichiers.html
 title: HST Fichiers WFPC2
-altLangPage: /fr/hst/wfpc2_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
-dateModified: 2021-11-23
-
+altLangPage: /en/hst/wfpc2_filenames.html
+dateModified: 2022-06-30
 signing: layout.signing
-nositesearch: layout.nositesearch
-
 nav: hst
 
 breadcrumbs:
@@ -22,10 +18,10 @@ breadcrumbs:
  <h2 class="align-center">Fichiers WFPC2</h2>
               
 <p class="color-attention">Note: Les noms de fichiers WFPC2 débutent toujours par la lettre 'U'</p>
-<p class="color-attention">Note: Veuillez consulter la documentation complète disponible <a rel="external" href="http://documents.stsci.edu/hst/wfpc2/documents/handbooks/cycle17/wfpc2_cover.html" class="ui-link">ici</a></p>
+<p class="color-attention">Note: Veuillez consulter la <a rel="external" href="http://documents.stsci.edu/hst/wfpc2/documents/handbooks/cycle17/wfpc2_cover.html" class="ui-link">documentation compl&egrave;te disponible</a>.</p>
 
 <table class="table">
-   <tbody><tr>
+   <thead><tr>
    <th id="a">Nom de fichier</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -33,7 +29,8 @@ breadcrumbs:
    <th id="e">Type</th>
    <th id="e">Exemple</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">uxxxxxxxx_d0f.fits<br>uxxxxxxxx_d0m.fits</td>
    <td headers="b">_D0F.FITS<br>_D0M.FITS</td>

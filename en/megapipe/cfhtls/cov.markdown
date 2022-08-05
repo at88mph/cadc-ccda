@@ -6,7 +6,7 @@ title: Data at other wavelengths
 altLangPage: /fr/megapipe/cfhtls/cov.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /en/megapipe/

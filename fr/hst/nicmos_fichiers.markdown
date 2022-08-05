@@ -1,15 +1,11 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/hst/nimcos_fichiers.html
+permalink: /fr/hst/nicmos_fichiers.html
 title: HST Fichiers NICMOS
-altLangPage: /fr/hst/nimcos_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
-dateModified: 2021-11-23
-
+altLangPage: /fr/hst/nicmos_filenames.html
+dateModified: 2022-06-30
 signing: layout.signing
-nositesearch: layout.nositesearch
-
 nav: hst
 
 breadcrumbs:
@@ -24,11 +20,11 @@ breadcrumbs:
 
 <p class="color-attention">Note: Les noms de fichiers NICMOS débutent toujours par la lettre 'N'</p>
 <p class="color-attention">Note: La 9ième lettre du nom de fichier est toujours '0' pour les observations composites</p>
-<p class="color-attention">Note: Veuillez consulter la documentation complète disponible <a rel="external" href="http://www.stsci.edu/hst/nicmos/documents/handbooks/current_NEW/cover.html" class="ui-link">ici</a></p>
+<p class="color-attention">Note: Veuillez consulter la <a rel="external" href="http://www.stsci.edu/hst/nicmos/documents/handbooks/current_NEW/cover.html" class="ui-link">documentation compl&egrave;te disponible</a>.</p>
 
 <table class="table">
-
-   <tbody><tr>
+   <thead>
+   <tr>
    <th id="a">Nom de fichier</th>
    <th id="b">Suffixe</th>
    <th id="c">Description</th>
@@ -36,7 +32,8 @@ breadcrumbs:
    <th id="f">Type
    </th><th id="e">Exemple</th>
    </tr>
-
+   </thead>
+   <tbody>
    <tr>
    <td headers="a">nxxxxxxxx_jif.fits</td>
    <td headers="b">_JIF.FITS</td>

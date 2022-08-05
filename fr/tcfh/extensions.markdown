@@ -4,11 +4,11 @@ lang: fr
 permalink: /fr/tcfh/extensions
 title: Extensions de fichier TCFH
 altLangPage: /en/cfht/extensions
-headerimage: /static/images/archive-info/cfht.jpg
+
 dateModified: 2021-11-02
 
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 
 nav: cfht
 

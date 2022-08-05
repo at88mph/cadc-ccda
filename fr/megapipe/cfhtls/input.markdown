@@ -6,7 +6,7 @@ title: Images d'entrée et magnitudes limites
 altLangPage: /en/megapipe/cfhtls/input.html
 dateModified: 2021-12-09
 signing: layout.signing
-nositesearch: layout.nositesearch
+
 nav: megapipe
 breadcrumbs:
     - link: /fr/megapipe/
