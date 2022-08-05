@@ -79,6 +79,14 @@ en:
     landing_page_description: The CADC's data collection, along with its world-leading cloud infrastructure for astronomy, provides a unique resource for data-intensive astrophysical research.
     landing_page_disclaimer_notice: Notice
     landing_page_disclaimer: The CADC data collections are an open data source for the international astronomy community, provided by the National Research Council of Canada. While publicly available, the CADC data collections, products and services are a digital research facility for professional astronomers and are not intended for general public use.
+    right_ascension: Right Ascension
+    declination: Declination
+    object: Object
+    reset: Reset
+    button_go: Go
+    button_clear: Clear
+    filters: Filters
+    all: All
     dates:
       months:
         - January
@@ -172,6 +180,14 @@ fr:
     landing_page_description: Ensemble, la collection de donn&eacute;es du CCDA et l'infrastructure d'infonuagique de calibre mondial du CCDA constituent une ressource pr&eacute;cieuse pour la recherche en astrophysique &agrave; forte concentration de donn&eacute;es.
     landing_page_disclaimer_notice: Avis
     landing_page_disclaimer: Les collections de donn&eacute;es du CCDA sont une source de donn&eacute;es ouvertes pour la communaut&eacute; astronomique internationale, fournies par le Conseil national de recherches du Canada. Les collections de donn&eacute;es, les produits et les services du CCDA constituent une installation de recherche num&eacute;rique libre d'acc&egrave;s s'adressant &agrave; des astronomes professionnels et n'est pas pr&eacute;vue pour un usage grand public.
+    right_ascension: Ascension droit
+    declination: Declinasion
+    object: Objet
+    reset: Réinitialiser
+    button_go: Aller
+    button_clear: Effacer
+    filters: Filtres
+    all: Tous
     dates:
       months:
         - janvier

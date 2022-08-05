@@ -73,8 +73,6 @@ en:
   labels:
     object_name: Object name
     resolve: Resolve
-    right_ascension: Right Ascension
-    declination: Declination
     image_size_in_pixels: Image size in pixels
     image_size_in_pixels_max: Maximum 256 pixels
     make_quasar_coordinate_grid: Coordinate grid
@@ -84,15 +82,9 @@ en:
     submit_individual_image_list: Individual image list
     submit_stacked_image_list: Stacked image list
     submit_individual_and_stacked_image_list: Individual and stacked image list
-    reset: Reset
-    button_go: Go
-    button_clear: Clear
-    filters: Filters
-    filters_all: All
     filters_first_generation: First generation filters
     filters_second_generation: Second generation filters
     filters_narrow_band: Narrow band filters
-    object: Object
 
 fr:
   nav:
@@ -169,8 +161,6 @@ fr:
   labels:
     object_name: Nom de l'objet
     resolve: Résoudre
-    right_ascension: Ascension droit
-    declination: Declinasion
     image_size_in_pixels: Taille de l'image en pixels
     image_size_in_pixels_max: Maximum 256 pixels
     make_quasar_coordinate_grid: Grille de coordonnées
@@ -180,12 +170,6 @@ fr:
     submit_individual_image_list: Liste des images individuelles
     submit_stacked_image_list: Liste des images empilées
     submit_individual_and_stacked_image_list: Liste des images individuelles et empilées
-    reset: Réinitialiser
-    button_go: Aller
-    button_clear: Effacer
-    filters: Filtres
-    filters_all: Tous
     filters_first_generation: Filtres première génératation
     filters_second_generation: Filtres première génératation
     filters_narrow_band: Filtres à bande étroite
-    object: Objet
