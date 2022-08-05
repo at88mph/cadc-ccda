@@ -4,7 +4,7 @@ lang: en
 permalink: /en/fuse/
 title: Far Ultraviolet Spectroscopic Explorer (FUSE)
 altLangPage: /fr/fuse/
-headerimage: /static/images/archive-info/fuse.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing

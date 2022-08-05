@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/hst/
 title: Télescope Spatial Hubble
 altLangPage: /en/hst/
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing

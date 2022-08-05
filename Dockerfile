@@ -1,4 +1,4 @@
-FROM jekyll/builder:4 AS build
+FROM jekyll/builder:3 AS build
 
 COPY . /srv/jekyll/
 

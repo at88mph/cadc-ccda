@@ -3,7 +3,7 @@ layout: cadc
 lang: fr
 permalink: /fr/ofa/
 title: l'Observatoire fédéral astrophysique
-headerimage: /static/images/archive-info/dao.jpg
+
 altLangPage: /en/dao/
 dateModified: 2022-06-27
 signing: layout.signing

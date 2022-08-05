@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/blast/
 title: Télescope submillimétrique à grande ouverture porté par ballon (BLAST)
 altLangPage: /en/blast/
-headerimage: /static/images/archive-info/blast.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing

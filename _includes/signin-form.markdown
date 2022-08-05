@@ -30,4 +30,6 @@
 <div class="clearfix"></div>
 <div class="col-md-5 mrgn-tp-md">
     <a href="{{ i18n-cadc.forgot_password.url }}" tabindex="5" class="account_access_info" title="{{ i18n-cadc.forgot_password.label }}" id="forgot_username">{{ i18n-cadc.forgot_password.label }}</a>
+    <div class="clearfix"></div>
+    <a href="{{ i18nText-registerPage }}" tabindex="6" class="account_access_info" title="{{ i18nText-signOnRegister }}" id="register">{{ i18nText-signOnRegister }}</a>
 </div>

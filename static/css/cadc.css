@@ -29,3 +29,16 @@ div.profile-modal {
 div.profile-modal, a.sign-on-off-cancel {
     z-index: 1000000;
 }
+
+.home #wb-bnr+#wb-bc {
+    border-top: 1px solid #ddd;
+    color: #284162;
+    margin-left: 0;
+}
+
+@media screen and (min-width: 992px) {
+    #wb-bnr+#wb-bc {
+        border-top: 3px solid #38414d;
+        margin-top: 5px;
+    }
+}

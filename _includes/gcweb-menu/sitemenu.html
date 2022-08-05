@@ -13,7 +13,7 @@
     </ul>
     <div id="mb-pnl" class="modal-content" aria-hidden="true" tabindex="-1"></div>
 </section>
-<nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-inv visible-md visible-lg" typeof="SiteNavigationElement">
     <div class="container nvbar">
         <h2 class="wb-inv">{{ i18nText-menu }}</h2>
         <div class="row">
@@ -47,25 +47,26 @@
                 <li><a class="item" href="{{ i18nText-nav.documentation.url }}">{{ i18nText-nav.documentation.name }}</a></li>
                 <li><a class="item" href="{{ i18nText-nav.services.links.search.url }}">{{ i18nText-nav.services.links.search.name }}</a></li>
                 {%- if page.auth -%}
-                <li class="hidden authenticated">
-                    <h2 class="wb-inv">
-                        {%- unless page.auth.type == "contextual" -%}
-                            {{ i18nText-signOnOff }}
-                        {%- else -%}
-                            {{ i18nText-signIn }}
-                        {%- endunless -%}
-                    </h2>
-                    <a class="item" href="#gc-mnu-acc"></a>
-                    <ul id="gc-mnu-acc" class="sm list-unstyled" role="menu">
-                        <li><a class="user_edit_profile ui-link" href="{{ i18nText-cadc.profile.edit.url }}">{{ i18nText-cadc.profile.edit.label }}</a></li>
-                        <li><a class="change_password ui-link" href="{{ i18nText-cadc.profile.reset_password.url }}">{{ i18nText-cadc.profile.reset_password.label }}</a></li>
-                        <li><a id="download_certificate" class="download_certificate ui-link" href="{{ i18nText-cadc.profile.obtain_certificate.url }}" title="{{ i18nText-cadc.profile.obtain_certificate.title }}">{{ i18nText-cadc.profile.obtain_certificate.label }}</a></li>
-                        <li><hr /></li>
-                        <li><a id="sign_on_off_cancel" class="sign-on-off-cancel ui-link" href="#">Cancel</a></li>
-                    </ul>                
-                </li>
-                <li class="signin">
-                    <a class="item" href="{{ i18nText-cadc.signin.url }}">{{ i18nText-signIn }}</a>
+                <li>
+                    <div id="sign_on_off_signed" class="wb-inv">
+                        <h2 class="wb-inv">
+                            {%- unless page.auth.type == "contextual" -%}
+                                {{ i18nText-signOnOff }}
+                            {%- else -%}
+                                {{ i18nText-signIn }}
+                            {%- endunless -%}
+                        </h2>
+                        <a class="item user-full-name" href="#gc-mnu-acc"><span class="user-full-name-text"></span></a>
+                        <ul id="gc-mnu-acc" class="sm list-unstyled" role="menu">
+                            <li><a id="sign_on_off_account" class="user_edit_profile" href="{{ i18nText-cadc.profile.edit.url }}" title="{{ i18nText-cadc.profile.reset_password.label }}">{{ i18nText-cadc.profile.edit.label }}</a></li>
+                            <li><a class="change_password" href="{{ i18nText-cadc.profile.reset_password.url }}" title="{{ i18nText-cadc.profile.reset_password.label }}">{{ i18nText-cadc.profile.reset_password.label }}</a></li>
+                            <li><a id="download_certificate" class="download_certificate" href="{{ i18nText-cadc.profile.obtain_certificate.url }}" title="{{ i18nText-cadc.profile.obtain_certificate.title }}">{{ i18nText-cadc.profile.obtain_certificate.label }}</a></li>
+                            <li><a id="sign_on_off_signoff" href="/access/logout" title="{{ i18nText-signOut }}">{{ i18nText-signOut }}</a></li>
+                        </ul>
+                    </div>
+                    <div id="sign_on_off_unsigned" class="wb-inv">
+                        <a class="item" href="{{ i18nText-cadc.signin.url }}">{{ i18nText-signIn }}</a>
+                    </div>
                 </li>
                 {%- endif -%}
             </ul>

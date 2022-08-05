@@ -4,7 +4,7 @@ lang: en
 permalink: /en/hst/stis_filenames.html
 title: HST STIS Filenames
 altLangPage: /fr/hst/stis_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing

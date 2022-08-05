@@ -4,7 +4,7 @@ lang: en
 permalink: /en/hst/acs_filenames.html
 title: HST ACS Filenames
 altLangPage: /fr/hst/acs_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing

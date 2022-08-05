@@ -4,7 +4,7 @@ lang: en
 permalink: /en/hst/wfc3_filenames.html
 title: HST WFC3 Filenames
 altLangPage: /fr/hst/wfc3_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing

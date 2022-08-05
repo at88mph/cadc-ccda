@@ -4,7 +4,7 @@ lang: en
 permalink: /en/dao/credits
 title: DAO Credits and Acknowledgements
 altLangPage: /fr/ofa/credits
-headerimage: /static/images/archive-info/dao.jpg
+
 dateModified: 2021-11-03
 
 signing: layout.signing

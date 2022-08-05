@@ -4,7 +4,7 @@ lang: en
 permalink: /en/hst/hrs_filenames.html
 title: HST HRS Filenames
 altLangPage: /fr/hst/hrs_fichiers.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing

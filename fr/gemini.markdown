@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/gemini/
 title: Archives scientifiques Gemini
 altLangPage: /en/gemini/
-headerimage: /static/images/archive-info/gemini.jpg
+
 dateModified: 2022-06-22
 signing: layout.signing
 nav: gemini

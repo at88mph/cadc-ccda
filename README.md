@@ -41,7 +41,6 @@ lang: en        # This page's language.  Each page will have a mate of the other
 permalink: /en/dao/     # This page's endpoint
 title: Dominion Astrophysical Observatory   # This page's title
 altLangPage: /fr/ofa/   # This page's alternate language page
-headerimage: /static/images/archive-info/dao.jpg     # The image to use in the archive page's header.  [OPTIONAL]
 dateModified: 2021-12-07    # The date this page was modified.  Set manually.
 
 # Navigation links (left side submenu)

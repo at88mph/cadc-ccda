@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/most/
 title: Microvariabilité et oscillations stellaires (MOST)
 altLangPage: /en/most/
-headerimage: /static/images/archive-info/most.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing

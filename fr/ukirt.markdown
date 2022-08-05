@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/ukirt/
 title: Téléscope Infrarouge du Royaume Uni (UKIRT)
 altLangPage: /en/ukirt/
-headerimage: /static/images/archive-info/ukirt.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing

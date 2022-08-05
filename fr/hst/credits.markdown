@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/hst/credits.html
 title: Crédits et Remerciements
 altLangPage: /en/hst/credits.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-12-09
 
 signing: layout.signing

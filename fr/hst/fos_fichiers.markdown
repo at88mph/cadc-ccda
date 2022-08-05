@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/hst/fos_fichiers.html
 title: HST Fichiers FOS
 altLangPage: /en/hst/fos_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing

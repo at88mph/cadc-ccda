@@ -4,7 +4,7 @@ lang: en
 permalink: /en/most/
 title: Microvariability and Oscillations of Stars (MOST)
 altLangPage: /fr/most/
-headerimage: /static/images/archive-info/most.jpg
+
 dateModified: 2021-10-14
 
 signing: layout.signing

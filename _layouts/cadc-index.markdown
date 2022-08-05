@@ -20,7 +20,7 @@ signing: true
         </div>
     </div>
     {%- endif -%}
-    <div class="mrgn-bttm-xl">
+    <div class="clearfix mrgn-tp-lg">
         <div class="panel-pane pane-block pane-bean-homepage-banner">
             <div class="pane-content"></div>
         </div>

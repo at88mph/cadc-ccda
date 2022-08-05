@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/hst/foc_fichiers.html
 title: Télescope Spatial Hubble
 altLangPage: /en/hst/foc_filenames.html
-headerimage: /static/images/archive-info/hst.jpg
+
 dateModified: 2021-11-23
 
 signing: layout.signing

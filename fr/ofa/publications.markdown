@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/ofa/publications
 title: Publications de l'OFA
 altLangPage: /en/dao/publications
-headerimage: /static/images/archive-info/dao.jpg
+
 dateModified: 2021-11-04
 
 signing: layout.signing

@@ -10,9 +10,8 @@
 			{% endunless %}
 		</div>
 	</div>
-    {%- unless page.nomenu -%}
-        {% include gcweb-menu/sitemenu.html %}
-    {%- endunless -%}
-	<hr class="mrgn-bttm-0" />
 	{% include breadcrumbs/inc-breadcrumbs.html %}
+    {%- unless page.nomenu -%}
+	{% include gcweb-menu/sitemenu.html %}
+    {%- endunless -%}
 </header>

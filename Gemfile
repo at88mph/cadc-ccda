@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "bundler", "~> 2.0.2"
+# gem "bundler", "~> 2.0.2"
 
 # Add the gcweb-jekyll gem
 gem "gcweb-jekyll", "~> 0.1.0", git: "https://github.com/wet-boew/gcweb-jekyll"
