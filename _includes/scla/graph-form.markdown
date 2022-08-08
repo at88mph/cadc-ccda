@@ -42,6 +42,7 @@
         <label for="filI" class="checkbox-inline"><input type="checkbox" id="filI" name="fil2" checked="checked" value="makesquasarhappy"/>{{ i18n-scla-labels.filters_intermediate_band }}</label>
         <label for="filN" class="checkbox-inline"><input type="checkbox" id="filN" name="filN" checked="checked" value="makesquasarhappy"/>{{ i18n-scla-labels.filters_narrow_band }}</label>
       </div>
+      <div class="clearfix"></div>
       <div class="form-group">
         <label for="filB" class="checkbox-inline"><input type="checkbox" id="filB" name="fil" value="B" checked="checked"/>B</label>
         <label for="filV" class="checkbox-inline"><input type="checkbox" id="filV" name="fil" value="V" checked="checked"/>V</label>
@@ -49,6 +50,7 @@
         <label for="filIC" class="checkbox-inline"><input type="checkbox" id="filIC" name="fil" value="IC" checked="checked"/>IC</label>
         <label for="fil" class="checkbox-inline"><input type="checkbox" id="filVR" name="fil" value="VR" checked="checked"/>VR</label>
       </div>
+      <div class="clearfix"></div>
       <div class="form-group">
 	      <label for="filg" class="checkbox-inline"><input type="checkbox" id="filg" name="fil" value="g" checked="checked"/>g</label>
 	      <label for="filr" class="checkbox-inline"><input type="checkbox" id="filr" name="fil" value="r" checked="checked"/>r</label>
@@ -56,6 +58,7 @@
 	      <label for="filz" class="checkbox-inline"><input type="checkbox" id="filz" name="fil" value="z" checked="checked"/>z</label>
 	      <label for="filY" class="checkbox-inline"><input type="checkbox" id="filY" name="fil" value="Y" checked="checked"/>Y</label>
       </div>
+      <div class="clearfix"></div>
       <div class="form-group">
         <label for="filIA427" class="checkbox-inline"><input type="checkbox" id="filIA427" name="fil" value="IA427" checked="checked"/>IA427</label>
         <label for="filIA445" class="checkbox-inline"><input type="checkbox" id="filIA445" name="fil" value="IA445" checked="checked"/>IA445</label>
