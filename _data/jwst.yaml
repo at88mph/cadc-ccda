@@ -1,0 +1,29 @@
+en:
+  nav:
+    - links:
+      - name: Search
+        url: /en/search/?collection=JWST&noexec=true
+      title: Data
+    - links:
+      - name: Documentation
+        url: https://jwst-docs.stsci.edu/
+      - name: JWST Archive at STScI (USA)
+        url: https://archive.stsci.edu
+      - name: JWST Archive at ESAC (Spain)
+        url: https://www.cosmos.esa.int/web/jwst/
+      title: Other links
+
+fr:
+  nav:
+    - links:
+      - name: Recherche
+        url: /fr/recherche/?collection=JWST&noexec=true
+      title: Données
+    - links:
+      - name: Documentation (anglais seulement)
+        url: https://jwst-docs.stsci.edu
+      - name: Archive JWST au STScI (USA) (anglais seulement)
+        url: http://archive.stsci.edu
+      - name: Archive &agrave; l'ESAC (Espagne) (anglais seulement)
+        url: https://www.cosmos.esa.int/web/jwst/
+      title: Autres liens
