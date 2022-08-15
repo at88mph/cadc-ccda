@@ -49,6 +49,8 @@ en:
     update_profile_message_email_exists_error: "There is already an account associated with this email address. Please contact us to resolve this situation <a href='mailto:support@canfar.net'>support@canfar.net</a>."
     update_profile_message_unknown_error: "Unknown error."
   labels:
+    yes_label: 'Yes'
+    no_label: 'No'
     username: Username
     password: Password
     first_name: First Name(s)
@@ -153,6 +155,8 @@ fr:
     update_profile_message_email_exists_error: "Il existe d&eacute;j&agrave; un compte associ&eacute; &agrave; cette adresse courriel. S'il vous plaît communiquez avec nous afin de r&eacute;soudre cette situation <a href='mailto:ccda@cnrc.gc.ca'>ccda@cnrc.gc.ca</a>."
     update_profile_message_unknown_error: "Erreur inconnue."  
   labels:
+    yes_label: Oui
+    no_label: Non
     username: Nom d'utilisateur
     password: Mot de passe
     first_name: Pr&eacute;nom(s)

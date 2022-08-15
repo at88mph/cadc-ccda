@@ -15,8 +15,6 @@ en:
         url: /en/ssois/documentation.html
       title: Other
   labels:
-    yes: Yes
-    no: No
     error_units: Error units
     arcseconds: Arcseconds
     arcminutes: Arcminutes
@@ -80,8 +78,6 @@ fr:
         url: /fr/rioss/documentation.html
       title: Documentation
   labels:
-    yes: Oui
-    no: Non
     error_units: Error units
     arcseconds: Arcsecondes
     arcminutes: Arcminutes

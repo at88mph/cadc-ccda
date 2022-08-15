@@ -1,5 +1,6 @@
 {%- include variable-core.liquid -%}
 {%- assign i18n-ssois=site.data.ssois[i18nText-lang] -%}
+{%- assign i18n-cadc=site.data.cadc[i18nText-lang] -%}
 {%- assign i18n-ssois-labels=i18n-ssois.labels -%}
 
 <h2 id="oe">{{ i18n-ssois-labels.query_by_orbital_elements_header }}</h2>
@@ -80,13 +81,9 @@
 		<div class="form-group form-inline">
 			<legend class="hidden">{{ i18n-ssois-labels.resolve_to_image_extension }}:</legend>
 			<strong>{{ i18n-ssois-labels.resolve_to_image_extension }}:</strong>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="oeextresyes" name="extres" value="yes"/>
-				<label class="control-label" for="oeextresyes">{{ i18n-ssois-labels.yes }}</label>
-			</div>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="oeextresno" name="extres" value="no" checked="checked" onclick="oeform.xyres[1].checked=true" />
-				<label class="control-label" for="oeextresno">{{ i18n-ssois-labels.no }}</label>
+			<div class="radio">
+				<label class="control-label" for="oeextresyes"><input type="radio" id="oeextresyes" name="extres" value="yes"/>&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+				<label class="mrgn-lft-sm control-label" for="oeextresno"><input type="radio" id="oeextresno" name="extres" value="no" checked="checked" onclick="oeform.xyres[1].checked=true" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
 			</div>
 		</div>
     </fieldset>
@@ -94,13 +91,9 @@
 		<div class="form-group form-inline">
 			<legend class="hidden">{{ i18n-ssois-labels.resolve_to_x_y }}:</legend>
 			<strong>{{ i18n-ssois-labels.resolve_to_x_y }}:</strong>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="oexyresyes" name="xyres" value="yes" onclick="oeform.extres[0].checked=true" />
-				<label class="control-label" for="oexyresyes">{{ i18n-ssois-labels.yes }}</label>
-			</div>
-			<div class="radio-inline">	
-				<input type="radio" class="form-control" id="oexyresno" name="xyres" value="no" checked="checked" />
-				<label class="control-label" for="oexyresno">{{ i18n-ssois-labels.no }}</label>
+			<div class="radio">				
+				<label class="control-label" for="oexyresyes"><input type="radio" id="oexyresyes" name="xyres" value="yes" onclick="oeform.extres[0].checked=true" />&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+				<label class="mrgn-lft-sm control-label" for="oexyresno"><input type="radio" id="oexyresno" name="xyres" value="no" checked="checked" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
 			</div>
 		</div>
     </fieldset>
