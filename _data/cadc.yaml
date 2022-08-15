@@ -101,6 +101,7 @@ en:
         - October
         - November
         - December
+
 fr:
   signin:
     url: /fr/connexion.html
