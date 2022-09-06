@@ -4,44 +4,40 @@ lang: en
 permalink: /en/about.html
 title: About the CADC
 altLangPage: /fr/apropos.html
-dateModified: 2021-11-24
+dateModified: 2022-09-17
 signing: layout.signing
-share: layout.share
-
 ---
 
 <div class="container">
-    <div class="about_text">
-        <p>
-        The Canadian Astronomy Data Centre (CADC) was established in 1986 by the
-        <a href="https://nrc.canada.ca/en/" title="National Research Council of Canada (NRC)" rel="external">National Research Council of Canada (NRC)</a>,
-        through a grant provided by the
-        <a href="https://www.asc-csa.gc.ca/eng/" title="Canadian Space Agency (CSA)" rel="external">Canadian Space Agency (CSA)</a>.
-        Over the past 30 years the CADC has evolved from an archiving centre - hosting
-        data from Hubble Space Telescope, Canada-France-Hawaii Telescope, the Gemini observatories,
-        and the James Clerk Maxwell Telescope - into a Science Platform for data-intensive astronomy.
-        The CADC, in partnership with Shared Services Canada, Compute Canada, CANARIE and the
-        university community (funded through the Canadian Foundation for Innovation), offers
-        cloud computing, user-managed storage, group management, and data publication services,
-        in addition to its ongoing mission to provide permanent storage for major data collections.
-        </p>
-        <p>
-        Located at NRC Herzberg Astronomy and Astrophysics Research Centre in Victoria, BC, the CADC
-        staff consists of professional astronomers, software developers, and operations staff who
-        work with the community to develop and deliver leading-edge services to advance Canadian research.
-        The CADC plays a leading role in international efforts to improve the scientific/technical
-        landscape that supports data intensive science. This includes leadership roles in the
-        International Virtual Observatory Alliance and participation in organizations like
-        the Research Data Alliance, CODATA, and the World Data Systems. CADC also contributes significantly
-        to future Canadian projects like the Square Kilometre Array and TMT.
-        </p>
-        <p>
-        In 2019, the Canadian Astronomy Data Centre (CADC) delivered over <span class="strong">2 Petabytes
-        of data (over 200 million individual files)</span> to thousands of astronomers in Canada and in over
-        80 other countries. The cloud processing system completed over <span class="strong">6 million jobs
-        (over 1100 core years)</span> in 2019.
-        </p>
-    </div>
+    <p>
+        The Canadian Astronomy Data Centre (CADC) was established in 1986 by the National Research Council of Canada (NRC), through a grant 
+        provided by the Canadian Space Agency (CSA). Over the past thirty years, CADC has evolved from an archiving centre—hosting data 
+        from Hubble Space Telescope, Canada-France-Hawaii Telescope, the Gemini observatories, and the James Clerk Maxwell Telescope—into a 
+        science platform for data-intensive astronomy. CADC, in partnership with Shared Services Canada, Compute Canada, CANARIE and the 
+        university community (funded through the Canadian Foundation for Innovation), offers cloud computing, user-managed storage, group 
+        management, and data publication services, in addition to its ongoing mission to provide permanent storage for major data collections.
+    </p>
+    <p>
+        Located at NRC Herzberg Astronomy and Astrophysics Research Centre in Victoria, BC, the CADC staff consists of professional astronomers, 
+        software developers, and operations staff who work with the community to develop and deliver cutting-edge services to advance Canadian 
+        research. CADC plays a leading role in international efforts to improve the scientific/technical landscape in support of data-intensive 
+        science. This includes leadership roles in the International Virtual Observatory Alliance and participation in organizations like the 
+        Research Data Alliance, CODATA, and the World Data Systems. CADC also contributes significantly to future Canadian projects like the 
+        Square Kilometre Array and TMT.
+    </p>
+    <p>
+        CADC serves both national and international users. In 2021, the repository delivered over 2.4 Petabytes of data (over 130 million individual files) 
+        to thousands of astronomers in Canada and over eighty other countries. The cloud processing system completed over 6 million jobs 
+        (over 1,100 core years) in 2021. The data has helped, for example, safely guide the first close spacecraft encounter with Pluto and enabled 
+        the discovery of supermassive black holes that reveal secrets about the origin of the Universe. CADC's data collection and its world-leading 
+        astronomy cloud infrastructure provide a unique resource for data-intensive astrophysical research.
+    </p>
+    <p>
+        CADC recognizes the importance of long-term professional administration and preservation of data assets. CADC takes responsibility for the 
+        stewardship of digital objects and the long-term protection, management, and reusability of data. CADC has full approval from its parent 
+        organization, the National Research Council of Canada (NRC), as part of the NRC's mandate from the government of Canada to &quot;operate and 
+        administer any astronomical observatories established or maintained by the Government of Canada.&quot;
+    </p>
     <div class="about_text">
         <h2 id="mandate" class="about">Mandate</h2>
         <p>

@@ -4,11 +4,8 @@ lang: en
 permalink: /en/cfht/extensions
 title: Proprietary Data Access Management
 altLangPage: /fr/tcfh/extensions
-
 dateModified: 2021-11-02
-
 signing: layout.signing
-
 
 nav: cfht
 

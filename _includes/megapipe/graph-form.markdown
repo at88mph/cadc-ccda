@@ -1,25 +1,27 @@
 {%- include variable-core.liquid -%}
+{%- assign i18n-cadc=site.data.cadc[i18nText-lang] -%}
 {%- assign i18n-form=site.data.megapipe[i18nText-lang]['labels'] -%}
+{%- assign i18n-cadc-labels=i18n-cadc.labels -%}
 
 <!-- centre by coordinate -->
 <form name="cent" class="form-inline">
   <div class="form-group">
-    <label for="cra">{{ i18n-form.right_ascension }}</label>
+    <label for="cra">{{ i18n-cadc-labels.right_ascension }}</label>
     <input id="cra" name="cra" type="text" value="12.5"/>
-    <label for="cdec">{{ i18n-form.declination }}</label>
+    <label for="cdec">{{ i18n-cadc-labels.declination }}</label>
     <input id="cdec" name="cdec"  type="text" size="12" value="187.5"/>
     <label for="czoom">Zoom</label>
     <input id="czoom" name="czoom"  type="text" size="12" value="5"/>
-    <input type="button" class="btn btn-default" id="docent" name="docent" value="{{ i18n-form.button_go }}" />
+    <input type="button" class="btn btn-default" id="docent" name="docent" value="{{ i18n-cadc-labels.button_go }}" />
   </div>
 
 
   <!-- go to object  -->
   <div class="form-group">
-    <label for="object">{{ i18n-form.object }}</label>
+    <label for="object">{{ i18n-cadc-labels.object }}</label>
     <input id="object" name="object" type="text" size="8" value="" />
-    <input type="submit" class="btn btn-default" onclick="return false" id="resolve" name="resolve" value="{{ i18n-form.button_go }}"/>
-    <input type="submit" class="btn btn-default" onclick="return false" id="clear"  name="clear" value="{{ i18n-form.button_clear }}"/>
+    <input type="submit" class="btn btn-default" onclick="return false" id="resolve" name="resolve" value="{{ i18n-cadc-labels.button_go }}"/>
+    <input type="submit" class="btn btn-default" onclick="return false" id="clear"  name="clear" value="{{ i18n-cadc-labels.button_clear }}"/>
   </div>
   <!-- background   -->
 
@@ -36,9 +38,9 @@
   <div>
     <fieldset>
       <div class="form-group brdr-bttm">
-        <span class="filters">{{ i18n-form.filters }}:</span>
+        <span class="filters">{{ i18n-cadc-labels.filters }}:</span>
         <input type="checkbox" id="filall" name="filall" checked="checked" value="makesquasarhappy"/>
-        <label for="filall">{{ i18n-form.filters_all }}</label>
+        <label for="filall">{{ i18n-cadc-labels.all }}</label>
         <input type="checkbox" id="fil1" name="fil1" checked="checked" value="makesquasarhappy"/>
         <label for="fil1">{{ i18n-form.filters_first_generation }}</label>
         <input type="checkbox" id="fil2" name="fil2" checked="checked" value="makesquasarhappy"/>

@@ -1,17 +1,22 @@
-<!--#set var="archive" value="rioss" -->
-<!--#set var="archivetitle" value="Recherche d'Images d'Objets du Système Solaire" -->
-<!--#set var="pagetitle" value="Documentation pour le Recherche d'Images d'Objets Système Solaire" -->
-<!--#set var="langMirror" value="/en/ssois/documentation.html"-->
-<!--#set var="crumbtrail" value=""-->
-<!--#set var="LAST_MOD" value="$LastChangedDate$"-->
+---
+layout: cadc
+lang: fr
+permalink: /fr/rioss/documentation.html
+title: Documentation RIOSS
+altLangPage: /en/ssois/documentation.html
+dateModified: 2022-08-15
+signing: layout.signing
 
-<!--#include virtual="/fr/_archiveHeader.html"-->
+nav: ssois
 
+breadcrumbs:
+    - link: /fr/rioss/
+      title: RIOSS
+---
 
-
-
-
-
+{%- include variable-core.liquid -%}
+{%- assign i18n-ssois=site.data.ssois[i18nText-lang] -%}
+{%- assign i18n-ssois-labels=i18n-ssois.labels -%}
 
 <p>
 Cette page fournit la documentation pour le page 
@@ -77,10 +82,10 @@ Cela vous permet d'entrer le nom d'un objet et de rechercher pour les images.
 Il ya trois g&eacute;n&eacute;rateurs d'&eacute;ph&eacute;m&eacute;rides:
 </p>
 <ul>
-<li><a rel="external" href="http://asteroid.lowell.edu/asteph">g&eacute;n&eacute;rateur d'&eacute;ph&eacute;m&eacute;rides Lowell Observatory</a></li>
-<li><a rel="external" href="https://minorplanetcenter.net/iau/MPEph/MPEph.html">g&eacute;n&eacute;rateur d'&eacute;ph&eacute;m&eacute;rides Minor Planet Center</a></li>
-<li><a rel="external" href="http://ssd.jpl.nasa.gov/horizons.cgi">g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides de JPL Horizons</a></li>
-<li>CCDA</li>
+    <li><a rel="external" href="http://asteroid.lowell.edu/asteph">g&eacute;n&eacute;rateur d'&eacute;ph&eacute;m&eacute;rides Lowell Observatory</a></li>
+    <li><a rel="external" href="https://minorplanetcenter.net/iau/MPEph/MPEph.html">g&eacute;n&eacute;rateur d'&eacute;ph&eacute;m&eacute;rides Minor Planet Center</a></li>
+    <li><a rel="external" href="http://ssd.jpl.nasa.gov/horizons.cgi">g&eacute;n&eacute;rateur des &eacute;ph&eacute;m&eacute;rides de JPL Horizons</a></li>
+    <li>CCDA</li>
 </ul>
 <p>
 Dans les deux premiers cas,
@@ -366,8 +371,7 @@ ces options g&eacute;n&eacute;ralement rajoute un seconde par image trouv&eacute
 <p>
 Les liens dans le table des resultats sont des liens directs vers les
 donn&eacute;es, si celles-ci se trouvent au <a href="/fr/">CCDA</a> ou des liens
-vers un page de recherche externes, pour les autres donn&eacute;es,
-Les liens directes utilisent la <a href="/fr/data/">fonction donn&eacute;es web du CCDA</a>.
+vers un page de recherche externes.
 </p>
 
 <p>
@@ -394,17 +398,8 @@ href="http://adsabs.harvard.edu/abs/2012PASP..124..579G">Gwyn, Hill
 and Kavelaars (2012)</a>.  SVP, citez cette l'article dans 
 vos publications
  </p>
-<p>
-  Si vous avez utilis&eacute; les installations du CCDA pour votre recherche, s'il vous pla&icirc;t inclure la mention suivante :
-  <strong>
-    Cette recherche a utilis&eacute; les installations du Centre canadien de donn&eacute;es astronomiques exploit&eacute;
-    par le Conseil national de recherches du Canada, avec le soutien de l'Agence spatiale canadienne. 
-  </strong>
-  </p>
-
-
-
-            <!--cgibody-->
-            <!-- MainContentEnd -->
-
-<!--#include virtual="/fr/_archiveFooter.html"-->
+<p>Si vous avez utilis&eacute; les installations du CCDA pour votre recherche, s'il vous pla&icirc;t inclure la mention suivante:</p>
+<blockquote>
+  Cette recherche a utilis&eacute; les installations du Centre canadien de donn&eacute;es astronomiques exploit&eacute;
+  par le Conseil national de recherches du Canada, avec le soutien de l'Agence spatiale canadienne. 
+</blockquote>

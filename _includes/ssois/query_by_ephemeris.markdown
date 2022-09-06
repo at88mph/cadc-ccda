@@ -1,5 +1,6 @@
 {%- include variable-core.liquid -%}
 {%- assign i18n-ssois=site.data.ssois[i18nText-lang] -%}
+{%- assign i18n-cadc=site.data.cadc[i18nText-lang] -%}
 {%- assign i18n-ssois-labels=i18n-ssois.labels -%}
 
 <h2 id="ephem">{{ i18n-ssois-labels.query_by_ephemeris_header }}</h2>
@@ -10,28 +11,24 @@
         <label class="control-label" for="ephemtext"><strong>{{ i18n-ssois-labels.query_by_ephemeris_list_values_label }}:</strong></label> 
         <br/>
         (<a href="/en/ssois/documentation.html#ephem">{{ i18n-ssois-labels.query_by_ephemeris_documentation_link }}</a>)
-        <br/>
         <textarea class="form-control" id="ephemtext" name="ephem" cols="80" rows="10" style="font-family: monospace">date time RA Dec</textarea>
-        <br />
+    </div>
+    <div class="form-group form-inline">
         <label class="control-label" for="ephemeellipse"><strong>{{ i18n-ssois-labels.position_uncertainty_header }}:</strong></label>
         <input type="text" class="form-control" id="ephemeellipse" name="eellipse" value="" size="4" />
         <label class="control-label" for="ephemeunits" class="hidden">{{ i18n-ssois-labels.error_units }}</label>
         <select id="ephemeunits" name="eunits" class="form-control">
             <option value="arcseconds">{{ i18n-ssois-labels.arcseconds }}</option>
             <option value="arcminutes">{{ i18n-ssois-labels.arcminutes }}</option>
-        </select>		
+        </select>
     </div>
     <fieldset>
         <div class="form-group form-inline">
             <legend class="hidden">{{ i18n-ssois-labels.resolve_to_image_extension }}:</legend>
             <strong>{{ i18n-ssois-labels.resolve_to_image_extension }}:</strong>
-            <div class="radio-inline">
-                <input type="radio" class="form-control" id="ephemextresyes" name="extres" value="yes"/>
-                <label class="control-label" for="ephemextresyes">{{ i18n-ssois-labels.yes }}</label>
-            </div>
-            <div class="radio-inline">
-                <input type="radio" class="form-control"  id="ephemextresno" name="extres" value="no" checked="checked" onclick="ephemform.xyres[1].checked=true" />
-                <label class="control-label" for="ephemextresno">{{ i18n-ssois-labels.no }}</label>
+            <div class="radio">
+                <label class="control-label" for="ephemextresyes"><input type="radio" id="ephemextresyes" name="extres" value="yes"/>&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+                <label class="mrgn-lft-sm control-label" for="ephemextresno"><input type="radio" id="ephemextresno" name="extres" value="no" checked="checked" onclick="ephemform.xyres[1].checked=true" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
             </div>
         </div>
     </fieldset>
@@ -39,13 +36,9 @@
         <div class="form-group form-inline">
             <legend class="hidden">{{ i18n-ssois-labels.resolve_to_x_y }}:</legend>
             <strong>{{ i18n-ssois-labels.resolve_to_x_y }}:</strong>
-            <div class="radio-inline">
-                <input type="radio" class="form-control" id="ephemxyresyes" name="xyres" value="yes" onclick="ephemform.extres[0].checked=true" />
-                <label class="control-label" for="ephemxyresyes">{{ i18n-ssois-labels.yes }}</label>
-            </div>
-            <div class="radio-inline">
-                <input type="radio" class="form-control"  id="ephemxyresno" name="xyres" value="no" checked="checked" />
-                <label class="control-label" for="ephemxyresno">{{ i18n-ssois-labels.no }}</label>
+            <div class="radio">
+                <label class="control-label" for="ephemxyresyes"><input type="radio" id="ephemxyresyes" name="xyres" value="yes" onclick="ephemform.extres[0].checked=true" />&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+                <label class="mrgn-lft-sm control-label" for="ephemxyresno"><input type="radio" id="ephemxyresno" name="xyres" value="no" checked="checked" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
             </div>
         </div>
     </fieldset>

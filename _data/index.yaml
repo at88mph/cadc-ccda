@@ -208,7 +208,7 @@ fr:
           url: /fr/vlass/
           short_name: VLASS
     telescope_data_products:
-      title: Données de téléscopes
+      title: Données de télescopes
       links:
         gemini:
           name: Archives scientifiques Gemini

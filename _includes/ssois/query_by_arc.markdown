@@ -1,5 +1,6 @@
 {%- include variable-core.liquid -%}
 {%- assign i18n-ssois=site.data.ssois[i18nText-lang] -%}
+{%- assign i18n-cadc=site.data.cadc[i18nText-lang] -%}
 {%- assign i18n-ssois-labels=i18n-ssois.labels -%}
 
 <h2 id="arc">{{ i18n-ssois-labels.query_by_arc_header }}</h2>
@@ -15,11 +16,11 @@
 			<strong>{{ i18n-ssois-labels.query_by_arc_orbit_field_header }}:</strong>
 			<div class="radio">
 				<label class="control-label" for="arcbern">
-					<input class="form-control" id="arcbern" type="radio" name="search" value="bern" checked="checked" onclick="errorlogic('bern')" />Bernstein (<a rel="external" href="http://www.iop.org/EJ/article/1538-3881/120/6/3323/200298.text.html">{{ i18n-ssois-labels.query_by_arc_bernstein_link }}</a>)</label>
+					<input id="arcbern" type="radio" name="search" value="bern" checked="checked" onclick="errorlogic('bern')" />Bernstein (<a rel="external" href="http://www.iop.org/EJ/article/1538-3881/120/6/3323/200298.text.html">{{ i18n-ssois-labels.query_by_arc_bernstein_link }}</a>)</label>
 			</div>
 			<div class="radio">
 				<label class="control-label" for="arcmpc">
-					<input class="form-control" id="arcmpc" type="radio" name="search" value="mpc" onclick="errorlogic('mpc')" />Minor Planet Center (<a rel="external" href="https://minorplanetcenter.net/iau/MPEph/NewObjEphems.html">{{ i18n-ssois-labels.query_by_arc_minor_plane_center_link }}</a>)</label>
+					<input id="arcmpc" type="radio" name="search" value="mpc" onclick="errorlogic('mpc')" />Minor Planet Center (<a rel="external" href="https://minorplanetcenter.net/iau/MPEph/NewObjEphems.html">{{ i18n-ssois-labels.query_by_arc_minor_plane_center_link }}</a>)</label>
 			</div>
 		</div>
     </fieldset>
@@ -33,7 +34,7 @@
 			<label class="control-label" for="arcepoch2">{{ i18n-ssois-labels.to_date }}:&nbsp;</label>
 			<input type="text" class="form-control" id="arcepoch2" name="epoch2" value=""/>
 		</div>
-		<input type="button" class="btn btn-default" value="Set to full date range" onclick="nameform.epoch1.value='1990 01 01';  nameform.epoch2.value=today"/>
+		<input type="button" class="btn btn-default" value="Set to full date range" onclick="arcform.epoch1.value='1990 01 01';  arcform.epoch2.value=today"/>
 	</div>
 	<div class="form-group form-inline">
     	<label class="control-label" for="arceellipse">
@@ -50,13 +51,9 @@
 		<div class="form-group form-inline">
       		<legend class="hidden">{{ i18n-ssois-labels.resolve_to_image_extension }}:</legend>
       		<strong>{{ i18n-ssois-labels.resolve_to_image_extension }}:</strong>
-			<div class="radio-inline">
-      			<input type="radio" class="form-control" id="arcextresyes" name="extres" value="yes"/>
-      			<label class="control-label" for="arcextresyes">{{ i18n-ssois-labels.yes }}</label>
-			</div>
-			<div class="radio-inline">
-      			<input type="radio" class="form-control"  id="arcextresno" name="extres" value="no" checked="checked" onclick="arcform.xyres[1].checked=true" />
-      			<label class="control-label" for="arcextresno">{{ i18n-ssois-labels.no }}</label>
+			<div class="radio">
+      			<label class="control-label" for="arcextresyes"><input type="radio" id="arcextresyes" name="extres" value="yes"/>&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+      			<label class="mrgn-lft-sm control-label" for="arcextresno"><input type="radio" id="arcextresno" name="extres" value="no" checked="checked" onclick="arcform.xyres[1].checked=true" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
 			</div>
 		</div>
     </fieldset>
@@ -64,13 +61,9 @@
 		<div class="form-group form-inline">
 			<legend class="hidden">{{ i18n-ssois-labels.resolve_to_x_y }}:</legend>
       		<strong>{{ i18n-ssois-labels.resolve_to_x_y }}:</strong>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="arcxyresyes" name="xyres" value="yes" onclick="arcform.extres[0].checked=true" />
-				<label class="control-label" for="arcxyresyes">{{ i18n-ssois-labels.yes }}</label>
-			</div>
-			<div class="radio-inline">
-				<input type="radio" class="form-control"  id="arcxyresno" name="xyres" value="no" checked="checked" />
-				<label class="control-label" for="arcxyresno">{{ i18n-ssois-labels.no }}</label>
+			<div class="radio">				
+				<label class="control-label" for="arcxyresyes"><input type="radio" id="arcxyresyes" name="xyres" value="yes" onclick="arcform.extres[0].checked=true" />&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+				<label class="mrgn-lft-sm control-label" for="arcxyresno"><input type="radio" id="arcxyresno" name="xyres" value="no" checked="checked" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
 			</div>
 		</div>
     </fieldset>

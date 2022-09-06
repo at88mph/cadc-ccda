@@ -1,5 +1,6 @@
 {%- include variable-core.liquid -%}
 {%- assign i18n-ssois=site.data.ssois[i18nText-lang] -%}
+{%- assign i18n-cadc=site.data.cadc[i18nText-lang] -%}
 {%- assign i18n-ssois-labels=i18n-ssois.labels -%}
 
 <h2 id="name">{{ i18n-ssois-labels.query_by_name_header }}</h2>
@@ -15,23 +16,23 @@
 			<strong>{{ i18n-ssois-labels.query_by_name_ephemeric_field }}:</strong>
 			<div class="radio">
 				<label class="control-label" for="bynameCADC">
-					<input type="radio" class="form-control" name="search" value="bynameCADC" id="bynameCADC" /> {{ i18n-ssois-labels.query_by_name_ephemeric_cadc_only }}</label>
+					<input type="radio" name="search" value="bynameCADC" id="bynameCADC" /> {{ i18n-ssois-labels.query_by_name_ephemeric_cadc_only }}</label>
 			</div>
 			<div class="radio">
 				<label class="control-label" for="bynameHorizons">
-					<input type="radio" class="form-control" name="search" value="bynameHorizons" id="bynameHorizons" /> {{ i18n-ssois-labels.query_by_name_ephemeric_jpl_horizons }} (<a rel="external" href="http://ssd.jpl.nasa.gov/horizons.cgi">{{ i18n-ssois-labels.query_by_name_ephemeric_jpl_horizons_link }}</a>)</label>
+					<input type="radio" name="search" value="bynameHorizons" id="bynameHorizons" /> {{ i18n-ssois-labels.query_by_name_ephemeric_jpl_horizons }} (<a rel="external" href="http://ssd.jpl.nasa.gov/horizons.cgi">{{ i18n-ssois-labels.query_by_name_ephemeric_jpl_horizons_link }}</a>)</label>
 			</div>
 			<div class="radio">
 				<label class="control-label" for="bynameMPC">
-					<input type="radio" class="form-control" name="search" value="bynameMPC" id="bynameMPC"/> {{ i18n-ssois-labels.query_by_name_ephemeric_minor_planet }} (<a rel="external" href="https://minorplanetcenter.net/iau/MPEph/MPEph.html">{{ i18n-ssois-labels.query_by_name_ephemeric_minor_planet_link }}</a>)</label>
+					<input type="radio" name="search" value="bynameMPC" id="bynameMPC"/> {{ i18n-ssois-labels.query_by_name_ephemeric_minor_planet }} (<a rel="external" href="https://minorplanetcenter.net/iau/MPEph/MPEph.html">{{ i18n-ssois-labels.query_by_name_ephemeric_minor_planet_link }}</a>)</label>
 			</div>
 			<div class="radio">
 				<label class="control-label" for="bynameLowell">
-					<input type="radio" class="form-control" name="search" value="bynameLowell" id="bynameLowell" /> {{ i18n-ssois-labels.query_by_name_ephemeric_lowell_observatory }} (<a rel="external" href="http://asteroid.lowell.edu/asteph">{{ i18n-ssois-labels.query_by_name_ephemeric_lowell_observatory_link }}</a>)</label>
+					<input type="radio" name="search" value="bynameLowell" id="bynameLowell" /> {{ i18n-ssois-labels.query_by_name_ephemeric_lowell_observatory }} (<a rel="external" href="http://asteroid.lowell.edu/asteph">{{ i18n-ssois-labels.query_by_name_ephemeric_lowell_observatory_link }}</a>)</label>
 			</div>
 			<div class="radio">
 				<label class="control-label" for="bynameall">
-					<input type="radio" class="form-control" name="search" value="bynameall" id="bynameall" checked="checked" /> {{ i18n-ssois-labels.query_by_name_ephemeric_all_of_the_above }}</label>
+					<input type="radio" name="search" value="bynameall" id="bynameall" checked="checked" /> {{ i18n-ssois-labels.query_by_name_ephemeric_all_of_the_above }}</label>
 			</div>
 		</div>
 	</fieldset>
@@ -60,13 +61,9 @@
 		<div class="form-group form-inline">
 			<legend class="hidden">{{ i18n-ssois-labels.resolve_to_image_extension }}:</legend>
 			<strong>{{ i18n-ssois-labels.resolve_to_image_extension }}:&nbsp;</strong>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="nameextresyes" name="extres" value="yes"/>
-				<label class="control-label" for="nameextresyes">{{ i18n-ssois-labels.yes }}</label>
-			</div>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="nameextresno" name="extres" value="no" checked="checked" onclick="nameform.xyres[1].checked=true" />
-				<label class="control-label" for="nameextresno">{{ i18n-ssois-labels.no }}</label>
+			<div class="radio">
+				<label class="control-label" for="nameextresyes"><input type="radio" id="nameextresyes" name="extres" value="yes"/>&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+				<label class="mrgn-lft-sm control-label" for="nameextresno"><input type="radio" id="nameextresno" name="extres" value="no" checked="checked" onclick="nameform.xyres[1].checked=true" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
 			</div>
 		</div>
 	</fieldset>
@@ -74,13 +71,9 @@
 		<div class="form-group form-inline">
 			<legend class="hidden">{{ i18n-ssois-labels.resolve_to_x_y }}:</legend>
 			<strong>{{ i18n-ssois-labels.resolve_to_x_y }}:&nbsp;</strong>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="namexyresyes" name="xyres" value="yes" onclick="nameform.extres[0].checked=true" />
-				<label class="control-label" for="namexyresyes">{{ i18n-ssois-labels.yes }}</label>
-			</div>
-			<div class="radio-inline">
-				<input type="radio" class="form-control" id="namexyresno" name="xyres" value="no" checked="checked" />
-				<label class="control-label" for="namexyresno">{{ i18n-ssois-labels.no }}</label>
+			<div class="radio">
+				<label class="control-label" for="namexyresyes"><input type="radio" id="namexyresyes" name="xyres" value="yes" onclick="nameform.extres[0].checked=true" />&nbsp;{{ i18n-cadc.labels.yes_label }}</label>
+				<label class="mrgn-lft-sm control-label" for="namexyresno"><input type="radio" id="namexyresno" name="xyres" value="no" checked="checked" />&nbsp;{{ i18n-cadc.labels.no_label }}</label>
 			</div>
 		</div>
 	</fieldset>

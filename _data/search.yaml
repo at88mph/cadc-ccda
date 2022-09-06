@@ -219,7 +219,7 @@ fr:
     ERROR_TAB_TITLE: "Erreur"
     ADQL_QUERY_TAB_TITLE: "ADQL"
     HELP_TAB_TITLE: "Aide"
-    ACKNOWLEDGEMENTS_TAB_TITLE: "Mention"
+    ACKNOWLEDGEMENTS_TAB_TITLE: "Remerciements"
 
     # Form button labels
     SEARCH_BUTTON_LABEL: "Recherche"

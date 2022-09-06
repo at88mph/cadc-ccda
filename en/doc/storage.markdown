@@ -32,11 +32,11 @@ Data transfer service redirects requests for files to the geographic location th
 expected to provide the best data rate base on the geographic location assocaited with
 the IP address of an incoming request.
 
-The details of the interaction are describe in the <a href="../data">data web service</a> documentation area.
+The details of the interaction are describe in the <a href="./data">data web service</a> documentation area.
 </p>
 
 <p>
 To simplify interactions with the data web service the CADC provides a set of Python based 
 <a href="https://github.com/canfar/python-canfar-clients/tree/master/cadc-clients">client tools</a>, including 
-the <code>cadc-copy</code> application.
+the <a href="./cadc-copy">cadc-copy</a> application.
 </p>

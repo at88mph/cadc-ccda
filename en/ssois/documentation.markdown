@@ -1,15 +1,22 @@
-<!--#set var="archive" value="ssois" -->
-<!--#set var="archivetitle" value="Solar System Object Image Search " -->
-<!--#set var="pagetitle" value="Solar System Object Image Search Documentation" -->
-<!--#set var="langMirror" value="/fr/rioss/documentation.html"-->
-<!--#set var="crumbtrail" value=""-->
-<!--#set var="LAST_MOD" value="$LastChangedDate$"-->
+---
+layout: cadc
+lang: en
+permalink: /en/ssois/documentation.html
+title: SSOIS Documentation
+altLangPage: /fr/rioss/documentation.html
+dateModified: 2022-08-15
+signing: layout.signing
 
-<!--#include virtual="/en/_archiveHeader.html"-->
+nav: ssois
 
+breadcrumbs:
+    - link: /en/ssois/
+      title: SSOIS
+---
 
-
-
+{%- include variable-core.liquid -%}
+{%- assign i18n-ssois=site.data.ssois[i18nText-lang] -%}
+{%- assign i18n-ssois-labels=i18n-ssois.labels -%}
 
 <p>
     This page provides documentation for the <a href="index.html">Solar System Object Image Search (SSOIS)</a> page. Unlike regular astronomical image search pages, which allow you to search at a fixed RA and Dec, SSOIS allows you to search image archives
@@ -81,7 +88,7 @@
 <ul>
     <li><a rel="external" href="http://asteroid.lowell.edu/asteph">Lowell Observatory ephemeris generator</a></li>
     <li><a rel="external" href="https://minorplanetcenter.net/iau/MPEph/MPEph.html">Minor Planet Center ephemeris generator</a></li>
-    <li><a rel="external" href="http://ssd.jpl.nasa.gov/horizons.cgi">JPL Horizons  ephemeris generator</a></li>
+    <li><a rel="external" href="http://ssd.jpl.nasa.gov/horizons.cgi">JPL Horizons ephemeris generator</a></li>
     <li>CADC</li>
 </ul>
 <p>
@@ -242,7 +249,6 @@ HH MM SS.SS DD MM SS.SS
 </p>
 <p>
     The links in the table are either direct links to the data (if the image is hosted at the <a href="/en/">CADC</a>) or a link to another query page which should return only the relevant image at an external website.
-    <!-- The direct links use the <a href="/en/data/">CADC Data Web Service</a> utility. -->
 </p>
 
 <p>
@@ -259,18 +265,9 @@ HH MM SS.SS DD MM SS.SS
     For more information about the inner workings of SSOIS, please read the the following paper: <a rel="external" href="http://adsabs.harvard.edu/abs/2012PASP..124..579G">Gwyn, Hill
 and Kavelaars (2012)</a>. Please cite this paper in your publications.
 </p>
-<p>
-    If you have used CADC facilities for your research, please include the following acknowledgment in your publications:
-    <strong>
+<p>If you have used CADC facilities for your research, please include the following acknowledgment in your publications:</p>
+<blockquote>
   This research used the facilities of the Canadian Astronomy Data
   Centre operated by the National Research Council of Canada with
   the support of the Canadian Space Agency.
-</strong>
-</p>
-
-
-
-<!--cgibody-->
-<!-- MainContentEnd -->
-
-<!--#include virtual="/en/_archiveFooter.html"-->
+</blockquote>

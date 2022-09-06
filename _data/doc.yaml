@@ -18,6 +18,10 @@ en:
       links:
         - name: cadc-copy
           url: /en/doc/cadc-copy
+        - name: fits2caom2
+          url: /en/doc/fits2caom
+        - name: create-group
+          url: /en/doc/groups
 
 fr:
   nav:
@@ -39,3 +43,7 @@ fr:
       links:
         - name: cadc-copy
           url: /fr/doc/cadc-copy
+        - name: fits2caom2
+          url: /fr/doc/fits2caom
+        - name: create-group
+          url: /fr/doc/groups

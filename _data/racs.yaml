@@ -1,0 +1,29 @@
+en:
+  nav:
+    - links:
+      - name: Search
+        url: /en/search/?collection=RACS&noexec=true
+      title: Data
+    - links:
+      - name: RACS Home Page
+        url: https://research.csiro.au/racs/
+      - name: CASDA Home Page
+        url: https://research.csiro.au/racs/
+      - name: CIRADA Home Page
+        url: https://cirada.ca
+      title: Information
+
+fr:
+  nav:
+    - links:
+      - name: Recherche
+        url: /fr/recherche/?collection=RACS&noexec=true
+      title: Données
+    - links:
+      - name: Page RACS (anglais seulement)
+        url: https://research.csiro.au/racs/
+      - name: Page CASDA (anglais seulement)
+        url: https://research.csiro.au/racs/
+      - name: Page CIRADA (anglais seulement)
+        url: https://cirada.ca
+      title: Information

@@ -34,6 +34,16 @@ en:
       - name: SWarp
         url: https://www.astromatic.net/software/swarp
       title: External
+  labels:
+    coordinate_grid: Coordinate Grid
+    individual_images: Individual Images
+    stacked_images: Stacked Images
+    filters_broad_band: Broad band filters
+    filters_intermediate_band: Intermediate band filters
+    filters_narrow_band: Narrow band filters
+    list_individual_image: Individual image list
+    list_stacked_image: Stacked image list
+    list_individual_and_stacked_image: Individual and stacked image list
 
 fr:
   nav:
@@ -71,3 +81,13 @@ fr:
       - name: SWarp
         url: https://www.astromatic.net/software/swarp
       title: External
+  labels:
+    coordinate_grid: Grille de coordinées
+    individual_images: Images individuelles
+    stacked_images: Images empilés
+    filters_broad_band: Filtres à bande large
+    filters_intermediate_band: Filtres à bande intermédiaire
+    filters_narrow_band: Filtres à bande étroite
+    list_individual_image: Liste des images individuelles
+    list_stacked_image: Liste des images empilés
+    list_individual_and_stacked_image: Liste des images individuelles et empilés
