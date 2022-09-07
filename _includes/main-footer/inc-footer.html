@@ -1,3 +1,16 @@
+{%- include variable-core.liquid -%}
+{%- assign i18n-cadc=site.data.cadc[i18nText-lang] -%}
+{%- assign i18n-cadc-labels=i18n-cadc.labels -%}
+
+<section id="consent_banner" class="wb-inv alert alert-info mrgn-bttm-0">
+	<h2>{{ i18n-cadc-labels.cookie_consent_title }}</h2>
+	<p>{{ i18n-cadc-labels.cookie_consent_body }}</p>
+	<!-- Button wrapped in a div to allow the alert padding. -->
+	<div>
+		<button class="btn btn-primary popup-modal-dismiss" type="button">{{ i18n-cadc-labels.cookie_consent_dismiss }}</button>
+	</div>
+</section>
+
 <div class="pagedetails{% if include.addContainer %} container{% endif %}">
 	<dl id="wb-dtmd">
 		<dt>{{ i18nText-dateModified }}</dt>
