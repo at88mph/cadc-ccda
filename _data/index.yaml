@@ -32,6 +32,14 @@ en:
           name: Digital Sky Survey
           url: /en/dss/
           short_name: DSS
+        service_status:
+          name: Service Status
+          url: /en/status
+          short_name: Service Status
+        web_services:
+          name: Web Services
+          url: /en/services/
+          short_name: Web Services
     advanced_data_products:
       title: Advanced Data Products
       links:
@@ -170,6 +178,14 @@ fr:
           name: Système du Digital Sky Survey
           url: /fr/dss/
           short_name: DSS
+        service_status:
+          name: État des services
+          url: /fr/etat
+          short_name: État des services
+        web_services:
+          name: Services web
+          url: /fr/services/
+          short_name: Services web
     advanced_data_products:
       title: Données avancées
       links:

@@ -1,0 +1,13 @@
+en:
+  labels:
+    service_name: Service Name
+    available: Available
+    availability_message: Availability Message
+    last_check_time: Last Check
+
+fr:
+  labels:
+    service_name: Service Name
+    available: Available
+    availability_message: Availability Message
+    last_check_time: Last Check

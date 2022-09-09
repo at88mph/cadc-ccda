@@ -1,7 +1,5 @@
 {%- include variable-core.liquid -%}
-{%- assign i18n-cadc=site.data.cadc[i18nText-lang] -%}
 {%- assign i18n-services=site.data.services[i18nText-lang] -%}
-{%- assign i18n-cadc-labels=i18n-cadc.labels -%}
 
 <table class="table table-striped">
     <thead>
