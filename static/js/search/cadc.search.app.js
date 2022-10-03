@@ -126,7 +126,6 @@
     // ------ start SearchTapClient setup & related functions ------
 
     var _searchTapClient = new ca.nrc.cadc.search.tapclient.SearchTapClient(_options)
-    _searchTapClient.setTAPServiceURL('', '/tap/sync')
 
     // Set _searchTapClient as part of the option set that
     this.options.tapClient = _searchTapClient

@@ -7,13 +7,15 @@ en:
     - title: Archive Services
       links:
         - name: Archive as a Service
-          url: /en/doc/archive_as_a_service
+          url: /en/doc/AaaS/
         - name: CAOM-2
           url: /en/doc/caom
         - name: Storage
           url: /en/doc/ad
         - name: Proprietary Data
           url: /en/doc/props
+        - name: Data Preservation Policy
+          url: /en/doc/dpp
     - title: Applications
       links:
         - name: cadc-copy
@@ -32,13 +34,15 @@ fr:
     - title: Services d'archive
       links:
         - name: Archive comme service
-          url: /fr/doc/archive_comme_service
+          url: /fr/doc/AaaS/
         - name: CAOM-2
           url: /fr/doc/caom
         - name: Stockage
           url: /fr/doc/ad
         - name: Données propriétaires
           url: /fr/doc/props
+        - name: Politique de conservation des données
+          url: /fr/doc/dpp
     - title: Applications
       links:
         - name: cadc-copy
