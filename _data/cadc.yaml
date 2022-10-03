@@ -89,6 +89,9 @@ en:
     button_clear: Clear
     filters: Filters
     all: All
+    cookie_consent_title: The CADC uses digital markers (cookies) on portions of their websites
+    cookie_consent_body: During your on-line visit, your browser exchanges data with CADC's web servers.  You may adjust your browser to reject digital markers, including cookies, if you so choose. However, this will restrict the features of CADC websites that your browser can utilize.
+    cookie_consent_dismiss: Dismiss
     dates:
       months:
         - January
@@ -193,6 +196,9 @@ fr:
     button_clear: Effacer
     filters: Filtres
     all: Tous
+    cookie_consent_title: Le CCDA utilise les marqueurs num&eacute;riques (cookies) pour op&eacute;rer certaines parties de leurs sites.
+    cookie_consent_body: Pendant votre exploration de notre site, votre navigateur &eacute;change des données avec les serveurs du CCDA.  Vous pouvez choisir d'ajuster votre navigateur pour rejeter les marqueurs numériques comme les cookies.  Cependant, les fonctionalit&eacute;s du site du CCDA seront restreintes &agrave; celle de votre navigateur.
+    cookie_consent_dismiss: Rejeter
     dates:
       months:
         - janvier

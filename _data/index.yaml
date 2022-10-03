@@ -32,6 +32,14 @@ en:
           name: Digital Sky Survey
           url: /en/dss/
           short_name: DSS
+        service_status:
+          name: Service Status
+          url: /en/status
+          short_name: Service Status
+        web_services:
+          name: Web Services
+          url: /en/services/
+          short_name: Web Services
     advanced_data_products:
       title: Advanced Data Products
       links:
@@ -130,10 +138,12 @@ en:
           name: Near-Earth Object Surveillance Satellite
           url: /en/neossat/
           short_name: NEOSSat
+    about:
+      name: About Us
+      url: /en/about.html
     documentation:
       name: Documentation
       url: /en/doc/
-      short_name: Documentation
 fr:
   nav:
     services:
@@ -168,6 +178,14 @@ fr:
           name: Système du Digital Sky Survey
           url: /fr/dss/
           short_name: DSS
+        service_status:
+          name: État des services
+          url: /fr/etat
+          short_name: État des services
+        web_services:
+          name: Services web
+          url: /fr/services/
+          short_name: Services web
     advanced_data_products:
       title: Données avancées
       links:
@@ -266,7 +284,9 @@ fr:
           name: Near-Earth Object Surveillance Satellite
           url: /fr/neossat/
           short_name: NEOSSat
+    about:
+      name: À propos de nous
+      url: /fr/apropos.html
     documentation:
       name: Documentation
       url: /fr/doc/
-      short_name: Documentation

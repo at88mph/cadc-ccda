@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/doc/archive_as_a_service
+permalink: /en/doc/AaaS
 title: Archive as a Service
-altLangPage: /fr/doc/archive_comme_service
-dateModified: 2022-07-08
+altLangPage: /fr/doc/AaaS
+dateModified: 2022-09-16
 signing: layout.signing
 nav: doc
 
@@ -28,8 +28,9 @@ that might otherwise not be archived.
 </p>
 
 <p>
-Facilities that wish to use the CADC Archive Service should contact the <a href="mailto:support@canfar.net">CADC</a> directly.  
-CADC will provide information on how to request a new archive
+    Facilities that wish to use the CADC Archive Service should contact the <a href="mailto:cadc@nrc-cnrc.gc.ca">CADC</a>
+    directly.  The request must come from a Canadian university-led facility, a Canadian-led research project or a Canadian research institute.  
+    CADC will provide information on how to request a new archive.  The <a href="../dpp">CADC Data Preservation Policy</a> should also be consulted.
 </p>
 
 <h2>Getting started</h2>

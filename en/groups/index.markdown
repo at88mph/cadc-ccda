@@ -50,7 +50,7 @@ fluid: true
 ---
 
 <div id="list_content_headers" class="hidden" lang="en">
-    <span class="label_required" lang="en">required</span>
+    <!-- <span class="label_required" lang="en">required</span>
     <span class="list_header_name" lang="en">Name</span>
     <span class="list_header_owner_name" lang="en">Owner Name</span>
     <span class="list_header_description" lang="en">Description</span>
@@ -62,7 +62,41 @@ fluid: true
     <span class="list_header_admins" lang="en">Administrators</span>
     <span class="delete_group_confirmation_title" lang="en">Delete group?</span>
     <span class="view_txt" lang="en">View</span>
-    <span class="edit_txt" lang="en">Edit</span>
+    <span class="edit_txt" lang="en">Edit</span> -->
+    <span class="label_required" lang="en">required</span>,
+    <span class="delete_group_confirmation_title" lang="en">Delete group?</span>,
+    <span class="edit_link" lang="en">/$1/groups/update.html</span>,
+    <span class="edit_link_label" lang="en">Edit</span>,
+    <span class="list_header_name" lang="en">Name</span>,
+    <span class="list_header_owner_name" lang="en">Owner Name</span>,
+    <span class="list_header_description" lang="en">Description</span>,
+    <span class="list_header_id" lang="en">ID</span>,
+    <span class="list_header_members" lang="en">Members</span>,
+    <span class="list_header_member_name" lang="en">Member Name</span>,
+    <span class="list_header_remove" lang="en">Remove</span>,
+    <span class="list_header_admin_name" lang="en">Name</span>,
+    <span class="list_header_admins" lang="en">Administrators</span>,
+    <span class="admins_only_msg" lang="en">Administrators only</span>,
+    <span class="button_close" lang="en">Close</span>,
+    <span class="button_reset" lang="en">Reset</span>,
+    <span class="button_done" lang="en">Done</span>,
+    <span class="button_delete" lang="en">Delete</span>,
+    <span class="details_form_group_name_label" lang="en">Name</span>,
+    <span class="details_form_owner_name_label" lang="en">Owner Name</span>,
+    <span class="details_form_group_description_label" lang="en">Description</span>,
+    <span class="details_form_group_members_label" lang="en">Members of {1}</span>,
+    <span class="details_form_group_admins_label" lang="en">Administrators of {1}</span>,
+    <span class="details_form_group_search_placeholder_members" lang="en">Enter a name</span>,
+    <span class="details_form_group_search_placeholder_admins" lang="en">Enter a name</span>,
+    <span class="details_form_add_members_button" lang="en">Add member</span>,
+    <span class="details_form_add_admins_button" lang="en">Add administrator</span>,
+    <span class="details_form_submit_button_update" lang="en">Update</span>,
+    <span class="details_form_submit_button_delete" lang="en">Delete</span>,
+    <span class="details_form_submit_button_create" lang="en">Create</span>,
+    <span class="edit_txt" lang="en">Edit</span>,
+    <span class="navigation_menu_header_label" lang="en">Groups</span>,
+    <span class="navigation_menu_new_group_label" lang="en">New Group</span>,
+    <span class="view_txt" lang="en">View</span>
 </div>
 
 {% include groups.markdown %}

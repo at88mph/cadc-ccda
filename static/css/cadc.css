@@ -31,10 +31,24 @@ div.profile-modal, a.sign-on-off-cancel {
 }
 
 .home #wb-bnr+#wb-bc {
-    border-top: 1px solid #ddd;
     color: #284162;
     margin-left: 0;
 }
+
+ /*
+ 	---------------------------- Cookie Banner start ----------------------------
+ */
+#consent_banner {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 9999;
+    background: #d7faff; /* Needed to override inherited background in main theme. #annoying */
+}
+ /*
+ 	---------------------------- Cookie Banner end ----------------------------
+ */
 
 @media screen and (min-width: 992px) {
     #wb-bnr+#wb-bc {

@@ -302,7 +302,45 @@
         this.getInstitute = function() {
             return this.institute
         }
+    }
 
+    /**
+     * Verify that the consent has been given, and show the Cookie Consent Banner if no
+     * consent has yet been given.
+     */
+    function verifyConsent() {
+        fetch('/access/consent', {
+            method: 'GET',
+            credentials: 'include'
+        })
+        .then(response => response.text())
+        .then(text => {
+            if (text === 'does not exist') {
+                const consentBanner = document.getElementById('consent_banner')
+                consentBanner.classList.remove('wb-inv')
+
+                const closeButton = consentBanner.querySelector('button.popup-modal-dismiss')
+                closeButton.addEventListener('click', e => {
+                    fetch('/access/domain', {
+                        method: 'POST',
+                        credentials: 'include',
+                        body: { uri : "ConsentURI", cookieValue : "Accepted", targetURL : encodeURIComponent(window.location.href) }
+                    })
+                    .then(resp => resp.text())
+                    .then(respText => {
+                        // Unnecessary to re-add this class, but just in case the page refresh fails...
+                        consentBanner.classList.add('wb-inv')
+                        window.location.replace(respText)
+                    })
+                    .catch(err => {
+                        console.error(err)
+                    })
+                })
+            }
+        })
+        .catch(err => {
+            console.error(err)
+        })
     }
 
     $(document).ready(() => {
@@ -344,5 +382,7 @@
         })
 
         userManager.loadCurrent()
+
+        verifyConsent()
     })
 })(jQuery, window, document)

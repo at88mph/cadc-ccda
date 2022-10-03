@@ -1,0 +1,127 @@
+en:
+  - label: ac
+    url: https://ws.canfar.net/ac
+    description: 
+      - Access Control
+      - Web service for managing User and Group access
+  - label: ams
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/ams/
+    description:
+      - Archive Metadata Service
+      - CAOM metadata repository with authenticated TAP query capabilities to support metadata curation.  This service is not intended for general use.
+  - label: arc
+    url: https://www.canfar.net/storage/arc/list/
+    description:
+      - Distributed storage access
+  - label: argus
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/argus/
+    description:
+      - Table Access Protocol
+      - query CADC data using the CAOM TAP web service
+  - label: caom2ops (datalink)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - IVOA DataLink service
+      - CAOM-2 downloadable links and related resources for artifacts in a plane
+  - label: caom2ops (metadata)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - CAOM-2 metadata for a single CAOM2 observation
+  - label: caom2ops (pkg)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - CAOM-2 package (tar) with all artifacts of a single plane
+  - label: caom2ops (soda)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - IVOA SODA service
+      - CAOM-2 cutouts on artifacts (files)
+  - label: cred
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cred/
+    description: 
+      - Credential delegation and generation
+  - label: data
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/
+    description: 
+      - Primary interface for storage and retrieval of CADC telescope archive files
+  - label: doi
+    url: https://ws-cadc.canfar.net/doi/
+    description: generation of Digital Object Identifiers (DOIs) for publication data sets
+  - label: sia
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/sia/
+    description: 
+      - IVOS Simple Image Access
+      - sia queries for CAOM-2
+  - label: vault
+    url: https://ws-cadc.canfar.net/vault/
+    description: 
+      - distributed storage access
+  - label: youcat
+    url: https://ws-cadc.canfar.net/youcat/
+    description:
+      - User Catalogue service
+      - database-as-a-service to create, query, and share tables
+fr:
+  - label: ac
+    url: https://ws.canfar.net/ac
+    description: 
+      - contrôle d'accès
+      - service pour la gestion des accès utilisateur et groupe
+  - label: ams
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/ams/
+    description:
+      - service de métadonnées d'archives
+      - un référentiel de métadonnées CAOM avec des capacités de requête TAP authentifiées pour prendre en charge la curation de métadonnées Ce service n'est pas destiné à un usage général.
+  - label: arc
+    url: https://www.canfar.net/storage/arc/list/
+    description:
+      - accès au stockage distribué
+  - label: argus
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/argus/
+    description:
+      - protocole d'accès aux tables
+      - interroger les données CCDA à l'aide du service Web CAOM TAP
+  - label: caom2ops (datalink)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - Service IVOA DataLink
+      - liens téléchargeables et ressources associées sur les artéfacts dans un plan
+  - label: caom2ops (metadata)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - meta-données pour une seule entrée CAOM-2
+  - label: caom2ops (pkg)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - fichier (de type tar) avec tous les artefacts d'un seul plan CAOM-2
+  - label: caom2ops (soda)
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/
+    description:
+      - Service IVOA SODA
+      - Découpages sur les artéfacts (fichiers) CAOM-2
+  - label: cred
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/cred/
+    description: 
+      - délégation et génération des authorisations
+  - label: data
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/
+    description: 
+      - interface principale pour le stockage et la récupération des fichiers d'archives du télescope CADC
+  - label: doi
+    url: https://ws-cadc.canfar.net/doi/
+    description: 
+      - génération d'identificateurs d'objet numérique (DOI) pour les ensembles de données de publication
+  - label: sia
+    url: https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/sia/
+    description: 
+      - service d'accès simple aux images IVOA
+      - requêtes SIA pour CAOM
+  - label: vault
+    url: https://ws-cadc.canfar.net/vault/
+    description: 
+      - accès au stockage distribué
+  - label: youcat
+    url: https://ws-cadc.canfar.net/youcat/
+    description:
+      - service de catalogue d'utilisateurs
+      - database-as-a-service pour créer, interroger et partager des tables
