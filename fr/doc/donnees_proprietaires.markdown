@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/doc/props
+permalink: /fr/doc/props/
 title: Donn&eacute;es Propri&eacute;taires
-altLangPage: /en/doc/props
-dateModified: 2022-07-08
+altLangPage: /en/doc/props/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 

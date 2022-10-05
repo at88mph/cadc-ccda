@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/doc/fits2caom
+permalink: /en/doc/fits2caom/
 title: fits2caom2 Application
-altLangPage: /fr/doc/fits2caom
-dateModified: 2022-08-10
+altLangPage: /fr/doc/fits2caom/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 archived: true

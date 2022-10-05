@@ -28,10 +28,10 @@ en:
           url: https://www.canfar.net/
           external: true
           short_name: CANFAR
-        dss:
-          name: Digital Sky Survey
-          url: /en/dss/
-          short_name: DSS
+        # dss:
+        #   name: Digital Sky Survey
+        #   url: /en/dss/
+        #   short_name: DSS
         service_status:
           name: Service Status
           url: /en/status
@@ -174,10 +174,10 @@ fr:
           url: https://www.canfar.net/
           external: true
           short_name: CANFAR
-        dss:
-          name: Système du Digital Sky Survey
-          url: /fr/dss/
-          short_name: DSS
+        # dss:
+        #   name: Système du Digital Sky Survey
+        #   url: /fr/dss/
+        #   short_name: DSS
         service_status:
           name: État des services
           url: /fr/etat

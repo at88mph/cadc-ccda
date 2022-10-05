@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/doc/dpp
+permalink: /fr/doc/dpp/
 title: Politique de conservation des données
-altLangPage: /en/doc/dpp
-dateModified: 2022-09-21
+altLangPage: /en/doc/dpp/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 

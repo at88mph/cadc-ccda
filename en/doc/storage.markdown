@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/doc/ad
+permalink: /en/doc/ad/
 title: Storage
-altLangPage: /fr/doc/ad
-dateModified: 2022-07-08
+altLangPage: /fr/doc/ad/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 

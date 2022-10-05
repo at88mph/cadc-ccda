@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/doc/props
+permalink: /en/doc/props/
 title: Proprietary Data
-altLangPage: /fr/doc/props
-dateModified: 2022-07-08
+altLangPage: /fr/doc/props/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 

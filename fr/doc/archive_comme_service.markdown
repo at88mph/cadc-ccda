@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/doc/AaaS
+permalink: /fr/doc/AaaS/
 title: Archive comme service
-altLangPage: /en/doc/AaaS
-dateModified: 2022-09-16
+altLangPage: /en/doc/AaaS/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 
