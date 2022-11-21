@@ -4,12 +4,8 @@ lang: fr
 permalink: /fr/ofa/skycal.html
 title: Calendrier astronomique de l'OFA
 altLangPage: /en/dao/skycal.html
-
-dateModified: 2021-11-10
-
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
 
 breadcrumbs:

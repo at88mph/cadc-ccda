@@ -55,6 +55,10 @@ en:
           name: Rapid ASKAP Continuum Survey DR1
           url: /en/racs/
           short_name: RACS
+        wallaby:
+          name: Widefield ASKAP L-band Legacy All-sky Blind surveY
+          url: /en/wallaby/
+          short_name: WALLABY
         hla:
           name: Hubble Legacy Archive
           url: /en/hsthla/
@@ -201,6 +205,10 @@ fr:
           name: Rapid ASKAP Continuum Survey DR1
           url: /fr/racs/
           short_name: RACS
+        wallaby:
+          name: Widefield ASKAP L-band Legacy All-sky Blind surveY
+          url: /fr/wallaby/
+          short_name: WALLABY
         hla:
           name: Le Hubble Legacy Archive
           url: /fr/hsthla/

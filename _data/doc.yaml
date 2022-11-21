@@ -2,6 +2,8 @@ en:
   nav:
     - title: API
       links:
+        - name: Direct Data Service
+          url: /en/doc/data/
         - name: Table Access Protocol (TAP)
           url: /en/doc/tap/
     - title: Archive Services
@@ -29,6 +31,8 @@ fr:
   nav:
     - title: API
       links:
+        - name: Accès directement aux données
+          url: /fr/doc/data/
         - name: Protocol d'accès aux Tables (TAP)
           url: /fr/doc/tap/
     - title: Services d'archive

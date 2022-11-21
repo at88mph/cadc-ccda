@@ -28,27 +28,28 @@ en:
           url: /en/dao/credits.html
   labels:
     path_acronym: dao
-    search_publications: Search Publications
-    airmass_submit_button: Get Coordinates
-    robotic_target_list: File Containing Target List
-    robotic_obs_run_date: Observing Run Date (PST)
+    search_publications: Search publications
+    airmass_submit_button: Get coordinates
+    robotic_target_list: File containing target list
+    robotic_obs_run_date: Observing run date (PST)
     continue: Continue
-    by_year: By Year
+    by_year: By year
     year: Year
-    start_month: Start Month
-    end_month: End Month
+    start_month: Start month
+    end_month: End month
     month: Month
     day: Day
-    by_last_name_year: By Last Name & Year
-    last_name: Last Name
-    by_theses: View Theses
-    theses_link: View DAO-based Theses
+    target_name: Target name
+    by_last_name_year: By last name & year
+    last_name: Last name
+    by_theses: View theses
+    theses_link: View DAO-based theses
     select_year: Year
     env_can_weather: Environment Canada forecast for Victoria
-    sky_clock: DAO Clear Sky Clock
-    sky_camera: DAO Sky Camera
-    ir_sat_image: IR Satellite Image
-    this_week: This Week
+    sky_clock: DAO clear sky clock
+    sky_camera: DAO sky camera
+    ir_sat_image: IR satellite image
+    this_week: This week
     1_2_dome: 1.2-m Telescope Dome Camera
     1_8_dome: 1.8-m Telescope Dome Camera
     1_2_guide: 1.2-m Guide Camera
@@ -95,6 +96,7 @@ fr:
     end_month: Mois de fin
     month: Mois
     day: Jour
+    target_name: Nom cible
     by_last_name_year: Par surnom et année
     last_name: Surnom
     by_theses: Voir les thèses

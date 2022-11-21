@@ -4,12 +4,8 @@ lang: fr
 permalink: /fr/ofa/horaire.html
 title: Horaires des télescopes de l'OFA
 altLangPage: /en/dao/schedule.html
-
-dateModified: 2021-11-10
-
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
 
 breadcrumbs:

@@ -11,7 +11,7 @@
 {%- assign next_month_name=i18n-labels.dates.months[next_month_index] -%}
 
 <div class="col-md-offset-3">
-    <form action="http://www.briancasey.org/artifacts/astro/skycalendar.cgi" class="form-horizontal" enctype="application/x-www-form-urlencoded" target="skycalendar">
+    <form action="http://www.briancasey.org/artifacts/astro/skycalendar.cgi" method="query" class="form-horizontal" target="skycalendar">
         <input type="hidden" name="observatory" value="d" data-role="none">
         <input type="hidden" name="command" value="display" data-role="none">
         <div class="form-group">

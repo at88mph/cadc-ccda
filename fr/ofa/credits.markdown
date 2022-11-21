@@ -1,15 +1,11 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/ofa/credits
+permalink: /fr/ofa/credits.html
 title: Credits and Acknowledgements de l'OFA
-altLangPage: /en/dao/credits
-
-dateModified: 2021-11-03
-
+altLangPage: /en/dao/credits.html
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
 
 breadcrumbs:
