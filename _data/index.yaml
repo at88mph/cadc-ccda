@@ -37,9 +37,9 @@ en:
           url: /en/status
           short_name: Service Status
         web_services:
-          name: Web Services
+          name: Web services
           url: /en/services/
-          short_name: Web Services
+          short_name: Web services
     advanced_data_products:
       title: Advanced Data Products
       links:
