@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/doc/caom
+permalink: /fr/doc/caom/
 title: CAOM-2
-altLangPage: /en/doc/caom
-dateModified: 2022-07-08
+altLangPage: /en/doc/caom/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 

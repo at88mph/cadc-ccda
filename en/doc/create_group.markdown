@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/doc/groups
+permalink: /en/doc/groups/
 title: canfar-create-group Application
-altLangPage: /fr/doc/groups
-dateModified: 2022-08-11
+altLangPage: /fr/doc/groups/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 archived: true

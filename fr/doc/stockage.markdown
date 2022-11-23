@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/doc/ad
+permalink: /fr/doc/ad/
 title: Stockage
-altLangPage: /en/doc/ad
-dateModified: 2022-07-08
+altLangPage: /en/doc/ad/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 

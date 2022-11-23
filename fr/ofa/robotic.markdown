@@ -1,16 +1,13 @@
 ---
 layout: cadc
 lang: fr
-permalink: /fr/ofa/robotic
+permalink: /fr/ofa/robotic.html
 title: Observation automitasée de l'OFA
-altLangPage: /en/dao/robotic
-
-dateModified: 2021-11-05
-
+altLangPage: /en/dao/robotic.html
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
+script: /static/js/dao/proxy.js
 
 breadcrumbs:
     - link: /fr/ofa/

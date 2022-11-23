@@ -8,10 +8,10 @@
 {%- assign low_year     = current_year | minus: 1 -%}
 {%- assign hi_year      = current_year | plus: 1 -%}
 
-<form method="post" action="/cadcbin/en/dao/robotic.pl" enctype="multipart/form-data" class="mrgn-tp-md">
+<form method="post" id="dao_app" action="/cadcbin/{{ i18nText-lang }}/{{ i18n-labels-dao.path_acronym }}/robotic.pl" enctype="multipart/form-data" class="mrgn-tp-md">
     <div class="form-group">
         <label class="control-label" for="email">{{ i18n-labels.email }}</label>
-        <input type="email" name="email" id="email" class="form-control" />
+        <input type="email" name="email" id="email" class="form-control" size="40" />
     </div>
     <div class="mrgn-bttm-md form-inline">
         <fieldset class="legend-brdr-bttm">
@@ -50,3 +50,5 @@
     </div>
     <input type="submit" class="btn btn-primary" value="{{ i18n-labels-dao.continue }}" />
 </form>
+
+<div id="dao_app_results"></div>

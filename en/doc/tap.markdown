@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/doc/tap
+permalink: /en/doc/tap/
 title: Table Access Protocol (TAP)
-altLangPage: /fr/doc/tap
-dateModified: 2022-08-09
+altLangPage: /fr/doc/tap/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 

@@ -1,16 +1,13 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/dao/robotic
+permalink: /en/dao/robotic.html
 title: DAO Robotic Observing
-altLangPage: /fr/ofa/robotic
-
-dateModified: 2021-11-05
-
+altLangPage: /fr/ofa/robotic.html
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
+script: /static/js/dao/proxy.js
 
 breadcrumbs:
     - link: /en/dao/

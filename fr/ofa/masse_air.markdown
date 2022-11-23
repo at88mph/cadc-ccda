@@ -4,13 +4,10 @@ lang: fr
 permalink: /fr/ofa/masse-air.html
 title: Calculateur de la masse d'air de l'OFA
 altLangPage: /en/dao/airmass.html
-
-dateModified: 2021-11-05
-
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
+script: /static/js/dao/proxy.js
 
 breadcrumbs:
     - link: /fr/ofa/

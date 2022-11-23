@@ -1,15 +1,11 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/dao/publications
+permalink: /en/dao/publications.html
 title: DAO Publications
-altLangPage: /fr/ofa/publications
-
-dateModified: 2021-11-04
-
+altLangPage: /fr/ofa/publications.html
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
 
 breadcrumbs:

@@ -2,52 +2,56 @@ en:
   nav:
     - title: API
       links:
+        - name: Direct Data Service
+          url: /en/doc/data/
         - name: Table Access Protocol (TAP)
-          url: /en/doc/tap
+          url: /en/doc/tap/
     - title: Archive Services
       links:
         - name: Archive as a Service
           url: /en/doc/AaaS/
         - name: CAOM-2
-          url: /en/doc/caom
+          url: /en/doc/caom/
         - name: Storage
-          url: /en/doc/ad
+          url: /en/doc/ad/
         - name: Proprietary Data
-          url: /en/doc/props
+          url: /en/doc/props/
         - name: Data Preservation Policy
-          url: /en/doc/dpp
+          url: /en/doc/dpp/
     - title: Applications
       links:
         - name: cadc-copy
-          url: /en/doc/cadc-copy
+          url: /en/doc/cadc-copy/
         - name: fits2caom2
-          url: /en/doc/fits2caom
+          url: /en/doc/fits2caom/
         - name: create-group
-          url: /en/doc/groups
+          url: /en/doc/groups/
 
 fr:
   nav:
     - title: API
       links:
+        - name: Accès directement aux données
+          url: /fr/doc/data/
         - name: Protocol d'accès aux Tables (TAP)
-          url: /fr/doc/tap
+          url: /fr/doc/tap/
     - title: Services d'archive
       links:
         - name: Archive comme service
           url: /fr/doc/AaaS/
         - name: CAOM-2
-          url: /fr/doc/caom
+          url: /fr/doc/caom/
         - name: Stockage
-          url: /fr/doc/ad
+          url: /fr/doc/ad/
         - name: Données propriétaires
-          url: /fr/doc/props
+          url: /fr/doc/props/
         - name: Politique de conservation des données
-          url: /fr/doc/dpp
+          url: /fr/doc/dpp/
     - title: Applications
       links:
         - name: cadc-copy
-          url: /fr/doc/cadc-copy
+          url: /fr/doc/cadc-copy/
         - name: fits2caom2
-          url: /fr/doc/fits2caom
+          url: /fr/doc/fits2caom/
         - name: create-group
-          url: /fr/doc/groups
+          url: /fr/doc/groups/

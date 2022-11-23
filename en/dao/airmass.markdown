@@ -4,13 +4,10 @@ lang: en
 permalink: /en/dao/airmass.html
 title: DAO Airmass Calculator
 altLangPage: /fr/ofa/masse-air.html
-
-dateModified: 2021-11-05
-
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
+script: /static/js/dao/proxy.js
 
 breadcrumbs:
     - link: /en/dao/

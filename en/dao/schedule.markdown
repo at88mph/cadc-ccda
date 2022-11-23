@@ -4,12 +4,8 @@ lang: en
 permalink: /en/dao/schedule.html
 title: DAO Telescope Schedules
 altLangPage: /fr/ofa/horaire.html
-
-dateModified: 2021-11-04
-
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
 
 breadcrumbs:

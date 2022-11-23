@@ -1,15 +1,11 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/dao/weather
+permalink: /en/dao/weather.html
 title: DAO Current Weather
-altLangPage: /fr/ofa/meteo
-
-dateModified: 2021-11-03
-
+altLangPage: /fr/ofa/meteo.html
+dateModified: 2022-11-21
 signing: layout.signing
-
-
 nav: dao
 
 breadcrumbs:

@@ -1,10 +1,10 @@
 ---
 layout: cadc
 lang: en
-permalink: /en/doc/cadc-copy
+permalink: /en/doc/cadc-copy/
 title: cadc-copy Application
-altLangPage: /fr/doc/cadc-copy
-dateModified: 2022-08-10
+altLangPage: /fr/doc/cadc-copy/
+dateModified: 2022-10-03
 signing: layout.signing
 nav: doc
 
