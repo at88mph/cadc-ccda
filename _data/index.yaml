@@ -8,15 +8,15 @@ en:
           url: /en/meetings/
           short_name: Meetings
         search:
-          name: Advanced Search
+          name: Advanced search
           url: /en/search/
-          short_name: Advanced Search
+          short_name: Advanced search
         group_management:
-          name: Group Management
+          name: Group management
           url: /en/groups/
-          short_name: Group Management
+          short_name: Group management
         community:
-          name: Community Pages
+          name: Community pages
           url: /en/community/
           short_name: Community
         ssos:
@@ -33,15 +33,15 @@ en:
         #   url: /en/dss/
         #   short_name: DSS
         service_status:
-          name: Service Status
+          name: Service status
           url: /en/status
-          short_name: Service Status
+          short_name: Service status
         web_services:
           name: Web services
           url: /en/services/
           short_name: Web services
     advanced_data_products:
-      title: Advanced Data Products
+      title: Advanced data products
       links:
         megapipe:
           name: MegaPipe image stacking pipeline
@@ -87,7 +87,7 @@ en:
       title: Telescope Data Products
       links:
         gemini:
-          name: Gemini Observatory
+          name: Gemini observatory
           url: /en/gemini/
           short_name: Gemini
         cfht:
@@ -143,7 +143,7 @@ en:
           url: /en/neossat/
           short_name: NEOSSat
     about:
-      name: About Us
+      name: About us
       url: /en/about.html
     documentation:
       name: Documentation
@@ -158,9 +158,9 @@ fr:
           url: /fr/rencontres/
           short_name: Rencontres
         search:
-          name: Recherche Avancée
+          name: Recherche avancée
           url: /fr/recherche/
-          short_name: Recherche Avancée
+          short_name: Recherche avancée
         group_management:
           name: Gestion de groupes
           url: /fr/groupes/
