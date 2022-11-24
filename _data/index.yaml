@@ -84,7 +84,7 @@ en:
           url: /en/vlass/
           short_name: VLASS
     telescope_data_products:
-      title: Telescope Data Products
+      title: Telescope data products
       links:
         gemini:
           name: Gemini observatory
