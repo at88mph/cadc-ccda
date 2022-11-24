@@ -72,6 +72,7 @@ verbose: false
 analytics_adobe: ""
 assets: "https://wet-boew.github.io/themes-dist"
 baseurl: "" # the subpath of your site, e.g. /blog
+google_api_key: "YOUR_GOOGLE_API_KEY" # Replace this.
 # description: >- # this means to ignore newlines until "baseurl:"
 
 description:
@@ -80,8 +81,8 @@ description:
 
 warning:
   enabled: false
-  en: "Through no fault of our own, CADC services are temporarily unavailable.  Please call John at +1-778-634-5567 or show up at his house."
-  fr: "Sans faute de notre part, les services CADC sont temporairement indisponibles.  Veuillez appeller John à +1-778-634-5567 ou visiter chez-lui."
+  en: "CADC services are temporarily unavailable."
+  fr: "Les services CADC sont temporairement indisponibles."
 
 defaults:
   -
@@ -113,7 +114,7 @@ email: Dustin.Jenkins@nrc-cnrc.gc.ca
 
 # Remove this in Production to eliminate the ObsCore tab in Advanced Search.
 search:
-  obscore: true
+  obscore: false
 
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
