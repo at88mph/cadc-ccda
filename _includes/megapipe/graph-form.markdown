@@ -114,3 +114,11 @@
 <div id="diag"></div>
 
 <div id="map-canvas"></div>
+
+<div>
+  <script src="https://maps.googleapis.com/maps/api/js?key={{ site.google_api_key }}&amp;sensor=false"></script>
+  <script src="/static/js/megapipe/data.js"></script>
+  <script src="/static/js/megapipe/baseutils.js"></script>
+  <script src="/static/js/megapipe/cfhtls.js"></script>
+  <script src="/static/js/megapipe/keydragzoom.js"></script>
+</div>
